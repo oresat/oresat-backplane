@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="2" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,19 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -68,6 +69,9 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="100" name="Hidden_Layer" color="7" fill="1" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -95,114 +99,114 @@
 <hole x="80.5" y="166.5" drill="1.61"/>
 <hole x="80.5" y="186.5" drill="1.61"/>
 <hole x="80.5" y="206.5" drill="1.61"/>
+<rectangle x1="0" y1="5" x2="5" y2="10" layer="39"/>
+<rectangle x1="78" y1="5" x2="83" y2="10" layer="39"/>
+<rectangle x1="0" y1="25" x2="5" y2="30" layer="39"/>
+<rectangle x1="78" y1="25" x2="83" y2="30" layer="39"/>
+<rectangle x1="0" y1="45" x2="5" y2="50" layer="39"/>
+<rectangle x1="78" y1="45" x2="83" y2="50" layer="39"/>
+<rectangle x1="0" y1="65" x2="5" y2="70" layer="39"/>
+<rectangle x1="78" y1="65" x2="83" y2="70" layer="39"/>
+<rectangle x1="0" y1="85" x2="5" y2="90" layer="39"/>
+<rectangle x1="78" y1="85" x2="83" y2="90" layer="39"/>
+<rectangle x1="0" y1="124" x2="5" y2="129" layer="39"/>
+<rectangle x1="78" y1="124" x2="83" y2="129" layer="39"/>
+<rectangle x1="0" y1="144" x2="5" y2="149" layer="39"/>
+<rectangle x1="78" y1="144" x2="83" y2="149" layer="39"/>
+<rectangle x1="0" y1="164" x2="5" y2="169" layer="39"/>
+<rectangle x1="78" y1="164" x2="83" y2="169" layer="39"/>
+<rectangle x1="0" y1="184" x2="5" y2="189" layer="39"/>
+<rectangle x1="78" y1="184" x2="83" y2="189" layer="39"/>
+<rectangle x1="0" y1="204" x2="5" y2="209" layer="39"/>
+<rectangle x1="78" y1="204" x2="83" y2="209" layer="39"/>
+<rectangle x1="0" y1="212.4" x2="83" y2="214" layer="39"/>
+<rectangle x1="0" y1="0" x2="83" y2="1.6" layer="39"/>
 </plain>
 <libraries>
-<library name="con-molex">
-<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<library name="oresat-eagle">
 <packages>
-<package name="87758-4416">
-<description>&lt;b&gt;44 Pin - 2mm Dual Row Single Wafer, Vertical T/H HDR&lt;/b&gt;&lt;p&gt;
-Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
-<wire x1="-21.85" y1="-1.9" x2="21.85" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="21.85" y1="-1.9" x2="21.85" y2="-0.4" width="0.2032" layer="21"/>
-<wire x1="21.85" y1="0.4" x2="21.85" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="21.85" y1="1.9" x2="-21.85" y2="1.9" width="0.2032" layer="21"/>
-<wire x1="-21.85" y1="1.9" x2="-21.85" y2="0.4" width="0.2032" layer="21"/>
-<wire x1="-21.85" y1="-0.4" x2="-21.85" y2="-1.9" width="0.2032" layer="21"/>
-<wire x1="-21.85" y1="0.4" x2="-21.85" y2="-0.4" width="0.2032" layer="21" curve="-129.184564"/>
-<wire x1="21.85" y1="-0.4" x2="21.85" y2="0.4" width="0.2032" layer="21" curve="-129.184564"/>
-<pad name="1" x="-21" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="2" x="-21" y="1" drill="0.9" diameter="1.27"/>
-<pad name="3" x="-19" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="4" x="-19" y="1" drill="0.9" diameter="1.27"/>
-<pad name="5" x="-17" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="6" x="-17" y="1" drill="0.9" diameter="1.27"/>
-<pad name="7" x="-15" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="8" x="-15" y="1" drill="0.9" diameter="1.27"/>
-<pad name="9" x="-13" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="10" x="-13" y="1" drill="0.9" diameter="1.27"/>
-<pad name="11" x="-11" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="12" x="-11" y="1" drill="0.9" diameter="1.27"/>
-<pad name="13" x="-9" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="14" x="-9" y="1" drill="0.9" diameter="1.27"/>
-<pad name="15" x="-7" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="16" x="-7" y="1" drill="0.9" diameter="1.27"/>
-<pad name="17" x="-5" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="18" x="-5" y="1" drill="0.9" diameter="1.27"/>
-<pad name="19" x="-3" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="20" x="-3" y="1" drill="0.9" diameter="1.27"/>
-<pad name="21" x="-1" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="22" x="-1" y="1" drill="0.9" diameter="1.27"/>
-<pad name="23" x="1" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="24" x="1" y="1" drill="0.9" diameter="1.27"/>
-<pad name="25" x="3" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="26" x="3" y="1" drill="0.9" diameter="1.27"/>
-<pad name="27" x="5" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="28" x="5" y="1" drill="0.9" diameter="1.27"/>
-<pad name="29" x="7" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="30" x="7" y="1" drill="0.9" diameter="1.27"/>
-<pad name="31" x="9" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="32" x="9" y="1" drill="0.9" diameter="1.27"/>
-<pad name="33" x="11" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="34" x="11" y="1" drill="0.9" diameter="1.27"/>
-<pad name="35" x="13" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="36" x="13" y="1" drill="0.9" diameter="1.27"/>
-<pad name="37" x="15" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="38" x="15" y="1" drill="0.9" diameter="1.27"/>
-<pad name="39" x="17" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="40" x="17" y="1" drill="0.9" diameter="1.27"/>
-<pad name="41" x="19" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="42" x="19" y="1" drill="0.9" diameter="1.27"/>
-<pad name="43" x="21" y="-1" drill="0.9" diameter="1.27"/>
-<pad name="44" x="21" y="1" drill="0.9" diameter="1.27"/>
-<text x="-21.65" y="-1.75" size="0.3048" layer="21" font="vector">1</text>
-<text x="-21.62" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
-<text x="-15.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-21.25" y1="-1.25" x2="-20.75" y2="-0.75" layer="51"/>
-<rectangle x1="-21.25" y1="0.75" x2="-20.75" y2="1.25" layer="51"/>
-<rectangle x1="-19.25" y1="-1.25" x2="-18.75" y2="-0.75" layer="51"/>
-<rectangle x1="-19.25" y1="0.75" x2="-18.75" y2="1.25" layer="51"/>
-<rectangle x1="-17.25" y1="-1.25" x2="-16.75" y2="-0.75" layer="51"/>
-<rectangle x1="-17.25" y1="0.75" x2="-16.75" y2="1.25" layer="51"/>
-<rectangle x1="-15.25" y1="-1.25" x2="-14.75" y2="-0.75" layer="51"/>
-<rectangle x1="-15.25" y1="0.75" x2="-14.75" y2="1.25" layer="51"/>
-<rectangle x1="-13.25" y1="-1.25" x2="-12.75" y2="-0.75" layer="51"/>
-<rectangle x1="-13.25" y1="0.75" x2="-12.75" y2="1.25" layer="51"/>
-<rectangle x1="-11.25" y1="-1.25" x2="-10.75" y2="-0.75" layer="51"/>
-<rectangle x1="-11.25" y1="0.75" x2="-10.75" y2="1.25" layer="51"/>
-<rectangle x1="-9.25" y1="-1.25" x2="-8.75" y2="-0.75" layer="51"/>
-<rectangle x1="-9.25" y1="0.75" x2="-8.75" y2="1.25" layer="51"/>
-<rectangle x1="-7.25" y1="-1.25" x2="-6.75" y2="-0.75" layer="51"/>
-<rectangle x1="-7.25" y1="0.75" x2="-6.75" y2="1.25" layer="51"/>
-<rectangle x1="-5.25" y1="-1.25" x2="-4.75" y2="-0.75" layer="51"/>
-<rectangle x1="-5.25" y1="0.75" x2="-4.75" y2="1.25" layer="51"/>
-<rectangle x1="-3.25" y1="-1.25" x2="-2.75" y2="-0.75" layer="51"/>
-<rectangle x1="-3.25" y1="0.75" x2="-2.75" y2="1.25" layer="51"/>
-<rectangle x1="-1.25" y1="-1.25" x2="-0.75" y2="-0.75" layer="51"/>
-<rectangle x1="-1.25" y1="0.75" x2="-0.75" y2="1.25" layer="51"/>
-<rectangle x1="0.75" y1="-1.25" x2="1.25" y2="-0.75" layer="51"/>
-<rectangle x1="0.75" y1="0.75" x2="1.25" y2="1.25" layer="51"/>
-<rectangle x1="2.75" y1="-1.25" x2="3.25" y2="-0.75" layer="51"/>
-<rectangle x1="2.75" y1="0.75" x2="3.25" y2="1.25" layer="51"/>
-<rectangle x1="4.75" y1="-1.25" x2="5.25" y2="-0.75" layer="51"/>
-<rectangle x1="4.75" y1="0.75" x2="5.25" y2="1.25" layer="51"/>
-<rectangle x1="6.75" y1="-1.25" x2="7.25" y2="-0.75" layer="51"/>
-<rectangle x1="6.75" y1="0.75" x2="7.25" y2="1.25" layer="51"/>
-<rectangle x1="8.75" y1="-1.25" x2="9.25" y2="-0.75" layer="51"/>
-<rectangle x1="8.75" y1="0.75" x2="9.25" y2="1.25" layer="51"/>
-<rectangle x1="10.75" y1="-1.25" x2="11.25" y2="-0.75" layer="51"/>
-<rectangle x1="10.75" y1="0.75" x2="11.25" y2="1.25" layer="51"/>
-<rectangle x1="12.75" y1="-1.25" x2="13.25" y2="-0.75" layer="51"/>
-<rectangle x1="12.75" y1="0.75" x2="13.25" y2="1.25" layer="51"/>
-<rectangle x1="14.75" y1="-1.25" x2="15.25" y2="-0.75" layer="51"/>
-<rectangle x1="14.75" y1="0.75" x2="15.25" y2="1.25" layer="51"/>
-<rectangle x1="16.75" y1="-1.25" x2="17.25" y2="-0.75" layer="51"/>
-<rectangle x1="16.75" y1="0.75" x2="17.25" y2="1.25" layer="51"/>
-<rectangle x1="18.75" y1="-1.25" x2="19.25" y2="-0.75" layer="51"/>
-<rectangle x1="18.75" y1="0.75" x2="19.25" y2="1.25" layer="51"/>
-<rectangle x1="20.75" y1="-1.25" x2="21.25" y2="-0.75" layer="51"/>
-<rectangle x1="20.75" y1="0.75" x2="21.25" y2="1.25" layer="51"/>
+<package name="HARWIN-ARCHER-M50-3502042">
+<pad name="P$1" x="-12.065" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$2" x="-12.065" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$3" x="-10.795" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$4" x="-10.795" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$5" x="-9.525" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$6" x="-9.525" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$7" x="-8.255" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$8" x="-8.255" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$9" x="-6.985" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$10" x="-6.985" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$11" x="-5.715" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$12" x="-5.715" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$13" x="-4.445" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$14" x="-4.445" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$15" x="-3.175" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$16" x="-3.175" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$17" x="-1.905" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$18" x="-1.905" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$19" x="-0.635" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$20" x="-0.635" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$21" x="0.635" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$22" x="0.635" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$23" x="1.905" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$24" x="1.905" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$25" x="3.175" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$26" x="3.175" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$27" x="4.445" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$28" x="4.445" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$29" x="5.715" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$30" x="5.715" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$31" x="6.985" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$32" x="6.985" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$33" x="8.255" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$34" x="8.255" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$35" x="9.525" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$36" x="9.525" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$37" x="10.795" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$38" x="10.795" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<pad name="P$39" x="12.065" y="-0.635" drill="0.7" diameter="1.07" shape="offset" rot="R270"/>
+<pad name="P$40" x="12.065" y="0.635" drill="0.7" diameter="1.07" shape="offset" rot="R90"/>
+<wire x1="-12.7" y1="1.7" x2="-12.7" y2="-1.7" width="0.3" layer="51"/>
+<wire x1="12.7" y1="1.7" x2="12.7" y2="-1.7" width="0.3" layer="51"/>
+<wire x1="-12.7" y1="1.7" x2="12.7" y2="1.7" width="0.15" layer="51"/>
+<wire x1="12.7" y1="-1.7" x2="-12.7" y2="-1.7" width="0.15" layer="51"/>
+<wire x1="12.9" y1="1.7" x2="12.9" y2="-1.7" width="0.2" layer="21"/>
+<text x="-13.9" y="-1.695" size="1" layer="21" font="vector" ratio="16">1</text>
+<text x="13.2" y="-1.695" size="1" layer="21" font="vector" ratio="16">39</text>
+<text x="13.2" y="0.695" size="1" layer="21" font="vector" ratio="16">40</text>
+<text x="-13.9" y="0.695" size="1" layer="21" font="vector" ratio="16">2</text>
+<text x="-12" y="3" size="1" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="-12" y="-4" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<wire x1="-12.8" y1="1.7" x2="-12.8" y2="-1.7" width="0.1" layer="39"/>
+<wire x1="-12.8" y1="-1.7" x2="12.8" y2="-1.7" width="0.1" layer="39"/>
+<wire x1="12.8" y1="-1.7" x2="12.8" y2="1.7" width="0.1" layer="39"/>
+<wire x1="12.8" y1="1.7" x2="-12.8" y2="1.7" width="0.1" layer="39"/>
+<wire x1="-12.9" y1="1.7" x2="-12.9" y2="-1.7" width="0.2" layer="21"/>
+<text x="14.8" y="0.695" size="1" layer="22" font="vector" ratio="16" rot="MR0">40</text>
+<text x="14.8" y="-1.695" size="1" layer="22" font="vector" ratio="16" rot="MR0">39</text>
+<text x="-13.2" y="-1.695" size="1" layer="22" font="vector" ratio="16" rot="MR0">1</text>
+<text x="-13.2" y="0.695" size="1" layer="22" font="vector" ratio="16" rot="MR0">2</text>
+</package>
+<package name="CON-MCX-F-CINCH-133-3801-201">
+<pad name="CENTER" x="0" y="0" drill="1.17"/>
+<pad name="SHIELD1" x="-2.54" y="2.54" drill="1.7"/>
+<pad name="SHEILD4" x="-2.54" y="-2.54" drill="1.7"/>
+<pad name="SHEILD3" x="2.54" y="-2.54" drill="1.7"/>
+<pad name="SHEILD2" x="2.54" y="2.54" drill="1.7"/>
+<wire x1="-2.995" y1="2.995" x2="-2.995" y2="-2.995" width="0.127" layer="51"/>
+<wire x1="-2.995" y1="-2.995" x2="2.995" y2="-2.995" width="0.127" layer="51"/>
+<wire x1="2.995" y1="-2.995" x2="2.995" y2="2.995" width="0.127" layer="51"/>
+<wire x1="2.995" y1="2.995" x2="-2.995" y2="2.995" width="0.127" layer="51"/>
+<wire x1="2.995" y1="2.995" x2="-2.995" y2="2.995" width="0.127" layer="39"/>
+<wire x1="2.995" y1="-2.995" x2="2.995" y2="2.995" width="0.127" layer="39"/>
+<wire x1="-2.995" y1="-2.995" x2="2.995" y2="-2.995" width="0.127" layer="39"/>
+<wire x1="-2.995" y1="2.995" x2="-2.995" y2="-2.995" width="0.127" layer="39"/>
+<wire x1="-2.995" y1="1" x2="-2.995" y2="-1" width="0.127" layer="21"/>
+<wire x1="2.995" y1="-1" x2="2.995" y2="1" width="0.127" layer="21"/>
+<wire x1="1" y1="2.995" x2="-1" y2="2.995" width="0.127" layer="21"/>
+<wire x1="-1" y1="-2.995" x2="1" y2="-2.995" width="0.127" layer="21"/>
+<text x="4" y="0.5" size="1" layer="25" font="vector" ratio="16">&gt;NAME</text>
+<text x="4" y="-1.5" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -391,26 +395,70 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="X1" library="con-molex" package="87758-4416" value="87758-4416" x="27.5" y="3.5">
-<attribute name="MPN" value="87758-4416" x="27.5" y="3.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="27.5" y="3.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="27.5" y="3.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="59J1588" x="27.5" y="3.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="X2" library="con-molex" package="87758-4416" value="87758-4416" x="27.5" y="13.5">
-<attribute name="MPN" value="87758-4416" x="27.5" y="13.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="27.5" y="13.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="27.5" y="13.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="59J1588" x="27.5" y="13.5" size="1.778" layer="27" display="off"/>
-</element>
-<element name="X3" library="con-molex" package="87758-4416" value="87758-4416" x="27.5" y="23.5">
-<attribute name="MPN" value="87758-4416" x="27.5" y="23.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="27.5" y="23.5" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="MOLEX" x="27.5" y="23.5" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="59J1588" x="27.5" y="23.5" size="1.778" layer="27" display="off"/>
-</element>
+<element name="CM1" library="oresat-eagle" package="HARWIN-ARCHER-M50-3502042" value="ORESAT-BACKPLANE-40PIN" x="22.065" y="13.225" rot="MR0"/>
+<element name="CM2" library="oresat-eagle" package="HARWIN-ARCHER-M50-3502042" value="ORESAT-BACKPLANE-40PIN" x="22.065" y="23.225" rot="MR0"/>
+<element name="CM3" library="oresat-eagle" package="HARWIN-ARCHER-M50-3502042" value="ORESAT-BACKPLANE-40PIN" x="22.065" y="33.225" rot="MR0"/>
+<element name="CF1" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="55.7" y="11.74" locked="yes" rot="R90"/>
+<element name="CF2" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="64.1" y="11.74" locked="yes" rot="R90"/>
+<element name="CF3" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="72.5" y="11.74" locked="yes" rot="R90"/>
+<element name="CF4" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="55.7" y="21.74" locked="yes" rot="R90"/>
+<element name="CF5" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="64.1" y="21.74" locked="yes" rot="R90"/>
+<element name="CF6" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="72.5" y="21.74" locked="yes" rot="R90"/>
+<element name="CF7" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="55.7" y="31.74" locked="yes" rot="R90"/>
+<element name="CF8" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="64.1" y="31.74" locked="yes" rot="R90"/>
+<element name="CF9" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="72.5" y="31.74" locked="yes" rot="R90"/>
 </elements>
 <signals>
+<signal name="GND">
+<polygon width="0.2" layer="1" isolate="0.2" rank="6">
+<vertex x="0" y="0"/>
+<vertex x="0" y="214"/>
+<vertex x="83" y="214"/>
+<vertex x="83" y="0"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" rank="6">
+<vertex x="0" y="0"/>
+<vertex x="0" y="214"/>
+<vertex x="83" y="214"/>
+<vertex x="83" y="0"/>
+</polygon>
+<contactref element="CF7" pad="SHEILD4"/>
+<contactref element="CF7" pad="SHEILD3"/>
+<contactref element="CF7" pad="SHIELD1"/>
+<contactref element="CF7" pad="SHEILD2"/>
+<contactref element="CF8" pad="SHEILD4"/>
+<contactref element="CF8" pad="SHEILD3"/>
+<contactref element="CF8" pad="SHIELD1"/>
+<contactref element="CF8" pad="SHEILD2"/>
+<contactref element="CF9" pad="SHEILD4"/>
+<contactref element="CF9" pad="SHEILD3"/>
+<contactref element="CF9" pad="SHIELD1"/>
+<contactref element="CF9" pad="SHEILD2"/>
+<contactref element="CF4" pad="SHEILD4"/>
+<contactref element="CF4" pad="SHEILD3"/>
+<contactref element="CF4" pad="SHIELD1"/>
+<contactref element="CF4" pad="SHEILD2"/>
+<contactref element="CF5" pad="SHEILD4"/>
+<contactref element="CF5" pad="SHEILD3"/>
+<contactref element="CF5" pad="SHIELD1"/>
+<contactref element="CF5" pad="SHEILD2"/>
+<contactref element="CF6" pad="SHEILD4"/>
+<contactref element="CF6" pad="SHEILD3"/>
+<contactref element="CF6" pad="SHIELD1"/>
+<contactref element="CF6" pad="SHEILD2"/>
+<contactref element="CF1" pad="SHEILD4"/>
+<contactref element="CF1" pad="SHEILD3"/>
+<contactref element="CF1" pad="SHIELD1"/>
+<contactref element="CF1" pad="SHEILD2"/>
+<contactref element="CF2" pad="SHEILD4"/>
+<contactref element="CF2" pad="SHEILD3"/>
+<contactref element="CF2" pad="SHIELD1"/>
+<contactref element="CF2" pad="SHEILD2"/>
+<contactref element="CF3" pad="SHEILD4"/>
+<contactref element="CF3" pad="SHEILD3"/>
+<contactref element="CF3" pad="SHIELD1"/>
+<contactref element="CF3" pad="SHEILD2"/>
+</signal>
 </signals>
 </board>
 </drawing>
