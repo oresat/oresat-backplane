@@ -194,26 +194,22 @@
 <text x="-13.2" y="-1.695" size="1" layer="22" font="vector" ratio="16" rot="MR0">1</text>
 <text x="-13.2" y="0.695" size="1" layer="22" font="vector" ratio="16" rot="MR0">2</text>
 </package>
-<package name="CON-MCX-F-CINCH-133-3801-201">
-<pad name="CENTER" x="0" y="0" drill="1.17"/>
-<pad name="SHIELD1" x="-2.54" y="2.54" drill="1.7"/>
-<pad name="SHEILD4" x="-2.54" y="-2.54" drill="1.7"/>
-<pad name="SHEILD3" x="2.54" y="-2.54" drill="1.7"/>
-<pad name="SHEILD2" x="2.54" y="2.54" drill="1.7"/>
-<wire x1="-2.995" y1="2.995" x2="-2.995" y2="-2.995" width="0.127" layer="51"/>
-<wire x1="-2.995" y1="-2.995" x2="2.995" y2="-2.995" width="0.127" layer="51"/>
-<wire x1="2.995" y1="-2.995" x2="2.995" y2="2.995" width="0.127" layer="51"/>
-<wire x1="2.995" y1="2.995" x2="-2.995" y2="2.995" width="0.127" layer="51"/>
-<wire x1="2.995" y1="2.995" x2="-2.995" y2="2.995" width="0.127" layer="39"/>
-<wire x1="2.995" y1="-2.995" x2="2.995" y2="2.995" width="0.127" layer="39"/>
-<wire x1="-2.995" y1="-2.995" x2="2.995" y2="-2.995" width="0.127" layer="39"/>
-<wire x1="-2.995" y1="2.995" x2="-2.995" y2="-2.995" width="0.127" layer="39"/>
-<wire x1="-2.995" y1="1" x2="-2.995" y2="-1" width="0.127" layer="21"/>
-<wire x1="2.995" y1="-1" x2="2.995" y2="1" width="0.127" layer="21"/>
-<wire x1="1" y1="2.995" x2="-1" y2="2.995" width="0.127" layer="21"/>
-<wire x1="-1" y1="-2.995" x2="1" y2="-2.995" width="0.127" layer="21"/>
+<package name="CONN_1061015-1_TYCO">
+<pad name="CENTER" x="0" y="0" drill="1.397"/>
+<pad name="SHIELD4" x="-2.54" y="2.54" drill="1.397"/>
+<pad name="SHIELD1" x="-2.54" y="-2.54" drill="1.397"/>
+<pad name="SHIELD2" x="2.54" y="-2.54" drill="1.397"/>
+<pad name="SHIELD3" x="2.54" y="2.54" drill="1.397"/>
+<wire x1="-1.397" y1="-3.1242" x2="1.397" y2="-3.1242" width="0.1524" layer="51"/>
+<wire x1="3.1242" y1="-1.397" x2="3.1242" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="1.397" y1="3.1242" x2="-1.397" y2="3.1242" width="0.1524" layer="51"/>
+<wire x1="-3.1242" y1="1.397" x2="-3.1242" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-2.9972" y1="-2.9972" x2="2.9972" y2="-2.9972" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="-2.9972" x2="2.9972" y2="2.9972" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="2.9972" x2="-2.9972" y2="2.9972" width="0.1524" layer="21"/>
+<wire x1="-2.9972" y1="2.9972" x2="-2.9972" y2="-2.9972" width="0.1524" layer="21"/>
 <text x="4" y="0.5" size="1" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<text x="4" y="-1.5" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<text x="4" y="-1" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -330,19 +326,27 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="ORESAT-RF-BACKPLANE" prefix="CF">
-<description>OreSat Backplane RF Connector, using the Cinch Connectivity MCF vertical connector #133-3801-201</description>
+<deviceset name="CON-MCX-M-TE-1061015-1" prefix="J">
 <gates>
-<gate name="G$1" symbol="CON-COAX" x="0" y="0"/>
+<gate name="A" symbol="CON-COAX" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CON-MCX-F-CINCH-133-3801-201">
+<device name="" package="CONN_1061015-1_TYCO">
 <connects>
-<connect gate="G$1" pin="CENTER" pad="CENTER"/>
-<connect gate="G$1" pin="SHIELD" pad="SHEILD2 SHEILD3 SHEILD4 SHIELD1"/>
+<connect gate="A" pin="CENTER" pad="CENTER"/>
+<connect gate="A" pin="SHIELD" pad="SHIELD1 SHIELD2 SHIELD3 SHIELD4"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="FAMILY" value="Connector RF" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" constant="no"/>
+<attribute name="RSPARTNUMBER" value="7130953" constant="no"/>
+<attribute name="SECTION" value="RF or Coaxial" constant="no"/>
+<attribute name="SUPERSECTION" value="Connectors" constant="no"/>
+<attribute name="VENDOR" value="Tyco Electronics" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -394,17 +398,17 @@ Used by permission</description>
 <part name="CM1" library="oresat-eagle" deviceset="ORESAT-BACKPLANE-40PIN" device=""/>
 <part name="CM2" library="oresat-eagle" deviceset="ORESAT-BACKPLANE-40PIN" device=""/>
 <part name="CM3" library="oresat-eagle" deviceset="ORESAT-BACKPLANE-40PIN" device=""/>
-<part name="CF1" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
-<part name="CF2" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
-<part name="CF3" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
+<part name="CF1" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
+<part name="CF2" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
+<part name="CF3" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME3" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="CF4" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
-<part name="CF5" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
-<part name="CF6" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
-<part name="CF7" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
-<part name="CF8" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
-<part name="CF9" library="oresat-eagle" deviceset="ORESAT-RF-BACKPLANE" device=""/>
+<part name="CF4" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
+<part name="CF5" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
+<part name="CF6" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
+<part name="CF7" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
+<part name="CF8" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
+<part name="CF9" library="oresat-eagle" deviceset="CON-MCX-M-TE-1061015-1" device=""/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
 <part name="GND3" library="supply" deviceset="GND" device=""/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
@@ -423,9 +427,9 @@ Used by permission</description>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
 <instance part="CM1" gate="G$1" x="53.34" y="116.84"/>
-<instance part="CF1" gate="G$1" x="63.5" y="48.26"/>
-<instance part="CF2" gate="G$1" x="76.2" y="48.26"/>
-<instance part="CF3" gate="G$1" x="88.9" y="48.26"/>
+<instance part="CF1" gate="A" x="63.5" y="48.26"/>
+<instance part="CF2" gate="A" x="76.2" y="48.26"/>
+<instance part="CF3" gate="A" x="88.9" y="48.26"/>
 <instance part="GND7" gate="G1" x="63.5" y="43.18"/>
 <instance part="GND8" gate="G1" x="76.2" y="43.18"/>
 <instance part="GND9" gate="G1" x="88.9" y="43.18"/>
@@ -435,15 +439,15 @@ Used by permission</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="CF1" gate="G$1" pin="SHIELD"/>
+<pinref part="CF1" gate="A" pin="SHIELD"/>
 <pinref part="GND7" gate="G1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CF2" gate="G$1" pin="SHIELD"/>
+<pinref part="CF2" gate="A" pin="SHIELD"/>
 <pinref part="GND8" gate="G1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CF3" gate="G$1" pin="SHIELD"/>
+<pinref part="CF3" gate="A" pin="SHIELD"/>
 <pinref part="GND9" gate="G1" pin="GND"/>
 </segment>
 </net>
@@ -456,9 +460,9 @@ Used by permission</description>
 <instance part="CM2" gate="G$1" x="50.8" y="83.82"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
 <instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
-<instance part="CF4" gate="G$1" x="91.44" y="86.36"/>
-<instance part="CF5" gate="G$1" x="106.68" y="83.82"/>
-<instance part="CF6" gate="G$1" x="116.84" y="83.82"/>
+<instance part="CF4" gate="A" x="91.44" y="86.36"/>
+<instance part="CF5" gate="A" x="106.68" y="83.82"/>
+<instance part="CF6" gate="A" x="116.84" y="83.82"/>
 <instance part="GND2" gate="G1" x="91.44" y="81.28"/>
 <instance part="GND5" gate="G1" x="106.68" y="78.74"/>
 <instance part="GND6" gate="G1" x="116.84" y="78.74"/>
@@ -468,15 +472,15 @@ Used by permission</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="CF4" gate="G$1" pin="SHIELD"/>
+<pinref part="CF4" gate="A" pin="SHIELD"/>
 <pinref part="GND2" gate="G1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CF5" gate="G$1" pin="SHIELD"/>
+<pinref part="CF5" gate="A" pin="SHIELD"/>
 <pinref part="GND5" gate="G1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CF6" gate="G$1" pin="SHIELD"/>
+<pinref part="CF6" gate="A" pin="SHIELD"/>
 <pinref part="GND6" gate="G1" pin="GND"/>
 </segment>
 </net>
@@ -489,9 +493,9 @@ Used by permission</description>
 <instance part="FRAME3" gate="G$1" x="0" y="0"/>
 <instance part="FRAME3" gate="G$2" x="172.72" y="0"/>
 <instance part="CM3" gate="G$1" x="106.68" y="129.54"/>
-<instance part="CF7" gate="G$1" x="127" y="137.16"/>
-<instance part="CF8" gate="G$1" x="152.4" y="139.7"/>
-<instance part="CF9" gate="G$1" x="180.34" y="139.7"/>
+<instance part="CF7" gate="A" x="127" y="137.16"/>
+<instance part="CF8" gate="A" x="152.4" y="139.7"/>
+<instance part="CF9" gate="A" x="180.34" y="139.7"/>
 <instance part="GND1" gate="G1" x="127" y="132.08"/>
 <instance part="GND3" gate="G1" x="152.4" y="134.62"/>
 <instance part="GND4" gate="G1" x="180.34" y="134.62"/>
@@ -501,15 +505,15 @@ Used by permission</description>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="CF7" gate="G$1" pin="SHIELD"/>
+<pinref part="CF7" gate="A" pin="SHIELD"/>
 <pinref part="GND1" gate="G1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CF8" gate="G$1" pin="SHIELD"/>
+<pinref part="CF8" gate="A" pin="SHIELD"/>
 <pinref part="GND3" gate="G1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="CF9" gate="G$1" pin="SHIELD"/>
+<pinref part="CF9" gate="A" pin="SHIELD"/>
 <pinref part="GND4" gate="G1" pin="GND"/>
 </segment>
 </net>

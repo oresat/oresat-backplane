@@ -187,26 +187,22 @@
 <text x="-13.2" y="-1.695" size="1" layer="22" font="vector" ratio="16" rot="MR0">1</text>
 <text x="-13.2" y="0.695" size="1" layer="22" font="vector" ratio="16" rot="MR0">2</text>
 </package>
-<package name="CON-MCX-F-CINCH-133-3801-201">
-<pad name="CENTER" x="0" y="0" drill="1.17"/>
-<pad name="SHIELD1" x="-2.54" y="2.54" drill="1.7"/>
-<pad name="SHEILD4" x="-2.54" y="-2.54" drill="1.7"/>
-<pad name="SHEILD3" x="2.54" y="-2.54" drill="1.7"/>
-<pad name="SHEILD2" x="2.54" y="2.54" drill="1.7"/>
-<wire x1="-2.995" y1="2.995" x2="-2.995" y2="-2.995" width="0.127" layer="51"/>
-<wire x1="-2.995" y1="-2.995" x2="2.995" y2="-2.995" width="0.127" layer="51"/>
-<wire x1="2.995" y1="-2.995" x2="2.995" y2="2.995" width="0.127" layer="51"/>
-<wire x1="2.995" y1="2.995" x2="-2.995" y2="2.995" width="0.127" layer="51"/>
-<wire x1="2.995" y1="2.995" x2="-2.995" y2="2.995" width="0.127" layer="39"/>
-<wire x1="2.995" y1="-2.995" x2="2.995" y2="2.995" width="0.127" layer="39"/>
-<wire x1="-2.995" y1="-2.995" x2="2.995" y2="-2.995" width="0.127" layer="39"/>
-<wire x1="-2.995" y1="2.995" x2="-2.995" y2="-2.995" width="0.127" layer="39"/>
-<wire x1="-2.995" y1="1" x2="-2.995" y2="-1" width="0.127" layer="21"/>
-<wire x1="2.995" y1="-1" x2="2.995" y2="1" width="0.127" layer="21"/>
-<wire x1="1" y1="2.995" x2="-1" y2="2.995" width="0.127" layer="21"/>
-<wire x1="-1" y1="-2.995" x2="1" y2="-2.995" width="0.127" layer="21"/>
+<package name="CONN_1061015-1_TYCO">
+<pad name="CENTER" x="0" y="0" drill="1.397"/>
+<pad name="SHIELD4" x="-2.54" y="2.54" drill="1.397"/>
+<pad name="SHIELD1" x="-2.54" y="-2.54" drill="1.397"/>
+<pad name="SHIELD2" x="2.54" y="-2.54" drill="1.397"/>
+<pad name="SHIELD3" x="2.54" y="2.54" drill="1.397"/>
+<wire x1="-1.397" y1="-3.1242" x2="1.397" y2="-3.1242" width="0.1524" layer="51"/>
+<wire x1="3.1242" y1="-1.397" x2="3.1242" y2="1.397" width="0.1524" layer="51"/>
+<wire x1="1.397" y1="3.1242" x2="-1.397" y2="3.1242" width="0.1524" layer="51"/>
+<wire x1="-3.1242" y1="1.397" x2="-3.1242" y2="-1.397" width="0.1524" layer="51"/>
+<wire x1="-2.9972" y1="-2.9972" x2="2.9972" y2="-2.9972" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="-2.9972" x2="2.9972" y2="2.9972" width="0.1524" layer="21"/>
+<wire x1="2.9972" y1="2.9972" x2="-2.9972" y2="2.9972" width="0.1524" layer="21"/>
+<wire x1="-2.9972" y1="2.9972" x2="-2.9972" y2="-2.9972" width="0.1524" layer="21"/>
 <text x="4" y="0.5" size="1" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<text x="4" y="-1.5" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
+<text x="4" y="-1" size="1" layer="27" font="vector" ratio="16">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -398,15 +394,96 @@ Please make sure your boards conform to these design rules.</description>
 <element name="CM1" library="oresat-eagle" package="HARWIN-ARCHER-M50-3502042" value="ORESAT-BACKPLANE-40PIN" x="22.065" y="13.225" rot="MR0"/>
 <element name="CM2" library="oresat-eagle" package="HARWIN-ARCHER-M50-3502042" value="ORESAT-BACKPLANE-40PIN" x="22.065" y="23.225" rot="MR0"/>
 <element name="CM3" library="oresat-eagle" package="HARWIN-ARCHER-M50-3502042" value="ORESAT-BACKPLANE-40PIN" x="22.065" y="33.225" rot="MR0"/>
-<element name="CF1" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="55.7" y="11.74" locked="yes" rot="R90"/>
-<element name="CF2" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="64.1" y="11.74" locked="yes" rot="R90"/>
-<element name="CF3" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="72.5" y="11.74" locked="yes" rot="R90"/>
-<element name="CF4" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="55.7" y="21.74" locked="yes" rot="R90"/>
-<element name="CF5" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="64.1" y="21.74" locked="yes" rot="R90"/>
-<element name="CF6" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="72.5" y="21.74" locked="yes" rot="R90"/>
-<element name="CF7" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="55.7" y="31.74" locked="yes" rot="R90"/>
-<element name="CF8" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="64.1" y="31.74" locked="yes" rot="R90"/>
-<element name="CF9" library="oresat-eagle" package="CON-MCX-F-CINCH-133-3801-201" value="ORESAT-RF-BACKPLANE" x="72.5" y="31.74" locked="yes" rot="R90"/>
+<element name="CF1" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="55.7" y="11.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="55.7" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="55.7" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="55.7" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="55.7" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="55.7" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="55.7" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="55.7" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="55.7" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="CF2" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="64.1" y="11.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="64.1" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="64.1" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="64.1" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="64.1" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="64.1" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="64.1" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="64.1" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="64.1" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="CF3" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="72.5" y="11.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="72.5" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="72.5" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="72.5" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="72.5" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="72.5" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="72.5" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="72.5" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="72.5" y="11.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="CF4" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="55.7" y="21.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="55.7" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="55.7" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="55.7" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="55.7" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="55.7" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="55.7" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="55.7" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="55.7" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="CF5" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="64.1" y="21.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="64.1" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="64.1" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="64.1" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="64.1" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="64.1" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="64.1" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="64.1" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="64.1" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="CF6" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="72.5" y="21.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="72.5" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="72.5" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="72.5" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="72.5" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="72.5" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="72.5" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="72.5" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="72.5" y="21.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="CF7" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="55.7" y="31.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="55.7" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="55.7" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="55.7" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="55.7" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="55.7" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="55.7" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="55.7" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="55.7" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="CF8" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="64.1" y="31.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="64.1" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="64.1" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="64.1" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="64.1" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="64.1" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="64.1" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="64.1" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="64.1" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="CF9" library="oresat-eagle" package="CONN_1061015-1_TYCO" value="CON-MCX-M-TE-1061015-1" x="72.5" y="31.74" locked="yes" rot="R90">
+<attribute name="FAMILY" value="Connector RF" x="72.5" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2015 Accelerated Designs. All rights reserved" x="72.5" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SUPERSECTION" value="Connectors" x="72.5" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Tyco Electronics" x="72.5" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="Tyco Electronics Amp" x="72.5" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="1061015-1" x="72.5" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="SECTION" value="RF or Coaxial" x="72.5" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="RSPARTNUMBER" value="7130953" x="72.5" y="31.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -422,42 +499,42 @@ Please make sure your boards conform to these design rules.</description>
 <vertex x="83" y="214"/>
 <vertex x="83" y="0"/>
 </polygon>
-<contactref element="CF7" pad="SHEILD4"/>
-<contactref element="CF7" pad="SHEILD3"/>
+<contactref element="CF7" pad="SHIELD4"/>
+<contactref element="CF7" pad="SHIELD3"/>
 <contactref element="CF7" pad="SHIELD1"/>
-<contactref element="CF7" pad="SHEILD2"/>
-<contactref element="CF8" pad="SHEILD4"/>
-<contactref element="CF8" pad="SHEILD3"/>
+<contactref element="CF7" pad="SHIELD2"/>
+<contactref element="CF8" pad="SHIELD4"/>
+<contactref element="CF8" pad="SHIELD3"/>
 <contactref element="CF8" pad="SHIELD1"/>
-<contactref element="CF8" pad="SHEILD2"/>
-<contactref element="CF9" pad="SHEILD4"/>
-<contactref element="CF9" pad="SHEILD3"/>
+<contactref element="CF8" pad="SHIELD2"/>
+<contactref element="CF9" pad="SHIELD4"/>
+<contactref element="CF9" pad="SHIELD3"/>
 <contactref element="CF9" pad="SHIELD1"/>
-<contactref element="CF9" pad="SHEILD2"/>
-<contactref element="CF4" pad="SHEILD4"/>
-<contactref element="CF4" pad="SHEILD3"/>
+<contactref element="CF9" pad="SHIELD2"/>
+<contactref element="CF4" pad="SHIELD4"/>
+<contactref element="CF4" pad="SHIELD3"/>
 <contactref element="CF4" pad="SHIELD1"/>
-<contactref element="CF4" pad="SHEILD2"/>
-<contactref element="CF5" pad="SHEILD4"/>
-<contactref element="CF5" pad="SHEILD3"/>
+<contactref element="CF4" pad="SHIELD2"/>
+<contactref element="CF5" pad="SHIELD4"/>
+<contactref element="CF5" pad="SHIELD3"/>
 <contactref element="CF5" pad="SHIELD1"/>
-<contactref element="CF5" pad="SHEILD2"/>
-<contactref element="CF6" pad="SHEILD4"/>
-<contactref element="CF6" pad="SHEILD3"/>
+<contactref element="CF5" pad="SHIELD2"/>
+<contactref element="CF6" pad="SHIELD4"/>
+<contactref element="CF6" pad="SHIELD3"/>
 <contactref element="CF6" pad="SHIELD1"/>
-<contactref element="CF6" pad="SHEILD2"/>
-<contactref element="CF1" pad="SHEILD4"/>
-<contactref element="CF1" pad="SHEILD3"/>
+<contactref element="CF6" pad="SHIELD2"/>
+<contactref element="CF1" pad="SHIELD4"/>
+<contactref element="CF1" pad="SHIELD3"/>
 <contactref element="CF1" pad="SHIELD1"/>
-<contactref element="CF1" pad="SHEILD2"/>
-<contactref element="CF2" pad="SHEILD4"/>
-<contactref element="CF2" pad="SHEILD3"/>
+<contactref element="CF1" pad="SHIELD2"/>
+<contactref element="CF2" pad="SHIELD4"/>
+<contactref element="CF2" pad="SHIELD3"/>
 <contactref element="CF2" pad="SHIELD1"/>
-<contactref element="CF2" pad="SHEILD2"/>
-<contactref element="CF3" pad="SHEILD4"/>
-<contactref element="CF3" pad="SHEILD3"/>
+<contactref element="CF2" pad="SHIELD2"/>
+<contactref element="CF3" pad="SHIELD4"/>
+<contactref element="CF3" pad="SHIELD3"/>
 <contactref element="CF3" pad="SHIELD1"/>
-<contactref element="CF3" pad="SHEILD2"/>
+<contactref element="CF3" pad="SHIELD2"/>
 </signal>
 </signals>
 </board>
