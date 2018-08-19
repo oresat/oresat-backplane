@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24,17 +24,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -58,9 +58,9 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
@@ -453,6 +453,11 @@
 <wire x1="48.475" y1="203.3" x2="49.475" y2="204.3" width="0.001" layer="50" curve="90"/>
 <wire x1="49.475" y1="208" x2="48.475" y2="209" width="0.001" layer="50" curve="90"/>
 <wire x1="33.525" y1="209" x2="32.525" y2="208" width="0.001" layer="50" curve="90"/>
+<rectangle x1="-10.45" y1="30.2" x2="88.45" y2="31.8" layer="21"/>
+<rectangle x1="-9.95" y1="39.7" x2="88.95" y2="41.3" layer="21"/>
+<rectangle x1="-9.95" y1="49.7" x2="88.95" y2="51.3" layer="21"/>
+<rectangle x1="-9.95" y1="59.7" x2="88.95" y2="61.3" layer="21"/>
+<rectangle x1="-9.95" y1="69.7" x2="88.95" y2="71.3" layer="21"/>
 </plain>
 <libraries>
 <library name="J-Cinch-MMCX-135-3701-211-to-UT-047">
@@ -878,16 +883,104 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="CF1" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="13.65"/>
-<element name="CF2" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="13.65"/>
-<element name="CF3" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="13.65"/>
-<element name="J1" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="13.75"/>
-<element name="CF4" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="23.65"/>
-<element name="CF5" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="23.65"/>
-<element name="CF6" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="23.65"/>
-<element name="J2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="23.75"/>
-<element name="CF7" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="23.75"/>
-<element name="CF8" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="13.75"/>
+<element name="CF1" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="13.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.5" y="13.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="74" y="9" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF2" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="13.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="70.5" y="13.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="69" y="9" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF3" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="13.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="65.5" y="13.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="64" y="9" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="J1" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="13.75" locked="yes"/>
+<element name="CF4" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="23.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.5" y="23.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="74" y="19" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF5" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="23.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="70.5" y="23.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="69" y="19" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF6" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="23.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="65.5" y="23.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="64" y="19" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="J2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="23.75" locked="yes"/>
+<element name="CF7" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="23.75" locked="yes"/>
+<element name="CF8" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="13.75" locked="yes"/>
+<element name="CF9" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="33.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.5" y="33.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="74" y="29" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF10" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="33.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="70.5" y="33.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="69" y="29" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF11" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="33.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="65.5" y="33.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="64" y="29" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="J3" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="33.75" locked="yes"/>
+<element name="CF12" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="33.75" locked="yes"/>
+<element name="CF13" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="43.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="70.5" y="43.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="69.5" y="39" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF14" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="43.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.5" y="43.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="74.5" y="39" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF15" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="43.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="65.5" y="43.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="64.5" y="39" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="J4" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="43.75" locked="yes"/>
+<element name="CF16" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="43.75" locked="yes"/>
+<element name="CF17" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="53.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="70.5" y="53.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="69" y="49" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF18" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="53.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="65.5" y="53.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="64" y="49" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF19" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="53.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.5" y="53.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="75" y="49" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="J5" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="53.75" locked="yes"/>
+<element name="CF20" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="53.75" locked="yes"/>
+<element name="CF21" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="63.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.5" y="63.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="74.5" y="59" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF22" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="63.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="70.5" y="63.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="69.5" y="59" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF23" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="63.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="65.5" y="63.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="64.5" y="59" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="J6" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="63.75" locked="yes"/>
+<element name="CF24" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="63.75" locked="yes"/>
+<element name="CF25" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="73.5" y="73.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.5" y="73.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="74.5" y="69" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF26" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="68.5" y="73.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="70.5" y="73.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="69.5" y="69" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="CF27" library="J-Cinch-MMCX-135-3701-211-to-UT-047" package="TEST" value="ORESAT-BACKPLANE-TO-UT-047" x="63.5" y="73.65" locked="yes" smashed="yes">
+<attribute name="NAME" x="65.5" y="73.45" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="64.5" y="69" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
+</element>
+<element name="J7" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="73.75" locked="yes"/>
+<element name="CF28" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.05" y="73.75" locked="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -939,6 +1032,125 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF3" pad="GND@3"/>
 <contactref element="CF3" pad="GND@2"/>
 <contactref element="CF3" pad="GND@4"/>
+<contactref element="CF4" pad="GND@3"/>
+<contactref element="CF4" pad="GND@2"/>
+<contactref element="CF4" pad="GND@4"/>
+<contactref element="CF5" pad="GND@2"/>
+<contactref element="CF5" pad="GND@3"/>
+<contactref element="CF5" pad="GND@4"/>
+<contactref element="CF6" pad="GND@4"/>
+<contactref element="CF6" pad="GND@2"/>
+<contactref element="CF6" pad="GND@3"/>
+<contactref element="J3" pad="LC2"/>
+<contactref element="J3" pad="LC1"/>
+<contactref element="CF9" pad="GND@1"/>
+<contactref element="CF9" pad="GND@3"/>
+<contactref element="CF9" pad="GND@2"/>
+<contactref element="CF9" pad="GND@4"/>
+<contactref element="CF10" pad="GND@1"/>
+<contactref element="CF10" pad="GND@2"/>
+<contactref element="CF10" pad="GND@3"/>
+<contactref element="CF10" pad="GND@4"/>
+<contactref element="CF11" pad="GND@1"/>
+<contactref element="CF11" pad="GND@4"/>
+<contactref element="CF11" pad="GND@2"/>
+<contactref element="CF11" pad="GND@3"/>
+<contactref element="CF12" pad="LC2"/>
+<contactref element="CF12" pad="LC1"/>
+<contactref element="J3" pad="5"/>
+<contactref element="J3" pad="6"/>
+<contactref element="J3" pad="9"/>
+<contactref element="J3" pad="10"/>
+<contactref element="J3" pad="11"/>
+<contactref element="J3" pad="12"/>
+<contactref element="J4" pad="LC2"/>
+<contactref element="J4" pad="LC1"/>
+<contactref element="CF13" pad="GND@1"/>
+<contactref element="CF13" pad="GND@3"/>
+<contactref element="CF13" pad="GND@2"/>
+<contactref element="CF13" pad="GND@4"/>
+<contactref element="CF14" pad="GND@1"/>
+<contactref element="CF14" pad="GND@2"/>
+<contactref element="CF14" pad="GND@3"/>
+<contactref element="CF14" pad="GND@4"/>
+<contactref element="CF15" pad="GND@1"/>
+<contactref element="CF15" pad="GND@4"/>
+<contactref element="CF15" pad="GND@2"/>
+<contactref element="CF15" pad="GND@3"/>
+<contactref element="CF16" pad="LC2"/>
+<contactref element="CF16" pad="LC1"/>
+<contactref element="J4" pad="5"/>
+<contactref element="J4" pad="6"/>
+<contactref element="J4" pad="9"/>
+<contactref element="J4" pad="10"/>
+<contactref element="J4" pad="11"/>
+<contactref element="J4" pad="12"/>
+<contactref element="J5" pad="LC2"/>
+<contactref element="J5" pad="LC1"/>
+<contactref element="CF17" pad="GND@1"/>
+<contactref element="CF17" pad="GND@3"/>
+<contactref element="CF17" pad="GND@2"/>
+<contactref element="CF17" pad="GND@4"/>
+<contactref element="CF18" pad="GND@1"/>
+<contactref element="CF18" pad="GND@2"/>
+<contactref element="CF18" pad="GND@3"/>
+<contactref element="CF18" pad="GND@4"/>
+<contactref element="CF19" pad="GND@1"/>
+<contactref element="CF19" pad="GND@4"/>
+<contactref element="CF19" pad="GND@2"/>
+<contactref element="CF19" pad="GND@3"/>
+<contactref element="CF20" pad="LC2"/>
+<contactref element="CF20" pad="LC1"/>
+<contactref element="J5" pad="5"/>
+<contactref element="J5" pad="6"/>
+<contactref element="J5" pad="9"/>
+<contactref element="J5" pad="10"/>
+<contactref element="J5" pad="11"/>
+<contactref element="J5" pad="12"/>
+<contactref element="J6" pad="LC2"/>
+<contactref element="J6" pad="LC1"/>
+<contactref element="CF21" pad="GND@1"/>
+<contactref element="CF21" pad="GND@3"/>
+<contactref element="CF21" pad="GND@2"/>
+<contactref element="CF21" pad="GND@4"/>
+<contactref element="CF22" pad="GND@1"/>
+<contactref element="CF22" pad="GND@2"/>
+<contactref element="CF22" pad="GND@3"/>
+<contactref element="CF22" pad="GND@4"/>
+<contactref element="CF23" pad="GND@1"/>
+<contactref element="CF23" pad="GND@4"/>
+<contactref element="CF23" pad="GND@2"/>
+<contactref element="CF23" pad="GND@3"/>
+<contactref element="CF24" pad="LC2"/>
+<contactref element="CF24" pad="LC1"/>
+<contactref element="J6" pad="5"/>
+<contactref element="J6" pad="6"/>
+<contactref element="J6" pad="9"/>
+<contactref element="J6" pad="10"/>
+<contactref element="J6" pad="11"/>
+<contactref element="J6" pad="12"/>
+<contactref element="J7" pad="LC2"/>
+<contactref element="J7" pad="LC1"/>
+<contactref element="CF25" pad="GND@1"/>
+<contactref element="CF25" pad="GND@3"/>
+<contactref element="CF25" pad="GND@2"/>
+<contactref element="CF25" pad="GND@4"/>
+<contactref element="CF26" pad="GND@1"/>
+<contactref element="CF26" pad="GND@2"/>
+<contactref element="CF26" pad="GND@3"/>
+<contactref element="CF26" pad="GND@4"/>
+<contactref element="CF27" pad="GND@1"/>
+<contactref element="CF27" pad="GND@4"/>
+<contactref element="CF27" pad="GND@2"/>
+<contactref element="CF27" pad="GND@3"/>
+<contactref element="CF28" pad="LC2"/>
+<contactref element="CF28" pad="LC1"/>
+<contactref element="J7" pad="5"/>
+<contactref element="J7" pad="6"/>
+<contactref element="J7" pad="9"/>
+<contactref element="J7" pad="10"/>
+<contactref element="J7" pad="11"/>
+<contactref element="J7" pad="12"/>
 </signal>
 <signal name="CAN_L">
 <contactref element="J1" pad="2"/>
@@ -948,6 +1160,26 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="53.065" y1="13.115" x2="53.065" y2="14.385" width="0.5" layer="16"/>
 <wire x1="53.065" y1="24.385" x2="53.065" y2="23.115" width="0.5" layer="16"/>
 <wire x1="53.065" y1="23.115" x2="53.065" y2="14.385" width="0.5" layer="16"/>
+<contactref element="J3" pad="1"/>
+<contactref element="J3" pad="2"/>
+<wire x1="53.065" y1="24.385" x2="53.065" y2="33.115" width="0.5" layer="16"/>
+<wire x1="53.065" y1="33.115" x2="53.065" y2="34.385" width="0.5" layer="16"/>
+<contactref element="J4" pad="1"/>
+<contactref element="J4" pad="2"/>
+<wire x1="53.065" y1="34.385" x2="53.065" y2="43.115" width="0.5" layer="16"/>
+<wire x1="53.065" y1="43.115" x2="53.065" y2="44.385" width="0.5" layer="16"/>
+<contactref element="J5" pad="1"/>
+<contactref element="J5" pad="2"/>
+<contactref element="J6" pad="1"/>
+<contactref element="J6" pad="2"/>
+<contactref element="J7" pad="1"/>
+<contactref element="J7" pad="2"/>
+<wire x1="53.065" y1="44.385" x2="53.065" y2="53.115" width="0.5" layer="16"/>
+<wire x1="53.065" y1="53.115" x2="53.065" y2="54.385" width="0.5" layer="16"/>
+<wire x1="53.065" y1="54.385" x2="53.065" y2="63.115" width="0.5" layer="16"/>
+<wire x1="53.065" y1="63.115" x2="53.065" y2="64.385" width="0.5" layer="16"/>
+<wire x1="53.065" y1="64.385" x2="53.065" y2="73.115" width="0.5" layer="16"/>
+<wire x1="53.065" y1="73.115" x2="53.065" y2="74.385" width="0.5" layer="16"/>
 </signal>
 <signal name="CAN_H">
 <contactref element="J1" pad="4"/>
@@ -957,6 +1189,26 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="51.795" y1="13.115" x2="51.795" y2="14.385" width="0.5" layer="16"/>
 <wire x1="51.795" y1="14.385" x2="51.795" y2="23.115" width="0.5" layer="16"/>
 <wire x1="51.795" y1="23.115" x2="51.795" y2="24.385" width="0.5" layer="16"/>
+<contactref element="J3" pad="3"/>
+<contactref element="J3" pad="4"/>
+<wire x1="51.795" y1="24.385" x2="51.795" y2="33.115" width="0.5" layer="16"/>
+<wire x1="51.795" y1="33.115" x2="51.795" y2="34.385" width="0.5" layer="16"/>
+<contactref element="J4" pad="3"/>
+<contactref element="J4" pad="4"/>
+<wire x1="51.795" y1="34.385" x2="51.795" y2="43.115" width="0.5" layer="16"/>
+<wire x1="51.795" y1="43.115" x2="51.795" y2="44.385" width="0.5" layer="16"/>
+<contactref element="J5" pad="3"/>
+<contactref element="J5" pad="4"/>
+<contactref element="J6" pad="3"/>
+<contactref element="J6" pad="4"/>
+<contactref element="J7" pad="3"/>
+<contactref element="J7" pad="4"/>
+<wire x1="51.795" y1="44.385" x2="51.795" y2="53.115" width="0.5" layer="16"/>
+<wire x1="51.795" y1="53.115" x2="51.795" y2="54.385" width="0.5" layer="16"/>
+<wire x1="51.795" y1="54.385" x2="51.795" y2="63.115" width="0.5" layer="16"/>
+<wire x1="51.795" y1="63.115" x2="51.795" y2="64.385" width="0.5" layer="16"/>
+<wire x1="51.795" y1="64.385" x2="51.795" y2="73.115" width="0.5" layer="16"/>
+<wire x1="51.795" y1="73.115" x2="51.795" y2="74.385" width="0.5" layer="16"/>
 </signal>
 <signal name="!SHUTDOWN">
 <contactref element="J1" pad="8"/>
@@ -966,6 +1218,26 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.255" y1="13.115" x2="49.255" y2="14.385" width="0.5" layer="16"/>
 <wire x1="49.255" y1="14.385" x2="49.255" y2="23.115" width="0.5" layer="16"/>
 <wire x1="49.255" y1="23.115" x2="49.255" y2="24.385" width="0.5" layer="16"/>
+<contactref element="J3" pad="7"/>
+<contactref element="J3" pad="8"/>
+<wire x1="49.255" y1="24.385" x2="49.255" y2="33.115" width="0.5" layer="16"/>
+<wire x1="49.255" y1="33.115" x2="49.255" y2="34.385" width="0.5" layer="16"/>
+<contactref element="J4" pad="7"/>
+<contactref element="J4" pad="8"/>
+<wire x1="49.255" y1="34.385" x2="49.255" y2="43.115" width="0.5" layer="16"/>
+<wire x1="49.255" y1="43.115" x2="49.255" y2="44.385" width="0.5" layer="16"/>
+<contactref element="J5" pad="7"/>
+<contactref element="J5" pad="8"/>
+<contactref element="J6" pad="7"/>
+<contactref element="J6" pad="8"/>
+<contactref element="J7" pad="7"/>
+<contactref element="J7" pad="8"/>
+<wire x1="49.255" y1="44.385" x2="49.255" y2="53.115" width="0.5" layer="16"/>
+<wire x1="49.255" y1="53.115" x2="49.255" y2="54.385" width="0.5" layer="16"/>
+<wire x1="49.255" y1="54.385" x2="49.255" y2="63.115" width="0.5" layer="16"/>
+<wire x1="49.255" y1="63.115" x2="49.255" y2="64.385" width="0.5" layer="16"/>
+<wire x1="49.255" y1="64.385" x2="49.255" y2="73.115" width="0.5" layer="16"/>
+<wire x1="49.255" y1="73.115" x2="49.255" y2="74.385" width="0.5" layer="16"/>
 </signal>
 <signal name="VBUS">
 <contactref element="J1" pad="15"/>
@@ -979,10 +1251,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <polygon width="0.2" layer="16" thermals="no">
 <vertex x="45.5" y="13.1"/>
 <vertex x="43.9" y="13.1"/>
-<vertex x="43.9" y="25.2"/>
-<vertex x="45.7" y="25.2"/>
+<vertex x="43.9" y="200.7"/>
+<vertex x="45.7" y="200.7"/>
 <vertex x="45.7" y="13.1"/>
 </polygon>
+<contactref element="J3" pad="13"/>
+<contactref element="J3" pad="14"/>
+<contactref element="J3" pad="15"/>
+<contactref element="J3" pad="16"/>
+<contactref element="J4" pad="13"/>
+<contactref element="J4" pad="14"/>
+<contactref element="J4" pad="15"/>
+<contactref element="J4" pad="16"/>
+<contactref element="J5" pad="13"/>
+<contactref element="J5" pad="14"/>
+<contactref element="J5" pad="15"/>
+<contactref element="J5" pad="16"/>
+<contactref element="J6" pad="13"/>
+<contactref element="J6" pad="14"/>
+<contactref element="J6" pad="15"/>
+<contactref element="J6" pad="16"/>
+<contactref element="J7" pad="13"/>
+<contactref element="J7" pad="14"/>
+<contactref element="J7" pad="15"/>
+<contactref element="J7" pad="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
