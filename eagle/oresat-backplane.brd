@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -33,11 +33,11 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
@@ -3333,6 +3333,62 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CM20.3" pad="P$4"/>
 <contactref element="CM20.3" pad="P$6"/>
 <contactref element="CM20.3" pad="P$5"/>
+<via x="1.25" y="1.25" extent="1-16" drill="0.35"/>
+<via x="12" y="1" extent="1-16" drill="0.35"/>
+<via x="22" y="1" extent="1-16" drill="0.35"/>
+<via x="60" y="1" extent="1-16" drill="0.35"/>
+<via x="70" y="1" extent="1-16" drill="0.35"/>
+<via x="80.75" y="1.25" extent="1-16" drill="0.35"/>
+<via x="1.25" y="212.75" extent="1-16" drill="0.35"/>
+<via x="12" y="213" extent="1-16" drill="0.35"/>
+<via x="22" y="213" extent="1-16" drill="0.35"/>
+<via x="60" y="213" extent="1-16" drill="0.35"/>
+<via x="70" y="213" extent="1-16" drill="0.35"/>
+<via x="80.75" y="212.75" extent="1-16" drill="0.35"/>
+<via x="1" y="107" extent="1-16" drill="0.35"/>
+<via x="1" y="107" extent="1-16" drill="0.35"/>
+<via x="1" y="117" extent="1-16" drill="0.35"/>
+<via x="1" y="127" extent="1-16" drill="0.35"/>
+<via x="1" y="137" extent="1-16" drill="0.35"/>
+<via x="1" y="147" extent="1-16" drill="0.35"/>
+<via x="1" y="157" extent="1-16" drill="0.35"/>
+<via x="1" y="167" extent="1-16" drill="0.35"/>
+<via x="1" y="177" extent="1-16" drill="0.35"/>
+<via x="1" y="187" extent="1-16" drill="0.35"/>
+<via x="1" y="197" extent="1-16" drill="0.35"/>
+<via x="1" y="207" extent="1-16" drill="0.35"/>
+<via x="1" y="97" extent="1-16" drill="0.35"/>
+<via x="1" y="87" extent="1-16" drill="0.35"/>
+<via x="1" y="77" extent="1-16" drill="0.35"/>
+<via x="1" y="67" extent="1-16" drill="0.35"/>
+<via x="1" y="57" extent="1-16" drill="0.35"/>
+<via x="1" y="47" extent="1-16" drill="0.35"/>
+<via x="1" y="27" extent="1-16" drill="0.35"/>
+<via x="1" y="37" extent="1-16" drill="0.35"/>
+<via x="1" y="17" extent="1-16" drill="0.35"/>
+<via x="1" y="7" extent="1-16" drill="0.35"/>
+<via x="81" y="107" extent="1-16" drill="0.35"/>
+<via x="81" y="107" extent="1-16" drill="0.35"/>
+<via x="81" y="117" extent="1-16" drill="0.35"/>
+<via x="81" y="127" extent="1-16" drill="0.35"/>
+<via x="81" y="137" extent="1-16" drill="0.35"/>
+<via x="81" y="147" extent="1-16" drill="0.35"/>
+<via x="81" y="157" extent="1-16" drill="0.35"/>
+<via x="81" y="167" extent="1-16" drill="0.35"/>
+<via x="81" y="177" extent="1-16" drill="0.35"/>
+<via x="81" y="187" extent="1-16" drill="0.35"/>
+<via x="81" y="197" extent="1-16" drill="0.35"/>
+<via x="81" y="207" extent="1-16" drill="0.35"/>
+<via x="81" y="97" extent="1-16" drill="0.35"/>
+<via x="81" y="87" extent="1-16" drill="0.35"/>
+<via x="81" y="77" extent="1-16" drill="0.35"/>
+<via x="81" y="67" extent="1-16" drill="0.35"/>
+<via x="81" y="57" extent="1-16" drill="0.35"/>
+<via x="81" y="47" extent="1-16" drill="0.35"/>
+<via x="81" y="27" extent="1-16" drill="0.35"/>
+<via x="81" y="37" extent="1-16" drill="0.35"/>
+<via x="81" y="17" extent="1-16" drill="0.35"/>
+<via x="81" y="7" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="AUX-1">
 <contactref element="CF1.1" pad="1"/>
