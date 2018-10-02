@@ -10,7 +10,7 @@ OreSat uses a card cage / backplane topology based on 1MBps Controller Area Netw
 2. Main connector, which has CAN, power, and a lot of spare pins for custom protocols.
 3. RF conncectors, which allows up to 3 RF connectors per card using SMPM connectors.
 
-![OreSat Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/oresat-backplane.png)]]
+![OreSat Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/oresat-backplane.png)
 
 
 ## Mechanical Specifications
