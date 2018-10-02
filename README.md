@@ -2,7 +2,7 @@
 
 ## Background
 
-[OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane topology based on a 1 Mbps Controller Area Network (CAN) bus and a 1 cell Lithium ion battery power bus (3.0 - 4.2 V). There are three sets of connectors:
+The [OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane topology based on a 1 Mbps Controller Area Network (CAN) bus and a 1 cell Lithium ion battery power bus (3.0 - 4.2 V). There are three sets of connectors:
 
 1. 20 pin Auxiliary connector, used on the top and bottom cards, which has CAN and power only.
 2. 40 pin Main connector, which has CAN, power, and a lot of spare pins for custom protocols.
@@ -24,12 +24,19 @@ The connectors that we use on this puppy are the:
    - SMPM Connector Plug, Male Pin 50 Ohm Surface Mount, Through Hole Solder, $13.84/ea @ 10
    - Molex (w/CAD): https://www.molex.com/molex/products/datasheet.jsp?part=active/0733000110_RF_COAX_CONNECTORS.xml&channel=Products&Lang=en-US
 
-- Female vertical on the backplane:
-    - Samtec SFM-120-01-S-D-LC 
-    - Drawing: http://suddendocs.samtec.com/prints/sfm-1xx-xx-xxx-d-xxx-mkt.pdf
-    - Brochure: http://suddendocs.samtec.com/catalog_english/sfm.pdf
-    - SFM footprint: http://suddendocs.samtec.com/prints/sfm-thd.pdf
-    - 3D CAD: https://www.samtec.com/partnumber/sfm-120-01-s-d-lc?vendor=digikey
+- 1.27 mm through-hole vertical socket connectors:
+    - 40 pin main connector
+       - Samtec SFM-120-01-S-D-LC 
+       - 3D CAD: https://www.samtec.com/partnumber/sfm-120-01-s-d-lc
+       - Drawing: http://suddendocs.samtec.com/prints/sfm-1xx-xx-xxx-d-xxx-mkt.pdf
+       - Brochure: http://suddendocs.samtec.com/catalog_english/sfm.pdf
+       - SFM footprint: http://suddendocs.samtec.com/prints/sfm-thd.pdf
+    - 20 pin auxiliary connector
+       - Samtec SFM-110-01-S-D-LC 
+       - 3D CAD: https://www.samtec.com/partnumber/sfm-110-01-s-d-lc
+       - Drawing: http://suddendocs.samtec.com/prints/sfm-1xx-xx-xxx-d-xxx-mkt.pdf
+       - Brochure: http://suddendocs.samtec.com/catalog_english/sfm.pdf
+       - SFM footprint: http://suddendocs.samtec.com/prints/sfm-thd.pdf
 
 ## LICENSE
 
