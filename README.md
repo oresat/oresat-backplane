@@ -1,6 +1,17 @@
 # OreSat Backplane
 
-Artisanally hand-crafted bespoke backplane for OreSat 1!
+An artisanally hand-crafted bespoke backplane for OreSat!
+
+## Background
+
+OreSat uses a card cage / backplane topology based on 1MBps Controller Area Network (CAN) and a 1 cell Lithium ion battery power bus (3.0 - 4.2 V). There are three sets of connectors:
+
+1. Auxiliary connector, used on the top and bottom cards, which has CAN and power only.
+2. Main connector, which has CAN, power, and a lot of spare pins for custom protocols.
+3. RF conncectors, which allows up to 3 RF connectors per card using SMPM connectors.
+
+![OreSat Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/oresat-backplane.png)]]
+
 
 ## Mechanical Specifications
 
@@ -21,4 +32,12 @@ The connectors that we use on this puppy are the:
     - Brochure: http://suddendocs.samtec.com/catalog_english/sfm.pdf
     - SFM footprint: http://suddendocs.samtec.com/prints/sfm-thd.pdf
     - 3D CAD: https://www.samtec.com/partnumber/sfm-120-01-s-d-lc?vendor=digikey
+
+## LICENSE
+
+Copyright Portland State Aerospace Society 2018.
+
+This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
+
+You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [http://ohwr.org/cernohl](http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
 
