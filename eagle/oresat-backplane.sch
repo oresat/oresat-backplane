@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -282,46 +282,46 @@ MANUFACTURER: SAMTEC.</description>
 <wire x1="-13.3985" y1="-2.032" x2="-13.3985" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="-13.3985" y1="-1.143" x2="-15.1765" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="-15.1765" y1="-1.143" x2="-15.1765" y2="1.143" width="0.127" layer="21"/>
-<pad name="1" x="12.065" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="2" x="12.065" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="3" x="10.795" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="4" x="10.795" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="5" x="9.525" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="6" x="9.525" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="7" x="8.255" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="8" x="8.255" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="9" x="6.985" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="10" x="6.985" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="11" x="5.715" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="12" x="5.715" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="13" x="4.445" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="14" x="4.445" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="15" x="3.175" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="16" x="3.175" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="17" x="1.905" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="18" x="1.905" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="19" x="0.635" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="20" x="0.635" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="21" x="-0.635" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="22" x="-0.635" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="23" x="-1.905" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="24" x="-1.905" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="25" x="-3.175" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="26" x="-3.175" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="27" x="-4.445" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="28" x="-4.445" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="29" x="-5.715" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="30" x="-5.715" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="31" x="-6.985" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="32" x="-6.985" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="33" x="-8.255" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="34" x="-8.255" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="35" x="-9.525" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="36" x="-9.525" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="37" x="-10.795" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="38" x="-10.795" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="39" x="-12.065" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="40" x="-12.065" y="0.635" drill="0.7112" diameter="1.0668"/>
+<pad name="1" x="12.065" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="2" x="12.065" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="3" x="10.795" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="4" x="10.795" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="5" x="9.525" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="6" x="9.525" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="7" x="8.255" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="8" x="8.255" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="9" x="6.985" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="10" x="6.985" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="11" x="5.715" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="12" x="5.715" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="13" x="4.445" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="14" x="4.445" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="15" x="3.175" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="16" x="3.175" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="17" x="1.905" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="18" x="1.905" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="19" x="0.635" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="20" x="0.635" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="21" x="-0.635" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="22" x="-0.635" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="23" x="-1.905" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="24" x="-1.905" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="25" x="-3.175" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="26" x="-3.175" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="27" x="-4.445" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="28" x="-4.445" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="29" x="-5.715" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="30" x="-5.715" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="31" x="-6.985" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="32" x="-6.985" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="33" x="-8.255" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="34" x="-8.255" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="35" x="-9.525" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="36" x="-9.525" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="37" x="-10.795" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="38" x="-10.795" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="39" x="-12.065" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="40" x="-12.065" y="0.635" drill="0.6" shape="offset" rot="R90"/>
 <text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
 <pad name="LC1" x="13.6525" y="0" drill="1.1938"/>
@@ -478,26 +478,26 @@ MANUFACTURER: SAMTEC.</description>
 <wire x1="-7.0485" y1="-2.032" x2="-7.0485" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="-7.0485" y1="-1.143" x2="-8.8265" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="-8.8265" y1="-1.143" x2="-8.8265" y2="1.143" width="0.127" layer="21"/>
-<pad name="1" x="5.715" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="2" x="5.715" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="3" x="4.445" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="4" x="4.445" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="5" x="3.175" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="6" x="3.175" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="7" x="1.905" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="8" x="1.905" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="9" x="0.635" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="10" x="0.635" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="11" x="-0.635" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="12" x="-0.635" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="13" x="-1.905" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="14" x="-1.905" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="15" x="-3.175" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="16" x="-3.175" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="17" x="-4.445" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="18" x="-4.445" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="19" x="-5.715" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="20" x="-5.715" y="0.635" drill="0.7112" diameter="1.0668"/>
+<pad name="1" x="5.715" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="2" x="5.715" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="3" x="4.445" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="4" x="4.445" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="5" x="3.175" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="6" x="3.175" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="7" x="1.905" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="8" x="1.905" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="9" x="0.635" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="10" x="0.635" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="11" x="-0.635" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="12" x="-0.635" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="13" x="-1.905" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="14" x="-1.905" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="15" x="-3.175" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="16" x="-3.175" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="17" x="-4.445" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="18" x="-4.445" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="19" x="-5.715" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="20" x="-5.715" y="0.635" drill="0.6" shape="offset" rot="R90"/>
 <text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
 <pad name="LC1" x="7.3025" y="0" drill="1.1938"/>
@@ -986,17 +986,33 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME20" gate="G$1" x="0" y="0"/>
-<instance part="FRAME20" gate="G$2" x="172.72" y="0"/>
-<instance part="GND115" gate="G1" x="27.94" y="12.7"/>
-<instance part="GND116" gate="G1" x="127" y="30.48"/>
-<instance part="GND117" gate="G1" x="127" y="17.78"/>
-<instance part="GND118" gate="G1" x="127" y="5.08"/>
-<instance part="CF1.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND119" gate="G1" x="27.94" y="137.16"/>
-<instance part="CM1.3" gate="G$1" x="127" y="35.56"/>
-<instance part="CM1.2" gate="G$1" x="127" y="22.86"/>
-<instance part="CM1.1" gate="G$1" x="127" y="10.16"/>
+<instance part="FRAME20" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME20" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND115" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="GND116" gate="G1" x="127" y="30.48" smashed="yes"/>
+<instance part="GND117" gate="G1" x="127" y="17.78" smashed="yes"/>
+<instance part="GND118" gate="G1" x="127" y="5.08" smashed="yes"/>
+<instance part="CF1.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND119" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="CM1.3" gate="G$1" x="127" y="35.56" smashed="yes">
+<attribute name="NAME" x="135.89" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="135.89" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM1.2" gate="G$1" x="127" y="22.86" smashed="yes">
+<attribute name="NAME" x="135.89" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="135.89" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM1.1" gate="G$1" x="127" y="10.16" smashed="yes">
+<attribute name="NAME" x="135.89" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="135.89" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1188,18 +1204,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME19" gate="G$1" x="0" y="0"/>
-<instance part="FRAME19" gate="G$2" x="172.72" y="0"/>
-<instance part="GND109" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF2.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF2.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND113" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND110" gate="G1" x="99.06" y="30.48"/>
-<instance part="GND111" gate="G1" x="99.06" y="17.78"/>
-<instance part="GND112" gate="G1" x="99.06" y="5.08"/>
-<instance part="CM2.2" gate="G$1" x="99.06" y="35.56"/>
-<instance part="CM2.3" gate="G$1" x="99.06" y="22.86"/>
-<instance part="CM2.1" gate="G$1" x="99.06" y="10.16"/>
+<instance part="FRAME19" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME19" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND109" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF2.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF2.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND113" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND110" gate="G1" x="99.06" y="30.48" smashed="yes"/>
+<instance part="GND111" gate="G1" x="99.06" y="17.78" smashed="yes"/>
+<instance part="GND112" gate="G1" x="99.06" y="5.08" smashed="yes"/>
+<instance part="CM2.2" gate="G$1" x="99.06" y="35.56" smashed="yes">
+<attribute name="NAME" x="107.95" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="107.95" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM2.3" gate="G$1" x="99.06" y="22.86" smashed="yes">
+<attribute name="NAME" x="107.95" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="107.95" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM2.1" gate="G$1" x="99.06" y="10.16" smashed="yes">
+<attribute name="NAME" x="107.95" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="107.95" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1593,18 +1628,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME18" gate="G$1" x="0" y="0"/>
-<instance part="FRAME18" gate="G$2" x="172.72" y="0"/>
-<instance part="GND103" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF3.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF3.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND107" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND80" gate="G1" x="104.14" y="30.48"/>
-<instance part="GND81" gate="G1" x="104.14" y="17.78"/>
-<instance part="GND82" gate="G1" x="104.14" y="5.08"/>
-<instance part="CM3.1" gate="G$1" x="104.14" y="35.56"/>
-<instance part="CM3.2" gate="G$1" x="104.14" y="22.86"/>
-<instance part="CM3.3" gate="G$1" x="104.14" y="10.16"/>
+<instance part="FRAME18" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME18" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND103" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF3.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF3.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND107" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND80" gate="G1" x="104.14" y="30.48" smashed="yes"/>
+<instance part="GND81" gate="G1" x="104.14" y="17.78" smashed="yes"/>
+<instance part="GND82" gate="G1" x="104.14" y="5.08" smashed="yes"/>
+<instance part="CM3.1" gate="G$1" x="104.14" y="35.56" smashed="yes">
+<attribute name="NAME" x="113.03" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="113.03" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM3.2" gate="G$1" x="104.14" y="22.86" smashed="yes">
+<attribute name="NAME" x="113.03" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="113.03" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM3.3" gate="G$1" x="104.14" y="10.16" smashed="yes">
+<attribute name="NAME" x="113.03" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="113.03" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1998,18 +2052,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME17" gate="G$1" x="0" y="0"/>
-<instance part="FRAME17" gate="G$2" x="172.72" y="0"/>
-<instance part="GND97" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF4.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF4.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND101" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND104" gate="G1" x="106.68" y="30.48"/>
-<instance part="GND105" gate="G1" x="106.68" y="17.78"/>
-<instance part="GND106" gate="G1" x="106.68" y="5.08"/>
-<instance part="CM4.1" gate="G$1" x="106.68" y="35.56"/>
-<instance part="CM4.2" gate="G$1" x="106.68" y="22.86"/>
-<instance part="CM4.3" gate="G$1" x="106.68" y="10.16"/>
+<instance part="FRAME17" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME17" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND97" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF4.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF4.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND101" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND104" gate="G1" x="106.68" y="30.48" smashed="yes"/>
+<instance part="GND105" gate="G1" x="106.68" y="17.78" smashed="yes"/>
+<instance part="GND106" gate="G1" x="106.68" y="5.08" smashed="yes"/>
+<instance part="CM4.1" gate="G$1" x="106.68" y="35.56" smashed="yes">
+<attribute name="NAME" x="115.57" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="115.57" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM4.2" gate="G$1" x="106.68" y="22.86" smashed="yes">
+<attribute name="NAME" x="115.57" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="115.57" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM4.3" gate="G$1" x="106.68" y="10.16" smashed="yes">
+<attribute name="NAME" x="115.57" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="115.57" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2403,18 +2476,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME16" gate="G$1" x="0" y="0"/>
-<instance part="FRAME16" gate="G$2" x="172.72" y="0"/>
-<instance part="GND91" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF5.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF5.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND95" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND98" gate="G1" x="109.22" y="30.48"/>
-<instance part="GND99" gate="G1" x="109.22" y="17.78"/>
-<instance part="GND100" gate="G1" x="109.22" y="5.08"/>
-<instance part="CM5.1" gate="G$1" x="109.22" y="35.56"/>
-<instance part="CM5.2" gate="G$1" x="109.22" y="22.86"/>
-<instance part="CM5.3" gate="G$1" x="109.22" y="10.16"/>
+<instance part="FRAME16" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME16" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND91" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF5.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF5.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND95" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND98" gate="G1" x="109.22" y="30.48" smashed="yes"/>
+<instance part="GND99" gate="G1" x="109.22" y="17.78" smashed="yes"/>
+<instance part="GND100" gate="G1" x="109.22" y="5.08" smashed="yes"/>
+<instance part="CM5.1" gate="G$1" x="109.22" y="35.56" smashed="yes">
+<attribute name="NAME" x="118.11" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="118.11" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM5.2" gate="G$1" x="109.22" y="22.86" smashed="yes">
+<attribute name="NAME" x="118.11" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="118.11" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM5.3" gate="G$1" x="109.22" y="10.16" smashed="yes">
+<attribute name="NAME" x="118.11" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="118.11" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -2808,18 +2900,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME15" gate="G$1" x="0" y="0"/>
-<instance part="FRAME15" gate="G$2" x="172.72" y="0"/>
-<instance part="GND85" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF6.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF6.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND89" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND92" gate="G1" x="111.76" y="30.48"/>
-<instance part="GND93" gate="G1" x="111.76" y="17.78"/>
-<instance part="GND94" gate="G1" x="111.76" y="5.08"/>
-<instance part="CM6.1" gate="G$1" x="111.76" y="35.56"/>
-<instance part="CM6.2" gate="G$1" x="111.76" y="22.86"/>
-<instance part="CM6.3" gate="G$1" x="111.76" y="10.16"/>
+<instance part="FRAME15" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME15" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND85" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF6.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF6.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND89" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND92" gate="G1" x="111.76" y="30.48" smashed="yes"/>
+<instance part="GND93" gate="G1" x="111.76" y="17.78" smashed="yes"/>
+<instance part="GND94" gate="G1" x="111.76" y="5.08" smashed="yes"/>
+<instance part="CM6.1" gate="G$1" x="111.76" y="35.56" smashed="yes">
+<attribute name="NAME" x="120.65" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM6.2" gate="G$1" x="111.76" y="22.86" smashed="yes">
+<attribute name="NAME" x="120.65" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM6.3" gate="G$1" x="111.76" y="10.16" smashed="yes">
+<attribute name="NAME" x="120.65" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3213,18 +3324,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME14" gate="G$1" x="0" y="0"/>
-<instance part="FRAME14" gate="G$2" x="172.72" y="0"/>
-<instance part="GND79" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF7.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF7.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND83" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND121" gate="G1" x="111.76" y="30.48"/>
-<instance part="GND122" gate="G1" x="111.76" y="17.78"/>
-<instance part="GND123" gate="G1" x="111.76" y="5.08"/>
-<instance part="CM7.1" gate="G$1" x="111.76" y="35.56"/>
-<instance part="CM7.2" gate="G$1" x="111.76" y="22.86"/>
-<instance part="CM7.3" gate="G$1" x="111.76" y="10.16"/>
+<instance part="FRAME14" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME14" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND79" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF7.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF7.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND83" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND121" gate="G1" x="111.76" y="30.48" smashed="yes"/>
+<instance part="GND122" gate="G1" x="111.76" y="17.78" smashed="yes"/>
+<instance part="GND123" gate="G1" x="111.76" y="5.08" smashed="yes"/>
+<instance part="CM7.1" gate="G$1" x="111.76" y="35.56" smashed="yes">
+<attribute name="NAME" x="120.65" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM7.2" gate="G$1" x="111.76" y="22.86" smashed="yes">
+<attribute name="NAME" x="120.65" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM7.3" gate="G$1" x="111.76" y="10.16" smashed="yes">
+<attribute name="NAME" x="120.65" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -3618,18 +3748,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME13" gate="G$1" x="0" y="0"/>
-<instance part="FRAME13" gate="G$2" x="172.72" y="0"/>
-<instance part="GND73" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF8.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF8.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND77" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND86" gate="G1" x="111.76" y="30.48"/>
-<instance part="GND87" gate="G1" x="111.76" y="17.78"/>
-<instance part="GND88" gate="G1" x="111.76" y="5.08"/>
-<instance part="CM8.1" gate="G$1" x="111.76" y="35.56"/>
-<instance part="CM8.2" gate="G$1" x="111.76" y="22.86"/>
-<instance part="CM8.3" gate="G$1" x="111.76" y="10.16"/>
+<instance part="FRAME13" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME13" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND73" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF8.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF8.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND77" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND86" gate="G1" x="111.76" y="30.48" smashed="yes"/>
+<instance part="GND87" gate="G1" x="111.76" y="17.78" smashed="yes"/>
+<instance part="GND88" gate="G1" x="111.76" y="5.08" smashed="yes"/>
+<instance part="CM8.1" gate="G$1" x="111.76" y="35.56" smashed="yes">
+<attribute name="NAME" x="120.65" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM8.2" gate="G$1" x="111.76" y="22.86" smashed="yes">
+<attribute name="NAME" x="120.65" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM8.3" gate="G$1" x="111.76" y="10.16" smashed="yes">
+<attribute name="NAME" x="120.65" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4023,18 +4172,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME12" gate="G$1" x="0" y="0"/>
-<instance part="FRAME12" gate="G$2" x="172.72" y="0"/>
-<instance part="GND67" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF9.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF9.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND71" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND74" gate="G1" x="111.76" y="30.48"/>
-<instance part="GND75" gate="G1" x="111.76" y="17.78"/>
-<instance part="GND76" gate="G1" x="111.76" y="5.08"/>
-<instance part="CM9.1" gate="G$1" x="111.76" y="35.56"/>
-<instance part="CM9.2" gate="G$1" x="111.76" y="22.86"/>
-<instance part="CM9.3" gate="G$1" x="111.76" y="10.16"/>
+<instance part="FRAME12" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME12" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND67" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF9.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF9.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND71" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND74" gate="G1" x="111.76" y="30.48" smashed="yes"/>
+<instance part="GND75" gate="G1" x="111.76" y="17.78" smashed="yes"/>
+<instance part="GND76" gate="G1" x="111.76" y="5.08" smashed="yes"/>
+<instance part="CM9.1" gate="G$1" x="111.76" y="35.56" smashed="yes">
+<attribute name="NAME" x="120.65" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM9.2" gate="G$1" x="111.76" y="22.86" smashed="yes">
+<attribute name="NAME" x="120.65" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM9.3" gate="G$1" x="111.76" y="10.16" smashed="yes">
+<attribute name="NAME" x="120.65" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4428,18 +4596,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME11" gate="G$1" x="0" y="0"/>
-<instance part="FRAME11" gate="G$2" x="172.72" y="0"/>
-<instance part="GND61" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF10.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF10.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND65" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND68" gate="G1" x="111.76" y="30.48"/>
-<instance part="GND69" gate="G1" x="111.76" y="17.78"/>
-<instance part="GND70" gate="G1" x="111.76" y="5.08"/>
-<instance part="CM10.1" gate="G$1" x="111.76" y="35.56"/>
-<instance part="CM10.2" gate="G$1" x="111.76" y="22.86"/>
-<instance part="CM10.3" gate="G$1" x="111.76" y="10.16"/>
+<instance part="FRAME11" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME11" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND61" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF10.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF10.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND65" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND68" gate="G1" x="111.76" y="30.48" smashed="yes"/>
+<instance part="GND69" gate="G1" x="111.76" y="17.78" smashed="yes"/>
+<instance part="GND70" gate="G1" x="111.76" y="5.08" smashed="yes"/>
+<instance part="CM10.1" gate="G$1" x="111.76" y="35.56" smashed="yes">
+<attribute name="NAME" x="120.65" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM10.2" gate="G$1" x="111.76" y="22.86" smashed="yes">
+<attribute name="NAME" x="120.65" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM10.3" gate="G$1" x="111.76" y="10.16" smashed="yes">
+<attribute name="NAME" x="120.65" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="120.65" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4833,18 +5020,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME10" gate="G$1" x="0" y="0"/>
-<instance part="FRAME10" gate="G$2" x="172.72" y="0"/>
-<instance part="GND55" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF11.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF11.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND59" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND5" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND6" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND7" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM11.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM11.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM11.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME10" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME10" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND55" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF11.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF11.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND59" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND5" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND6" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND7" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM11.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM11.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM11.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5238,18 +5444,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME9" gate="G$1" x="0" y="0"/>
-<instance part="FRAME9" gate="G$2" x="172.72" y="0"/>
-<instance part="GND49" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF12.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF12.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND53" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND8" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND9" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND11" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM12.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM12.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM12.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME9" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME9" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND49" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF12.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF12.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND53" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND8" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND9" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND11" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM12.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM12.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM12.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5643,18 +5868,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME8" gate="G$1" x="0" y="0"/>
-<instance part="FRAME8" gate="G$2" x="172.72" y="0"/>
-<instance part="GND43" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF13.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF13.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND47" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND14" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND15" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND16" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM13.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM13.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM13.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME8" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME8" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND43" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF13.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF13.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND47" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND14" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND15" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND16" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM13.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM13.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM13.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6048,18 +6292,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME7" gate="G$1" x="0" y="0"/>
-<instance part="FRAME7" gate="G$2" x="172.72" y="0"/>
-<instance part="GND37" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF14.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF14.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND41" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND20" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND21" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND22" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM14.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM14.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM14.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME7" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME7" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND37" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF14.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF14.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND41" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND20" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND21" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND22" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM14.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM14.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM14.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6453,18 +6716,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME6" gate="G$1" x="0" y="0"/>
-<instance part="FRAME6" gate="G$2" x="172.72" y="0"/>
-<instance part="GND31" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF15.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF15.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND35" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND26" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND27" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND28" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM15.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM15.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM15.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME6" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME6" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND31" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF15.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF15.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND35" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND26" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND27" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND28" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM15.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM15.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM15.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6858,18 +7140,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME5" gate="G$1" x="0" y="0"/>
-<instance part="FRAME5" gate="G$2" x="172.72" y="0"/>
-<instance part="GND25" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF16.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF16.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND29" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND32" gate="G1" x="127" y="30.48"/>
-<instance part="GND33" gate="G1" x="127" y="17.78"/>
-<instance part="GND34" gate="G1" x="127" y="5.08"/>
-<instance part="CM16.1" gate="G$1" x="127" y="35.56"/>
-<instance part="CM16.2" gate="G$1" x="127" y="22.86"/>
-<instance part="CM16.3" gate="G$1" x="127" y="10.16"/>
+<instance part="FRAME5" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME5" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND25" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF16.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF16.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND29" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND32" gate="G1" x="127" y="30.48" smashed="yes"/>
+<instance part="GND33" gate="G1" x="127" y="17.78" smashed="yes"/>
+<instance part="GND34" gate="G1" x="127" y="5.08" smashed="yes"/>
+<instance part="CM16.1" gate="G$1" x="127" y="35.56" smashed="yes">
+<attribute name="NAME" x="135.89" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="135.89" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM16.2" gate="G$1" x="127" y="22.86" smashed="yes">
+<attribute name="NAME" x="135.89" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="135.89" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM16.3" gate="G$1" x="127" y="10.16" smashed="yes">
+<attribute name="NAME" x="135.89" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="135.89" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7263,18 +7564,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME4" gate="G$1" x="0" y="0"/>
-<instance part="FRAME4" gate="G$2" x="172.72" y="0"/>
-<instance part="GND19" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF17.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF17.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND23" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND38" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND39" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND40" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM17.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM17.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM17.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME4" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME4" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND19" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF17.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF17.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND23" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND38" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND39" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND40" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM17.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM17.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM17.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7668,18 +7988,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME3" gate="G$1" x="0" y="0"/>
-<instance part="FRAME3" gate="G$2" x="172.72" y="0"/>
-<instance part="GND4" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF18.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF18.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND17" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND44" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND45" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND46" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM18.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM18.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM18.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME3" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME3" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND4" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF18.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF18.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND17" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND44" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND45" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND46" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM18.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM18.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM18.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8073,18 +8412,37 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME2" gate="G$1" x="0" y="0"/>
-<instance part="FRAME2" gate="G$2" x="172.72" y="0"/>
-<instance part="GND2" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF19.2" gate="G$1" x="15.24" y="76.2"/>
-<instance part="CF19.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND13" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND50" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND51" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND52" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM19.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM19.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM19.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME2" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME2" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND2" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF19.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
+<instance part="CF19.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND13" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND50" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND51" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND52" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM19.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM19.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM19.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8478,17 +8836,33 @@ MANUFACTURER: SAMTEC.</description>
 <plain>
 </plain>
 <instances>
-<instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="FRAME1" gate="G$2" x="172.72" y="0"/>
-<instance part="GND10" gate="G1" x="27.94" y="12.7"/>
-<instance part="CF20.1" gate="G$1" x="15.24" y="167.64"/>
-<instance part="GND12" gate="G1" x="27.94" y="137.16"/>
-<instance part="GND56" gate="G1" x="129.54" y="30.48"/>
-<instance part="GND57" gate="G1" x="129.54" y="17.78"/>
-<instance part="GND58" gate="G1" x="129.54" y="5.08"/>
-<instance part="CM20.1" gate="G$1" x="129.54" y="35.56"/>
-<instance part="CM20.2" gate="G$1" x="129.54" y="22.86"/>
-<instance part="CM20.3" gate="G$1" x="129.54" y="10.16"/>
+<instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="172.72" y="0" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="185.42" y="1.27" size="2.54" layer="94"/>
+<attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
+</instance>
+<instance part="GND10" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF20.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
+<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
+</instance>
+<instance part="GND12" gate="G1" x="27.94" y="137.16" smashed="yes"/>
+<instance part="GND56" gate="G1" x="129.54" y="30.48" smashed="yes"/>
+<instance part="GND57" gate="G1" x="129.54" y="17.78" smashed="yes"/>
+<instance part="GND58" gate="G1" x="129.54" y="5.08" smashed="yes"/>
+<instance part="CM20.1" gate="G$1" x="129.54" y="35.56" smashed="yes">
+<attribute name="NAME" x="138.43" y="31.75" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="29.21" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM20.2" gate="G$1" x="129.54" y="22.86" smashed="yes">
+<attribute name="NAME" x="138.43" y="19.05" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="16.51" size="1.778" layer="96" ratio="20"/>
+</instance>
+<instance part="CM20.3" gate="G$1" x="129.54" y="10.16" smashed="yes">
+<attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
+<attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8676,6 +9050,28 @@ MANUFACTURER: SAMTEC.</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,20,139.596,107.846,FRAME1,,,,,"/>
+<approved hash="113,19,139.596,107.846,FRAME2,,,,,"/>
+<approved hash="113,18,139.596,107.846,FRAME3,,,,,"/>
+<approved hash="113,17,139.596,107.846,FRAME4,,,,,"/>
+<approved hash="113,16,139.596,107.846,FRAME5,,,,,"/>
+<approved hash="113,15,139.596,107.846,FRAME6,,,,,"/>
+<approved hash="113,14,139.596,107.846,FRAME7,,,,,"/>
+<approved hash="113,13,139.596,107.846,FRAME8,,,,,"/>
+<approved hash="113,12,139.596,107.846,FRAME9,,,,,"/>
+<approved hash="113,11,139.596,107.846,FRAME10,,,,,"/>
+<approved hash="113,10,139.596,107.846,FRAME11,,,,,"/>
+<approved hash="113,9,139.596,107.846,FRAME12,,,,,"/>
+<approved hash="113,8,139.596,107.846,FRAME13,,,,,"/>
+<approved hash="113,7,139.596,107.846,FRAME14,,,,,"/>
+<approved hash="113,6,139.596,107.846,FRAME15,,,,,"/>
+<approved hash="113,5,139.596,107.846,FRAME16,,,,,"/>
+<approved hash="113,4,139.596,107.846,FRAME17,,,,,"/>
+<approved hash="113,3,139.596,107.846,FRAME18,,,,,"/>
+<approved hash="113,2,139.596,107.846,FRAME19,,,,,"/>
+<approved hash="113,1,139.596,107.846,FRAME20,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

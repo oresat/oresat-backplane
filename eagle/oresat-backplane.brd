@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.3">
+<eagle version="9.2.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -24,20 +24,20 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -1176,8 +1176,8 @@
 <wire x1="80" y1="212" x2="2" y2="212" width="4" layer="30"/>
 <wire x1="2" y1="212" x2="2" y2="2" width="4" layer="30"/>
 <text x="7.7" y="5.1" locked="yes" size="2" layer="21" font="vector">OreSat 
-Backplane v1.0</text>
-<text x="31.2" y="5.1" locked="yes" size="2" layer="22" font="vector" rot="MR0">Backplane v1.0</text>
+Backplane v1.1</text>
+<text x="31.2" y="5.1" locked="yes" size="2" layer="22" font="vector" rot="MR0">Backplane v1.1</text>
 <rectangle x1="64.5" y1="118.75" x2="67" y2="119.75" locked="yes" layer="29"/>
 <rectangle x1="70.5" y1="118.75" x2="73" y2="119.75" locked="yes" layer="29"/>
 <rectangle x1="64.5" y1="198.75" x2="67" y2="199.75" locked="yes" layer="29"/>
@@ -2300,7 +2300,6 @@ Backplane v1.0</text>
 <wire x1="75" y1="210" x2="78" y2="207" width="0" layer="51" curve="-90" locked="yes"/>
 <circle x="57.5" y="143.2" radius="2" width="0" layer="30"/>
 <circle x="24.5" y="143.2" locked="yes" radius="2" width="0" layer="30"/>
-<hole x="57.5" y="70.8" drill="2.6" locked="yes"/>
 <circle x="57.5" y="70.8" radius="2" width="0" layer="30"/>
 <circle x="24.5" y="70.8" locked="yes" radius="2" width="0" layer="30"/>
 <polygon width="0.4" layer="30">
@@ -2367,46 +2366,46 @@ MANUFACTURER: SAMTEC.</description>
 <wire x1="-13.3985" y1="-2.032" x2="-13.3985" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="-13.3985" y1="-1.143" x2="-15.1765" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="-15.1765" y1="-1.143" x2="-15.1765" y2="1.143" width="0.127" layer="21"/>
-<pad name="1" x="12.065" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="2" x="12.065" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="3" x="10.795" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="4" x="10.795" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="5" x="9.525" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="6" x="9.525" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="7" x="8.255" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="8" x="8.255" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="9" x="6.985" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="10" x="6.985" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="11" x="5.715" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="12" x="5.715" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="13" x="4.445" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="14" x="4.445" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="15" x="3.175" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="16" x="3.175" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="17" x="1.905" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="18" x="1.905" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="19" x="0.635" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="20" x="0.635" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="21" x="-0.635" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="22" x="-0.635" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="23" x="-1.905" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="24" x="-1.905" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="25" x="-3.175" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="26" x="-3.175" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="27" x="-4.445" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="28" x="-4.445" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="29" x="-5.715" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="30" x="-5.715" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="31" x="-6.985" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="32" x="-6.985" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="33" x="-8.255" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="34" x="-8.255" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="35" x="-9.525" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="36" x="-9.525" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="37" x="-10.795" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="38" x="-10.795" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="39" x="-12.065" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="40" x="-12.065" y="0.635" drill="0.7112" diameter="1.0668"/>
+<pad name="1" x="12.065" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="2" x="12.065" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="3" x="10.795" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="4" x="10.795" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="5" x="9.525" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="6" x="9.525" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="7" x="8.255" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="8" x="8.255" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="9" x="6.985" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="10" x="6.985" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="11" x="5.715" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="12" x="5.715" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="13" x="4.445" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="14" x="4.445" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="15" x="3.175" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="16" x="3.175" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="17" x="1.905" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="18" x="1.905" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="19" x="0.635" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="20" x="0.635" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="21" x="-0.635" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="22" x="-0.635" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="23" x="-1.905" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="24" x="-1.905" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="25" x="-3.175" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="26" x="-3.175" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="27" x="-4.445" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="28" x="-4.445" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="29" x="-5.715" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="30" x="-5.715" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="31" x="-6.985" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="32" x="-6.985" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="33" x="-8.255" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="34" x="-8.255" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="35" x="-9.525" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="36" x="-9.525" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="37" x="-10.795" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="38" x="-10.795" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="39" x="-12.065" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="40" x="-12.065" y="0.635" drill="0.6" shape="offset" rot="R90"/>
 <text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
 <pad name="LC1" x="13.6525" y="0" drill="1.1938"/>
@@ -2451,26 +2450,26 @@ MANUFACTURER: SAMTEC.</description>
 <wire x1="-7.0485" y1="-2.032" x2="-7.0485" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="-7.0485" y1="-1.143" x2="-8.8265" y2="-1.143" width="0.127" layer="21"/>
 <wire x1="-8.8265" y1="-1.143" x2="-8.8265" y2="1.143" width="0.127" layer="21"/>
-<pad name="1" x="5.715" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="2" x="5.715" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="3" x="4.445" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="4" x="4.445" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="5" x="3.175" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="6" x="3.175" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="7" x="1.905" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="8" x="1.905" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="9" x="0.635" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="10" x="0.635" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="11" x="-0.635" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="12" x="-0.635" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="13" x="-1.905" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="14" x="-1.905" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="15" x="-3.175" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="16" x="-3.175" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="17" x="-4.445" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="18" x="-4.445" y="0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="19" x="-5.715" y="-0.635" drill="0.7112" diameter="1.0668"/>
-<pad name="20" x="-5.715" y="0.635" drill="0.7112" diameter="1.0668"/>
+<pad name="1" x="5.715" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="2" x="5.715" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="3" x="4.445" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="4" x="4.445" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="5" x="3.175" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="6" x="3.175" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="7" x="1.905" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="8" x="1.905" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="9" x="0.635" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="10" x="0.635" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="11" x="-0.635" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="12" x="-0.635" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="13" x="-1.905" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="14" x="-1.905" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="15" x="-3.175" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="16" x="-3.175" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="17" x="-4.445" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="18" x="-4.445" y="0.635" drill="0.6" shape="offset" rot="R90"/>
+<pad name="19" x="-5.715" y="-0.635" drill="0.6" shape="offset" rot="R270"/>
+<pad name="20" x="-5.715" y="0.635" drill="0.6" shape="offset" rot="R90"/>
 <text x="-2.54" y="-5.08" size="1.27" layer="27">&gt;VALUE</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="25">&gt;NAME</text>
 <pad name="LC1" x="7.3025" y="0" drill="1.1938"/>
@@ -2784,104 +2783,338 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </pass>
 </autorouter>
 <elements>
-<element name="CF19.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="24.46" locked="yes"/>
-<element name="CF19.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="24.46" locked="yes"/>
-<element name="CF20.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="14.46" locked="yes"/>
-<element name="CF18.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="34.46" locked="yes"/>
-<element name="CF18.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="34.46" locked="yes"/>
-<element name="CF17.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="44.46" locked="yes"/>
-<element name="CF17.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="44.46" locked="yes"/>
-<element name="CF16.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="54.46" locked="yes"/>
-<element name="CF16.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="54.46" locked="yes"/>
-<element name="CF15.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="64.46" locked="yes"/>
-<element name="CF15.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="64.46" locked="yes"/>
-<element name="CF14.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="74.46" locked="yes"/>
-<element name="CF14.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="74.46" locked="yes"/>
-<element name="CF13.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="84.46" locked="yes"/>
-<element name="CF13.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="84.46" locked="yes"/>
-<element name="CF12.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="94.46" locked="yes"/>
-<element name="CF12.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="94.46" locked="yes"/>
-<element name="CF11.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="104.46" locked="yes"/>
-<element name="CF11.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="104.46" locked="yes"/>
-<element name="CF10.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="116.86" locked="yes"/>
-<element name="CF10.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="116.86" locked="yes"/>
-<element name="CF9.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="126.86" locked="yes"/>
-<element name="CF9.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="126.86" locked="yes"/>
-<element name="CF8.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="136.86" locked="yes"/>
-<element name="CF8.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="136.86" locked="yes"/>
-<element name="CF7.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="146.86" locked="yes"/>
-<element name="CF7.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="146.86" locked="yes"/>
-<element name="CF6.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="156.86" locked="yes"/>
-<element name="CF6.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="156.86" locked="yes"/>
-<element name="CF5.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="166.86" locked="yes"/>
-<element name="CF5.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="166.86" locked="yes"/>
-<element name="CF4.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="176.86" locked="yes"/>
-<element name="CF4.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="176.86" locked="yes"/>
-<element name="CF3.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="186.86" locked="yes"/>
-<element name="CF3.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="186.86" locked="yes"/>
-<element name="CF2.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="196.86" locked="yes"/>
-<element name="CF2.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="196.86" locked="yes"/>
-<element name="CF1.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="206.86" locked="yes"/>
-<element name="CM1.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="204.18" locked="yes"/>
-<element name="CM1.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="204.18" locked="yes"/>
-<element name="CM1.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="204.18" locked="yes"/>
-<element name="CM2.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="194.18" locked="yes"/>
-<element name="CM2.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="194.18" locked="yes"/>
-<element name="CM2.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="194.18" locked="yes"/>
-<element name="CM7.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="144.18" locked="yes"/>
-<element name="CM7.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="144.18" locked="yes"/>
-<element name="CM7.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="144.18" locked="yes"/>
-<element name="CM3.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="184.18" locked="yes"/>
-<element name="CM3.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="184.18" locked="yes"/>
-<element name="CM3.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="184.18" locked="yes"/>
-<element name="CM4.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="174.18" locked="yes"/>
-<element name="CM4.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="174.18" locked="yes"/>
-<element name="CM4.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="174.18" locked="yes"/>
-<element name="CM5.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="164.18" locked="yes"/>
-<element name="CM5.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="164.18" locked="yes"/>
-<element name="CM5.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="164.18" locked="yes"/>
-<element name="CM6.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="154.18" locked="yes"/>
-<element name="CM6.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="154.18" locked="yes"/>
-<element name="CM6.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="154.18" locked="yes"/>
-<element name="CM8.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="134.18" locked="yes"/>
-<element name="CM8.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="134.18" locked="yes"/>
-<element name="CM8.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="134.18" locked="yes"/>
-<element name="CM9.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="124.18" locked="yes"/>
-<element name="CM9.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="124.18" locked="yes"/>
-<element name="CM9.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="124.18" locked="yes"/>
-<element name="CM10.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="114.18" locked="yes"/>
-<element name="CM10.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="114.18" locked="yes"/>
-<element name="CM10.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="114.18" locked="yes"/>
-<element name="CM11.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="101.78" locked="yes"/>
-<element name="CM11.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="101.78" locked="yes"/>
-<element name="CM11.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="101.78" locked="yes"/>
-<element name="CM12.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="91.78" locked="yes"/>
-<element name="CM12.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="91.78" locked="yes"/>
-<element name="CM12.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="91.78" locked="yes"/>
-<element name="CM13.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="81.78" locked="yes"/>
-<element name="CM13.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="81.78" locked="yes"/>
-<element name="CM13.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="81.78" locked="yes"/>
-<element name="CM14.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="71.78" locked="yes"/>
-<element name="CM14.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="71.78" locked="yes"/>
-<element name="CM14.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="71.78" locked="yes"/>
-<element name="CM15.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="61.78" locked="yes"/>
-<element name="CM15.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="61.78" locked="yes"/>
-<element name="CM15.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="61.78" locked="yes"/>
-<element name="CM16.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="51.78" locked="yes"/>
-<element name="CM16.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="51.78" locked="yes"/>
-<element name="CM16.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="51.78" locked="yes"/>
-<element name="CM17.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="41.78" locked="yes"/>
-<element name="CM17.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="41.78" locked="yes"/>
-<element name="CM17.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="41.78" locked="yes"/>
-<element name="CM18.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="31.78" locked="yes"/>
-<element name="CM18.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="31.78" locked="yes"/>
-<element name="CM18.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="31.78" locked="yes"/>
-<element name="CM19.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="21.78" locked="yes"/>
-<element name="CM19.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="21.78" locked="yes"/>
-<element name="CM19.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="21.78" locked="yes"/>
-<element name="CM20.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="11.78" locked="yes"/>
-<element name="CM20.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="11.78" locked="yes"/>
-<element name="CM20.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="11.78" locked="yes"/>
+<element name="CF19.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="24.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="20.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="19.38" size="1.27" layer="27"/>
+</element>
+<element name="CF19.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="24.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="20.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="19.38" size="1.27" layer="27"/>
+</element>
+<element name="CF20.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="14.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="10.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="9.38" size="1.27" layer="27"/>
+</element>
+<element name="CF18.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="34.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="30.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="29.38" size="1.27" layer="27"/>
+</element>
+<element name="CF18.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="34.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="30.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="29.38" size="1.27" layer="27"/>
+</element>
+<element name="CF17.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="44.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="40.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="39.38" size="1.27" layer="27"/>
+</element>
+<element name="CF17.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="44.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="40.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="39.38" size="1.27" layer="27"/>
+</element>
+<element name="CF16.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="54.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="50.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="49.38" size="1.27" layer="27"/>
+</element>
+<element name="CF16.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="54.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="50.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="49.38" size="1.27" layer="27"/>
+</element>
+<element name="CF15.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="64.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="60.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="59.38" size="1.27" layer="27"/>
+</element>
+<element name="CF15.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="64.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="60.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="59.38" size="1.27" layer="27"/>
+</element>
+<element name="CF14.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="74.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="70.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="69.38" size="1.27" layer="27"/>
+</element>
+<element name="CF14.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="74.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="70.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="69.38" size="1.27" layer="27"/>
+</element>
+<element name="CF13.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="84.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="80.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="79.38" size="1.27" layer="27"/>
+</element>
+<element name="CF13.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="84.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="80.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="79.38" size="1.27" layer="27"/>
+</element>
+<element name="CF12.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="94.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="90.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="89.38" size="1.27" layer="27"/>
+</element>
+<element name="CF12.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="94.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="90.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="89.38" size="1.27" layer="27"/>
+</element>
+<element name="CF11.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="104.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="100.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="99.38" size="1.27" layer="27"/>
+</element>
+<element name="CF11.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="104.46" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="100.65" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="99.38" size="1.27" layer="27"/>
+</element>
+<element name="CF10.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="116.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="113.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="111.78" size="1.27" layer="27"/>
+</element>
+<element name="CF10.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="116.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="113.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="111.78" size="1.27" layer="27"/>
+</element>
+<element name="CF9.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="126.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="123.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="121.78" size="1.27" layer="27"/>
+</element>
+<element name="CF9.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="126.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="123.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="121.78" size="1.27" layer="27"/>
+</element>
+<element name="CF8.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="136.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="133.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="131.78" size="1.27" layer="27"/>
+</element>
+<element name="CF8.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="136.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="133.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="131.78" size="1.27" layer="27"/>
+</element>
+<element name="CF7.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="146.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="143.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="141.78" size="1.27" layer="27"/>
+</element>
+<element name="CF7.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="146.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="143.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="141.78" size="1.27" layer="27"/>
+</element>
+<element name="CF6.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="156.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="153.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="151.78" size="1.27" layer="27"/>
+</element>
+<element name="CF6.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="156.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="153.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="151.78" size="1.27" layer="27"/>
+</element>
+<element name="CF5.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="166.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="163.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="161.78" size="1.27" layer="27"/>
+</element>
+<element name="CF5.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="166.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="163.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="161.78" size="1.27" layer="27"/>
+</element>
+<element name="CF4.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="176.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="173.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="171.78" size="1.27" layer="27"/>
+</element>
+<element name="CF4.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="176.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="173.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="171.78" size="1.27" layer="27"/>
+</element>
+<element name="CF3.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="186.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="183.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="181.78" size="1.27" layer="27"/>
+</element>
+<element name="CF3.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="186.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="183.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="181.78" size="1.27" layer="27"/>
+</element>
+<element name="CF2.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="41" y="196.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="38.46" y="193.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="38.46" y="191.78" size="1.27" layer="27"/>
+</element>
+<element name="CF2.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="196.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="193.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="191.78" size="1.27" layer="27"/>
+</element>
+<element name="CF1.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" package="SFM-110-X1-XXX-D-LC" value="SFM-110-X1-XXX-D-LC" x="13.5" y="206.86" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.96" y="203.05" size="1.27" layer="25"/>
+<attribute name="VALUE" x="10.96" y="201.78" size="1.27" layer="27"/>
+</element>
+<element name="CM1.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="204.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="201.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM1.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="204.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="201.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM1.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="204.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="201.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM2.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="194.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="191.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM2.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="194.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="191.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM2.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="194.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="191.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM7.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="144.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="141.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM7.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="144.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="141.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM7.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="144.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="141.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM3.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="184.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="181.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM3.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="184.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="181.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM3.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="184.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="181.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM4.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="174.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="171.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM4.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="174.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="171.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM4.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="174.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="171.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM5.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="164.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="161.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM5.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="164.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="161.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM5.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="164.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="161.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM6.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="154.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="151.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM6.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="154.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="151.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM6.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="154.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="151.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM8.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="134.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="131.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM8.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="134.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="131.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM8.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="134.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="131.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM9.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="124.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="121.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM9.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="124.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="121.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM9.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="124.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="121.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM10.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="114.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="111.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM10.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="114.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="111.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM10.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="114.18" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="111.28" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM11.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="101.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="98.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM11.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="101.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="98.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM11.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="101.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="98.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM12.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="91.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="88.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM12.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="91.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="88.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM12.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="91.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="88.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM13.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="81.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="78.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM13.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="81.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="78.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM13.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="81.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="78.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM14.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="71.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="68.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM14.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="71.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="68.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM14.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="71.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="68.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM15.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="61.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="58.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM15.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="61.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="58.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM15.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="61.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="58.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM16.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="51.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="48.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM16.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="51.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="48.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM16.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="51.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="48.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM17.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="41.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="38.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM17.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="41.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="38.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM17.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="41.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="38.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM18.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="31.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="28.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM18.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="31.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="28.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM18.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="31.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="28.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM19.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="21.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="18.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM19.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="21.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="18.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM19.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="21.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="18.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM20.1" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="62.75" y="11.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="63.75" y="8.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM20.2" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="68.75" y="11.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="69.75" y="8.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
+<element name="CM20.3" library="J-Molex-SMPM-73300-011x" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="74.75" y="11.78" locked="yes" smashed="yes">
+<attribute name="NAME" x="75.75" y="8.88" size="0.635" layer="25" font="vector" ratio="20"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -3346,7 +3579,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="70" y="213" extent="1-16" drill="0.35"/>
 <via x="80.75" y="212.75" extent="1-16" drill="0.35"/>
 <via x="1" y="107" extent="1-16" drill="0.35"/>
-<via x="1" y="107" extent="1-16" drill="0.35"/>
 <via x="1" y="117" extent="1-16" drill="0.35"/>
 <via x="1" y="127" extent="1-16" drill="0.35"/>
 <via x="1" y="137" extent="1-16" drill="0.35"/>
@@ -3367,7 +3599,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="1" y="37" extent="1-16" drill="0.35"/>
 <via x="1" y="17" extent="1-16" drill="0.35"/>
 <via x="1" y="7" extent="1-16" drill="0.35"/>
-<via x="81" y="107" extent="1-16" drill="0.35"/>
 <via x="81" y="107" extent="1-16" drill="0.35"/>
 <via x="81" y="117" extent="1-16" drill="0.35"/>
 <via x="81" y="127" extent="1-16" drill="0.35"/>
@@ -3431,7 +3662,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="2"/>
 <contactref element="CF20.1" pad="1"/>
 <contactref element="CF20.1" pad="2"/>
-<wire x1="19.215" y1="13.825" x2="19.215" y2="15.095" width="1" layer="16"/>
 <wire x1="19.215" y1="15.095" x2="19.215" y2="23.825" width="1" layer="16"/>
 <wire x1="19.215" y1="23.825" x2="19.215" y2="25.095" width="1" layer="16"/>
 <wire x1="19.215" y1="25.095" x2="19.215" y2="33.825" width="1" layer="16"/>
@@ -3470,6 +3700,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="19.215" y1="103.825" x2="19.215" y2="95.095" width="1" layer="16"/>
 <wire x1="19.215" y1="166.225" x2="19.215" y2="157.495" width="1" layer="16"/>
 <wire x1="19.215" y1="105.095" x2="19.215" y2="116.225" width="1" layer="16"/>
+<wire x1="19.215" y1="15.095" x2="19.215" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-2">
 <contactref element="CF1.1" pad="3"/>
@@ -3512,7 +3743,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="4"/>
 <contactref element="CF20.1" pad="3"/>
 <contactref element="CF20.1" pad="4"/>
-<wire x1="17.945" y1="13.825" x2="17.945" y2="15.095" width="1" layer="16"/>
 <wire x1="17.945" y1="15.095" x2="17.945" y2="23.825" width="1" layer="16"/>
 <wire x1="17.945" y1="23.825" x2="17.945" y2="25.095" width="1" layer="16"/>
 <wire x1="17.945" y1="25.095" x2="17.945" y2="33.825" width="1" layer="16"/>
@@ -3551,6 +3781,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="17.945" y1="136.225" x2="17.945" y2="126.225" width="1" layer="16"/>
 <wire x1="17.945" y1="137.495" x2="17.945" y2="136.225" width="1" layer="16"/>
 <wire x1="17.945" y1="147.495" x2="17.945" y2="146.225" width="1" layer="16"/>
+<wire x1="17.945" y1="15.095" x2="17.945" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-3">
 <contactref element="CF1.1" pad="5"/>
@@ -3593,7 +3824,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="6"/>
 <contactref element="CF20.1" pad="5"/>
 <contactref element="CF20.1" pad="6"/>
-<wire x1="16.675" y1="13.825" x2="16.675" y2="15.095" width="1" layer="16"/>
 <wire x1="16.675" y1="15.095" x2="16.675" y2="23.825" width="1" layer="16"/>
 <wire x1="16.675" y1="23.825" x2="16.675" y2="25.095" width="1" layer="16"/>
 <wire x1="16.675" y1="25.095" x2="16.675" y2="33.825" width="1" layer="16"/>
@@ -3632,6 +3862,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="16.675" y1="166.225" x2="16.675" y2="176.225" width="1" layer="16"/>
 <wire x1="16.675" y1="126.225" x2="16.675" y2="116.225" width="1" layer="16"/>
 <wire x1="16.675" y1="146.225" x2="16.675" y2="136.225" width="1" layer="16"/>
+<wire x1="16.675" y1="15.095" x2="16.675" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-4">
 <contactref element="CF1.1" pad="7"/>
@@ -3674,7 +3905,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="8"/>
 <contactref element="CF20.1" pad="7"/>
 <contactref element="CF20.1" pad="8"/>
-<wire x1="15.405" y1="13.825" x2="15.405" y2="15.095" width="1" layer="16"/>
 <wire x1="15.405" y1="15.095" x2="15.405" y2="23.825" width="1" layer="16"/>
 <wire x1="15.405" y1="23.825" x2="15.405" y2="25.095" width="1" layer="16"/>
 <wire x1="15.405" y1="25.095" x2="15.405" y2="33.825" width="1" layer="16"/>
@@ -3713,6 +3943,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="15.405" y1="186.225" x2="15.405" y2="176.225" width="1" layer="16"/>
 <wire x1="15.405" y1="146.225" x2="15.405" y2="147.495" width="1" layer="16"/>
 <wire x1="15.405" y1="136.225" x2="15.405" y2="137.495" width="1" layer="16"/>
+<wire x1="15.405" y1="15.095" x2="15.405" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-5">
 <contactref element="CF1.1" pad="9"/>
@@ -3755,7 +3986,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="10"/>
 <contactref element="CF20.1" pad="9"/>
 <contactref element="CF20.1" pad="10"/>
-<wire x1="14.135" y1="13.825" x2="14.135" y2="15.095" width="1" layer="16"/>
 <wire x1="14.135" y1="15.095" x2="14.135" y2="23.825" width="1" layer="16"/>
 <wire x1="14.135" y1="23.825" x2="14.135" y2="25.095" width="1" layer="16"/>
 <wire x1="14.135" y1="25.095" x2="14.135" y2="33.825" width="1" layer="16"/>
@@ -3794,6 +4024,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="14.135" y1="176.225" x2="14.135" y2="166.225" width="1" layer="16"/>
 <wire x1="14.135" y1="186.225" x2="14.135" y2="176.225" width="1" layer="16"/>
 <wire x1="14.135" y1="137.495" x2="14.135" y2="136.225" width="1" layer="16"/>
+<wire x1="14.135" y1="15.095" x2="14.135" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-6">
 <contactref element="CF1.1" pad="11"/>
@@ -3836,7 +4067,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="12"/>
 <contactref element="CF20.1" pad="11"/>
 <contactref element="CF20.1" pad="12"/>
-<wire x1="12.865" y1="13.825" x2="12.865" y2="15.095" width="1" layer="16"/>
 <wire x1="12.865" y1="15.095" x2="12.865" y2="23.825" width="1" layer="16"/>
 <wire x1="12.865" y1="23.825" x2="12.865" y2="25.095" width="1" layer="16"/>
 <wire x1="12.865" y1="25.095" x2="12.865" y2="33.825" width="1" layer="16"/>
@@ -3875,6 +4105,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="12.865" y1="196.225" x2="12.865" y2="186.225" width="1" layer="16"/>
 <wire x1="12.865" y1="176.225" x2="12.865" y2="166.225" width="1" layer="16"/>
 <wire x1="12.865" y1="186.225" x2="12.865" y2="176.225" width="1" layer="16"/>
+<wire x1="12.865" y1="15.095" x2="12.865" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-7">
 <contactref element="CF1.1" pad="13"/>
@@ -3917,7 +4148,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="14"/>
 <contactref element="CF20.1" pad="13"/>
 <contactref element="CF20.1" pad="14"/>
-<wire x1="11.595" y1="13.825" x2="11.595" y2="15.095" width="1" layer="16"/>
 <wire x1="11.595" y1="15.095" x2="11.595" y2="23.825" width="1" layer="16"/>
 <wire x1="11.595" y1="23.825" x2="11.595" y2="25.095" width="1" layer="16"/>
 <wire x1="11.595" y1="25.095" x2="11.595" y2="33.825" width="1" layer="16"/>
@@ -3956,6 +4186,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="11.595" y1="196.225" x2="11.595" y2="186.225" width="1" layer="16"/>
 <wire x1="11.595" y1="176.225" x2="11.595" y2="166.225" width="1" layer="16"/>
 <wire x1="11.595" y1="186.225" x2="11.595" y2="176.225" width="1" layer="16"/>
+<wire x1="11.595" y1="15.095" x2="11.595" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-8">
 <contactref element="CF1.1" pad="15"/>
@@ -3998,7 +4229,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="16"/>
 <contactref element="CF20.1" pad="15"/>
 <contactref element="CF20.1" pad="16"/>
-<wire x1="10.325" y1="13.825" x2="10.325" y2="15.095" width="1" layer="16"/>
 <wire x1="10.325" y1="15.095" x2="10.325" y2="23.825" width="1" layer="16"/>
 <wire x1="10.325" y1="23.825" x2="10.325" y2="25.095" width="1" layer="16"/>
 <wire x1="10.325" y1="25.095" x2="10.325" y2="33.825" width="1" layer="16"/>
@@ -4037,6 +4267,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="10.325" y1="126.225" x2="10.325" y2="136.225" width="1" layer="16"/>
 <wire x1="10.325" y1="176.225" x2="10.325" y2="186.225" width="1" layer="16"/>
 <wire x1="10.325" y1="156.225" x2="10.325" y2="166.225" width="1" layer="16"/>
+<wire x1="10.325" y1="15.095" x2="10.325" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-9">
 <contactref element="CF1.1" pad="17"/>
@@ -4079,7 +4310,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="18"/>
 <contactref element="CF20.1" pad="17"/>
 <contactref element="CF20.1" pad="18"/>
-<wire x1="9.055" y1="13.825" x2="9.055" y2="15.095" width="1" layer="16"/>
 <wire x1="9.055" y1="15.095" x2="9.055" y2="23.825" width="1" layer="16"/>
 <wire x1="9.055" y1="23.825" x2="9.055" y2="25.095" width="1" layer="16"/>
 <wire x1="9.055" y1="25.095" x2="9.055" y2="33.825" width="1" layer="16"/>
@@ -4118,6 +4348,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="9.055" y1="103.825" x2="9.055" y2="116.225" width="1" layer="16"/>
 <wire x1="9.055" y1="83.825" x2="9.055" y2="73.825" width="1" layer="16"/>
 <wire x1="9.055" y1="103.825" x2="9.055" y2="93.825" width="1" layer="16"/>
+<wire x1="9.055" y1="15.095" x2="9.055" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="AUX-10">
 <contactref element="CF1.1" pad="19"/>
@@ -4160,7 +4391,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF19.1" pad="20"/>
 <contactref element="CF20.1" pad="19"/>
 <contactref element="CF20.1" pad="20"/>
-<wire x1="7.785" y1="13.825" x2="7.785" y2="15.095" width="1" layer="16"/>
 <wire x1="7.785" y1="15.095" x2="7.785" y2="23.825" width="1" layer="16"/>
 <wire x1="7.785" y1="23.825" x2="7.785" y2="25.095" width="1" layer="16"/>
 <wire x1="7.785" y1="25.095" x2="7.785" y2="33.825" width="1" layer="16"/>
@@ -4199,6 +4429,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.785" y1="147.495" x2="7.785" y2="146.225" width="1" layer="16"/>
 <wire x1="7.785" y1="177.495" x2="7.785" y2="176.225" width="1" layer="16"/>
 <wire x1="7.785" y1="207.495" x2="7.785" y2="206.225" width="1" layer="16"/>
+<wire x1="7.785" y1="15.095" x2="7.785" y2="13.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-1">
 <contactref element="CF2.2" pad="1"/>
@@ -4268,10 +4499,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="53.065" y1="33.825" x2="53.065" y2="25.095" width="1" layer="16"/>
 <wire x1="53.065" y1="73.825" x2="53.065" y2="75.095" width="1" layer="16"/>
 <wire x1="53.065" y1="65.095" x2="53.065" y2="63.825" width="1" layer="16"/>
-<wire x1="53.065" y1="23.825" x2="53.065" y2="25.095" width="1" layer="16"/>
 <wire x1="53.065" y1="53.825" x2="53.065" y2="55.095" width="1" layer="16"/>
 <wire x1="53.065" y1="43.825" x2="53.065" y2="45.095" width="1" layer="16"/>
 <wire x1="53.065" y1="33.825" x2="53.065" y2="35.095" width="1" layer="16"/>
+<wire x1="53.065" y1="25.095" x2="53.065" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-2">
 <contactref element="CF2.2" pad="3"/>
@@ -4339,12 +4570,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="51.795" y1="53.825" x2="51.795" y2="45.095" width="1" layer="16"/>
 <wire x1="51.795" y1="43.825" x2="51.795" y2="35.095" width="1" layer="16"/>
 <wire x1="51.795" y1="33.825" x2="51.795" y2="25.095" width="1" layer="16"/>
-<wire x1="51.795" y1="23.825" x2="51.795" y2="25.095" width="1" layer="16"/>
 <wire x1="51.795" y1="73.825" x2="51.795" y2="75.095" width="1" layer="16"/>
 <wire x1="51.795" y1="63.825" x2="51.795" y2="65.095" width="1" layer="16"/>
 <wire x1="51.795" y1="53.825" x2="51.795" y2="55.095" width="1" layer="16"/>
 <wire x1="51.795" y1="43.825" x2="51.795" y2="45.095" width="1" layer="16"/>
 <wire x1="51.795" y1="33.825" x2="51.795" y2="35.095" width="1" layer="16"/>
+<wire x1="51.795" y1="25.095" x2="51.795" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-3">
 <contactref element="CF2.2" pad="5"/>
@@ -4412,12 +4643,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.525" y1="53.825" x2="50.525" y2="45.095" width="1" layer="16"/>
 <wire x1="50.525" y1="43.825" x2="50.525" y2="35.095" width="1" layer="16"/>
 <wire x1="50.525" y1="33.825" x2="50.525" y2="25.095" width="1" layer="16"/>
-<wire x1="50.525" y1="23.825" x2="50.525" y2="25.095" width="1" layer="16"/>
 <wire x1="50.525" y1="73.825" x2="50.525" y2="75.095" width="1" layer="16"/>
 <wire x1="50.525" y1="63.825" x2="50.525" y2="65.095" width="1" layer="16"/>
 <wire x1="50.525" y1="53.825" x2="50.525" y2="55.095" width="1" layer="16"/>
 <wire x1="50.525" y1="43.825" x2="50.525" y2="45.095" width="1" layer="16"/>
 <wire x1="50.525" y1="33.825" x2="50.525" y2="35.095" width="1" layer="16"/>
+<wire x1="50.525" y1="25.095" x2="50.525" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-4">
 <contactref element="CF2.2" pad="7"/>
@@ -4486,11 +4717,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.255" y1="53.825" x2="49.255" y2="45.095" width="1" layer="16"/>
 <wire x1="49.255" y1="43.825" x2="49.255" y2="35.095" width="1" layer="16"/>
 <wire x1="49.255" y1="33.825" x2="49.255" y2="25.095" width="1" layer="16"/>
-<wire x1="49.255" y1="23.825" x2="49.255" y2="25.095" width="1" layer="16"/>
 <wire x1="49.255" y1="63.825" x2="49.255" y2="65.095" width="1" layer="16"/>
 <wire x1="49.255" y1="53.825" x2="49.255" y2="55.095" width="1" layer="16"/>
 <wire x1="49.255" y1="43.825" x2="49.255" y2="45.095" width="1" layer="16"/>
 <wire x1="49.255" y1="33.825" x2="49.255" y2="35.095" width="1" layer="16"/>
+<wire x1="49.255" y1="25.095" x2="49.255" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-5">
 <contactref element="CF2.2" pad="9"/>
@@ -4558,12 +4789,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="47.985" y1="53.825" x2="47.985" y2="45.095" width="1" layer="16"/>
 <wire x1="47.985" y1="43.825" x2="47.985" y2="35.095" width="1" layer="16"/>
 <wire x1="47.985" y1="33.825" x2="47.985" y2="25.095" width="1" layer="16"/>
-<wire x1="47.985" y1="23.825" x2="47.985" y2="25.095" width="1" layer="16"/>
 <wire x1="47.985" y1="73.825" x2="47.985" y2="75.095" width="1" layer="16"/>
 <wire x1="47.985" y1="63.825" x2="47.985" y2="65.095" width="1" layer="16"/>
 <wire x1="47.985" y1="53.825" x2="47.985" y2="55.095" width="1" layer="16"/>
 <wire x1="47.985" y1="43.825" x2="47.985" y2="45.095" width="1" layer="16"/>
 <wire x1="47.985" y1="33.825" x2="47.985" y2="35.095" width="1" layer="16"/>
+<wire x1="47.985" y1="25.095" x2="47.985" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-6">
 <contactref element="CF2.2" pad="11"/>
@@ -4631,12 +4862,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="46.715" y1="53.825" x2="46.715" y2="45.095" width="1" layer="16"/>
 <wire x1="46.715" y1="43.825" x2="46.715" y2="35.095" width="1" layer="16"/>
 <wire x1="46.715" y1="33.825" x2="46.715" y2="25.095" width="1" layer="16"/>
-<wire x1="46.715" y1="23.825" x2="46.715" y2="25.095" width="1" layer="16"/>
 <wire x1="46.715" y1="73.825" x2="46.715" y2="75.095" width="1" layer="16"/>
 <wire x1="46.715" y1="63.825" x2="46.715" y2="65.095" width="1" layer="16"/>
 <wire x1="46.715" y1="53.825" x2="46.715" y2="55.095" width="1" layer="16"/>
 <wire x1="46.715" y1="43.825" x2="46.715" y2="45.095" width="1" layer="16"/>
 <wire x1="46.715" y1="33.825" x2="46.715" y2="35.095" width="1" layer="16"/>
+<wire x1="46.715" y1="25.095" x2="46.715" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-7">
 <contactref element="CF2.2" pad="13"/>
@@ -4705,11 +4936,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="45.445" y1="53.825" x2="45.445" y2="45.095" width="1" layer="16"/>
 <wire x1="45.445" y1="43.825" x2="45.445" y2="35.095" width="1" layer="16"/>
 <wire x1="45.445" y1="33.825" x2="45.445" y2="25.095" width="1" layer="16"/>
-<wire x1="45.445" y1="23.825" x2="45.445" y2="25.095" width="1" layer="16"/>
 <wire x1="45.445" y1="63.825" x2="45.445" y2="65.095" width="1" layer="16"/>
 <wire x1="45.445" y1="53.825" x2="45.445" y2="55.095" width="1" layer="16"/>
 <wire x1="45.445" y1="43.825" x2="45.445" y2="45.095" width="1" layer="16"/>
 <wire x1="45.445" y1="33.825" x2="45.445" y2="35.095" width="1" layer="16"/>
+<wire x1="45.445" y1="25.095" x2="45.445" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-8">
 <contactref element="CF2.2" pad="15"/>
@@ -4777,12 +5008,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="44.175" y1="53.825" x2="44.175" y2="45.095" width="1" layer="16"/>
 <wire x1="44.175" y1="43.825" x2="44.175" y2="35.095" width="1" layer="16"/>
 <wire x1="44.175" y1="33.825" x2="44.175" y2="25.095" width="1" layer="16"/>
-<wire x1="44.175" y1="23.825" x2="44.175" y2="25.095" width="1" layer="16"/>
 <wire x1="44.175" y1="73.825" x2="44.175" y2="75.095" width="1" layer="16"/>
 <wire x1="44.175" y1="63.825" x2="44.175" y2="65.095" width="1" layer="16"/>
 <wire x1="44.175" y1="53.825" x2="44.175" y2="55.095" width="1" layer="16"/>
 <wire x1="44.175" y1="43.825" x2="44.175" y2="45.095" width="1" layer="16"/>
 <wire x1="44.175" y1="33.825" x2="44.175" y2="35.095" width="1" layer="16"/>
+<wire x1="44.175" y1="25.095" x2="44.175" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-9">
 <contactref element="CF2.2" pad="17"/>
@@ -4850,12 +5081,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="42.905" y1="53.825" x2="42.905" y2="45.095" width="1" layer="16"/>
 <wire x1="42.905" y1="43.825" x2="42.905" y2="35.095" width="1" layer="16"/>
 <wire x1="42.905" y1="33.825" x2="42.905" y2="25.095" width="1" layer="16"/>
-<wire x1="42.905" y1="23.825" x2="42.905" y2="25.095" width="1" layer="16"/>
 <wire x1="42.905" y1="73.825" x2="42.905" y2="75.095" width="1" layer="16"/>
 <wire x1="42.905" y1="63.825" x2="42.905" y2="65.095" width="1" layer="16"/>
 <wire x1="42.905" y1="45.095" x2="42.905" y2="43.825" width="1" layer="16"/>
 <wire x1="42.905" y1="33.825" x2="42.905" y2="35.095" width="1" layer="16"/>
 <wire x1="42.905" y1="53.825" x2="42.905" y2="55.095" width="1" layer="16"/>
+<wire x1="42.905" y1="25.095" x2="42.905" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-10">
 <contactref element="CF2.2" pad="19"/>
@@ -4923,12 +5154,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="41.635" y1="53.825" x2="41.635" y2="45.095" width="1" layer="16"/>
 <wire x1="41.635" y1="43.825" x2="41.635" y2="35.095" width="1" layer="16"/>
 <wire x1="41.635" y1="33.825" x2="41.635" y2="25.095" width="1" layer="16"/>
-<wire x1="41.635" y1="23.825" x2="41.635" y2="25.095" width="1" layer="16"/>
 <wire x1="41.635" y1="73.825" x2="41.635" y2="75.095" width="1" layer="16"/>
 <wire x1="41.635" y1="63.825" x2="41.635" y2="65.095" width="1" layer="16"/>
 <wire x1="41.635" y1="53.825" x2="41.635" y2="55.095" width="1" layer="16"/>
 <wire x1="41.635" y1="43.825" x2="41.635" y2="45.095" width="1" layer="16"/>
 <wire x1="41.635" y1="33.825" x2="41.635" y2="35.095" width="1" layer="16"/>
+<wire x1="41.635" y1="25.095" x2="41.635" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-11">
 <contactref element="CF2.2" pad="21"/>
@@ -4996,12 +5227,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="40.365" y1="53.825" x2="40.365" y2="45.095" width="1" layer="16"/>
 <wire x1="40.365" y1="43.825" x2="40.365" y2="35.095" width="1" layer="16"/>
 <wire x1="40.365" y1="33.825" x2="40.365" y2="25.095" width="1" layer="16"/>
-<wire x1="40.365" y1="23.825" x2="40.365" y2="25.095" width="1" layer="16"/>
 <wire x1="40.365" y1="73.825" x2="40.365" y2="75.095" width="1" layer="16"/>
 <wire x1="40.365" y1="63.825" x2="40.365" y2="65.095" width="1" layer="16"/>
 <wire x1="40.365" y1="53.825" x2="40.365" y2="55.095" width="1" layer="16"/>
 <wire x1="40.365" y1="43.825" x2="40.365" y2="45.095" width="1" layer="16"/>
 <wire x1="40.365" y1="33.825" x2="40.365" y2="35.095" width="1" layer="16"/>
+<wire x1="40.365" y1="25.095" x2="40.365" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-12">
 <contactref element="CF2.2" pad="23"/>
@@ -5070,11 +5301,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="39.095" y1="53.825" x2="39.095" y2="45.095" width="1" layer="16"/>
 <wire x1="39.095" y1="43.825" x2="39.095" y2="35.095" width="1" layer="16"/>
 <wire x1="39.095" y1="33.825" x2="39.095" y2="25.095" width="1" layer="16"/>
-<wire x1="39.095" y1="23.825" x2="39.095" y2="25.095" width="1" layer="16"/>
 <wire x1="39.095" y1="63.825" x2="39.095" y2="65.095" width="1" layer="16"/>
 <wire x1="39.095" y1="53.825" x2="39.095" y2="55.095" width="1" layer="16"/>
 <wire x1="39.095" y1="43.825" x2="39.095" y2="45.095" width="1" layer="16"/>
 <wire x1="39.095" y1="33.825" x2="39.095" y2="35.095" width="1" layer="16"/>
+<wire x1="39.095" y1="25.095" x2="39.095" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-13">
 <contactref element="CF2.2" pad="25"/>
@@ -5143,11 +5374,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="37.825" y1="53.825" x2="37.825" y2="45.095" width="1" layer="16"/>
 <wire x1="37.825" y1="43.825" x2="37.825" y2="35.095" width="1" layer="16"/>
 <wire x1="37.825" y1="33.825" x2="37.825" y2="25.095" width="1" layer="16"/>
-<wire x1="37.825" y1="23.825" x2="37.825" y2="25.095" width="1" layer="16"/>
 <wire x1="37.825" y1="63.825" x2="37.825" y2="65.095" width="1" layer="16"/>
 <wire x1="37.825" y1="53.825" x2="37.825" y2="55.095" width="1" layer="16"/>
 <wire x1="37.825" y1="43.825" x2="37.825" y2="45.095" width="1" layer="16"/>
 <wire x1="37.825" y1="33.825" x2="37.825" y2="35.095" width="1" layer="16"/>
+<wire x1="37.825" y1="25.095" x2="37.825" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-14">
 <contactref element="CF2.2" pad="27"/>
@@ -5216,11 +5447,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="36.555" y1="53.825" x2="36.555" y2="45.095" width="1" layer="16"/>
 <wire x1="36.555" y1="43.825" x2="36.555" y2="35.095" width="1" layer="16"/>
 <wire x1="36.555" y1="33.825" x2="36.555" y2="25.095" width="1" layer="16"/>
-<wire x1="36.555" y1="23.825" x2="36.555" y2="25.095" width="1" layer="16"/>
 <wire x1="36.555" y1="63.825" x2="36.555" y2="65.095" width="1" layer="16"/>
 <wire x1="36.555" y1="53.825" x2="36.555" y2="55.095" width="1" layer="16"/>
 <wire x1="36.555" y1="43.825" x2="36.555" y2="45.095" width="1" layer="16"/>
 <wire x1="36.555" y1="33.825" x2="36.555" y2="35.095" width="1" layer="16"/>
+<wire x1="36.555" y1="25.095" x2="36.555" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-15">
 <contactref element="CF2.2" pad="29"/>
@@ -5289,11 +5520,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="35.285" y1="53.825" x2="35.285" y2="45.095" width="1" layer="16"/>
 <wire x1="35.285" y1="43.825" x2="35.285" y2="35.095" width="1" layer="16"/>
 <wire x1="35.285" y1="33.825" x2="35.285" y2="25.095" width="1" layer="16"/>
-<wire x1="35.285" y1="23.825" x2="35.285" y2="25.095" width="1" layer="16"/>
 <wire x1="35.285" y1="63.825" x2="35.285" y2="65.095" width="1" layer="16"/>
 <wire x1="35.285" y1="53.825" x2="35.285" y2="55.095" width="1" layer="16"/>
 <wire x1="35.285" y1="43.825" x2="35.285" y2="45.095" width="1" layer="16"/>
 <wire x1="35.285" y1="33.825" x2="35.285" y2="35.095" width="1" layer="16"/>
+<wire x1="35.285" y1="25.095" x2="35.285" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-16">
 <contactref element="CF2.2" pad="31"/>
@@ -5361,12 +5592,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="34.015" y1="53.825" x2="34.015" y2="45.095" width="1" layer="16"/>
 <wire x1="34.015" y1="43.825" x2="34.015" y2="35.095" width="1" layer="16"/>
 <wire x1="34.015" y1="33.825" x2="34.015" y2="25.095" width="1" layer="16"/>
-<wire x1="34.015" y1="23.825" x2="34.015" y2="25.095" width="1" layer="16"/>
 <wire x1="34.015" y1="73.825" x2="34.015" y2="75.095" width="1" layer="16"/>
 <wire x1="34.015" y1="63.825" x2="34.015" y2="65.095" width="1" layer="16"/>
 <wire x1="34.015" y1="53.825" x2="34.015" y2="55.095" width="1" layer="16"/>
 <wire x1="34.015" y1="43.825" x2="34.015" y2="45.095" width="1" layer="16"/>
 <wire x1="34.015" y1="33.825" x2="34.015" y2="35.095" width="1" layer="16"/>
+<wire x1="34.015" y1="25.095" x2="34.015" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-17">
 <contactref element="CF2.2" pad="33"/>
@@ -5434,12 +5665,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.745" y1="53.825" x2="32.745" y2="45.095" width="1" layer="16"/>
 <wire x1="32.745" y1="43.825" x2="32.745" y2="35.095" width="1" layer="16"/>
 <wire x1="32.745" y1="33.825" x2="32.745" y2="25.095" width="1" layer="16"/>
-<wire x1="32.745" y1="23.825" x2="32.745" y2="25.095" width="1" layer="16"/>
 <wire x1="32.745" y1="73.825" x2="32.745" y2="75.095" width="1" layer="16"/>
 <wire x1="32.745" y1="63.825" x2="32.745" y2="65.095" width="1" layer="16"/>
 <wire x1="32.745" y1="53.825" x2="32.745" y2="55.095" width="1" layer="16"/>
 <wire x1="32.745" y1="43.825" x2="32.745" y2="45.095" width="1" layer="16"/>
 <wire x1="32.745" y1="33.825" x2="32.745" y2="35.095" width="1" layer="16"/>
+<wire x1="32.745" y1="25.095" x2="32.745" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-18">
 <contactref element="CF2.2" pad="35"/>
@@ -5507,12 +5738,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.475" y1="53.825" x2="31.475" y2="45.095" width="1" layer="16"/>
 <wire x1="31.475" y1="43.825" x2="31.475" y2="35.095" width="1" layer="16"/>
 <wire x1="31.475" y1="33.825" x2="31.475" y2="25.095" width="1" layer="16"/>
-<wire x1="31.475" y1="23.825" x2="31.475" y2="25.095" width="1" layer="16"/>
 <wire x1="31.475" y1="73.825" x2="31.475" y2="75.095" width="1" layer="16"/>
 <wire x1="31.475" y1="63.825" x2="31.475" y2="65.095" width="1" layer="16"/>
 <wire x1="31.475" y1="53.825" x2="31.475" y2="55.095" width="1" layer="16"/>
 <wire x1="31.475" y1="43.825" x2="31.475" y2="45.095" width="1" layer="16"/>
 <wire x1="31.475" y1="33.825" x2="31.475" y2="35.095" width="1" layer="16"/>
+<wire x1="31.475" y1="25.095" x2="31.475" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-19">
 <contactref element="CF2.2" pad="37"/>
@@ -5580,12 +5811,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30.205" y1="53.825" x2="30.205" y2="45.095" width="1" layer="16"/>
 <wire x1="30.205" y1="43.825" x2="30.205" y2="35.095" width="1" layer="16"/>
 <wire x1="30.205" y1="33.825" x2="30.205" y2="25.095" width="1" layer="16"/>
-<wire x1="30.205" y1="23.825" x2="30.205" y2="25.095" width="1" layer="16"/>
 <wire x1="30.205" y1="73.825" x2="30.205" y2="75.095" width="1" layer="16"/>
 <wire x1="30.205" y1="63.825" x2="30.205" y2="65.095" width="1" layer="16"/>
 <wire x1="30.205" y1="53.825" x2="30.205" y2="55.095" width="1" layer="16"/>
 <wire x1="30.205" y1="43.825" x2="30.205" y2="45.095" width="1" layer="16"/>
 <wire x1="30.205" y1="33.825" x2="30.205" y2="35.095" width="1" layer="16"/>
+<wire x1="30.205" y1="25.095" x2="30.205" y2="23.825" width="1" layer="16"/>
 </signal>
 <signal name="MAIN-20">
 <contactref element="CF2.2" pad="39"/>
@@ -5655,10 +5886,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="28.935" y1="33.825" x2="28.935" y2="25.095" width="1" layer="16"/>
 <wire x1="28.935" y1="73.825" x2="28.935" y2="75.095" width="1" layer="16"/>
 <wire x1="28.935" y1="65.095" x2="28.935" y2="63.825" width="1" layer="16"/>
-<wire x1="28.935" y1="23.825" x2="28.935" y2="25.095" width="1" layer="16"/>
 <wire x1="28.935" y1="53.825" x2="28.935" y2="55.095" width="1" layer="16"/>
 <wire x1="28.935" y1="43.825" x2="28.935" y2="45.095" width="1" layer="16"/>
 <wire x1="28.935" y1="33.825" x2="28.935" y2="35.095" width="1" layer="16"/>
+<wire x1="28.935" y1="25.095" x2="28.935" y2="23.825" width="1" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -5668,6 +5899,128 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="5,1,7eac2512e680d7d3"/>
+<approved hash="5,1,1ac1d4f7a6d4000f"/>
+<approved hash="5,1,e6b5b5353aa6fbd3"/>
+<approved hash="5,1,6addf4c96aef640e"/>
+<approved hash="5,1,eea8554afed86fd1"/>
+<approved hash="5,1,9ac3a4abee8cf80f"/>
+<approved hash="5,1,5ef455de963cf7fb"/>
+<approved hash="5,1,1811e62397880157"/>
+<approved hash="5,1,c6edc5f94a1adbfb"/>
+<approved hash="5,1,680dc61d5bb36556"/>
+<approved hash="5,1,cef025868e644ff9"/>
+<approved hash="5,1,9813967fdfd0f957"/>
+<approved hash="5,1,7c3c865a45d8d553"/>
+<approved hash="5,1,1fc136cf477c069f"/>
+<approved hash="5,1,e425167d99fef953"/>
+<approved hash="5,1,6fdd16f18b47629e"/>
+<approved hash="5,1,803070b43938e157"/>
+<approved hash="5,1,1180f43e846c093f"/>
+<approved hash="5,1,636a4d2d56d7ea65"/>
+<approved hash="5,1,f8f56885e776e5f3"/>
+<approved hash="5,1,19535d792c3000f7"/>
+<approved hash="5,1,1982c83cb86c013f"/>
+<approved hash="5,1,619cd40048576d3e"/>
+<approved hash="5,1,186da89e6ce2b6fc"/>
+<approved hash="5,1,e572b430b8f27945"/>
+<approved hash="5,1,ff73e9a1e6c260e5"/>
+<approved hash="5,1,6873b8a0a0dbe2fd"/>
+<approved hash="5,1,fda27ce4709e612d"/>
+<approved hash="5,1,99512d256468f8f7"/>
+<approved hash="5,1,9980b860f034f93f"/>
+<approved hash="5,1,18300cea7d600157"/>
+<approved hash="5,1,986ff8c224ba6efc"/>
+<approved hash="5,1,694b899c9267e045"/>
+<approved hash="5,1,8ccf3ef32e48b49f"/>
+<approved hash="5,1,1cca1eab36115c9d"/>
+<approved hash="5,1,98327cb63538f957"/>
+<approved hash="5,1,1394bc4b7b76be44"/>
+<approved hash="5,1,91f2db8e9260f0f7"/>
+<approved hash="5,1,61f27d71660be87d"/>
+<approved hash="5,1,f6363f96b006eb53"/>
+<approved hash="5,1,99ecc911166a6c7c"/>
+<approved hash="5,1,ec38f6025d806d51"/>
+<approved hash="5,1,19805e562fb4008f"/>
+<approved hash="5,1,f1f3a0250b047039"/>
+<approved hash="5,1,1b7649118eeeb664"/>
+<approved hash="5,1,682c2cd4b15b6556"/>
+<approved hash="5,1,fdc4cacc468ee373"/>
+<approved hash="5,1,f629cbeb60787751"/>
+<approved hash="5,1,f1f19c2737047039"/>
+<approved hash="5,1,f6aa5948f2d877d1"/>
+<approved hash="5,1,9396ec17332e6644"/>
+<approved hash="5,1,6da02beb37f3e34d"/>
+<approved hash="5,1,60eeeca02f50c9f3"/>
+<approved hash="5,1,9957c9fe16066c44"/>
+<approved hash="5,1,f31e666a7710ca8f"/>
+<approved hash="5,1,64358ab74904cd6b"/>
+<approved hash="5,1,f4c01f0a13da68e5"/>
+<approved hash="5,1,69f08973920be07d"/>
+<approved hash="5,1,9fc346930f24fe9f"/>
+<approved hash="5,1,61f5ec7f2f5cc83b"/>
+<approved hash="5,1,1b96a8496f76b644"/>
+<approved hash="5,1,91828462cc34f13f"/>
+<approved hash="5,1,66ae2910ea80cfd3"/>
+<approved hash="5,1,11ec6d4faa32bc7c"/>
+<approved hash="5,1,9b74194dc6b66e64"/>
+<approved hash="5,1,61f7d07d135cc83b"/>
+<approved hash="5,1,66f659dc9a3ccffb"/>
+<approved hash="5,1,6638217d09ed2645"/>
+<approved hash="5,1,f9ec7c58f37ae43b"/>
+<approved hash="5,1,699c7e68e38f648e"/>
+<approved hash="5,1,feb7b93736a6e3d3"/>
+<approved hash="5,1,f4cd32f12248cc9f"/>
+<approved hash="5,1,6b88b877a34fe245"/>
+<approved hash="5,1,f9ee405acf7ae43b"/>
+<approved hash="5,1,003200e871601957"/>
+<approved hash="5,1,13009866e9c40a4f"/>
+<approved hash="5,1,f4dfd377c3a4cce7"/>
+<approved hash="5,1,6715282feb8cce5b"/>
+<approved hash="5,1,e06df4c028ba16fc"/>
+<approved hash="5,1,ff136c75c7d47e59"/>
+<approved hash="5,1,ff6c25dc36bcc4e7"/>
+<approved hash="5,1,6da21fe90bf3eb4d"/>
+<approved hash="5,1,fe4df4c1e438c65f"/>
+<approved hash="5,1,1071b4a2acdb9afd"/>
+<approved hash="5,1,f0e888fa230871f1"/>
+<approved hash="5,1,19f2bfd0ce3800f7"/>
+<approved hash="5,1,7e3a2d7f05ed3e45"/>
+<approved hash="5,1,e622d558d9ca7a45"/>
+<approved hash="5,1,ee3f0d271db4d647"/>
+<approved hash="5,1,84d2e68cea36189d"/>
+<approved hash="5,1,91ee3d13e26a647c"/>
+<approved hash="5,1,93760d4fd2b66664"/>
+<approved hash="5,1,11f0abd2da3808f7"/>
+<approved hash="5,1,13745d139aeebe64"/>
+<approved hash="5,1,631cb85825ff6e4e"/>
+<approved hash="5,1,fcc20b0807da60e5"/>
+<approved hash="5,1,1dbc0fd7c7cabf4c"/>
+<approved hash="5,1,614d6945f40b6cf6"/>
+<approved hash="5,1,9c37af06713e68e4"/>
+<approved hash="5,1,1151497b383008f7"/>
+<approved hash="5,1,f64e00c21038ce5f"/>
+<approved hash="5,1,6c2bef64f55fe4e5"/>
+<approved hash="5,1,fe53d8bdd446625d"/>
+<approved hash="5,1,664b209a0861265d"/>
+<approved hash="5,1,fb03be15b36e668d"/>
+<approved hash="5,1,195599a25e5eb444"/>
+<approved hash="5,1,631b46326f49228d"/>
+<approved hash="5,1,9bdf1a7ac5a26eec"/>
+<approved hash="5,1,f2be96868994c547"/>
+<approved hash="5,1,6bc35a1841c3e2ed"/>
+<approved hash="5,1,faa34ef94dea6945"/>
+<approved hash="5,1,62bbb6de91cd2d45"/>
+<approved hash="5,1,fc0ec452d4a8c41f"/>
+<approved hash="5,1,f4131c2d10d6681d"/>
+<approved hash="5,1,6c0be40accf12c1d"/>
+<approved hash="5,1,f63d012511b4ce47"/>
+<approved hash="5,1,fe20d95ad5ca6245"/>
+<approved hash="5,1,9dbc6b89b3926f4c"/>
+<approved hash="5,1,1c37eb582d66b0e4"/>
+<approved hash="5,1,606fa49c60e2cefc"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
