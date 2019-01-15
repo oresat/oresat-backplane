@@ -79,60 +79,6 @@
 <layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="100" name="Hidden_Layer" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -141,21 +87,6 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -765,11 +696,8 @@ MANUFACTURER: SAMTEC.</description>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="FRAME3" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="GND2" library="supply" deviceset="GND" device=""/>
-<part name="GND10" library="supply" deviceset="GND" device=""/>
 <part name="CF19.2" library="J-Samtec-SFM-120-X1-XXX-D" deviceset="SFM-120-X1-XXX-D" device=""/>
 <part name="CF19.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" deviceset="SFM-110-X1-XXX-D-LC" device=""/>
-<part name="CF20.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" deviceset="SFM-110-X1-XXX-D-LC" device=""/>
-<part name="GND12" library="supply" deviceset="GND" device=""/>
 <part name="GND13" library="supply" deviceset="GND" device=""/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
 <part name="CF18.2" library="J-Samtec-SFM-120-X1-XXX-D" deviceset="SFM-120-X1-XXX-D" device=""/>
@@ -856,12 +784,9 @@ MANUFACTURER: SAMTEC.</description>
 <part name="CF2.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" deviceset="SFM-110-X1-XXX-D-LC" device=""/>
 <part name="GND113" library="supply" deviceset="GND" device=""/>
 <part name="FRAME20" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="GND115" library="supply" deviceset="GND" device=""/>
 <part name="GND116" library="supply" deviceset="GND" device=""/>
 <part name="GND117" library="supply" deviceset="GND" device=""/>
 <part name="GND118" library="supply" deviceset="GND" device=""/>
-<part name="CF1.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" deviceset="SFM-110-X1-XXX-D-LC" device=""/>
-<part name="GND119" library="supply" deviceset="GND" device=""/>
 <part name="CM1.3" library="J-Molex-SMPM-73300-011x" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
 <part name="CM1.2" library="J-Molex-SMPM-73300-011x" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
 <part name="CM1.1" library="J-Molex-SMPM-73300-011x" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
@@ -979,6 +904,10 @@ MANUFACTURER: SAMTEC.</description>
 <part name="CM20.1" library="J-Molex-SMPM-73300-011x" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
 <part name="CM20.2" library="J-Molex-SMPM-73300-011x" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
 <part name="CM20.3" library="J-Molex-SMPM-73300-011x" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
+<part name="GND1" library="supply" deviceset="GND" device=""/>
+<part name="CF2.3" library="J-Samtec-SFM-120-X1-XXX-D" deviceset="SFM-120-X1-XXX-D" device=""/>
+<part name="GND3" library="supply" deviceset="GND" device=""/>
+<part name="CF2.4" library="J-Samtec-SFM-120-X1-XXX-D" deviceset="SFM-120-X1-XXX-D" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -992,15 +921,9 @@ MANUFACTURER: SAMTEC.</description>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="GND115" gate="G1" x="27.94" y="12.7" smashed="yes"/>
 <instance part="GND116" gate="G1" x="127" y="30.48" smashed="yes"/>
 <instance part="GND117" gate="G1" x="127" y="17.78" smashed="yes"/>
 <instance part="GND118" gate="G1" x="127" y="5.08" smashed="yes"/>
-<instance part="CF1.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
-<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
-<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
-</instance>
-<instance part="GND119" gate="G1" x="27.94" y="137.16" smashed="yes"/>
 <instance part="CM1.3" gate="G$1" x="127" y="35.56" smashed="yes">
 <attribute name="NAME" x="135.89" y="31.75" size="1.778" layer="95" ratio="20"/>
 <attribute name="VALUE" x="135.89" y="29.21" size="1.778" layer="96" ratio="20"/>
@@ -1013,19 +936,16 @@ MANUFACTURER: SAMTEC.</description>
 <attribute name="NAME" x="135.89" y="6.35" size="1.778" layer="95" ratio="20"/>
 <attribute name="VALUE" x="135.89" y="3.81" size="1.778" layer="96" ratio="20"/>
 </instance>
+<instance part="GND1" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF2.3" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND115" gate="G1" pin="GND"/>
-<wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<junction x="27.94" y="15.24"/>
-</segment>
 <segment>
 <pinref part="GND116" gate="G1" pin="GND"/>
 <wire x1="127" y1="30.48" x2="129.54" y2="30.48" width="0.1524" layer="91"/>
@@ -1087,114 +1007,206 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CM1.1" gate="G$1" pin="SHIELD5"/>
 </segment>
 <segment>
-<pinref part="GND119" gate="G1" pin="GND"/>
-<pinref part="CF1.1" gate="G$1" pin="LC2"/>
-<wire x1="27.94" y1="137.16" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="139.7" x2="25.4" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="CF1.1" gate="G$1" pin="LC1"/>
-<wire x1="27.94" y1="139.7" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="142.24" x2="25.4" y2="142.24" width="0.1524" layer="91"/>
-<junction x="27.94" y="139.7"/>
+<pinref part="CF2.3" gate="G$1" pin="LC2"/>
+<pinref part="GND1" gate="G1" pin="GND"/>
+<wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="CF2.3" gate="G$1" pin="LC1"/>
+<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<junction x="27.94" y="15.24"/>
+</segment>
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="37"/>
+<pinref part="CF2.3" gate="G$1" pin="38"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="31"/>
+<pinref part="CF2.3" gate="G$1" pin="32"/>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="29"/>
+<pinref part="CF2.3" gate="G$1" pin="30"/>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-1" class="0">
+<net name="MAIN-1" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="1"/>
-<wire x1="25.4" y1="195.58" x2="35.56" y2="195.58" width="0.1524" layer="91"/>
-<label x="35.56" y="195.58" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF1.1" gate="G$1" pin="2"/>
-<wire x1="25.4" y1="195.58" x2="25.4" y2="193.04" width="0.1524" layer="91"/>
-<junction x="25.4" y="195.58"/>
+<pinref part="CF2.3" gate="G$1" pin="1"/>
+<pinref part="CF2.3" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+<junction x="25.4" y="121.92"/>
+<label x="30.48" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-2" class="0">
+<net name="MAIN-2" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="3"/>
-<wire x1="25.4" y1="190.5" x2="35.56" y2="190.5" width="0.1524" layer="91"/>
-<label x="35.56" y="190.5" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF1.1" gate="G$1" pin="4"/>
-<wire x1="25.4" y1="190.5" x2="25.4" y2="187.96" width="0.1524" layer="91"/>
-<junction x="25.4" y="190.5"/>
+<pinref part="CF2.3" gate="G$1" pin="3"/>
+<pinref part="CF2.3" gate="G$1" pin="4"/>
+<wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
+<junction x="25.4" y="116.84"/>
+<label x="30.48" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-3" class="0">
+<net name="MAIN-3" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="5"/>
-<wire x1="25.4" y1="185.42" x2="35.56" y2="185.42" width="0.1524" layer="91"/>
-<label x="35.56" y="185.42" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF1.1" gate="G$1" pin="6"/>
-<wire x1="25.4" y1="185.42" x2="25.4" y2="182.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="185.42"/>
+<pinref part="CF2.3" gate="G$1" pin="5"/>
+<pinref part="CF2.3" gate="G$1" pin="6"/>
+<wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<junction x="25.4" y="111.76"/>
+<label x="30.48" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-4" class="0">
+<net name="MAIN-4" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="7"/>
-<wire x1="25.4" y1="180.34" x2="35.56" y2="180.34" width="0.1524" layer="91"/>
-<label x="35.56" y="180.34" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF1.1" gate="G$1" pin="8"/>
-<wire x1="25.4" y1="180.34" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="180.34"/>
+<pinref part="CF2.3" gate="G$1" pin="7"/>
+<pinref part="CF2.3" gate="G$1" pin="8"/>
+<wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+<junction x="25.4" y="106.68"/>
+<label x="30.48" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-5" class="0">
+<net name="MAIN-5" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="9"/>
-<wire x1="25.4" y1="175.26" x2="35.56" y2="175.26" width="0.1524" layer="91"/>
-<label x="35.56" y="175.26" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF1.1" gate="G$1" pin="10"/>
-<wire x1="25.4" y1="175.26" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="175.26"/>
+<pinref part="CF2.3" gate="G$1" pin="9"/>
+<pinref part="CF2.3" gate="G$1" pin="10"/>
+<wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<junction x="25.4" y="101.6"/>
+<label x="30.48" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-6" class="0">
+<net name="MAIN-6" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="11"/>
-<pinref part="CF1.1" gate="G$1" pin="12"/>
-<wire x1="25.4" y1="170.18" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
-<junction x="25.4" y="170.18"/>
-<label x="35.56" y="170.18" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF2.3" gate="G$1" pin="11"/>
+<pinref part="CF2.3" gate="G$1" pin="12"/>
+<wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
+<junction x="25.4" y="96.52"/>
+<label x="30.48" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-7" class="0">
+<net name="MAIN-7" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="13"/>
-<pinref part="CF1.1" gate="G$1" pin="14"/>
-<wire x1="25.4" y1="165.1" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
-<junction x="25.4" y="165.1"/>
-<label x="35.56" y="165.1" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF2.3" gate="G$1" pin="13"/>
+<pinref part="CF2.3" gate="G$1" pin="14"/>
+<wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
+<junction x="25.4" y="91.44"/>
+<label x="30.48" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="15"/>
-<pinref part="CF1.1" gate="G$1" pin="16"/>
-<wire x1="25.4" y1="160.02" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
-<junction x="25.4" y="160.02"/>
-<label x="35.56" y="160.02" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF2.3" gate="G$1" pin="15"/>
+<pinref part="CF2.3" gate="G$1" pin="16"/>
+<wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
+<junction x="25.4" y="86.36"/>
+<label x="30.48" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="17"/>
-<pinref part="CF1.1" gate="G$1" pin="18"/>
-<wire x1="25.4" y1="154.94" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
-<junction x="25.4" y="154.94"/>
-<label x="35.56" y="154.94" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF2.3" gate="G$1" pin="17"/>
+<pinref part="CF2.3" gate="G$1" pin="18"/>
+<wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
+<junction x="25.4" y="81.28"/>
+<label x="30.48" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
-<pinref part="CF1.1" gate="G$1" pin="19"/>
-<pinref part="CF1.1" gate="G$1" pin="20"/>
-<wire x1="25.4" y1="149.86" x2="25.4" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
-<junction x="25.4" y="149.86"/>
-<label x="35.56" y="149.86" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF2.3" gate="G$1" pin="19"/>
+<pinref part="CF2.3" gate="G$1" pin="20"/>
+<wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="25.4" y="76.2"/>
+<label x="30.48" y="76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN2_H" class="0">
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="21"/>
+<pinref part="CF2.3" gate="G$1" pin="22"/>
+<wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<junction x="25.4" y="71.12"/>
+<label x="30.48" y="71.12" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN2_L" class="0">
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="23"/>
+<pinref part="CF2.3" gate="G$1" pin="24"/>
+<wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<junction x="25.4" y="66.04"/>
+<label x="30.48" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="27"/>
+<pinref part="CF2.3" gate="G$1" pin="28"/>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="25"/>
+<pinref part="CF2.3" gate="G$1" pin="26"/>
+<wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<junction x="25.4" y="60.96"/>
+<label x="30.48" y="60.96" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN1_H" class="0">
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="33"/>
+<pinref part="CF2.3" gate="G$1" pin="34"/>
+<wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<junction x="25.4" y="40.64"/>
+<label x="30.48" y="40.64" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN1_L" class="0">
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="35"/>
+<pinref part="CF2.3" gate="G$1" pin="36"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<junction x="25.4" y="35.56"/>
+<label x="30.48" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!SD" class="0">
+<segment>
+<pinref part="CF2.3" gate="G$1" pin="39"/>
+<pinref part="CF2.3" gate="G$1" pin="40"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<junction x="25.4" y="25.4"/>
+<label x="30.48" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -1319,6 +1331,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="104.14" y="5.08"/>
 <pinref part="CM2.1" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM2.1" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<pinref part="CF2.2" gate="G$1" pin="37"/>
+<pinref part="CF2.2" gate="G$1" pin="38"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CF2.2" gate="G$1" pin="31"/>
+<pinref part="CF2.2" gate="G$1" pin="32"/>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CF2.2" gate="G$1" pin="29"/>
+<pinref part="CF2.2" gate="G$1" pin="30"/>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -1491,7 +1527,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="15"/>
 <pinref part="CF2.2" gate="G$1" pin="16"/>
@@ -1501,7 +1537,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="17"/>
 <pinref part="CF2.2" gate="G$1" pin="18"/>
@@ -1511,7 +1547,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="19"/>
 <pinref part="CF2.2" gate="G$1" pin="20"/>
@@ -1521,7 +1557,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="76.2" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="21"/>
 <pinref part="CF2.2" gate="G$1" pin="22"/>
@@ -1531,7 +1567,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="71.12" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="23"/>
 <pinref part="CF2.2" gate="G$1" pin="24"/>
@@ -1541,7 +1577,15 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="66.04" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<pinref part="CF2.2" gate="G$1" pin="27"/>
+<pinref part="CF2.2" gate="G$1" pin="28"/>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="25"/>
 <pinref part="CF2.2" gate="G$1" pin="26"/>
@@ -1551,37 +1595,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="60.96" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<pinref part="CF2.2" gate="G$1" pin="27"/>
-<pinref part="CF2.2" gate="G$1" pin="28"/>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<pinref part="CF2.2" gate="G$1" pin="29"/>
-<pinref part="CF2.2" gate="G$1" pin="30"/>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<pinref part="CF2.2" gate="G$1" pin="31"/>
-<pinref part="CF2.2" gate="G$1" pin="32"/>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="33"/>
 <pinref part="CF2.2" gate="G$1" pin="34"/>
@@ -1591,7 +1605,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="40.64" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="35"/>
 <pinref part="CF2.2" gate="G$1" pin="36"/>
@@ -1601,17 +1615,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<pinref part="CF2.2" gate="G$1" pin="37"/>
-<pinref part="CF2.2" gate="G$1" pin="38"/>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="39"/>
 <pinref part="CF2.2" gate="G$1" pin="40"/>
@@ -1743,6 +1747,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="109.22" y="5.08"/>
 <pinref part="CM3.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM3.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF3.2" gate="G$1" pin="37"/>
+<pinref part="CF3.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF3.2" gate="G$1" pin="31"/>
+<pinref part="CF3.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF3.2" gate="G$1" pin="29"/>
+<pinref part="CF3.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -1915,7 +1943,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -1925,7 +1953,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -1935,7 +1963,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -1945,7 +1973,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -1955,7 +1983,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -1965,7 +1993,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF3.2" gate="G$1" pin="27"/>
+<pinref part="CF3.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -1975,37 +2011,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF3.2" gate="G$1" pin="27"/>
-<pinref part="CF3.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF3.2" gate="G$1" pin="29"/>
-<pinref part="CF3.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF3.2" gate="G$1" pin="31"/>
-<pinref part="CF3.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -2015,7 +2021,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -2025,17 +2031,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF3.2" gate="G$1" pin="37"/>
-<pinref part="CF3.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -2167,6 +2163,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="111.76" y="5.08"/>
 <pinref part="CM4.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM4.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF4.2" gate="G$1" pin="37"/>
+<pinref part="CF4.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF4.2" gate="G$1" pin="31"/>
+<pinref part="CF4.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF4.2" gate="G$1" pin="29"/>
+<pinref part="CF4.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -2339,7 +2359,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -2349,7 +2369,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -2359,7 +2379,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -2369,7 +2389,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -2379,7 +2399,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -2389,7 +2409,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF4.2" gate="G$1" pin="27"/>
+<pinref part="CF4.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -2399,37 +2427,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF4.2" gate="G$1" pin="27"/>
-<pinref part="CF4.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF4.2" gate="G$1" pin="29"/>
-<pinref part="CF4.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF4.2" gate="G$1" pin="31"/>
-<pinref part="CF4.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -2439,7 +2437,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -2449,17 +2447,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF4.2" gate="G$1" pin="37"/>
-<pinref part="CF4.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -2591,6 +2579,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="114.3" y="5.08"/>
 <pinref part="CM5.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM5.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF5.2" gate="G$1" pin="37"/>
+<pinref part="CF5.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF5.2" gate="G$1" pin="31"/>
+<pinref part="CF5.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF5.2" gate="G$1" pin="29"/>
+<pinref part="CF5.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -2763,7 +2775,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -2773,7 +2785,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -2783,7 +2795,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -2793,7 +2805,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -2803,7 +2815,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -2813,7 +2825,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF5.2" gate="G$1" pin="27"/>
+<pinref part="CF5.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -2823,37 +2843,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF5.2" gate="G$1" pin="27"/>
-<pinref part="CF5.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF5.2" gate="G$1" pin="29"/>
-<pinref part="CF5.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF5.2" gate="G$1" pin="31"/>
-<pinref part="CF5.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -2863,7 +2853,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -2873,17 +2863,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF5.2" gate="G$1" pin="37"/>
-<pinref part="CF5.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -3015,6 +2995,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="116.84" y="5.08"/>
 <pinref part="CM6.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM6.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF6.2" gate="G$1" pin="37"/>
+<pinref part="CF6.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF6.2" gate="G$1" pin="31"/>
+<pinref part="CF6.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF6.2" gate="G$1" pin="29"/>
+<pinref part="CF6.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -3187,7 +3191,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -3197,7 +3201,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -3207,7 +3211,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -3217,7 +3221,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -3227,7 +3231,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -3237,7 +3241,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF6.2" gate="G$1" pin="27"/>
+<pinref part="CF6.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -3247,37 +3259,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF6.2" gate="G$1" pin="27"/>
-<pinref part="CF6.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF6.2" gate="G$1" pin="29"/>
-<pinref part="CF6.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF6.2" gate="G$1" pin="31"/>
-<pinref part="CF6.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -3287,7 +3269,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -3297,17 +3279,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF6.2" gate="G$1" pin="37"/>
-<pinref part="CF6.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -3439,6 +3411,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="116.84" y="5.08"/>
 <pinref part="CM7.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM7.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF7.2" gate="G$1" pin="37"/>
+<pinref part="CF7.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF7.2" gate="G$1" pin="31"/>
+<pinref part="CF7.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF7.2" gate="G$1" pin="29"/>
+<pinref part="CF7.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -3611,7 +3607,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -3621,7 +3617,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -3631,7 +3627,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -3641,7 +3637,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -3651,7 +3647,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -3661,7 +3657,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF7.2" gate="G$1" pin="27"/>
+<pinref part="CF7.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -3671,37 +3675,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF7.2" gate="G$1" pin="27"/>
-<pinref part="CF7.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF7.2" gate="G$1" pin="29"/>
-<pinref part="CF7.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF7.2" gate="G$1" pin="31"/>
-<pinref part="CF7.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -3711,7 +3685,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -3721,17 +3695,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF7.2" gate="G$1" pin="37"/>
-<pinref part="CF7.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -3863,6 +3827,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="116.84" y="5.08"/>
 <pinref part="CM8.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM8.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF8.2" gate="G$1" pin="37"/>
+<pinref part="CF8.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF8.2" gate="G$1" pin="31"/>
+<pinref part="CF8.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF8.2" gate="G$1" pin="29"/>
+<pinref part="CF8.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -4035,7 +4023,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -4045,7 +4033,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -4055,7 +4043,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -4065,7 +4053,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -4075,7 +4063,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -4085,7 +4073,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF8.2" gate="G$1" pin="27"/>
+<pinref part="CF8.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -4095,37 +4091,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF8.2" gate="G$1" pin="27"/>
-<pinref part="CF8.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF8.2" gate="G$1" pin="29"/>
-<pinref part="CF8.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF8.2" gate="G$1" pin="31"/>
-<pinref part="CF8.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -4135,7 +4101,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -4145,17 +4111,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF8.2" gate="G$1" pin="37"/>
-<pinref part="CF8.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -4287,6 +4243,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="116.84" y="5.08"/>
 <pinref part="CM9.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM9.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF9.2" gate="G$1" pin="37"/>
+<pinref part="CF9.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF9.2" gate="G$1" pin="31"/>
+<pinref part="CF9.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF9.2" gate="G$1" pin="29"/>
+<pinref part="CF9.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -4459,7 +4439,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -4469,7 +4449,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -4479,7 +4459,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -4489,7 +4469,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -4499,7 +4479,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -4509,7 +4489,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF9.2" gate="G$1" pin="27"/>
+<pinref part="CF9.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -4519,37 +4507,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF9.2" gate="G$1" pin="27"/>
-<pinref part="CF9.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF9.2" gate="G$1" pin="29"/>
-<pinref part="CF9.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF9.2" gate="G$1" pin="31"/>
-<pinref part="CF9.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -4559,7 +4517,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -4569,17 +4527,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF9.2" gate="G$1" pin="37"/>
-<pinref part="CF9.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -4711,6 +4659,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="116.84" y="5.08"/>
 <pinref part="CM10.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM10.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF10.2" gate="G$1" pin="37"/>
+<pinref part="CF10.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF10.2" gate="G$1" pin="31"/>
+<pinref part="CF10.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF10.2" gate="G$1" pin="29"/>
+<pinref part="CF10.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -4883,7 +4855,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -4893,7 +4865,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -4903,7 +4875,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -4913,7 +4885,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -4923,7 +4895,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -4933,7 +4905,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF10.2" gate="G$1" pin="27"/>
+<pinref part="CF10.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -4943,37 +4923,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF10.2" gate="G$1" pin="27"/>
-<pinref part="CF10.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF10.2" gate="G$1" pin="29"/>
-<pinref part="CF10.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF10.2" gate="G$1" pin="31"/>
-<pinref part="CF10.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -4983,7 +4933,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -4993,17 +4943,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF10.2" gate="G$1" pin="37"/>
-<pinref part="CF10.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -5135,6 +5075,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="134.62" y="5.08"/>
 <pinref part="CM11.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM11.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF11.2" gate="G$1" pin="37"/>
+<pinref part="CF11.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF11.2" gate="G$1" pin="31"/>
+<pinref part="CF11.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF11.2" gate="G$1" pin="29"/>
+<pinref part="CF11.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -5307,7 +5271,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -5317,7 +5281,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -5327,7 +5291,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -5337,7 +5301,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -5347,7 +5311,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -5357,7 +5321,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF11.2" gate="G$1" pin="27"/>
+<pinref part="CF11.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -5367,37 +5339,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF11.2" gate="G$1" pin="27"/>
-<pinref part="CF11.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF11.2" gate="G$1" pin="29"/>
-<pinref part="CF11.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF11.2" gate="G$1" pin="31"/>
-<pinref part="CF11.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -5407,7 +5349,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -5417,17 +5359,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF11.2" gate="G$1" pin="37"/>
-<pinref part="CF11.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -5559,6 +5491,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="134.62" y="5.08"/>
 <pinref part="CM12.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM12.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF12.2" gate="G$1" pin="37"/>
+<pinref part="CF12.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF12.2" gate="G$1" pin="31"/>
+<pinref part="CF12.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF12.2" gate="G$1" pin="29"/>
+<pinref part="CF12.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -5731,7 +5687,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -5741,7 +5697,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -5751,7 +5707,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -5761,7 +5717,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -5771,7 +5727,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -5781,7 +5737,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF12.2" gate="G$1" pin="27"/>
+<pinref part="CF12.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -5791,37 +5755,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF12.2" gate="G$1" pin="27"/>
-<pinref part="CF12.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF12.2" gate="G$1" pin="29"/>
-<pinref part="CF12.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF12.2" gate="G$1" pin="31"/>
-<pinref part="CF12.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -5831,7 +5765,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -5841,17 +5775,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF12.2" gate="G$1" pin="37"/>
-<pinref part="CF12.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -5983,6 +5907,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="134.62" y="5.08"/>
 <pinref part="CM13.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM13.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF13.2" gate="G$1" pin="37"/>
+<pinref part="CF13.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF13.2" gate="G$1" pin="31"/>
+<pinref part="CF13.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF13.2" gate="G$1" pin="29"/>
+<pinref part="CF13.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -6155,7 +6103,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -6165,7 +6113,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -6175,7 +6123,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -6185,7 +6133,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -6195,7 +6143,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -6205,7 +6153,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF13.2" gate="G$1" pin="27"/>
+<pinref part="CF13.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -6215,37 +6171,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF13.2" gate="G$1" pin="27"/>
-<pinref part="CF13.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF13.2" gate="G$1" pin="29"/>
-<pinref part="CF13.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF13.2" gate="G$1" pin="31"/>
-<pinref part="CF13.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -6255,7 +6181,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -6265,17 +6191,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF13.2" gate="G$1" pin="37"/>
-<pinref part="CF13.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -6407,6 +6323,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="134.62" y="5.08"/>
 <pinref part="CM14.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM14.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF14.2" gate="G$1" pin="37"/>
+<pinref part="CF14.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF14.2" gate="G$1" pin="31"/>
+<pinref part="CF14.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF14.2" gate="G$1" pin="29"/>
+<pinref part="CF14.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -6579,7 +6519,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -6589,7 +6529,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -6599,7 +6539,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -6609,7 +6549,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -6619,7 +6559,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -6629,7 +6569,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF14.2" gate="G$1" pin="27"/>
+<pinref part="CF14.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -6639,37 +6587,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF14.2" gate="G$1" pin="27"/>
-<pinref part="CF14.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF14.2" gate="G$1" pin="29"/>
-<pinref part="CF14.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF14.2" gate="G$1" pin="31"/>
-<pinref part="CF14.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -6679,7 +6597,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -6689,17 +6607,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF14.2" gate="G$1" pin="37"/>
-<pinref part="CF14.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -6831,6 +6739,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="134.62" y="5.08"/>
 <pinref part="CM15.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM15.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF15.2" gate="G$1" pin="37"/>
+<pinref part="CF15.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF15.2" gate="G$1" pin="31"/>
+<pinref part="CF15.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF15.2" gate="G$1" pin="29"/>
+<pinref part="CF15.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -7003,7 +6935,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -7013,7 +6945,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -7023,7 +6955,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -7033,7 +6965,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -7043,7 +6975,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -7053,7 +6985,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF15.2" gate="G$1" pin="27"/>
+<pinref part="CF15.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -7063,37 +7003,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF15.2" gate="G$1" pin="27"/>
-<pinref part="CF15.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF15.2" gate="G$1" pin="29"/>
-<pinref part="CF15.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF15.2" gate="G$1" pin="31"/>
-<pinref part="CF15.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -7103,7 +7013,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -7113,17 +7023,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF15.2" gate="G$1" pin="37"/>
-<pinref part="CF15.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -7255,6 +7155,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="132.08" y="5.08"/>
 <pinref part="CM16.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM16.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF16.2" gate="G$1" pin="37"/>
+<pinref part="CF16.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF16.2" gate="G$1" pin="31"/>
+<pinref part="CF16.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF16.2" gate="G$1" pin="29"/>
+<pinref part="CF16.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -7427,7 +7351,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -7437,7 +7361,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -7447,7 +7371,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -7457,7 +7381,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -7467,7 +7391,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -7477,7 +7401,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF16.2" gate="G$1" pin="27"/>
+<pinref part="CF16.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -7487,37 +7419,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF16.2" gate="G$1" pin="27"/>
-<pinref part="CF16.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF16.2" gate="G$1" pin="29"/>
-<pinref part="CF16.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF16.2" gate="G$1" pin="31"/>
-<pinref part="CF16.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -7527,7 +7429,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -7537,17 +7439,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF16.2" gate="G$1" pin="37"/>
-<pinref part="CF16.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -7679,6 +7571,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="134.62" y="5.08"/>
 <pinref part="CM17.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM17.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF17.2" gate="G$1" pin="37"/>
+<pinref part="CF17.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF17.2" gate="G$1" pin="31"/>
+<pinref part="CF17.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF17.2" gate="G$1" pin="29"/>
+<pinref part="CF17.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -7851,7 +7767,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -7861,7 +7777,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -7871,7 +7787,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -7881,7 +7797,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -7891,7 +7807,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -7901,7 +7817,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF17.2" gate="G$1" pin="27"/>
+<pinref part="CF17.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -7911,37 +7835,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF17.2" gate="G$1" pin="27"/>
-<pinref part="CF17.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF17.2" gate="G$1" pin="29"/>
-<pinref part="CF17.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF17.2" gate="G$1" pin="31"/>
-<pinref part="CF17.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -7951,7 +7845,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -7961,17 +7855,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF17.2" gate="G$1" pin="37"/>
-<pinref part="CF17.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -8103,6 +7987,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="134.62" y="5.08"/>
 <pinref part="CM18.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM18.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF18.2" gate="G$1" pin="37"/>
+<pinref part="CF18.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF18.2" gate="G$1" pin="31"/>
+<pinref part="CF18.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF18.2" gate="G$1" pin="29"/>
+<pinref part="CF18.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -8275,7 +8183,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -8285,7 +8193,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -8295,7 +8203,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -8305,7 +8213,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -8315,7 +8223,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -8325,7 +8233,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF18.2" gate="G$1" pin="27"/>
+<pinref part="CF18.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -8335,37 +8251,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF18.2" gate="G$1" pin="27"/>
-<pinref part="CF18.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF18.2" gate="G$1" pin="29"/>
-<pinref part="CF18.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF18.2" gate="G$1" pin="31"/>
-<pinref part="CF18.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -8375,7 +8261,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -8385,17 +8271,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF18.2" gate="G$1" pin="37"/>
-<pinref part="CF18.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -8527,6 +8403,30 @@ MANUFACTURER: SAMTEC.</description>
 <junction x="134.62" y="5.08"/>
 <pinref part="CM19.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM19.3" gate="G$1" pin="SHIELD5"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF19.2" gate="G$1" pin="37"/>
+<pinref part="CF19.2" gate="G$1" pin="38"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF19.2" gate="G$1" pin="31"/>
+<pinref part="CF19.2" gate="G$1" pin="32"/>
+</segment>
+<segment>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF19.2" gate="G$1" pin="29"/>
+<pinref part="CF19.2" gate="G$1" pin="30"/>
 </segment>
 </net>
 <net name="AUX-1" class="0">
@@ -8699,7 +8599,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="MAIN-8" class="0">
+<net name="PE_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -8709,7 +8609,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="MAIN-9" class="0">
+<net name="PE_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -8719,7 +8619,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="MAIN-10" class="0">
+<net name="PE_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -8729,7 +8629,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-11" class="0">
+<net name="CAN2_H" class="0">
 <segment>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
@@ -8739,7 +8639,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="MAIN-12" class="0">
+<net name="CAN2_L" class="0">
 <segment>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
@@ -8749,7 +8649,15 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="24"/>
 </segment>
 </net>
-<net name="MAIN-13" class="0">
+<net name="VBUS" class="0">
+<segment>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+<pinref part="CF19.2" gate="G$1" pin="27"/>
+<pinref part="CF19.2" gate="G$1" pin="28"/>
+</segment>
 <segment>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -8759,37 +8667,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="26"/>
 </segment>
 </net>
-<net name="MAIN-14" class="0">
-<segment>
-<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="55.88"/>
-<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF19.2" gate="G$1" pin="27"/>
-<pinref part="CF19.2" gate="G$1" pin="28"/>
-</segment>
-</net>
-<net name="MAIN-15" class="0">
-<segment>
-<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="50.8"/>
-<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF19.2" gate="G$1" pin="29"/>
-<pinref part="CF19.2" gate="G$1" pin="30"/>
-</segment>
-</net>
-<net name="MAIN-16" class="0">
-<segment>
-<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="45.72"/>
-<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF19.2" gate="G$1" pin="31"/>
-<pinref part="CF19.2" gate="G$1" pin="32"/>
-</segment>
-</net>
-<net name="MAIN-17" class="0">
+<net name="CAN1_H" class="0">
 <segment>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
@@ -8799,7 +8677,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="34"/>
 </segment>
 </net>
-<net name="MAIN-18" class="0">
+<net name="CAN1_L" class="0">
 <segment>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
@@ -8809,17 +8687,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="36"/>
 </segment>
 </net>
-<net name="MAIN-19" class="0">
-<segment>
-<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
-<junction x="25.4" y="30.48"/>
-<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF19.2" gate="G$1" pin="37"/>
-<pinref part="CF19.2" gate="G$1" pin="38"/>
-</segment>
-</net>
-<net name="MAIN-20" class="0">
+<net name="!SD" class="0">
 <segment>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
@@ -8842,12 +8710,6 @@ MANUFACTURER: SAMTEC.</description>
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="GND10" gate="G1" x="27.94" y="12.7" smashed="yes"/>
-<instance part="CF20.1" gate="G$1" x="15.24" y="167.64" smashed="yes">
-<attribute name="VALUE" x="12.7" y="199.39" size="1.27" layer="96"/>
-<attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
-</instance>
-<instance part="GND12" gate="G1" x="27.94" y="137.16" smashed="yes"/>
 <instance part="GND56" gate="G1" x="129.54" y="30.48" smashed="yes"/>
 <instance part="GND57" gate="G1" x="129.54" y="17.78" smashed="yes"/>
 <instance part="GND58" gate="G1" x="129.54" y="5.08" smashed="yes"/>
@@ -8863,29 +8725,16 @@ MANUFACTURER: SAMTEC.</description>
 <attribute name="NAME" x="138.43" y="6.35" size="1.778" layer="95" ratio="20"/>
 <attribute name="VALUE" x="138.43" y="3.81" size="1.778" layer="96" ratio="20"/>
 </instance>
+<instance part="GND3" gate="G1" x="27.94" y="12.7" smashed="yes"/>
+<instance part="CF2.4" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
+<attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND10" gate="G1" pin="GND"/>
-<wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
-<junction x="27.94" y="15.24"/>
-</segment>
-<segment>
-<pinref part="CF20.1" gate="G$1" pin="LC2"/>
-<pinref part="GND12" gate="G1" pin="GND"/>
-<wire x1="25.4" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="139.7" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="CF20.1" gate="G$1" pin="LC1"/>
-<wire x1="25.4" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="142.24" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<junction x="27.94" y="139.7"/>
-</segment>
 <segment>
 <pinref part="GND56" gate="G1" pin="GND"/>
 <wire x1="129.54" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
@@ -8946,105 +8795,207 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CM20.3" gate="G$1" pin="SHIELD4"/>
 <pinref part="CM20.3" gate="G$1" pin="SHIELD5"/>
 </segment>
-</net>
-<net name="AUX-1" class="0">
 <segment>
-<wire x1="25.4" y1="195.58" x2="35.56" y2="195.58" width="0.1524" layer="91"/>
-<label x="35.56" y="195.58" size="1.778" layer="95" xref="yes"/>
-<wire x1="25.4" y1="195.58" x2="25.4" y2="193.04" width="0.1524" layer="91"/>
-<junction x="25.4" y="195.58"/>
-<pinref part="CF20.1" gate="G$1" pin="1"/>
-<pinref part="CF20.1" gate="G$1" pin="2"/>
+<pinref part="CF2.4" gate="G$1" pin="LC2"/>
+<pinref part="GND3" gate="G1" pin="GND"/>
+<wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="CF2.4" gate="G$1" pin="LC1"/>
+<wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
+<junction x="27.94" y="15.24"/>
+</segment>
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="37"/>
+<pinref part="CF2.4" gate="G$1" pin="38"/>
+<wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
+<junction x="25.4" y="30.48"/>
+<label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="31"/>
+<pinref part="CF2.4" gate="G$1" pin="32"/>
+<wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="45.72" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
+<junction x="25.4" y="45.72"/>
+<label x="30.48" y="45.72" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="29"/>
+<pinref part="CF2.4" gate="G$1" pin="30"/>
+<wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
+<junction x="25.4" y="50.8"/>
+<label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-2" class="0">
+<net name="MAIN-1" class="0">
 <segment>
-<wire x1="25.4" y1="190.5" x2="35.56" y2="190.5" width="0.1524" layer="91"/>
-<label x="35.56" y="190.5" size="1.778" layer="95" xref="yes"/>
-<wire x1="25.4" y1="190.5" x2="25.4" y2="187.96" width="0.1524" layer="91"/>
-<junction x="25.4" y="190.5"/>
-<pinref part="CF20.1" gate="G$1" pin="3"/>
-<pinref part="CF20.1" gate="G$1" pin="4"/>
+<pinref part="CF2.4" gate="G$1" pin="1"/>
+<pinref part="CF2.4" gate="G$1" pin="2"/>
+<wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
+<junction x="25.4" y="121.92"/>
+<label x="30.48" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-3" class="0">
+<net name="MAIN-2" class="0">
 <segment>
-<wire x1="25.4" y1="185.42" x2="35.56" y2="185.42" width="0.1524" layer="91"/>
-<label x="35.56" y="185.42" size="1.778" layer="95" xref="yes"/>
-<wire x1="25.4" y1="185.42" x2="25.4" y2="182.88" width="0.1524" layer="91"/>
-<junction x="25.4" y="185.42"/>
-<pinref part="CF20.1" gate="G$1" pin="5"/>
-<pinref part="CF20.1" gate="G$1" pin="6"/>
+<pinref part="CF2.4" gate="G$1" pin="3"/>
+<pinref part="CF2.4" gate="G$1" pin="4"/>
+<wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
+<junction x="25.4" y="116.84"/>
+<label x="30.48" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-4" class="0">
+<net name="MAIN-3" class="0">
 <segment>
-<wire x1="25.4" y1="180.34" x2="35.56" y2="180.34" width="0.1524" layer="91"/>
-<label x="35.56" y="180.34" size="1.778" layer="95" xref="yes"/>
-<wire x1="25.4" y1="180.34" x2="25.4" y2="177.8" width="0.1524" layer="91"/>
-<junction x="25.4" y="180.34"/>
-<pinref part="CF20.1" gate="G$1" pin="7"/>
-<pinref part="CF20.1" gate="G$1" pin="8"/>
+<pinref part="CF2.4" gate="G$1" pin="5"/>
+<pinref part="CF2.4" gate="G$1" pin="6"/>
+<wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<junction x="25.4" y="111.76"/>
+<label x="30.48" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-5" class="0">
+<net name="MAIN-4" class="0">
 <segment>
-<wire x1="25.4" y1="175.26" x2="35.56" y2="175.26" width="0.1524" layer="91"/>
-<label x="35.56" y="175.26" size="1.778" layer="95" xref="yes"/>
-<wire x1="25.4" y1="175.26" x2="25.4" y2="172.72" width="0.1524" layer="91"/>
-<junction x="25.4" y="175.26"/>
-<pinref part="CF20.1" gate="G$1" pin="9"/>
-<pinref part="CF20.1" gate="G$1" pin="10"/>
+<pinref part="CF2.4" gate="G$1" pin="7"/>
+<pinref part="CF2.4" gate="G$1" pin="8"/>
+<wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
+<junction x="25.4" y="106.68"/>
+<label x="30.48" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-6" class="0">
+<net name="MAIN-5" class="0">
 <segment>
-<wire x1="25.4" y1="170.18" x2="25.4" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="170.18" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
-<junction x="25.4" y="170.18"/>
-<label x="35.56" y="170.18" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF20.1" gate="G$1" pin="11"/>
-<pinref part="CF20.1" gate="G$1" pin="12"/>
+<pinref part="CF2.4" gate="G$1" pin="9"/>
+<pinref part="CF2.4" gate="G$1" pin="10"/>
+<wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<junction x="25.4" y="101.6"/>
+<label x="30.48" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-7" class="0">
+<net name="MAIN-6" class="0">
 <segment>
-<wire x1="25.4" y1="165.1" x2="25.4" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
-<junction x="25.4" y="165.1"/>
-<label x="35.56" y="165.1" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF20.1" gate="G$1" pin="13"/>
-<pinref part="CF20.1" gate="G$1" pin="14"/>
+<pinref part="CF2.4" gate="G$1" pin="11"/>
+<pinref part="CF2.4" gate="G$1" pin="12"/>
+<wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
+<junction x="25.4" y="96.52"/>
+<label x="30.48" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-8" class="0">
+<net name="MAIN-7" class="0">
 <segment>
-<wire x1="25.4" y1="160.02" x2="25.4" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="160.02" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
-<junction x="25.4" y="160.02"/>
-<label x="35.56" y="160.02" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF20.1" gate="G$1" pin="15"/>
-<pinref part="CF20.1" gate="G$1" pin="16"/>
+<pinref part="CF2.4" gate="G$1" pin="13"/>
+<pinref part="CF2.4" gate="G$1" pin="14"/>
+<wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
+<junction x="25.4" y="91.44"/>
+<label x="30.48" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-9" class="0">
+<net name="PE_SDA" class="0">
 <segment>
-<wire x1="25.4" y1="154.94" x2="25.4" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
-<junction x="25.4" y="154.94"/>
-<label x="35.56" y="154.94" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF20.1" gate="G$1" pin="17"/>
-<pinref part="CF20.1" gate="G$1" pin="18"/>
+<pinref part="CF2.4" gate="G$1" pin="15"/>
+<pinref part="CF2.4" gate="G$1" pin="16"/>
+<wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
+<junction x="25.4" y="86.36"/>
+<label x="30.48" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="AUX-10" class="0">
+<net name="PE_SCL" class="0">
 <segment>
-<wire x1="25.4" y1="149.86" x2="25.4" y2="147.32" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
-<junction x="25.4" y="149.86"/>
-<label x="35.56" y="149.86" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF20.1" gate="G$1" pin="19"/>
-<pinref part="CF20.1" gate="G$1" pin="20"/>
+<pinref part="CF2.4" gate="G$1" pin="17"/>
+<pinref part="CF2.4" gate="G$1" pin="18"/>
+<wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
+<junction x="25.4" y="81.28"/>
+<label x="30.48" y="81.28" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="PE_PWR" class="0">
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="19"/>
+<pinref part="CF2.4" gate="G$1" pin="20"/>
+<wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<junction x="25.4" y="76.2"/>
+<label x="30.48" y="76.2" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN2_H" class="0">
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="21"/>
+<pinref part="CF2.4" gate="G$1" pin="22"/>
+<wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<junction x="25.4" y="71.12"/>
+<label x="30.48" y="71.12" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN2_L" class="0">
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="23"/>
+<pinref part="CF2.4" gate="G$1" pin="24"/>
+<wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
+<junction x="25.4" y="66.04"/>
+<label x="30.48" y="66.04" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VBUS" class="0">
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="27"/>
+<pinref part="CF2.4" gate="G$1" pin="28"/>
+<wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="25.4" y2="55.88" width="0.1524" layer="91"/>
+<junction x="25.4" y="55.88"/>
+<label x="30.48" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="25"/>
+<pinref part="CF2.4" gate="G$1" pin="26"/>
+<wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
+<junction x="25.4" y="60.96"/>
+<label x="30.48" y="60.96" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN1_H" class="0">
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="33"/>
+<pinref part="CF2.4" gate="G$1" pin="34"/>
+<wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<junction x="25.4" y="40.64"/>
+<label x="30.48" y="40.64" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAN1_L" class="0">
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="35"/>
+<pinref part="CF2.4" gate="G$1" pin="36"/>
+<wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<junction x="25.4" y="35.56"/>
+<label x="30.48" y="35.56" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="!SD" class="0">
+<segment>
+<pinref part="CF2.4" gate="G$1" pin="39"/>
+<pinref part="CF2.4" gate="G$1" pin="40"/>
+<wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
+<junction x="25.4" y="25.4"/>
+<label x="30.48" y="25.4" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
