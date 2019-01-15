@@ -2,10 +2,10 @@
 
 ## Background
 
-The [OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane topology based on a 1 Mbps Controller Area Network (CAN) bus and a 1 cell Lithium ion battery power bus (3.0 - 4.2 V). There are three sets of connectors:
+The [OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane topology based on a 1 Mbps Controller Area Network (CAN) bus and a 2 cell Lithium ion battery power bus (6.0 - 8.4 V). There are three sets of connectors:
 
-1. 20 pin Auxiliary connector, used on the top and bottom cards, which has CAN and power only.
-2. 40 pin Main connector, which has CAN, power, and a lot of spare pins for custom protocols.
+1. 20 pin Auxiliary connectors, used on the all but the "end" cards (top and bottom cards), which are for future inter-card communication.
+2. 40 pin Main connector, which has !shutdown, CAN1, power, CAN2, Power Enable (PE) lines, and then 7 spare pins for custom card stuff.
 3. SMPM RF conncectors, which allows up to 3 RF connector per card and allows for UT040 coax to be soldered down to the board.
 
 ![OreSat Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/oresat-backplane.png)
