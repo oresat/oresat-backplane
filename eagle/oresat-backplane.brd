@@ -7,9 +7,9 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -29,15 +29,15 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -3616,6 +3616,122 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="37.7" y="17.5" extent="1-16" drill="0.254"/>
 <via x="24.9" y="16.5" extent="1-16" drill="0.254"/>
 <via x="30" y="16.5" extent="1-16" drill="0.254"/>
+<via x="3" y="1" extent="1-16" drill="0.254"/>
+<via x="8" y="1" extent="1-16" drill="0.254"/>
+<via x="13" y="1" extent="1-16" drill="0.254"/>
+<via x="18" y="1" extent="1-16" drill="0.254"/>
+<via x="23" y="1" extent="1-16" drill="0.254"/>
+<via x="28" y="1" extent="1-16" drill="0.254"/>
+<via x="33" y="1" extent="1-16" drill="0.254"/>
+<via x="38" y="1" extent="1-16" drill="0.254"/>
+<via x="44" y="1" extent="1-16" drill="0.254"/>
+<via x="49" y="1" extent="1-16" drill="0.254"/>
+<via x="54" y="1" extent="1-16" drill="0.254"/>
+<via x="59" y="1" extent="1-16" drill="0.254"/>
+<via x="64" y="1" extent="1-16" drill="0.254"/>
+<via x="69" y="1" extent="1-16" drill="0.254"/>
+<via x="74" y="1" extent="1-16" drill="0.254"/>
+<via x="79" y="1" extent="1-16" drill="0.254"/>
+<via x="3" y="212.5" extent="1-16" drill="0.254"/>
+<via x="8" y="212.5" extent="1-16" drill="0.254"/>
+<via x="13" y="212.5" extent="1-16" drill="0.254"/>
+<via x="18" y="212.5" extent="1-16" drill="0.254"/>
+<via x="23" y="212.5" extent="1-16" drill="0.254"/>
+<via x="28" y="212.5" extent="1-16" drill="0.254"/>
+<via x="33" y="212.5" extent="1-16" drill="0.254"/>
+<via x="38" y="212.5" extent="1-16" drill="0.254"/>
+<via x="44" y="212.5" extent="1-16" drill="0.254"/>
+<via x="49" y="212.5" extent="1-16" drill="0.254"/>
+<via x="54" y="212.5" extent="1-16" drill="0.254"/>
+<via x="59" y="212.5" extent="1-16" drill="0.254"/>
+<via x="64" y="212.5" extent="1-16" drill="0.254"/>
+<via x="69" y="212.5" extent="1-16" drill="0.254"/>
+<via x="74" y="212.5" extent="1-16" drill="0.254"/>
+<via x="79" y="212.5" extent="1-16" drill="0.254"/>
+<via x="81" y="210.5" extent="1-16" drill="0.254"/>
+<via x="81" y="205.5" extent="1-16" drill="0.254"/>
+<via x="81" y="200.5" extent="1-16" drill="0.254"/>
+<via x="81" y="195.5" extent="1-16" drill="0.254"/>
+<via x="81" y="190.5" extent="1-16" drill="0.254"/>
+<via x="81" y="185.5" extent="1-16" drill="0.254"/>
+<via x="81" y="180.5" extent="1-16" drill="0.254"/>
+<via x="81" y="175.5" extent="1-16" drill="0.254"/>
+<via x="81" y="170.5" extent="1-16" drill="0.254"/>
+<via x="81" y="165.5" extent="1-16" drill="0.254"/>
+<via x="81" y="160.5" extent="1-16" drill="0.254"/>
+<via x="81" y="155.5" extent="1-16" drill="0.254"/>
+<via x="81" y="150.5" extent="1-16" drill="0.254"/>
+<via x="81" y="145.5" extent="1-16" drill="0.254"/>
+<via x="81" y="140.5" extent="1-16" drill="0.254"/>
+<via x="81" y="135.5" extent="1-16" drill="0.254"/>
+<via x="81" y="130.5" extent="1-16" drill="0.254"/>
+<via x="81" y="125.5" extent="1-16" drill="0.254"/>
+<via x="81" y="120.5" extent="1-16" drill="0.254"/>
+<via x="81" y="115.5" extent="1-16" drill="0.254"/>
+<via x="81" y="3" extent="1-16" drill="0.254"/>
+<via x="81" y="8" extent="1-16" drill="0.254"/>
+<via x="81" y="13" extent="1-16" drill="0.254"/>
+<via x="81" y="18" extent="1-16" drill="0.254"/>
+<via x="81" y="23" extent="1-16" drill="0.254"/>
+<via x="81" y="28" extent="1-16" drill="0.254"/>
+<via x="81" y="33" extent="1-16" drill="0.254"/>
+<via x="81" y="38" extent="1-16" drill="0.254"/>
+<via x="81" y="43" extent="1-16" drill="0.254"/>
+<via x="81" y="48" extent="1-16" drill="0.254"/>
+<via x="81" y="53" extent="1-16" drill="0.254"/>
+<via x="81" y="58" extent="1-16" drill="0.254"/>
+<via x="81" y="63" extent="1-16" drill="0.254"/>
+<via x="81" y="68" extent="1-16" drill="0.254"/>
+<via x="81" y="73" extent="1-16" drill="0.254"/>
+<via x="81" y="78" extent="1-16" drill="0.254"/>
+<via x="81" y="83" extent="1-16" drill="0.254"/>
+<via x="81" y="88" extent="1-16" drill="0.254"/>
+<via x="81" y="93" extent="1-16" drill="0.254"/>
+<via x="81" y="98" extent="1-16" drill="0.254"/>
+<via x="81" y="103" extent="1-16" drill="0.254"/>
+<via x="81" y="109" extent="1-16" drill="0.254"/>
+<via x="1" y="210.5" extent="1-16" drill="0.254"/>
+<via x="1" y="205.5" extent="1-16" drill="0.254"/>
+<via x="1" y="200.5" extent="1-16" drill="0.254"/>
+<via x="1" y="195.5" extent="1-16" drill="0.254"/>
+<via x="1" y="190.5" extent="1-16" drill="0.254"/>
+<via x="1" y="185.5" extent="1-16" drill="0.254"/>
+<via x="1" y="180.5" extent="1-16" drill="0.254"/>
+<via x="1" y="175.5" extent="1-16" drill="0.254"/>
+<via x="1" y="170.5" extent="1-16" drill="0.254"/>
+<via x="1" y="165.5" extent="1-16" drill="0.254"/>
+<via x="1" y="160.5" extent="1-16" drill="0.254"/>
+<via x="1" y="155.5" extent="1-16" drill="0.254"/>
+<via x="1" y="150.5" extent="1-16" drill="0.254"/>
+<via x="1" y="145.5" extent="1-16" drill="0.254"/>
+<via x="1" y="140.5" extent="1-16" drill="0.254"/>
+<via x="1" y="135.5" extent="1-16" drill="0.254"/>
+<via x="1" y="130.5" extent="1-16" drill="0.254"/>
+<via x="1" y="125.5" extent="1-16" drill="0.254"/>
+<via x="1" y="120.5" extent="1-16" drill="0.254"/>
+<via x="1" y="115.5" extent="1-16" drill="0.254"/>
+<via x="1" y="3" extent="1-16" drill="0.254"/>
+<via x="1" y="8" extent="1-16" drill="0.254"/>
+<via x="1" y="13" extent="1-16" drill="0.254"/>
+<via x="1" y="18" extent="1-16" drill="0.254"/>
+<via x="1" y="23" extent="1-16" drill="0.254"/>
+<via x="1" y="28" extent="1-16" drill="0.254"/>
+<via x="1" y="33" extent="1-16" drill="0.254"/>
+<via x="1" y="38" extent="1-16" drill="0.254"/>
+<via x="1" y="43" extent="1-16" drill="0.254"/>
+<via x="1" y="48" extent="1-16" drill="0.254"/>
+<via x="1" y="53" extent="1-16" drill="0.254"/>
+<via x="1" y="58" extent="1-16" drill="0.254"/>
+<via x="1" y="63" extent="1-16" drill="0.254"/>
+<via x="1" y="68" extent="1-16" drill="0.254"/>
+<via x="1" y="73" extent="1-16" drill="0.254"/>
+<via x="1" y="78" extent="1-16" drill="0.254"/>
+<via x="1" y="83" extent="1-16" drill="0.254"/>
+<via x="1" y="88" extent="1-16" drill="0.254"/>
+<via x="1" y="93" extent="1-16" drill="0.254"/>
+<via x="1" y="98" extent="1-16" drill="0.254"/>
+<via x="1" y="103" extent="1-16" drill="0.254"/>
+<via x="1" y="109" extent="1-16" drill="0.254"/>
 </signal>
 <signal name="AUX-1">
 <contactref element="CF2.1" pad="1"/>
