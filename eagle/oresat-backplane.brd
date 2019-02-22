@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -24,21 +24,21 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -3732,6 +3732,126 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="1" y="98" extent="1-16" drill="0.254"/>
 <via x="1" y="103" extent="1-16" drill="0.254"/>
 <via x="1" y="109" extent="1-16" drill="0.254"/>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="12.3" y="209"/>
+<vertex x="14.7" y="209"/>
+<vertex x="14.7" y="204.1"/>
+<vertex x="12.3" y="204.1"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="198.9"/>
+<vertex x="35.8" y="198.9"/>
+<vertex x="35.8" y="194.4"/>
+<vertex x="33.5" y="194.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="188.9"/>
+<vertex x="35.8" y="188.9"/>
+<vertex x="35.8" y="184.4"/>
+<vertex x="33.5" y="184.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="178.9"/>
+<vertex x="35.8" y="178.9"/>
+<vertex x="35.8" y="174.4"/>
+<vertex x="33.5" y="174.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="168.9"/>
+<vertex x="35.8" y="168.9"/>
+<vertex x="35.8" y="164.4"/>
+<vertex x="33.5" y="164.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="158.9"/>
+<vertex x="35.8" y="158.9"/>
+<vertex x="35.8" y="154.4"/>
+<vertex x="33.5" y="154.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="148.9"/>
+<vertex x="35.8" y="148.9"/>
+<vertex x="35.8" y="144.4"/>
+<vertex x="33.5" y="144.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="138.9"/>
+<vertex x="35.8" y="138.9"/>
+<vertex x="35.8" y="134.4"/>
+<vertex x="33.5" y="134.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="128.9"/>
+<vertex x="35.8" y="128.9"/>
+<vertex x="35.8" y="124.4"/>
+<vertex x="33.5" y="124.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="118.9"/>
+<vertex x="35.8" y="118.9"/>
+<vertex x="35.8" y="114.4"/>
+<vertex x="33.5" y="114.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="106.9"/>
+<vertex x="35.8" y="106.9"/>
+<vertex x="35.8" y="102.4"/>
+<vertex x="33.5" y="102.4"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="96.5"/>
+<vertex x="35.8" y="96.5"/>
+<vertex x="35.8" y="92"/>
+<vertex x="33.5" y="92"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="86.5"/>
+<vertex x="35.8" y="86.5"/>
+<vertex x="35.8" y="82"/>
+<vertex x="33.5" y="82"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="76.5"/>
+<vertex x="35.8" y="76.5"/>
+<vertex x="35.8" y="72"/>
+<vertex x="33.5" y="72"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="66.5"/>
+<vertex x="35.8" y="66.5"/>
+<vertex x="35.8" y="62"/>
+<vertex x="33.5" y="62"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="56.5"/>
+<vertex x="35.8" y="56.5"/>
+<vertex x="35.8" y="52"/>
+<vertex x="33.5" y="52"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="46.5"/>
+<vertex x="35.8" y="46.5"/>
+<vertex x="35.8" y="42"/>
+<vertex x="33.5" y="42"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="36.5"/>
+<vertex x="35.8" y="36.5"/>
+<vertex x="35.8" y="32"/>
+<vertex x="33.5" y="32"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="33.5" y="26.5"/>
+<vertex x="35.8" y="26.5"/>
+<vertex x="35.8" y="22"/>
+<vertex x="33.5" y="22"/>
+</polygon>
+<polygon width="0.2" layer="16" isolate="0.2" thermals="no">
+<vertex x="12.3" y="16.5"/>
+<vertex x="14.6" y="16.5"/>
+<vertex x="14.6" y="12"/>
+<vertex x="12.3" y="12"/>
+</polygon>
 </signal>
 <signal name="AUX-1">
 <contactref element="CF2.1" pad="1"/>
@@ -4463,7 +4583,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="7.785" y1="147.295" x2="7.785" y2="146.025" width="1" layer="16"/>
 <wire x1="7.785" y1="177.295" x2="7.785" y2="176.025" width="1" layer="16"/>
 </signal>
-<signal name="MAIN-1">
+<signal name="SPARE7">
 <contactref element="CF2.2" pad="1"/>
 <contactref element="CF2.2" pad="2"/>
 <contactref element="CF3.2" pad="1"/>
@@ -4550,7 +4670,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="47.098375" y1="16.4" x2="32.2" y2="16.4" width="0.2" layer="1"/>
 <wire x1="53.065" y1="197.295" x2="31.915" y2="206.025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAIN-2">
+<signal name="SPARE6">
 <contactref element="CF2.2" pad="3"/>
 <contactref element="CF2.2" pad="4"/>
 <contactref element="CF3.2" pad="3"/>
@@ -4636,7 +4756,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="30.6" y1="14.94" x2="30.645" y2="14.895" width="0.2" layer="1"/>
 <wire x1="51.795" y1="197.295" x2="30.645" y2="206.025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAIN-3">
+<signal name="SPARE5">
 <contactref element="CF2.2" pad="5"/>
 <contactref element="CF2.2" pad="6"/>
 <contactref element="CF3.2" pad="5"/>
@@ -4727,7 +4847,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.8428" y1="10.0428" x2="29.6428" y2="10.0428" width="0.2" layer="16"/>
 <wire x1="50.525" y1="197.295" x2="29.375" y2="206.025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAIN-4">
+<signal name="SPARE4">
 <contactref element="CF2.2" pad="7"/>
 <contactref element="CF2.2" pad="8"/>
 <contactref element="CF3.2" pad="7"/>
@@ -4818,7 +4938,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.6952" y1="10.3952" x2="28.6952" y2="10.3952" width="0.2" layer="16"/>
 <wire x1="49.255" y1="197.295" x2="28.105" y2="206.025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAIN-5">
+<signal name="SPARE3">
 <contactref element="CF2.2" pad="9"/>
 <contactref element="CF2.2" pad="10"/>
 <contactref element="CF3.2" pad="9"/>
@@ -4909,7 +5029,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="38.493575" y1="14.5952" x2="44.898375" y2="21" width="0.2" layer="16"/>
 <wire x1="47.985" y1="197.295" x2="26.835" y2="206.025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAIN-6">
+<signal name="SPARE2">
 <contactref element="CF2.2" pad="11"/>
 <contactref element="CF2.2" pad="12"/>
 <contactref element="CF3.2" pad="11"/>
@@ -5001,7 +5121,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="38.3476" y1="14.9476" x2="44.8226" y2="21.4226" width="0.2" layer="16"/>
 <wire x1="46.715" y1="197.295" x2="25.565" y2="206.025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="MAIN-7">
+<signal name="SPARE1">
 <contactref element="CF2.2" pad="13"/>
 <contactref element="CF2.2" pad="14"/>
 <contactref element="CF3.2" pad="13"/>
@@ -5091,7 +5211,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.1" y1="11.5" x2="26" y2="11.5" width="0.2" layer="16"/>
 <wire x1="45.445" y1="197.295" x2="24.295" y2="206.025" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="PE_SDA">
+<signal name="OPD_SDA">
 <contactref element="CF2.2" pad="15"/>
 <contactref element="CF2.2" pad="16"/>
 <contactref element="CF3.2" pad="15"/>
@@ -5182,7 +5302,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23" y1="14.92" x2="23.025" y2="14.895" width="0.2" layer="1"/>
 <wire x1="23.025" y1="13.625" x2="23.025" y2="14.895" width="0.3" layer="16"/>
 </signal>
-<signal name="PE_SCL">
+<signal name="OPD_SCL">
 <contactref element="CF2.2" pad="17"/>
 <contactref element="CF2.2" pad="18"/>
 <contactref element="CF3.2" pad="17"/>
@@ -5272,7 +5392,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="21.7" y1="14.95" x2="21.755" y2="14.895" width="0.2" layer="1"/>
 <wire x1="21.755" y1="13.625" x2="21.755" y2="14.895" width="0.3" layer="16"/>
 </signal>
-<signal name="PE_PWR">
+<signal name="OPD_PWR">
 <contactref element="CF2.2" pad="19"/>
 <contactref element="CF2.2" pad="20"/>
 <contactref element="CF3.2" pad="19"/>

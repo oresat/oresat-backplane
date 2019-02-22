@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.2.2">
+<eagle version="9.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1041,7 +1041,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="1"/>
 <pinref part="CF2.3" gate="G$1" pin="2"/>
@@ -1051,7 +1051,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="3"/>
 <pinref part="CF2.3" gate="G$1" pin="4"/>
@@ -1061,7 +1061,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="5"/>
 <pinref part="CF2.3" gate="G$1" pin="6"/>
@@ -1071,7 +1071,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="7"/>
 <pinref part="CF2.3" gate="G$1" pin="8"/>
@@ -1081,7 +1081,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="9"/>
 <pinref part="CF2.3" gate="G$1" pin="10"/>
@@ -1091,7 +1091,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="11"/>
 <pinref part="CF2.3" gate="G$1" pin="12"/>
@@ -1101,7 +1101,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="13"/>
 <pinref part="CF2.3" gate="G$1" pin="14"/>
@@ -1111,7 +1111,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="15"/>
 <pinref part="CF2.3" gate="G$1" pin="16"/>
@@ -1121,7 +1121,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="17"/>
 <pinref part="CF2.3" gate="G$1" pin="18"/>
@@ -1131,7 +1131,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <pinref part="CF2.3" gate="G$1" pin="19"/>
 <pinref part="CF2.3" gate="G$1" pin="20"/>
@@ -1457,7 +1457,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF2.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="1"/>
 <pinref part="CF2.2" gate="G$1" pin="2"/>
@@ -1467,7 +1467,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="3"/>
 <pinref part="CF2.2" gate="G$1" pin="4"/>
@@ -1477,7 +1477,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="5"/>
 <pinref part="CF2.2" gate="G$1" pin="6"/>
@@ -1487,7 +1487,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="7"/>
 <pinref part="CF2.2" gate="G$1" pin="8"/>
@@ -1497,7 +1497,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="9"/>
 <pinref part="CF2.2" gate="G$1" pin="10"/>
@@ -1507,7 +1507,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="11"/>
 <pinref part="CF2.2" gate="G$1" pin="12"/>
@@ -1517,7 +1517,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="13"/>
 <pinref part="CF2.2" gate="G$1" pin="14"/>
@@ -1527,7 +1527,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="15"/>
 <pinref part="CF2.2" gate="G$1" pin="16"/>
@@ -1537,7 +1537,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="17"/>
 <pinref part="CF2.2" gate="G$1" pin="18"/>
@@ -1547,7 +1547,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <pinref part="CF2.2" gate="G$1" pin="19"/>
 <pinref part="CF2.2" gate="G$1" pin="20"/>
@@ -1873,7 +1873,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -1883,7 +1883,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -1893,7 +1893,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -1903,7 +1903,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -1913,7 +1913,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -1923,7 +1923,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -1933,7 +1933,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -1943,7 +1943,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -1953,7 +1953,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -1963,7 +1963,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF3.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -2289,7 +2289,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -2299,7 +2299,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -2309,7 +2309,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -2319,7 +2319,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -2329,7 +2329,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -2339,7 +2339,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -2349,7 +2349,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -2359,7 +2359,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -2369,7 +2369,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -2379,7 +2379,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF4.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -2705,7 +2705,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -2715,7 +2715,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -2725,7 +2725,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -2735,7 +2735,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -2745,7 +2745,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -2755,7 +2755,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -2765,7 +2765,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -2775,7 +2775,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -2785,7 +2785,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -2795,7 +2795,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF5.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -3121,7 +3121,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -3131,7 +3131,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -3141,7 +3141,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -3151,7 +3151,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -3161,7 +3161,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -3171,7 +3171,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -3181,7 +3181,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -3191,7 +3191,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -3201,7 +3201,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -3211,7 +3211,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF6.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -3537,7 +3537,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -3547,7 +3547,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -3557,7 +3557,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -3567,7 +3567,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -3577,7 +3577,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -3587,7 +3587,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -3597,7 +3597,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -3607,7 +3607,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -3617,7 +3617,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -3627,7 +3627,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF7.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -3953,7 +3953,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -3963,7 +3963,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -3973,7 +3973,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -3983,7 +3983,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -3993,7 +3993,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -4003,7 +4003,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -4013,7 +4013,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -4023,7 +4023,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -4033,7 +4033,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -4043,7 +4043,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF8.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -4369,7 +4369,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -4379,7 +4379,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -4389,7 +4389,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -4399,7 +4399,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -4409,7 +4409,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -4419,7 +4419,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -4429,7 +4429,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -4439,7 +4439,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -4449,7 +4449,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -4459,7 +4459,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF9.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -4785,7 +4785,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -4795,7 +4795,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -4805,7 +4805,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -4815,7 +4815,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -4825,7 +4825,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -4835,7 +4835,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -4845,7 +4845,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -4855,7 +4855,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -4865,7 +4865,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -4875,7 +4875,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF10.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -5201,7 +5201,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -5211,7 +5211,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -5221,7 +5221,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -5231,7 +5231,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -5241,7 +5241,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -5251,7 +5251,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -5261,7 +5261,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -5271,7 +5271,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -5281,7 +5281,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -5291,7 +5291,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF11.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -5617,7 +5617,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -5627,7 +5627,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -5637,7 +5637,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -5647,7 +5647,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -5657,7 +5657,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -5667,7 +5667,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -5677,7 +5677,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -5687,7 +5687,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -5697,7 +5697,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -5707,7 +5707,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF12.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -6033,7 +6033,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -6043,7 +6043,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -6053,7 +6053,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -6063,7 +6063,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -6073,7 +6073,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -6083,7 +6083,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -6093,7 +6093,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -6103,7 +6103,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -6113,7 +6113,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -6123,7 +6123,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF13.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -6449,7 +6449,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -6459,7 +6459,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -6469,7 +6469,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -6479,7 +6479,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -6489,7 +6489,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -6499,7 +6499,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -6509,7 +6509,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -6519,7 +6519,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -6529,7 +6529,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -6539,7 +6539,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF14.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -6865,7 +6865,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -6875,7 +6875,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -6885,7 +6885,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -6895,7 +6895,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -6905,7 +6905,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -6915,7 +6915,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -6925,7 +6925,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -6935,7 +6935,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -6945,7 +6945,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -6955,7 +6955,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF15.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -7281,7 +7281,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -7291,7 +7291,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -7301,7 +7301,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -7311,7 +7311,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -7321,7 +7321,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -7331,7 +7331,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -7341,7 +7341,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -7351,7 +7351,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -7361,7 +7361,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -7371,7 +7371,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF16.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -7697,7 +7697,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -7707,7 +7707,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -7717,7 +7717,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -7727,7 +7727,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -7737,7 +7737,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -7747,7 +7747,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -7757,7 +7757,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -7767,7 +7767,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -7777,7 +7777,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -7787,7 +7787,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF17.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -8113,7 +8113,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -8123,7 +8123,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -8133,7 +8133,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -8143,7 +8143,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -8153,7 +8153,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -8163,7 +8163,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -8173,7 +8173,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -8183,7 +8183,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -8193,7 +8193,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -8203,7 +8203,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF18.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -8529,7 +8529,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.1" gate="G$1" pin="20"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
@@ -8539,7 +8539,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
@@ -8549,7 +8549,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
@@ -8559,7 +8559,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
@@ -8569,7 +8569,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
@@ -8579,7 +8579,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="10"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <wire x1="25.4" y1="96.52" x2="25.4" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
@@ -8589,7 +8589,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
@@ -8599,7 +8599,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="14"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
@@ -8609,7 +8609,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
@@ -8619,7 +8619,7 @@ MANUFACTURER: SAMTEC.</description>
 <pinref part="CF19.2" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
@@ -8830,7 +8830,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-1" class="0">
+<net name="SPARE7" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="1"/>
 <pinref part="CF2.4" gate="G$1" pin="2"/>
@@ -8840,7 +8840,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-2" class="0">
+<net name="SPARE6" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="3"/>
 <pinref part="CF2.4" gate="G$1" pin="4"/>
@@ -8850,7 +8850,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-3" class="0">
+<net name="SPARE5" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="5"/>
 <pinref part="CF2.4" gate="G$1" pin="6"/>
@@ -8860,7 +8860,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="111.76" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-4" class="0">
+<net name="SPARE4" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="7"/>
 <pinref part="CF2.4" gate="G$1" pin="8"/>
@@ -8870,7 +8870,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="106.68" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-5" class="0">
+<net name="SPARE3" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="9"/>
 <pinref part="CF2.4" gate="G$1" pin="10"/>
@@ -8880,7 +8880,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-6" class="0">
+<net name="SPARE2" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="11"/>
 <pinref part="CF2.4" gate="G$1" pin="12"/>
@@ -8890,7 +8890,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="96.52" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="MAIN-7" class="0">
+<net name="SPARE1" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="13"/>
 <pinref part="CF2.4" gate="G$1" pin="14"/>
@@ -8900,7 +8900,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_SDA" class="0">
+<net name="OPD_SDA" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="15"/>
 <pinref part="CF2.4" gate="G$1" pin="16"/>
@@ -8910,7 +8910,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="86.36" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_SCL" class="0">
+<net name="OPD_SCL" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="17"/>
 <pinref part="CF2.4" gate="G$1" pin="18"/>
@@ -8920,7 +8920,7 @@ MANUFACTURER: SAMTEC.</description>
 <label x="30.48" y="81.28" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="PE_PWR" class="0">
+<net name="OPD_PWR" class="0">
 <segment>
 <pinref part="CF2.4" gate="G$1" pin="19"/>
 <pinref part="CF2.4" gate="G$1" pin="20"/>

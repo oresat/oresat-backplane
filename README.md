@@ -5,7 +5,7 @@
 The [OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane topology based on a 1 Mbps Controller Area Network (CAN) bus and a 2 cell Lithium ion battery power bus (6.0 - 8.4 V). There are three sets of connectors:
 
 1. 20 pin Auxiliary connectors, used on the all but the "end" cards (top and bottom cards), which are for future inter-card communication.
-2. 40 pin Main connector, which has !shutdown, CAN1, power, CAN2, Power Enable (PE) lines, and then 7 spare pins for custom card stuff.
+2. 40 pin Main connector, which has !shutdown, CAN1, power, CAN2, OreSat power Domain (OPD) lines, and then 7 spare pins for custom card interconnects.
 3. SMPM RF conncectors, which allows up to 3 RF connector per card and allows for UT040 coax to be soldered down to the board.
 
 ![OreSat Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/oresat-backplane.png)
@@ -13,7 +13,11 @@ The [OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane topology
 
 ## Mechanical Specifications
 
-All mechanical specifications for this board are from the SolidWorks model which is in the 'oresat-structure' repo, specifically see the 'Backplane' folder.
+All mechanical specifications for this board are from the SolidWorks model which is in the 'oresat-structure' repo, specifically see the 'Backplane' folder. Some notes on the mechanical design:
+
+- Ring of bare copper on the back is for thermal contact.
+- Square cutouts on the top and bottom are for the solar connectors.
+- Weird cutouts above and below square solar ports are for shoulder bolts that precisely locate the PCB while allowing some flexing due to differences in thermal expansion between the Aluminum frame and the PCB.
 
 ## Electrical Specifications
 
