@@ -22,6 +22,8 @@ All mechanical specifications for this board are from the SolidWorks model which
 
 ## Electrical Specifications
 
+The board is designed for a [4 layer stackup](https://docs.oshpark.com/services/four-layer/) from [OSH Park](https://oshpark.com/) which has better RF performance than regular 2 layer board runs.
+
 The connectors that we use on this puppy are the:
 
 - RF (70 cm, L band, S band)
