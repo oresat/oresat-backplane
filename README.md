@@ -2,10 +2,10 @@
 
 ## Background
 
-The [OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane topology based on a 1 Mbps Controller Area Network (CAN) bus and a 2 cell Lithium ion battery power bus (6.0 - 8.4 V). There are three sets of connectors:
+The [OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane system based on a 1 Mbps Controller Area Network (CAN) bus and a 2 cell Lithium ion battery power bus (6.0 - 8.4 V). There are 10 cards per CubeSat "U", and the board is meant to be general purpose enough to allow for some card swapping. The RF lines, however, are microstrips on the backplane PCB so the backplane must be rev'd for changes in the RF cards. There are three sets of connectors:
 
 1. 20 pin Auxiliary connectors, used on the all but the "end" cards (top and bottom cards), which are for future inter-card communication.
-2. 40 pin Main connector, which has !shutdown, CAN1, power, CAN2, OreSat power Domain (OPD) lines, and then 7 spare pins for custom card interconnects.
+2. 40 pin Main connector, which has !shutdown, CAN1, power, CAN2, OreSat power Domain (OPD) lines, and then 5 shared spare pins for custom card interconnects.
 3. SMPM RF conncectors, which allows up to 3 RF connector per card and allows for UT040 coax to be soldered down to the board.
 
 ![OreSat Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/oresat-backplane.png)
@@ -15,9 +15,10 @@ The [OreSat](http://oresat.org) 2U CubeSat uses a card cage / backplane topology
 
 All mechanical specifications for this board are from the SolidWorks model which is in the 'oresat-structure' repo, specifically see the 'Backplane' folder. Some notes on the mechanical design:
 
-- Ring of bare copper on the back is for thermal contact.
-- Square cutouts on the top and bottom are for the solar connectors.
-- Weird cutouts above and below square solar ports are for shoulder bolts that precisely locate the PCB while allowing some flexing due to differences in thermal expansion between the Aluminum frame and the PCB.
+- Ring of bare copper on the back is for thermal contact. Assumes annodized Aluminum, so no electrical contact on this ring.
+- Backplane is grounded to the Aluminum frame on the internal four fasteners; this requires preparing the Aluminum for an electrical connection.
+- Square cutouts on the top and bottom are for the solar connectors to reach the end cards.
+- Weird cutouts above and below square solar connector cutouts are for shoulder bolts that precisely locate the PCB while allowing some flexing due to differences in thermal expansion between the Aluminum frame and the PCB.
 
 ## Electrical Specifications
 
