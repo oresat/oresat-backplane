@@ -18,7 +18,8 @@ All mechanical specifications for this board are from the SolidWorks model which
 - Ring of bare copper on the back is for thermal contact. Assumes annodized Aluminum, so no electrical contact on this ring.
 - Backplane is grounded to the Aluminum frame on the internal four fasteners; this requires preparing the Aluminum for an electrical connection.
 - Square cutouts on the top and bottom are for the solar connectors to reach the end cards.
-- Weird cutouts above and below square solar connector cutouts are for shoulder bolts that precisely locate the PCB while allowing some flexing due to differences in thermal expansion between the Aluminum frame and the PCB.
+- Weird cutouts above and below square solar connector cutouts are for shoulder bolts (3 mm Shoulder Diameter, 2 mm Shoulder Length, M2 x 0.4 mm Thread, McMaster Carr #[90263A111](https://www.mcmaster.com/90263a111)) that precisely locates the PCB while allowing some flexing due to differences in thermal expansion between the Aluminum frame and the PCB.
+- All other fasteners are M2 x 0.4 x 4 mm.
 
 ## Electrical Specifications
 
