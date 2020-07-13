@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.6.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="10" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="yes"/>
@@ -37,7 +37,7 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -289,8 +289,8 @@ v2.1 (Frame 1.1)</text>
 <circle x="1.75" y="193.75" radius="2" width="0.1" layer="41"/>
 <circle x="41.25" y="2.55" radius="2.5" width="0.1" layer="41"/>
 <circle x="41.25" y="210.95" radius="2.5" width="0.1" layer="41"/>
-<circle x="41.25" y="2.55" radius="2.6" width="0" layer="29"/>
-<circle x="41.25" y="210.95" radius="2.6" width="0" layer="29"/>
+<circle x="41.25" y="2.55" locked="yes" radius="2.6" width="0" layer="29"/>
+<circle x="41.25" y="210.95" locked="yes" radius="2.6" width="0" layer="29"/>
 <circle x="80.75" y="193.75" radius="2.102378125" width="0" layer="29"/>
 <circle x="80.75" y="163.75" radius="2.102378125" width="0" layer="29"/>
 <circle x="80.75" y="133.75" radius="2.102378125" width="0" layer="29"/>
@@ -1119,46 +1119,47 @@ v2.1 (Frame 1.1)</text>
 <wire x1="80.75" y1="135.05" x2="80.75" y2="132.45" width="0.001" layer="20" curve="180" locked="yes"/>
 <wire x1="80.75" y1="81.05" x2="80.75" y2="78.45" width="0.001" layer="20" curve="180" locked="yes"/>
 <wire x1="80.75" y1="51.05" x2="80.75" y2="48.45" width="0.001" layer="20" curve="180" locked="yes"/>
-<wire x1="38.25" y1="211.65" x2="31.75" y2="211.65" width="0.001" layer="20" locked="yes"/>
+<wire x1="37.75" y1="211.65" x2="31.75" y2="211.65" width="0.001" layer="20" locked="yes"/>
 <wire x1="31.75" y1="210.65" x2="34.55" y2="210.65" width="0.001" layer="20" locked="yes"/>
 <wire x1="35.05" y1="210.15" x2="35.05" y2="203.85" width="0.001" layer="20" locked="yes"/>
 <wire x1="35.55" y1="203.35" x2="46.95" y2="203.35" width="0.001" layer="20" locked="yes"/>
 <wire x1="47.45" y1="203.85" x2="47.45" y2="210.15" width="0.001" layer="20" locked="yes"/>
 <wire x1="47.95" y1="210.65" x2="50.75" y2="210.65" width="0.001" layer="20" locked="yes"/>
-<wire x1="50.75" y1="211.65" x2="44.25" y2="211.65" width="0.001" layer="20" locked="yes"/>
-<wire x1="43.75" y1="211.15" x2="43.75" y2="208.65" width="0.001" layer="20" locked="yes"/>
-<wire x1="43.25" y1="208.15" x2="39.25" y2="208.15" width="0.001" layer="20" locked="yes"/>
-<wire x1="38.75" y1="208.65" x2="38.75" y2="211.15" width="0.001" layer="20" locked="yes"/>
-<wire x1="38.75" y1="211.15" x2="38.25" y2="211.65" width="0.001" layer="20" curve="90" locked="yes"/>
+<wire x1="50.75" y1="211.65" x2="44.75" y2="211.65" width="0.001" layer="20" locked="yes"/>
+<wire x1="44.25" y1="211.15" x2="44.25" y2="208.65" width="0.001" layer="20" locked="yes"/>
+<wire x1="43.75" y1="208.15" x2="38.75" y2="208.15" width="0.001" layer="20" locked="yes"/>
+<wire x1="38.25" y1="208.65" x2="38.25" y2="211.15" width="0.001" layer="20" locked="yes"/>
+<wire x1="38.25" y1="211.15" x2="37.75" y2="211.65" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="31.75" y1="211.65" x2="31.75" y2="210.65" width="0.001" layer="20" curve="180" locked="yes"/>
 <wire x1="35.05" y1="210.15" x2="34.55" y2="210.65" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="35.05" y1="203.85" x2="35.55" y2="203.35" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="46.95" y1="203.35" x2="47.45" y2="203.85" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="47.95" y1="210.65" x2="47.45" y2="210.15" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="50.75" y1="210.65" x2="50.75" y2="211.65" width="0.001" layer="20" curve="180" locked="yes"/>
-<wire x1="44.25" y1="211.65" x2="43.75" y2="211.15" width="0.001" layer="20" curve="90" locked="yes"/>
-<wire x1="43.25" y1="208.15" x2="43.75" y2="208.65" width="0.001" layer="20" curve="90" locked="yes"/>
-<wire x1="38.75" y1="208.65" x2="39.25" y2="208.15" width="0.001" layer="20" curve="90" locked="yes"/>
-<wire x1="38.25" y1="1.85" x2="31.75" y2="1.85" width="0.001" layer="20" locked="yes"/>
-<wire x1="38.75" y1="4.85" x2="38.75" y2="2.35" width="0.001" layer="20" locked="yes"/>
-<wire x1="43.25" y1="5.35" x2="39.25" y2="5.35" width="0.001" layer="20" locked="yes"/>
-<wire x1="43.75" y1="2.35" x2="43.75" y2="4.85" width="0.001" layer="20" locked="yes"/>
-<wire x1="50.75" y1="1.85" x2="44.25" y2="1.85" width="0.001" layer="20" locked="yes"/>
+<wire x1="44.75" y1="211.65" x2="44.25" y2="211.15" width="0.001" layer="20" curve="90" locked="yes"/>
+<wire x1="43.75" y1="208.15" x2="44.25" y2="208.65" width="0.001" layer="20" curve="90" locked="yes"/>
+<wire x1="38.25" y1="208.65" x2="38.75" y2="208.15" width="0.001" layer="20" curve="90" locked="yes"/>
+<wire x1="37.75" y1="1.85" x2="31.75" y2="1.85" width="0.001" layer="20" locked="yes"/>
+<wire x1="38.25" y1="4.85" x2="38.25" y2="2.35" width="0.001" layer="20" locked="yes"/>
+<wire x1="43.75" y1="5.35" x2="38.75" y2="5.35" width="0.001" layer="20" locked="yes"/>
+<wire x1="44.25" y1="2.35" x2="44.25" y2="4.85" width="0.001" layer="20" locked="yes"/>
+<wire x1="50.75" y1="1.85" x2="44.75" y2="1.85" width="0.001" layer="20" locked="yes"/>
 <wire x1="47.95" y1="2.85" x2="50.75" y2="2.85" width="0.001" layer="20" locked="yes"/>
 <wire x1="47.45" y1="9.65" x2="47.45" y2="3.35" width="0.001" layer="20" locked="yes"/>
 <wire x1="35.55" y1="10.15" x2="46.95" y2="10.15" width="0.001" layer="20" locked="yes"/>
 <wire x1="35.05" y1="3.35" x2="35.05" y2="9.65" width="0.001" layer="20" locked="yes"/>
 <wire x1="31.75" y1="2.85" x2="34.55" y2="2.85" width="0.001" layer="20" locked="yes"/>
 <wire x1="31.75" y1="2.85" x2="31.75" y2="1.85" width="0.001" layer="20" curve="180" locked="yes"/>
-<wire x1="38.25" y1="1.85" x2="38.75" y2="2.35" width="0.001" layer="20" curve="90" locked="yes"/>
-<wire x1="39.25" y1="5.35" x2="38.75" y2="4.85" width="0.001" layer="20" curve="90" locked="yes"/>
-<wire x1="43.75" y1="4.85" x2="43.25" y2="5.35" width="0.001" layer="20" curve="90" locked="yes"/>
-<wire x1="43.75" y1="2.35" x2="44.25" y2="1.85" width="0.001" layer="20" curve="90" locked="yes"/>
+<wire x1="37.75" y1="1.85" x2="38.25" y2="2.35" width="0.001" layer="20" curve="90" locked="yes"/>
+<wire x1="38.75" y1="5.35" x2="38.25" y2="4.85" width="0.001" layer="20" curve="90" locked="yes"/>
+<wire x1="44.25" y1="4.85" x2="43.75" y2="5.35" width="0.001" layer="20" curve="90" locked="yes"/>
+<wire x1="44.25" y1="2.35" x2="44.75" y2="1.85" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="50.75" y1="1.85" x2="50.75" y2="2.85" width="0.001" layer="20" curve="180" locked="yes"/>
 <wire x1="47.45" y1="3.35" x2="47.95" y2="2.85" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="47.45" y1="9.65" x2="46.95" y2="10.15" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="35.55" y1="10.15" x2="35.05" y2="9.65" width="0.001" layer="20" curve="90" locked="yes"/>
 <wire x1="34.55" y1="2.85" x2="35.05" y2="3.35" width="0.001" layer="20" curve="90" locked="yes"/>
+<text x="88.5" y="148.5" size="1.778" layer="1" rot="R90">CHECK TSTOP: OTHER CHANGES?</text>
 </plain>
 <libraries>
 <library name="J-Samtec-SFM-120-X1-XXX-D">
@@ -5379,8 +5380,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <via x="5.85" y="0.85" extent="1-16" drill="0.254"/>
 <via x="15.85" y="0.85" extent="1-16" drill="0.254"/>
 <via x="25.85" y="0.85" extent="1-16" drill="0.254"/>
-<via x="35.85" y="0.85" extent="1-16" drill="0.254"/>
-<via x="45.85" y="0.85" extent="1-16" drill="0.254"/>
+<via x="35.85" y="0.85" extent="1-16" drill="0.254" locked="yes"/>
+<via x="45.85" y="0.85" extent="1-16" drill="0.254" locked="yes"/>
 <via x="55.85" y="0.85" extent="1-16" drill="0.254"/>
 <via x="66.85" y="0.85" extent="1-16" drill="0.254"/>
 <via x="76.85" y="0.85" extent="1-16" drill="0.254"/>
