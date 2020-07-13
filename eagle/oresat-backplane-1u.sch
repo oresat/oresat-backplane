@@ -10046,30 +10046,32 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="CAN2_H" class="0">
 <segment>
+<pinref part="R7" gate="R" pin="1"/>
 <label x="30.48" y="81.28" size="1.778" layer="95" xref="yes"/>
 <pinref part="CF8.2" gate="G$1" pin="17"/>
-<wire x1="30.48" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="CF8.2" gate="G$1" pin="18"/>
+<wire x1="27.94" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="81.28" x2="25.4" y2="78.74" width="0.1524" layer="91"/>
 <junction x="25.4" y="81.28"/>
-</segment>
-<segment>
-<pinref part="R7" gate="R" pin="1"/>
-<junction x="71.12" y="78.74"/>
+<wire x1="71.12" y1="78.74" x2="27.94" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="78.74" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
+<junction x="27.94" y="81.28"/>
 </segment>
 </net>
 <net name="CAN2_L" class="0">
 <segment>
+<pinref part="R8" gate="R" pin="1"/>
 <label x="30.48" y="76.2" size="1.778" layer="95" xref="yes"/>
 <pinref part="CF8.2" gate="G$1" pin="19"/>
-<wire x1="30.48" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="CF8.2" gate="G$1" pin="20"/>
+<wire x1="27.94" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <junction x="25.4" y="76.2"/>
-</segment>
-<segment>
-<pinref part="R8" gate="R" pin="1"/>
-<junction x="71.12" y="73.66"/>
+<wire x1="71.12" y1="73.66" x2="27.94" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="73.66" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
+<junction x="27.94" y="76.2"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -10095,30 +10097,32 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="CAN1_H" class="0">
 <segment>
+<pinref part="R5" gate="R" pin="1"/>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <junction x="25.4" y="40.64"/>
 <label x="30.48" y="40.64" size="1.778" layer="95" xref="yes"/>
 <pinref part="CF8.2" gate="G$1" pin="33"/>
 <pinref part="CF8.2" gate="G$1" pin="34"/>
-</segment>
-<segment>
-<pinref part="R5" gate="R" pin="1"/>
-<junction x="73.66" y="38.1"/>
+<wire x1="27.94" y1="40.64" x2="25.4" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="38.1" x2="27.94" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="38.1" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<junction x="27.94" y="40.64"/>
 </segment>
 </net>
 <net name="CAN1_L" class="0">
 <segment>
+<pinref part="R6" gate="R" pin="1"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="30.48" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 <junction x="25.4" y="35.56"/>
 <label x="30.48" y="35.56" size="1.778" layer="95" xref="yes"/>
 <pinref part="CF8.2" gate="G$1" pin="35"/>
 <pinref part="CF8.2" gate="G$1" pin="36"/>
-</segment>
-<segment>
-<pinref part="R6" gate="R" pin="1"/>
-<junction x="73.66" y="33.02"/>
+<wire x1="27.94" y1="35.56" x2="25.4" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="33.02" x2="27.94" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="33.02" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
+<junction x="27.94" y="35.56"/>
 </segment>
 </net>
 <net name="!SD" class="0">
