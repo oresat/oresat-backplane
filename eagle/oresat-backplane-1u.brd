@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="yes"/>
@@ -24,16 +24,16 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="6" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -59,8 +59,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -104,7 +104,6 @@
 <text x="23.85" y="41.15" size="1.5" layer="21" font="vector">6</text>
 <text x="23.85" y="31.15" size="1.5" layer="21" font="vector">7</text>
 <text x="23.85" y="21.15" size="1.5" layer="21" font="vector">8</text>
-<text x="23.85" y="11.15" size="1.5" layer="21" font="vector">9</text>
 <text x="6.85" y="87.35" size="1.5" layer="22" font="vector" rot="MR0">1</text>
 <text x="24.85" y="81.15" size="1.5" layer="22" font="vector" rot="MR0">2</text>
 <text x="24.85" y="71.15" size="1.5" layer="22" font="vector" rot="MR0">3</text>
@@ -2220,7 +2219,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="10.71" y="77.6" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="10.71" y="77.03" size="1.27" layer="27"/>
 </element>
-<element name="CF2.3" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="19.65" y="92.11" smashed="yes">
+<element name="CF1.2" library="J-Samtec-SFM-120-X1-XXX-D" package="SFM-120-X1-XXX-D" value="SFM-120-X1-XXX-D" x="19.65" y="92.11" smashed="yes">
 <attribute name="NAME" x="17.11" y="87.55" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="17.11" y="87.03" size="1.27" layer="27"/>
 </element>
@@ -2260,28 +2259,28 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="22.45" y="96.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
 <element name="R5" library="oresat-rcl" package="1206-C" value="60.4" x="34.9" y="15" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.7" y="13.85" size="1" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="34.3" y="13.15" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="35.7" y="17.2" size="1" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R6" library="oresat-rcl" package="1206-C" value="60.4" x="29.7" y="15" smashed="yes">
-<attribute name="NAME" x="28.9" y="16.15" size="1" layer="25" ratio="10"/>
+<attribute name="NAME" x="29.1" y="13.15" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="28.9" y="12.8" size="1" layer="27" ratio="10"/>
 </element>
 <element name="R7" library="oresat-rcl" package="1206-C" value="60.4" x="45.1" y="15" smashed="yes" rot="R180">
-<attribute name="NAME" x="45.9" y="13.85" size="1" layer="25" ratio="10" rot="R180"/>
+<attribute name="NAME" x="44.6" y="13.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="45.9" y="17.2" size="1" layer="27" ratio="10" rot="R180"/>
 </element>
 <element name="R8" library="oresat-rcl" package="1206-C" value="60.4" x="39.9" y="15" smashed="yes">
-<attribute name="NAME" x="39.1" y="16.15" size="1" layer="25" ratio="10"/>
+<attribute name="NAME" x="39.5" y="13.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="39.1" y="12.8" size="1" layer="27" ratio="10"/>
 </element>
 <element name="C3" library="oresat-rcl" package=".0603-C-NOSILK" value="1n" x="32.3" y="14.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="33.05" y="15.3" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="31.7" y="12.45" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="32.3" y="14.3" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="30.75" y="15.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
 <element name="C4" library="oresat-rcl" package=".0603-C-NOSILK" value="1n" x="42.5" y="14.3" smashed="yes" rot="R270">
-<attribute name="NAME" x="43.25" y="15.3" size="0.5" layer="25" font="vector" ratio="15" rot="R270"/>
+<attribute name="NAME" x="42.1" y="12.4" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="NAME" x="42.5" y="14.3" size="0.3" layer="33" ratio="15" rot="R270" align="center"/>
 <attribute name="VALUE" x="40.95" y="15.3" size="0.8" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
@@ -2294,10 +2293,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="CM2.3" library="J-Molex-73300-011x-SMPM-M-vertical" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="75.25" y="79.43" smashed="yes">
 <attribute name="NAME" x="76.25" y="76.53" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="CM2.4" library="J-Molex-73300-011x-SMPM-M-vertical" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="69.25" y="69.43" smashed="yes">
+<element name="CM3.2" library="J-Molex-73300-011x-SMPM-M-vertical" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="69.25" y="69.43" smashed="yes">
 <attribute name="NAME" x="70.25" y="66.53" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="CM2.5" library="J-Molex-73300-011x-SMPM-M-vertical" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="63.25" y="59.43" smashed="yes">
+<element name="CM4.1" library="J-Molex-73300-011x-SMPM-M-vertical" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="63.25" y="59.43" smashed="yes">
 <attribute name="NAME" x="64.25" y="56.53" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 </elements>
@@ -2620,8 +2619,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="53.315" y1="51.475" x2="53.315" y2="42.745" width="0.6" layer="16"/>
 <wire x1="53.315" y1="41.475" x2="53.315" y2="32.745" width="0.6" layer="16"/>
 <wire x1="53.315" y1="31.475" x2="53.315" y2="22.745" width="0.6" layer="16"/>
-<contactref element="CF2.3" pad="1"/>
-<contactref element="CF2.3" pad="2"/>
+<contactref element="CF1.2" pad="1"/>
+<contactref element="CF1.2" pad="2"/>
 <wire x1="31.715" y1="92.745" x2="31.715" y2="91.475" width="0.6" layer="16"/>
 <wire x1="31.715" y1="91.475" x2="31.75" y2="91.44" width="0.3" layer="16"/>
 <wire x1="31.75" y1="91.44" x2="31.75" y2="90.95" width="0.3" layer="16"/>
@@ -2658,8 +2657,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="52.045" y1="51.475" x2="52.045" y2="42.745" width="0.6" layer="16"/>
 <wire x1="52.045" y1="41.475" x2="52.045" y2="32.745" width="0.6" layer="16"/>
 <wire x1="52.045" y1="31.475" x2="52.045" y2="22.745" width="0.6" layer="16"/>
-<contactref element="CF2.3" pad="3"/>
-<contactref element="CF2.3" pad="4"/>
+<contactref element="CF1.2" pad="3"/>
+<contactref element="CF1.2" pad="4"/>
 <wire x1="30.445" y1="92.745" x2="30.445" y2="91.475" width="0.6" layer="16"/>
 <wire x1="30.445" y1="91.475" x2="30.445" y2="90.155" width="0.3" layer="16"/>
 <wire x1="30.445" y1="90.155" x2="31.15" y2="89.45" width="0.3" layer="16"/>
@@ -2698,8 +2697,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="50.775" y1="51.475" x2="50.775" y2="42.745" width="0.6" layer="16"/>
 <wire x1="50.775" y1="41.475" x2="50.775" y2="32.745" width="0.6" layer="16"/>
 <wire x1="50.775" y1="31.475" x2="50.775" y2="22.745" width="0.6" layer="16"/>
-<contactref element="CF2.3" pad="5"/>
-<contactref element="CF2.3" pad="6"/>
+<contactref element="CF1.2" pad="5"/>
+<contactref element="CF1.2" pad="6"/>
 <wire x1="29.175" y1="92.745" x2="29.175" y2="91.475" width="0.6" layer="16"/>
 <wire x1="50.775" y1="82.745" x2="50.775" y2="84.725" width="0.3" layer="16"/>
 <wire x1="50.775" y1="84.725" x2="49.05" y2="86.45" width="0.3" layer="16"/>
@@ -2737,8 +2736,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="49.505" y1="51.475" x2="49.505" y2="42.745" width="0.6" layer="16"/>
 <wire x1="49.505" y1="41.475" x2="49.505" y2="32.745" width="0.6" layer="16"/>
 <wire x1="49.505" y1="31.475" x2="49.505" y2="22.745" width="0.6" layer="16"/>
-<contactref element="CF2.3" pad="7"/>
-<contactref element="CF2.3" pad="8"/>
+<contactref element="CF1.2" pad="7"/>
+<contactref element="CF1.2" pad="8"/>
 <wire x1="27.905" y1="92.745" x2="27.905" y2="91.475" width="0.6" layer="16"/>
 <wire x1="49.505" y1="82.745" x2="49.505" y2="84.895" width="0.3" layer="1"/>
 <wire x1="49.505" y1="84.895" x2="46.65" y2="87.75" width="0.3" layer="1"/>
@@ -2774,8 +2773,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="48.235" y1="31.475" x2="48.235" y2="22.745" width="0.6" layer="16"/>
 <wire x1="48.235" y1="41.475" x2="48.235" y2="32.745" width="0.6" layer="16"/>
 <wire x1="48.235" y1="51.475" x2="48.235" y2="42.745" width="0.6" layer="16"/>
-<contactref element="CF2.3" pad="9"/>
-<contactref element="CF2.3" pad="10"/>
+<contactref element="CF1.2" pad="9"/>
+<contactref element="CF1.2" pad="10"/>
 <wire x1="26.635" y1="92.745" x2="26.635" y2="91.475" width="0.6" layer="16"/>
 <wire x1="48.235" y1="82.745" x2="48.235" y2="84.565" width="0.6" layer="1"/>
 <wire x1="48.235" y1="84.565" x2="45.95" y2="86.85" width="0.6" layer="1"/>
@@ -2785,8 +2784,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.65" y1="91.46" x2="26.635" y2="91.475" width="0.3" layer="1"/>
 </signal>
 <signal name="OPD_SDA">
-<contactref element="CF2.3" pad="11"/>
-<contactref element="CF2.3" pad="12"/>
+<contactref element="CF1.2" pad="11"/>
+<contactref element="CF1.2" pad="12"/>
 <contactref element="CF2.2" pad="11"/>
 <contactref element="CF2.2" pad="12"/>
 <contactref element="CF3.2" pad="12"/>
@@ -2822,8 +2821,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.365" y1="87.535" x2="26.85" y2="86.05" width="0.3" layer="1"/>
 </signal>
 <signal name="OPD_SCL">
-<contactref element="CF2.3" pad="13"/>
-<contactref element="CF2.3" pad="14"/>
+<contactref element="CF1.2" pad="13"/>
+<contactref element="CF1.2" pad="14"/>
 <contactref element="CF2.2" pad="13"/>
 <contactref element="CF2.2" pad="14"/>
 <contactref element="CF3.2" pad="13"/>
@@ -2859,8 +2858,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="24.095" y1="91.475" x2="24.095" y2="87.705" width="0.3" layer="1"/>
 </signal>
 <signal name="OPD_PWR">
-<contactref element="CF2.3" pad="15"/>
-<contactref element="CF2.3" pad="16"/>
+<contactref element="CF1.2" pad="15"/>
+<contactref element="CF1.2" pad="16"/>
 <contactref element="CF2.2" pad="15"/>
 <contactref element="CF2.2" pad="16"/>
 <contactref element="CF3.2" pad="15"/>
@@ -2896,8 +2895,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="25.8976" y1="84.9024" x2="22.825" y2="87.975" width="0.6" layer="1"/>
 </signal>
 <signal name="CAN2_H">
-<contactref element="CF2.3" pad="18"/>
-<contactref element="CF2.3" pad="17"/>
+<contactref element="CF1.2" pad="18"/>
+<contactref element="CF1.2" pad="17"/>
 <contactref element="CF2.2" pad="17"/>
 <contactref element="CF2.2" pad="18"/>
 <contactref element="CF3.2" pad="17"/>
@@ -2947,8 +2946,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="43.155" y1="21.475" x2="43.155" y2="17.445" width="0.3" layer="1"/>
 </signal>
 <signal name="CAN2_L">
-<contactref element="CF2.3" pad="19"/>
-<contactref element="CF2.3" pad="20"/>
+<contactref element="CF1.2" pad="19"/>
+<contactref element="CF1.2" pad="20"/>
 <contactref element="CF2.2" pad="20"/>
 <contactref element="CF2.2" pad="19"/>
 <contactref element="CF3.2" pad="19"/>
@@ -3011,12 +3010,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF6.2" pad="26"/>
 <contactref element="CF8.2" pad="25"/>
 <contactref element="CF8.2" pad="26"/>
-<contactref element="CF2.3" pad="25"/>
-<contactref element="CF2.3" pad="26"/>
-<contactref element="CF2.3" pad="21"/>
-<contactref element="CF2.3" pad="22"/>
-<contactref element="CF2.3" pad="23"/>
-<contactref element="CF2.3" pad="24"/>
+<contactref element="CF1.2" pad="25"/>
+<contactref element="CF1.2" pad="26"/>
+<contactref element="CF1.2" pad="21"/>
+<contactref element="CF1.2" pad="22"/>
+<contactref element="CF1.2" pad="23"/>
+<contactref element="CF1.2" pad="24"/>
 <contactref element="CF2.2" pad="21"/>
 <contactref element="CF2.2" pad="22"/>
 <contactref element="CF2.2" pad="23"/>
@@ -3090,8 +3089,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="32.995" y1="51.475" x2="32.995" y2="42.745" width="0.3" layer="16"/>
 <wire x1="32.995" y1="31.475" x2="32.995" y2="22.745" width="0.3" layer="16"/>
 <wire x1="32.995" y1="41.475" x2="32.995" y2="32.745" width="0.3" layer="16"/>
-<contactref element="CF2.3" pad="33"/>
-<contactref element="CF2.3" pad="34"/>
+<contactref element="CF1.2" pad="33"/>
+<contactref element="CF1.2" pad="34"/>
 <wire x1="32.995" y1="82.745" x2="32.995" y2="84.405" width="0.3" layer="16"/>
 <wire x1="32.995" y1="84.405" x2="30.85" y2="86.55" width="0.3" layer="16"/>
 <wire x1="30.85" y1="86.55" x2="13.55" y2="86.55" width="0.3" layer="16"/>
@@ -3139,8 +3138,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.725" y1="41.475" x2="31.725" y2="32.745" width="0.3" layer="16"/>
 <wire x1="31.725" y1="51.475" x2="31.725" y2="42.745" width="0.3" layer="16"/>
 <wire x1="31.725" y1="31.475" x2="31.725" y2="22.745" width="0.3" layer="16"/>
-<contactref element="CF2.3" pad="35"/>
-<contactref element="CF2.3" pad="36"/>
+<contactref element="CF1.2" pad="35"/>
+<contactref element="CF1.2" pad="36"/>
 <wire x1="31.725" y1="82.745" x2="31.725" y2="83.975" width="0.3" layer="16"/>
 <wire x1="31.725" y1="83.975" x2="29.75" y2="85.95" width="0.3" layer="16"/>
 <wire x1="29.75" y1="85.95" x2="13.25" y2="85.95" width="0.3" layer="16"/>
@@ -3188,8 +3187,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="29.185" y1="51.475" x2="29.185" y2="42.745" width="0.3" layer="16"/>
 <wire x1="29.185" y1="41.475" x2="29.185" y2="32.745" width="0.3" layer="16"/>
 <wire x1="29.185" y1="31.475" x2="29.185" y2="22.745" width="0.3" layer="16"/>
-<contactref element="CF2.3" pad="39"/>
-<contactref element="CF2.3" pad="40"/>
+<contactref element="CF1.2" pad="39"/>
+<contactref element="CF1.2" pad="40"/>
 <wire x1="29.185" y1="82.745" x2="29.185" y2="83.445" width="0.3" layer="16"/>
 <wire x1="29.185" y1="83.445" x2="27.955" y2="83.445" width="0.3" layer="16"/>
 <wire x1="27.955" y1="83.445" x2="26.45" y2="84.95" width="0.3" layer="16"/>
@@ -3200,7 +3199,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="S-TURNSTILE" class="1">
 <contactref element="CM1.1" pad="RF-DOWN"/>
-<contactref element="CM2.5" pad="RF-DOWN"/>
+<contactref element="CM4.1" pad="RF-DOWN"/>
 <wire x1="63.25" y1="87.93" x2="63.25" y2="86.75" width="0.38" layer="1"/>
 <wire x1="63.25" y1="86.75" x2="58" y2="81.5" width="0.38" layer="1"/>
 <wire x1="58" y1="81.5" x2="58" y2="77" width="0.38" layer="1"/>
@@ -3214,7 +3213,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="L-GPS" class="1">
 <contactref element="CM2.1" pad="RF-DOWN"/>
-<contactref element="CM2.4" pad="RF-DOWN"/>
+<contactref element="CM3.2" pad="RF-DOWN"/>
 <wire x1="63.25" y1="77.93" x2="63.25" y2="76.4" width="0.38" layer="1"/>
 <wire x1="63.25" y1="76.4" x2="65.4" y2="74.25" width="0.38" layer="1"/>
 <wire x1="65.4" y1="74.25" x2="67.7043375" y2="74.25" width="0.38" layer="1"/>
@@ -3304,8 +3303,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF7.2" pad="38"/>
 <contactref element="CF8.2" pad="37"/>
 <contactref element="CF8.2" pad="38"/>
-<contactref element="CF2.3" pad="37"/>
-<contactref element="CF2.3" pad="38"/>
+<contactref element="CF1.2" pad="37"/>
+<contactref element="CF1.2" pad="38"/>
 <contactref element="CF2.2" pad="31"/>
 <contactref element="CF2.2" pad="32"/>
 <contactref element="CF3.2" pad="31"/>
@@ -3320,8 +3319,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF7.2" pad="32"/>
 <contactref element="CF8.2" pad="31"/>
 <contactref element="CF8.2" pad="32"/>
-<contactref element="CF2.3" pad="31"/>
-<contactref element="CF2.3" pad="32"/>
+<contactref element="CF1.2" pad="31"/>
+<contactref element="CF1.2" pad="32"/>
 <contactref element="CF2.2" pad="29"/>
 <contactref element="CF2.2" pad="30"/>
 <contactref element="CF3.2" pad="29"/>
@@ -3336,10 +3335,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF7.2" pad="30"/>
 <contactref element="CF8.2" pad="29"/>
 <contactref element="CF8.2" pad="30"/>
-<contactref element="CF2.3" pad="29"/>
-<contactref element="CF2.3" pad="30"/>
-<contactref element="CF2.3" pad="27"/>
-<contactref element="CF2.3" pad="28"/>
+<contactref element="CF1.2" pad="29"/>
+<contactref element="CF1.2" pad="30"/>
+<contactref element="CF1.2" pad="27"/>
+<contactref element="CF1.2" pad="28"/>
 <contactref element="CF2.2" pad="27"/>
 <contactref element="CF2.2" pad="28"/>
 <contactref element="CF3.2" pad="27"/>
@@ -3356,8 +3355,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CF8.2" pad="27"/>
 <via x="24.75" y="29.5" extent="1-16" drill="2.4" diameter="4"/>
 <via x="57.75" y="29.5" extent="1-16" drill="2.4" diameter="4"/>
-<contactref element="CF2.3" pad="LC2"/>
-<contactref element="CF2.3" pad="LC1"/>
+<contactref element="CF1.2" pad="LC2"/>
+<contactref element="CF1.2" pad="LC1"/>
 <contactref element="CM2.2" pad="P$2"/>
 <contactref element="CM2.2" pad="P$4"/>
 <contactref element="CM2.2" pad="P$3"/>
@@ -3490,14 +3489,14 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="CM2.3" pad="P$3"/>
 <contactref element="CM2.3" pad="P$4"/>
 <contactref element="CM2.3" pad="P$2"/>
-<contactref element="CM2.4" pad="P$1"/>
-<contactref element="CM2.4" pad="P$3"/>
-<contactref element="CM2.4" pad="P$4"/>
-<contactref element="CM2.4" pad="P$2"/>
-<contactref element="CM2.5" pad="P$1"/>
-<contactref element="CM2.5" pad="P$3"/>
-<contactref element="CM2.5" pad="P$4"/>
-<contactref element="CM2.5" pad="P$2"/>
+<contactref element="CM3.2" pad="P$1"/>
+<contactref element="CM3.2" pad="P$3"/>
+<contactref element="CM3.2" pad="P$4"/>
+<contactref element="CM3.2" pad="P$2"/>
+<contactref element="CM4.1" pad="P$1"/>
+<contactref element="CM4.1" pad="P$3"/>
+<contactref element="CM4.1" pad="P$4"/>
+<contactref element="CM4.1" pad="P$2"/>
 <via x="57.75" y="69.5" extent="1-16" drill="2.4" diameter="4"/>
 <via x="24.75" y="69.5" extent="1-16" drill="2.4" diameter="4"/>
 <via x="73.6" y="85.95" extent="1-16" drill="0.35" diameter="0.254"/>

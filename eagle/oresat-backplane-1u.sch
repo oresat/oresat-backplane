@@ -7332,7 +7332,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="CF2.1" library="J-Samtec-SFM-110-X1-XXX-D-LC" deviceset="SFM-110-X1-XXX-D-LC" device=""/>
 <part name="GND113" library="supply" deviceset="GND" device=""/>
 <part name="FRAME20" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="CF2.3" library="J-Samtec-SFM-120-X1-XXX-D" deviceset="SFM-120-X1-XXX-D" device=""/>
+<part name="CF1.2" library="J-Samtec-SFM-120-X1-XXX-D" deviceset="SFM-120-X1-XXX-D" device=""/>
 <part name="GND90" library="supply" deviceset="GND" device=""/>
 <part name="CM2.2" library="J-Molex-73300-011x-SMPM-M-vertical" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
 <part name="GND11" library="supply" deviceset="GND" device=""/>
@@ -7362,9 +7362,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="GND3" library="supply" deviceset="GND" device=""/>
 <part name="CM2.3" library="J-Molex-73300-011x-SMPM-M-vertical" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
 <part name="GND4" library="supply" deviceset="GND" device=""/>
-<part name="CM2.4" library="J-Molex-73300-011x-SMPM-M-vertical" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
+<part name="CM3.2" library="J-Molex-73300-011x-SMPM-M-vertical" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
 <part name="GND1" library="supply" deviceset="GND" device=""/>
-<part name="CM2.5" library="J-Molex-73300-011x-SMPM-M-vertical" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
+<part name="CM4.1" library="J-Molex-73300-011x-SMPM-M-vertical" deviceset="J-MOLEX-SMPM-73300-0111X" device=""/>
 <part name="GND5" library="supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
@@ -7379,7 +7379,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="SHEET" x="259.08" y="1.27" size="2.54" layer="94"/>
 <attribute name="DRAWING_NAME" x="190.5" y="19.05" size="2.54" layer="94"/>
 </instance>
-<instance part="CF2.3" gate="G$1" x="15.24" y="76.2" smashed="yes">
+<instance part="CF1.2" gate="G$1" x="15.24" y="76.2" smashed="yes">
 <attribute name="VALUE" x="12.7" y="125.73" size="1.27" layer="96"/>
 <attribute name="NAME" x="12.7" y="127" size="1.27" layer="95"/>
 </instance>
@@ -7431,37 +7431,37 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="37"/>
-<pinref part="CF2.3" gate="G$1" pin="38"/>
+<pinref part="CF1.2" gate="G$1" pin="37"/>
+<pinref part="CF1.2" gate="G$1" pin="38"/>
 <wire x1="25.4" y1="30.48" x2="25.4" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="30.48" x2="25.4" y2="30.48" width="0.1524" layer="91"/>
 <junction x="25.4" y="30.48"/>
 <label x="30.48" y="30.48" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="29"/>
-<pinref part="CF2.3" gate="G$1" pin="30"/>
+<pinref part="CF1.2" gate="G$1" pin="29"/>
+<pinref part="CF1.2" gate="G$1" pin="30"/>
 <wire x1="25.4" y1="50.8" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="50.8" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 <junction x="25.4" y="50.8"/>
 <label x="30.48" y="50.8" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF2.3" gate="G$1" pin="27"/>
-<pinref part="CF2.3" gate="G$1" pin="28"/>
+<pinref part="CF1.2" gate="G$1" pin="27"/>
+<pinref part="CF1.2" gate="G$1" pin="28"/>
 <wire x1="25.4" y1="55.88" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="53.34" x2="25.4" y2="50.8" width="0.1524" layer="91"/>
 <junction x="25.4" y="53.34"/>
-<pinref part="CF2.3" gate="G$1" pin="31"/>
-<pinref part="CF2.3" gate="G$1" pin="32"/>
+<pinref part="CF1.2" gate="G$1" pin="31"/>
+<pinref part="CF1.2" gate="G$1" pin="32"/>
 <wire x1="25.4" y1="45.72" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 <junction x="25.4" y="45.72"/>
 <wire x1="25.4" y1="48.26" x2="25.4" y2="45.72" width="0.1524" layer="91"/>
 <junction x="25.4" y="48.26"/>
 </segment>
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="LC2"/>
+<pinref part="CF1.2" gate="G$1" pin="LC2"/>
 <wire x1="25.4" y1="15.24" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="15.24" x2="27.94" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="CF2.3" gate="G$1" pin="LC1"/>
+<pinref part="CF1.2" gate="G$1" pin="LC1"/>
 <wire x1="25.4" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="27.94" y1="17.78" x2="27.94" y2="15.24" width="0.1524" layer="91"/>
 <junction x="27.94" y="15.24"/>
@@ -7492,8 +7492,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="SPARE5" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="1"/>
-<pinref part="CF2.3" gate="G$1" pin="2"/>
+<pinref part="CF1.2" gate="G$1" pin="1"/>
+<pinref part="CF1.2" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="121.92" x2="30.48" y2="121.92" width="0.1524" layer="91"/>
 <junction x="25.4" y="121.92"/>
@@ -7502,8 +7502,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="SPARE4" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="3"/>
-<pinref part="CF2.3" gate="G$1" pin="4"/>
+<pinref part="CF1.2" gate="G$1" pin="3"/>
+<pinref part="CF1.2" gate="G$1" pin="4"/>
 <wire x1="25.4" y1="116.84" x2="25.4" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
 <junction x="25.4" y="116.84"/>
@@ -7512,8 +7512,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="SPARE3" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="5"/>
-<pinref part="CF2.3" gate="G$1" pin="6"/>
+<pinref part="CF1.2" gate="G$1" pin="5"/>
+<pinref part="CF1.2" gate="G$1" pin="6"/>
 <wire x1="25.4" y1="111.76" x2="25.4" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 <junction x="25.4" y="111.76"/>
@@ -7522,8 +7522,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="SPARE2" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="7"/>
-<pinref part="CF2.3" gate="G$1" pin="8"/>
+<pinref part="CF1.2" gate="G$1" pin="7"/>
+<pinref part="CF1.2" gate="G$1" pin="8"/>
 <wire x1="25.4" y1="106.68" x2="25.4" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="106.68" x2="25.4" y2="106.68" width="0.1524" layer="91"/>
 <junction x="25.4" y="106.68"/>
@@ -7532,8 +7532,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="SPARE1" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="9"/>
-<pinref part="CF2.3" gate="G$1" pin="10"/>
+<pinref part="CF1.2" gate="G$1" pin="9"/>
+<pinref part="CF1.2" gate="G$1" pin="10"/>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
 <junction x="25.4" y="101.6"/>
@@ -7543,9 +7543,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <net name="OPD_SDA" class="0">
 <segment>
 <label x="30.48" y="96.52" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF2.3" gate="G$1" pin="11"/>
+<pinref part="CF1.2" gate="G$1" pin="11"/>
 <wire x1="30.48" y1="96.52" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="CF2.3" gate="G$1" pin="12"/>
+<pinref part="CF1.2" gate="G$1" pin="12"/>
 <wire x1="25.4" y1="93.98" x2="25.4" y2="96.52" width="0.1524" layer="91"/>
 <junction x="25.4" y="96.52"/>
 </segment>
@@ -7553,8 +7553,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <net name="OPD_SCL" class="0">
 <segment>
 <label x="30.48" y="91.44" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF2.3" gate="G$1" pin="13"/>
-<pinref part="CF2.3" gate="G$1" pin="14"/>
+<pinref part="CF1.2" gate="G$1" pin="13"/>
+<pinref part="CF1.2" gate="G$1" pin="14"/>
 <wire x1="25.4" y1="91.44" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 <junction x="25.4" y="91.44"/>
@@ -7563,9 +7563,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <net name="OPD_PWR" class="0">
 <segment>
 <label x="30.48" y="86.36" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF2.3" gate="G$1" pin="15"/>
+<pinref part="CF1.2" gate="G$1" pin="15"/>
 <wire x1="30.48" y1="86.36" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
-<pinref part="CF2.3" gate="G$1" pin="16"/>
+<pinref part="CF1.2" gate="G$1" pin="16"/>
 <wire x1="25.4" y1="86.36" x2="25.4" y2="83.82" width="0.1524" layer="91"/>
 <junction x="25.4" y="86.36"/>
 </segment>
@@ -7573,8 +7573,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <net name="CAN2_H" class="0">
 <segment>
 <label x="30.48" y="81.28" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF2.3" gate="G$1" pin="18"/>
-<pinref part="CF2.3" gate="G$1" pin="17"/>
+<pinref part="CF1.2" gate="G$1" pin="18"/>
+<pinref part="CF1.2" gate="G$1" pin="17"/>
 <wire x1="25.4" y1="78.74" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <junction x="25.4" y="81.28"/>
@@ -7588,9 +7588,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <net name="CAN2_L" class="0">
 <segment>
 <label x="30.48" y="76.2" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF2.3" gate="G$1" pin="19"/>
+<pinref part="CF1.2" gate="G$1" pin="19"/>
 <wire x1="30.48" y1="76.2" x2="27.94" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="CF2.3" gate="G$1" pin="20"/>
+<pinref part="CF1.2" gate="G$1" pin="20"/>
 <wire x1="27.94" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="76.2" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <junction x="25.4" y="76.2"/>
@@ -7602,18 +7602,18 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="VBUS" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="25"/>
-<pinref part="CF2.3" gate="G$1" pin="26"/>
+<pinref part="CF1.2" gate="G$1" pin="25"/>
+<pinref part="CF1.2" gate="G$1" pin="26"/>
 <wire x1="25.4" y1="60.96" x2="25.4" y2="58.42" width="0.1524" layer="91"/>
 <junction x="25.4" y="60.96"/>
 <label x="30.48" y="66.04" size="1.778" layer="95" xref="yes"/>
-<pinref part="CF2.3" gate="G$1" pin="21"/>
-<pinref part="CF2.3" gate="G$1" pin="22"/>
+<pinref part="CF1.2" gate="G$1" pin="21"/>
+<pinref part="CF1.2" gate="G$1" pin="22"/>
 <wire x1="25.4" y1="71.12" x2="25.4" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="CF2.3" gate="G$1" pin="23"/>
+<pinref part="CF1.2" gate="G$1" pin="23"/>
 <wire x1="25.4" y1="68.58" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <junction x="25.4" y="68.58"/>
-<pinref part="CF2.3" gate="G$1" pin="24"/>
+<pinref part="CF1.2" gate="G$1" pin="24"/>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <junction x="25.4" y="66.04"/>
 <wire x1="25.4" y1="63.5" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
@@ -7623,8 +7623,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="CAN1_H" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="33"/>
-<pinref part="CF2.3" gate="G$1" pin="34"/>
+<pinref part="CF1.2" gate="G$1" pin="33"/>
+<pinref part="CF1.2" gate="G$1" pin="34"/>
 <wire x1="25.4" y1="40.64" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
 <junction x="25.4" y="40.64"/>
@@ -7638,8 +7638,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="CAN1_L" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="35"/>
-<pinref part="CF2.3" gate="G$1" pin="36"/>
+<pinref part="CF1.2" gate="G$1" pin="35"/>
+<pinref part="CF1.2" gate="G$1" pin="36"/>
 <wire x1="25.4" y1="35.56" x2="25.4" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="35.56" x2="27.94" y2="35.56" width="0.1524" layer="91"/>
 <junction x="25.4" y="35.56"/>
@@ -7653,8 +7653,8 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="!SD" class="0">
 <segment>
-<pinref part="CF2.3" gate="G$1" pin="39"/>
-<pinref part="CF2.3" gate="G$1" pin="40"/>
+<pinref part="CF1.2" gate="G$1" pin="39"/>
+<pinref part="CF1.2" gate="G$1" pin="40"/>
 <wire x1="25.4" y1="25.4" x2="25.4" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="25.4" x2="25.4" y2="25.4" width="0.1524" layer="91"/>
 <junction x="25.4" y="25.4"/>
@@ -8108,7 +8108,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
 </instance>
 <instance part="GND107" gate="G1" x="27.94" y="137.16" smashed="yes"/>
-<instance part="CM2.4" gate="G$1" x="124.46" y="121.92" smashed="yes">
+<instance part="CM3.2" gate="G$1" x="124.46" y="121.92" smashed="yes">
 <attribute name="NAME" x="128.27" y="118.11" size="1.778" layer="95" ratio="20"/>
 <attribute name="VALUE" x="128.27" y="115.57" size="1.778" layer="96" ratio="20"/>
 </instance>
@@ -8166,7 +8166,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <junction x="25.4" y="48.26"/>
 </segment>
 <segment>
-<pinref part="CM2.4" gate="G$1" pin="SHIELD1"/>
+<pinref part="CM3.2" gate="G$1" pin="SHIELD1"/>
 <pinref part="GND1" gate="G1" pin="GND"/>
 </segment>
 </net>
@@ -8423,7 +8423,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="L-GPS" class="1">
 <segment>
-<pinref part="CM2.4" gate="G$1" pin="RF"/>
+<pinref part="CM3.2" gate="G$1" pin="RF"/>
 <wire x1="119.38" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
 <label x="116.84" y="121.92" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -8451,7 +8451,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="NAME" x="12.7" y="200.66" size="1.27" layer="95"/>
 </instance>
 <instance part="GND101" gate="G1" x="27.94" y="137.16" smashed="yes"/>
-<instance part="CM2.5" gate="G$1" x="127" y="101.6" smashed="yes">
+<instance part="CM4.1" gate="G$1" x="127" y="101.6" smashed="yes">
 <attribute name="NAME" x="130.81" y="97.79" size="1.778" layer="95" ratio="20"/>
 <attribute name="VALUE" x="130.81" y="95.25" size="1.778" layer="96" ratio="20"/>
 </instance>
@@ -8509,7 +8509,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <junction x="25.4" y="48.26"/>
 </segment>
 <segment>
-<pinref part="CM2.5" gate="G$1" pin="SHIELD1"/>
+<pinref part="CM4.1" gate="G$1" pin="SHIELD1"/>
 <pinref part="GND5" gate="G1" pin="GND"/>
 </segment>
 </net>
@@ -8766,7 +8766,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </net>
 <net name="S-TURNSTILE" class="1">
 <segment>
-<pinref part="CM2.5" gate="G$1" pin="RF"/>
+<pinref part="CM4.1" gate="G$1" pin="RF"/>
 <wire x1="121.92" y1="101.6" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
 <label x="116.84" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
