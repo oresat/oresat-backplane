@@ -116,7 +116,7 @@
 <text x="48" y="4.9" size="2" layer="21" font="vector">OreSat 1U Backplane 
 v1.1 (Frame v1.1)</text>
 <text x="34.35" y="4.85" size="2" layer="22" font="vector" rot="MR0">OreSat 1U Backplane 
-v1.0 (Frame 1.1)</text>
+v1.1 (Frame 1.1)</text>
 <wire x1="75.75" y1="95.25" x2="6.75" y2="95.25" width="0.001" layer="52"/>
 <wire x1="6.75" y1="95.25" x2="4.25" y2="92.75" width="0.001" layer="52" curve="90"/>
 <wire x1="4.25" y1="92.75" x2="4.25" y2="6.25" width="0.001" layer="52"/>

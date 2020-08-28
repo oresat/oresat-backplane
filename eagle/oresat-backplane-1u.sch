@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7473,12 +7473,12 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="GND5" library="supply" deviceset="GND" device=""/>
 <part name="J1" library="J-TE-5-104196-5-RA-1.27mm-female-th" deviceset="5-104196-5" device=""/>
 <part name="GND6" library="supply" deviceset="GND" device=""/>
-<part name="GND7" library="supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <description>Slot 1</description>
 <plain>
+<text x="264.16" y="7.62" size="2.54" layer="97">v1.1</text>
 </plain>
 <instances>
 <instance part="FRAME20" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -10276,6 +10276,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <sheet>
 <description>To -Z End Cap</description>
 <plain>
+<text x="91.44" y="88.9" size="2.54" layer="97">-Z End Cap Connector</text>
 </plain>
 <instances>
 <instance part="FRAME12" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -10289,16 +10290,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <attribute name="VALUE" x="107.95" y="156.21" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="GND6" gate="G1" x="104.14" y="97.79" smashed="yes"/>
-<instance part="GND7" gate="G1" x="132.08" y="185.42" smashed="yes"/>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND7" gate="G1" pin="GND"/>
-<wire x1="132.08" y1="185.42" x2="132.08" y2="187.96" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="HD"/>
 <pinref part="GND6" gate="G1" pin="GND"/>
