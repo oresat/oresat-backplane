@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="2" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7312,7 +7312,11 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <wire x1="13.26" y1="-8.51" x2="13.26" y2="0.5" width="0.127" layer="21"/>
 <wire x1="13.26" y1="0.5" x2="-13.26" y2="0.5" width="0.127" layer="51"/>
 <wire x1="-13.26" y1="0.5" x2="-13.26" y2="-8.51" width="0.127" layer="21"/>
-<text x="13.6" y="-0.1" size="0.635" layer="51" font="vector" ratio="20">&gt;NAME</text>
+<text x="13.6" y="-0.1" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<wire x1="-12.3" y1="-8.5" x2="-11.7" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-11.7" y1="-6.5" x2="-11" y2="-8.5" width="0.127" layer="21"/>
+<text x="-13" y="1.1" size="0.635" layer="51" font="vector" ratio="20">1</text>
+<text x="12.6" y="1.1" size="0.635" layer="51" font="vector" ratio="20">20</text>
 </package>
 </packages>
 <symbols>
@@ -7384,7 +7388,45 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </deviceset>
 </devicesets>
 </library>
-<library name="J-Harwin-M50-3002045-20pin-1.27-F-vertical">
+<library name="oresat-flight-marker">
+<packages>
+<package name="FLIGHTMARKER_NEW_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
+<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
+</package>
+<package name="FLIGHTMARKER_OLD_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
+<rectangle x1="36" y1="-0.2" x2="37.8" y2="1.6" layer="21"/>
+<wire x1="22.077" y1="-0.381" x2="26.087" y2="-0.381" width="0.1524" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FLIGHTHARDWARE">
+<text x="0" y="0" size="2.54" layer="94">Flight Hardware Marker (on PCB)</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FLIGHMARKER">
+<gates>
+<gate name="G$1" symbol="FLIGHTHARDWARE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="NEW" package="FLIGHTMARKER_NEW_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="OLD" package="FLIGHTMARKER_OLD_BOARDS">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="J-Harwin-M50-3002045-20pin-1.27-F-and-M-vertical-th">
 <packages>
 <package name="HARWIN-M50-30020452">
 <pad name="1" x="-5.715" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
@@ -7570,8 +7612,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="GND5" library="supply" deviceset="GND" device=""/>
 <part name="J1" library="J-TE-5-104196-5-RA-1.27mm-female-th" deviceset="5-104196-5" device=""/>
 <part name="GND6" library="supply" deviceset="GND" device=""/>
-<part name="J3" library="J-Harwin-M50-3002045-20pin-1.27-F-vertical" deviceset="HARWIN-M50-3002045" device=""/>
+<part name="J3" library="J-Harwin-M50-3002045-20pin-1.27-F-and-M-vertical-th" deviceset="HARWIN-M50-3002045" device=""/>
 <part name="GND7" library="supply" deviceset="GND" device=""/>
+<part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="NEW"/>
 </parts>
 <sheets>
 <sheet>
@@ -7632,6 +7675,7 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </instance>
 <instance part="GND2" gate="G1" x="147.32" y="83.82" smashed="yes"/>
 <instance part="GND3" gate="G1" x="147.32" y="68.58" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="121.92" y="2.54" smashed="yes"/>
 </instances>
 <busses>
 </busses>

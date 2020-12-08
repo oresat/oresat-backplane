@@ -4,10 +4,9 @@
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="yes"/>
@@ -33,12 +32,12 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -59,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -98,25 +97,24 @@
 <hole x="41.25" y="96.45" drill="3"/>
 <text x="5.85" y="87.35" size="1.5" layer="21" font="vector">1</text>
 <text x="23.85" y="81.15" size="1.5" layer="21" font="vector">2</text>
-<text x="23.85" y="71.15" size="1.5" layer="21" font="vector">3</text>
+<text x="23.85" y="72.15" size="1.5" layer="21" font="vector">3</text>
 <text x="23.85" y="61.15" size="1.5" layer="21" font="vector">4</text>
 <text x="23.85" y="51.15" size="1.5" layer="21" font="vector">5</text>
 <text x="23.85" y="41.15" size="1.5" layer="21" font="vector">6</text>
-<text x="23.85" y="31.15" size="1.5" layer="21" font="vector">7</text>
+<text x="23.85" y="32.15" size="1.5" layer="21" font="vector">7</text>
 <text x="23.85" y="21.15" size="1.5" layer="21" font="vector">8</text>
 <text x="6.85" y="87.35" size="1.5" layer="22" font="vector" rot="MR0">1</text>
 <text x="24.85" y="81.15" size="1.5" layer="22" font="vector" rot="MR0">2</text>
-<text x="24.85" y="71.15" size="1.5" layer="22" font="vector" rot="MR0">3</text>
+<text x="24.85" y="72.15" size="1.5" layer="22" font="vector" rot="MR0">3</text>
 <text x="24.85" y="61.15" size="1.5" layer="22" font="vector" rot="MR0">4</text>
 <text x="24.85" y="51.15" size="1.5" layer="22" font="vector" rot="MR0">5</text>
 <text x="24.85" y="41.15" size="1.5" layer="22" font="vector" rot="MR0">6</text>
-<text x="24.85" y="31.15" size="1.5" layer="22" font="vector" rot="MR0">7</text>
+<text x="24.85" y="32.15" size="1.5" layer="22" font="vector" rot="MR0">7</text>
 <text x="24.85" y="21.15" size="1.5" layer="22" font="vector" rot="MR0">8</text>
-<text x="24.95" y="13.05" size="1.5" layer="22" font="vector" rot="MR0">-Z End Cap</text>
-<text x="48" y="4.9" size="1.8" layer="21" font="vector">OreSat 1U Backplane 
-v1.2 (Frame v1.2)</text>
-<text x="77.4" y="4.9" size="1.8" layer="22" font="vector" rot="MR0">OreSat 1U Backplane 
-v1.2 (Frame 1.2)</text>
+<text x="5.55" y="13.05" size="1.5" layer="21" font="vector">-Z EC</text>
+<text x="62.5" y="8.4" size="1.8" layer="21" font="vector" align="center">OreSat 1U Backplane
+v1.2 (Frame v1.2)
+2020-12-08</text>
 <wire x1="75.75" y1="95.25" x2="6.75" y2="95.25" width="0.001" layer="52"/>
 <wire x1="6.75" y1="95.25" x2="4.25" y2="92.75" width="0.001" layer="52" curve="90"/>
 <wire x1="4.25" y1="92.75" x2="4.25" y2="6.25" width="0.001" layer="52"/>
@@ -664,6 +662,9 @@ v1.2 (Frame 1.2)</text>
 <wire x1="6.25" y1="57.25" x2="11.75" y2="57.25" width="0.127" layer="22"/>
 <wire x1="13.75" y1="55.25" x2="13.75" y2="43.25" width="0.127" layer="22"/>
 <text x="16.25" y="53.05" size="1.5" layer="22" font="vector" rot="SMR270">DEBUG</text>
+<text x="62.5" y="8.4" size="1.8" layer="22" font="vector" rot="MR0" align="center">OreSat 1U Backplane
+v1.2 (Frame v1.2)
+2020-12-08</text>
 </plain>
 <libraries>
 <library name="J-Samtec-SFM-120-X1-XXX-D">
@@ -1992,11 +1993,24 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 <wire x1="13.26" y1="-8.51" x2="13.26" y2="0.5" width="0.127" layer="21"/>
 <wire x1="13.26" y1="0.5" x2="-13.26" y2="0.5" width="0.127" layer="51"/>
 <wire x1="-13.26" y1="0.5" x2="-13.26" y2="-8.51" width="0.127" layer="21"/>
-<text x="13.6" y="-0.1" size="0.635" layer="51" font="vector" ratio="20">&gt;NAME</text>
+<text x="13.6" y="-0.1" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<wire x1="-12.3" y1="-8.5" x2="-11.7" y2="-6.5" width="0.127" layer="21"/>
+<wire x1="-11.7" y1="-6.5" x2="-11" y2="-8.5" width="0.127" layer="21"/>
+<text x="-13" y="1.1" size="0.635" layer="51" font="vector" ratio="20">1</text>
+<text x="12.6" y="1.1" size="0.635" layer="51" font="vector" ratio="20">20</text>
 </package>
 </packages>
 </library>
-<library name="J-Harwin-M50-3002045-20pin-1.27-F-vertical">
+<library name="oresat-flight-marker">
+<packages>
+<package name="FLIGHTMARKER_NEW_BOARDS">
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
+<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="J-Harwin-M50-3002045-20pin-1.27-F-and-M-vertical-th">
 <packages>
 <package name="HARWIN-M50-30020452">
 <pad name="1" x="-5.715" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
@@ -2347,11 +2361,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="64.25" y="56.53" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="J1" library="J-TE-5-104196-5-RA-1.27mm-female-th" package="5-104196-5" value="5-104196-5" x="18" y="11.35" locked="yes" smashed="yes">
-<attribute name="NAME" x="31.6" y="11.25" locked="yes" size="0.635" layer="51" font="vector" ratio="20"/>
+<attribute name="NAME" x="31.6" y="9.75" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="J3" library="J-Harwin-M50-3002045-20pin-1.27-F-vertical" package="HARWIN-M50-30020452" value="HARWIN-M50-3002045" x="10" y="49.25" locked="yes" smashed="yes" rot="MR270">
-<attribute name="NAME" x="10.2" y="41.63" locked="yes" size="0.635" layer="26" font="vector" ratio="20" rot="MR270"/>
+<element name="J3" library="J-Harwin-M50-3002045-20pin-1.27-F-and-M-vertical-th" package="HARWIN-M50-30020452" value="HARWIN-M50-3002045" x="10" y="49.25" locked="yes" smashed="yes" rot="MR270">
+<attribute name="NAME" x="10.33" y="56.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
+<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="69" y="18" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="AUX-1">
