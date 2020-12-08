@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -28,16 +28,16 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -665,6 +665,12 @@ v1.2 (Frame v1.2)
 <text x="62.5" y="8.4" size="1.8" layer="22" font="vector" rot="MR0" align="center">OreSat 1U Backplane
 v1.2 (Frame v1.2)
 2020-12-08</text>
+<circle x="10" y="49.25" radius="0.25" width="0.001" layer="50"/>
+<wire x1="9.165" y1="43.335" x2="9.165" y2="55.165" width="0.001" layer="50"/>
+<wire x1="9.165" y1="55.165" x2="10.835" y2="55.165" width="0.001" layer="50"/>
+<wire x1="10.835" y1="43.335" x2="10.835" y2="55.165" width="0.001" layer="50"/>
+<wire x1="9.165" y1="43.335" x2="10.835" y2="55.165" width="0.001" layer="50"/>
+<wire x1="9.165" y1="55.165" x2="10.835" y2="43.335" width="0.001" layer="50"/>
 </plain>
 <libraries>
 <library name="J-Samtec-SFM-120-X1-XXX-D">
@@ -2010,9 +2016,9 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 </package>
 </packages>
 </library>
-<library name="J-Harwin-M50-3002045-20pin-1.27-F-and-M-vertical-th">
+<library name="J-Harwin-M50-3501042-20pin-M-1.27mm-vertical-th">
 <packages>
-<package name="HARWIN-M50-30020452">
+<package name="HARWIN-M50-3501042">
 <pad name="1" x="-5.715" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
 <pad name="2" x="-5.715" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
 <pad name="3" x="-4.445" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
@@ -2029,10 +2035,10 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 <pad name="14" x="1.905" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
 <pad name="15" x="3.175" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
 <pad name="16" x="3.175" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
-<wire x1="-6.6" y1="1.55" x2="6.6" y2="1.55" width="0.127" layer="51"/>
-<wire x1="6.6" y1="1.55" x2="6.6" y2="-1.55" width="0.15" layer="21"/>
-<wire x1="6.6" y1="-1.55" x2="-6.6" y2="-1.55" width="0.127" layer="51"/>
-<wire x1="-6.6" y1="-1.55" x2="-6.6" y2="1.55" width="0.15" layer="21"/>
+<wire x1="-6.35" y1="1.7" x2="6.35" y2="1.7" width="0.15" layer="51"/>
+<wire x1="6.35" y1="1.7" x2="6.35" y2="-1.7" width="0.3" layer="51"/>
+<wire x1="6.35" y1="-1.7" x2="-6.35" y2="-1.7" width="0.15" layer="51"/>
+<wire x1="-6.35" y1="-1.7" x2="-6.35" y2="1.7" width="0.3" layer="51"/>
 <text x="6.92" y="-0.2" size="0.635" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <pad name="17" x="4.445" y="0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R90"/>
 <pad name="18" x="4.445" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
@@ -2040,8 +2046,10 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 <pad name="20" x="5.715" y="-0.635" drill="0.635" diameter="0.9652" shape="offset" rot="R270"/>
 <text x="-6.9" y="1.8" size="0.635" layer="21" font="vector" ratio="20">1</text>
 <text x="-6.9" y="-2.4" size="0.635" layer="21" font="vector" ratio="20">2</text>
-<text x="6.4" y="1.8" size="0.635" layer="21" font="vector" ratio="20">19</text>
-<text x="6.4" y="-2.4" size="0.635" layer="21" font="vector" ratio="20">20</text>
+<text x="6.5" y="1.8" size="0.635" layer="21" font="vector" ratio="20">19</text>
+<text x="6.5" y="-2.4" size="0.635" layer="21" font="vector" ratio="20">20</text>
+<wire x1="-6.4" y1="1.7" x2="-6.4" y2="-1.7" width="0.15" layer="21"/>
+<wire x1="6.4" y1="1.7" x2="6.4" y2="-1.7" width="0.15" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2363,7 +2371,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J1" library="J-TE-5-104196-5-RA-1.27mm-female-th" package="5-104196-5" value="5-104196-5" x="18" y="11.35" locked="yes" smashed="yes">
 <attribute name="NAME" x="31.6" y="9.75" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
-<element name="J3" library="J-Harwin-M50-3002045-20pin-1.27-F-and-M-vertical-th" package="HARWIN-M50-30020452" value="HARWIN-M50-3002045" x="10" y="49.25" locked="yes" smashed="yes" rot="MR270">
+<element name="J3" library="J-Harwin-M50-3501042-20pin-M-1.27mm-vertical-th" package="HARWIN-M50-3501042" value="HARWIN-M50-3501042" x="10" y="49.25" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="10.33" y="56.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
 <element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="69" y="18" smashed="yes" rot="R90"/>
