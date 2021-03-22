@@ -80,6 +80,40 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="100" name="DXF" color="61" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Hidden" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="Changes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="dxf_notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="labels" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="print" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="hints" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -88,6 +122,9 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
@@ -7391,9 +7428,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <library name="oresat-flight-marker">
 <packages>
 <package name="FLIGHTMARKER_NEW_BOARDS">
-<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
-<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
-<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
+<text x="2.54" y="0" size="1.27" layer="21" font="vector" ratio="15">NOT FLIGHT HARDWARE</text>
+<wire x1="2.19" y1="-0.5" x2="5.89" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="-0.25" y1="-0.3" x2="1.55" y2="1.5" layer="21"/>
 </package>
 <package name="FLIGHTMARKER_OLD_BOARDS">
 <text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF  NOT CHECKED</text>
@@ -7529,6 +7566,89 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 </deviceset>
 </devicesets>
 </library>
+<library name="dock_v2">
+<description>Generated from &lt;b&gt;dock.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="FIDUCIAL-1.0X1.5">
+<description>Tight Fiducial, 1.0 mm diameter with 1.5 mm mask clearance</description>
+<circle x="0" y="0" radius="0.375" width="0.75" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+<package name="FIDUCIAL-1.0X2.0">
+<description>Moderate Fiducial, 1.0 mm diameter with 2 mm mask clearance</description>
+<circle x="0" y="0" radius="0.5" width="1" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<circle x="0" y="0" radius="0.5" width="1" layer="41"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+<package name="FIDUCIAL-1.0X2.5">
+<description>Standard Fiducial, 1.0 mm diameter with 2.5 mm mask clearance</description>
+<circle x="0" y="0" radius="0.625" width="1.25" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
+</package>
+</packages>
+<symbols>
+<symbol name="FIDUCIAL">
+<description>Fiducial for optical coordinate reference</description>
+<circle x="0" y="0" radius="2.54" width="2.54" layer="94"/>
+<circle x="0" y="0" radius="4.699" width="0.762" layer="94"/>
+<rectangle x1="-5.08" y1="-5.08" x2="-2.54" y2="-3.556" layer="94"/>
+<rectangle x1="3.556" y1="-5.08" x2="5.08" y2="-2.54" layer="94"/>
+<rectangle x1="3.556" y1="2.54" x2="5.08" y2="5.08" layer="94"/>
+<rectangle x1="2.54" y1="-5.08" x2="5.08" y2="-3.556" layer="94"/>
+<rectangle x1="-5.08" y1="3.556" x2="-2.54" y2="5.08" layer="94"/>
+<rectangle x1="-5.08" y1="2.54" x2="-3.556" y2="5.08" layer="94"/>
+<rectangle x1="2.54" y1="3.556" x2="5.08" y2="5.08" layer="94"/>
+<rectangle x1="-5.08" y1="-5.08" x2="-3.556" y2="-2.54" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.127" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="5.08" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="4.699" x2="2.54" y2="4.699" width="0.762" layer="94"/>
+<wire x1="-4.699" y1="2.54" x2="-4.699" y2="-2.54" width="0.762" layer="94"/>
+<wire x1="-2.54" y1="-4.699" x2="2.54" y2="-4.699" width="0.762" layer="94"/>
+<wire x1="4.699" y1="-2.54" x2="4.699" y2="2.54" width="0.762" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.127" layer="94"/>
+<pin name="FIDUCIAL" x="0" y="0" length="point" direction="nc"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="FIDUCIAL" prefix="FIDUCIAL">
+<description>Fiducials for optical coordinate reference</description>
+<gates>
+<gate name="FIDUCIAL" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-1.0X1.5" package="FIDUCIAL-1.0X1.5">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.0X2.0" package="FIDUCIAL-1.0X2.0">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-1.0X2.5" package="FIDUCIAL-1.0X2.5">
+<connects>
+<connect gate="FIDUCIAL" pin="FIDUCIAL" pad="FIDUCIAL"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7617,6 +7737,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <part name="J3" library="J-Harwin-M50-3501042-20pin-M-1.27mm-vertical-th" deviceset="HARWIN-M50-3501042" device=""/>
 <part name="GND7" library="supply" deviceset="GND" device=""/>
 <part name="U$1" library="oresat-flight-marker" deviceset="FLIGHMARKER" device="NEW"/>
+<part name="FIDUCIAL1" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL2" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
+<part name="FIDUCIAL3" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
 </parts>
 <sheets>
 <sheet>
@@ -7678,6 +7801,9 @@ Pad definition corrected 2006.05.15, librarian@cadsoft.de
 <instance part="GND2" gate="G1" x="147.32" y="83.82" smashed="yes"/>
 <instance part="GND3" gate="G1" x="147.32" y="68.58" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="121.92" y="2.54" smashed="yes"/>
+<instance part="FIDUCIAL1" gate="FIDUCIAL" x="200.66" y="45.72" smashed="yes"/>
+<instance part="FIDUCIAL2" gate="FIDUCIAL" x="218.44" y="45.72" smashed="yes"/>
+<instance part="FIDUCIAL3" gate="FIDUCIAL" x="233.68" y="45.72" smashed="yes"/>
 </instances>
 <busses>
 </busses>

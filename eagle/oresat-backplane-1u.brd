@@ -6,9 +6,9 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="7" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,20 +23,20 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="6" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -80,6 +80,39 @@
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
 <layer number="101" name="DXF2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="102" name="Changes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="7" fill="1" visible="no" active="yes"/>
+<layer number="105" name="Beschreib" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="BGA-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="BD-Top" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="dxf_notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="labels" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="print" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="hints" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="201" name="201bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -90,6 +123,7 @@
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -113,8 +147,8 @@
 <text x="24.85" y="21.15" size="1.5" layer="22" font="vector" rot="MR0">8</text>
 <text x="5.55" y="13.05" size="1.5" layer="21" font="vector">-Z EC</text>
 <text x="62.5" y="8.4" size="1.8" layer="21" font="vector" align="center">OreSat 1U Backplane
-v1.2 (Frame v1.2)
-2020-12-08</text>
+v1.3 (Frame v1.2)
+2021-03-21</text>
 <wire x1="75.75" y1="95.25" x2="6.75" y2="95.25" width="0.001" layer="52"/>
 <wire x1="6.75" y1="95.25" x2="4.25" y2="92.75" width="0.001" layer="52" curve="90"/>
 <wire x1="4.25" y1="92.75" x2="4.25" y2="6.25" width="0.001" layer="52"/>
@@ -663,14 +697,15 @@ v1.2 (Frame v1.2)
 <wire x1="13.75" y1="55.25" x2="13.75" y2="43.25" width="0.127" layer="22"/>
 <text x="16.25" y="53.05" size="1.5" layer="22" font="vector" rot="SMR270">DEBUG</text>
 <text x="62.5" y="8.4" size="1.8" layer="22" font="vector" rot="MR0" align="center">OreSat 1U Backplane
-v1.2 (Frame v1.2)
-2020-12-08</text>
+v1.3 (Frame v1.2)
+2021-03-21</text>
 <circle x="10" y="49.25" radius="0.25" width="0.001" layer="50"/>
 <wire x1="9.165" y1="43.335" x2="9.165" y2="55.165" width="0.001" layer="50"/>
 <wire x1="9.165" y1="55.165" x2="10.835" y2="55.165" width="0.001" layer="50"/>
 <wire x1="10.835" y1="43.335" x2="10.835" y2="55.165" width="0.001" layer="50"/>
 <wire x1="9.165" y1="43.335" x2="10.835" y2="55.165" width="0.001" layer="50"/>
 <wire x1="9.165" y1="55.165" x2="10.835" y2="43.335" width="0.001" layer="50"/>
+<rectangle x1="63" y1="24" x2="76" y2="37" layer="21"/>
 </plain>
 <libraries>
 <library name="J-Samtec-SFM-120-X1-XXX-D">
@@ -2010,9 +2045,9 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 <library name="oresat-flight-marker">
 <packages>
 <package name="FLIGHTMARKER_NEW_BOARDS">
-<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="15">FLIGHT HARDWARE IF NOT CHECKED</text>
-<wire x1="18.7" y1="-0.5" x2="22.4" y2="-0.5" width="0.1524" layer="21"/>
-<rectangle x1="31.5" y1="-0.3" x2="33.3" y2="1.5" layer="21"/>
+<text x="2.54" y="0" size="1.27" layer="21" font="vector" ratio="15">NOT FLIGHT HARDWARE</text>
+<wire x1="2.19" y1="-0.5" x2="5.89" y2="-0.5" width="0.1524" layer="21"/>
+<rectangle x1="-0.25" y1="-0.3" x2="1.55" y2="1.5" layer="21"/>
 </package>
 </packages>
 </library>
@@ -2050,6 +2085,19 @@ This package is identical to 0603-C, but has its tPlace silkscreen layer removed
 <text x="6.5" y="-2.4" size="0.635" layer="21" font="vector" ratio="20">20</text>
 <wire x1="-6.4" y1="1.7" x2="-6.4" y2="-1.7" width="0.15" layer="21"/>
 <wire x1="6.4" y1="1.7" x2="6.4" y2="-1.7" width="0.15" layer="21"/>
+</package>
+</packages>
+</library>
+<library name="dock_v2">
+<description>Generated from &lt;b&gt;dock.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="FIDUCIAL-1.0X2.0">
+<description>Moderate Fiducial, 1.0 mm diameter with 2 mm mask clearance</description>
+<circle x="0" y="0" radius="0.5" width="1" layer="29"/>
+<circle x="0" y="0" radius="0.25" width="0.5" layer="33"/>
+<circle x="0" y="0" radius="0.5" width="1" layer="41"/>
+<smd name="FIDUCIAL" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" stop="no" thermals="no" cream="no"/>
 </package>
 </packages>
 </library>
@@ -2374,7 +2422,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J3" library="J-Harwin-M50-3501042-20pin-M-1.27mm-vertical-th" package="HARWIN-M50-3501042" value="HARWIN-M50-3501042" x="10" y="49.25" locked="yes" smashed="yes" rot="MR270">
 <attribute name="NAME" x="10.33" y="56.3" size="0.635" layer="26" font="vector" ratio="20" rot="MR0"/>
 </element>
-<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="69" y="18" smashed="yes" rot="R90"/>
+<element name="U$1" library="oresat-flight-marker" package="FLIGHTMARKER_NEW_BOARDS" value="FLIGHMARKERNEW" x="51" y="15" smashed="yes"/>
+<element name="FIDUCIAL1" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="80" y="97" smashed="yes"/>
+<element name="FIDUCIAL2" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="2" y="97" smashed="yes"/>
+<element name="FIDUCIAL3" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="2" y="2" smashed="yes"/>
 </elements>
 <signals>
 <signal name="AUX-1">
