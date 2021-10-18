@@ -7636,10 +7636,10 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <part name="GND15" library="supply" deviceset="GND" device=""/>
 <part name="C2" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1n"/>
 <part name="GND16" library="supply" deviceset="GND" device=""/>
-<part name="R5" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="60.4"/>
-<part name="R6" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="60.4"/>
-<part name="R7" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="60.4"/>
-<part name="R8" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="60.4"/>
+<part name="R5" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="NP/60.4"/>
+<part name="R6" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="NP/60.4"/>
+<part name="R7" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="NP/60.4"/>
+<part name="R8" library="oresat-rcl" deviceset="R-US_" device="1206-C" value="NP/60.4"/>
 <part name="C3" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1n"/>
 <part name="GND18" library="supply" deviceset="GND" device=""/>
 <part name="C4" library="oresat-rcl" deviceset="C-EU" device="0603-C-NOSILK" value="1n"/>
@@ -7660,17 +7660,17 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <part name="FIDUCIAL1" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
 <part name="FIDUCIAL2" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
 <part name="FIDUCIAL3" library="dock_v2" deviceset="FIDUCIAL" device="-1.0X2.0"/>
-<part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK"/>
-<part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK"/>
-<part name="C5" library="oresat-rcl" deviceset="C-EU" device="1206-B"/>
-<part name="C6" library="oresat-rcl" deviceset="C-EU" device="1206-B"/>
-<part name="C7" library="oresat-rcl" deviceset="C-EU" device="1206-B"/>
+<part name="R9" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="0"/>
+<part name="R10" library="oresat-rcl" deviceset="R-US_" device="0603-B-NOSILK" value="0"/>
+<part name="C5" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="10u 25V"/>
+<part name="C6" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="10u 25V"/>
+<part name="C7" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="10u 25V"/>
 <part name="GND8" library="supply" deviceset="GND" device=""/>
 <part name="CM8" library="J-HRS-U.FL-R-SMT-1(10)-M-RF" deviceset="U.FL-R-SMA" device=""/>
-<part name="C8" library="oresat-rcl" deviceset="C-EU" device="1206-B"/>
-<part name="C9" library="oresat-rcl" deviceset="C-EU" device="1206-B"/>
-<part name="C10" library="oresat-rcl" deviceset="C-EU" device="1206-B"/>
-<part name="C11" library="oresat-rcl" deviceset="C-EU" device="1206-B"/>
+<part name="C8" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="10u 25V"/>
+<part name="C9" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="10u 25V"/>
+<part name="C10" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="10u 25V"/>
+<part name="C11" library="oresat-rcl" deviceset="C-EU" device="1206-B" value="10u 25V"/>
 <part name="J2" library="J-Harwin-M55-60X1642R-16pin-1.27mm-F-vertical" deviceset="M55-6001642R" device=""/>
 <part name="GND7" library="supply" deviceset="GND" device=""/>
 </parts>
@@ -7679,7 +7679,7 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <description>Slot 1</description>
 <plain>
 <text x="264.16" y="7.62" size="2.54" layer="97">v1.1</text>
-<text x="85.09" y="102.87" size="1.27" layer="97">NOTE: See Slot 8 for CAN 1/2 information.</text>
+<text x="100.33" y="105.41" size="1.27" layer="97">NOTE: See Slot 8 for CAN 1/2 information.</text>
 </plain>
 <instances>
 <instance part="FRAME20" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -7738,9 +7738,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <instance part="FIDUCIAL1" gate="FIDUCIAL" x="200.66" y="45.72" smashed="yes"/>
 <instance part="FIDUCIAL2" gate="FIDUCIAL" x="218.44" y="45.72" smashed="yes"/>
 <instance part="FIDUCIAL3" gate="FIDUCIAL" x="233.68" y="45.72" smashed="yes"/>
-<instance part="C5" gate="CE" x="74.93" y="111.76" smashed="yes">
-<attribute name="NAME" x="76.454" y="112.141" size="1.778" layer="95"/>
-<attribute name="VALUE" x="76.454" y="107.061" size="1.778" layer="96"/>
+<instance part="C5" gate="CE" x="74.93" y="109.22" smashed="yes">
+<attribute name="NAME" x="76.454" y="109.601" size="1.778" layer="95"/>
+<attribute name="VALUE" x="76.454" y="104.521" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7765,7 +7765,7 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <wire x1="59.69" y1="105.41" x2="57.15" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="C5" gate="CE" pin="2"/>
 <wire x1="57.15" y1="102.87" x2="74.93" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="74.93" y1="102.87" x2="74.93" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="102.87" x2="74.93" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="LC2"/>
@@ -7889,10 +7889,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="57.15" y="113.03"/>
 <wire x1="57.15" y1="110.49" x2="54.61" y2="110.49" width="0.1524" layer="91"/>
 <wire x1="57.15" y1="113.03" x2="72.39" y2="113.03" width="0.1524" layer="91"/>
-<wire x1="72.39" y1="113.03" x2="72.39" y2="115.57" width="0.1524" layer="91"/>
 <pinref part="C5" gate="CE" pin="1"/>
-<wire x1="72.39" y1="115.57" x2="74.93" y2="115.57" width="0.1524" layer="91"/>
-<wire x1="74.93" y1="115.57" x2="74.93" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="72.39" y1="113.03" x2="74.93" y2="113.03" width="0.1524" layer="91"/>
+<wire x1="74.93" y1="113.03" x2="74.93" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_H" class="0">
@@ -8126,9 +8125,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <attribute name="VALUE" x="168.91" y="81.28" size="1.778" layer="96" ratio="20"/>
 </instance>
 <instance part="GND4" gate="G1" x="165.1" y="82.55" smashed="yes"/>
-<instance part="C6" gate="CE" x="78.74" y="105.41" smashed="yes">
-<attribute name="NAME" x="80.264" y="105.791" size="1.778" layer="95"/>
-<attribute name="VALUE" x="80.264" y="100.711" size="1.778" layer="96"/>
+<instance part="C6" gate="CE" x="78.74" y="104.14" smashed="yes">
+<attribute name="NAME" x="80.264" y="104.521" size="1.778" layer="95"/>
+<attribute name="VALUE" x="80.264" y="99.441" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8170,7 +8169,7 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF2.2" gate="G$1" pin="29"/>
 <pinref part="CF2.2" gate="G$1" pin="30"/>
 <pinref part="C6" gate="CE" pin="2"/>
-<wire x1="78.74" y1="100.33" x2="78.74" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="99.06" x2="78.74" y2="97.79" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="97.79" x2="60.96" y2="97.79" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8269,10 +8268,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF2.2" gate="G$1" pin="25"/>
 <pinref part="CF2.2" gate="G$1" pin="26"/>
 <wire x1="60.96" y1="107.95" x2="76.2" y2="107.95" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="107.95" x2="76.2" y2="110.49" width="0.1524" layer="91"/>
 <pinref part="C6" gate="CE" pin="1"/>
-<wire x1="76.2" y1="110.49" x2="78.74" y2="110.49" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="110.49" x2="78.74" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="107.95" x2="78.74" y2="107.95" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="107.95" x2="78.74" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_H" class="0">
@@ -8444,9 +8442,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <attribute name="VALUE" x="172.72" y="157.48" size="1.778" layer="96" ratio="20"/>
 </instance>
 <instance part="GND1" gate="G1" x="168.91" y="158.75" smashed="yes"/>
-<instance part="C7" gate="CE" x="92.71" y="101.6" smashed="yes">
-<attribute name="NAME" x="94.234" y="101.981" size="1.778" layer="95"/>
-<attribute name="VALUE" x="94.234" y="96.901" size="1.778" layer="96"/>
+<instance part="C7" gate="CE" x="92.71" y="99.06" smashed="yes">
+<attribute name="NAME" x="94.234" y="99.441" size="1.778" layer="95"/>
+<attribute name="VALUE" x="94.234" y="94.361" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8484,7 +8482,7 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF3.2" gate="G$1" pin="29"/>
 <pinref part="CF3.2" gate="G$1" pin="30"/>
 <pinref part="C7" gate="CE" pin="2"/>
-<wire x1="92.71" y1="96.52" x2="92.71" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="93.98" x2="92.71" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="92.71" x2="72.39" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8576,10 +8574,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF3.2" gate="G$1" pin="25"/>
 <pinref part="CF3.2" gate="G$1" pin="26"/>
 <wire x1="72.39" y1="102.87" x2="88.9" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="102.87" x2="88.9" y2="105.41" width="0.1524" layer="91"/>
 <pinref part="C7" gate="CE" pin="1"/>
-<wire x1="88.9" y1="105.41" x2="92.71" y2="105.41" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="105.41" x2="92.71" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="102.87" x2="92.71" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="102.87" x2="92.71" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_H" class="0">
@@ -8752,9 +8749,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <attribute name="VALUE" x="182.88" y="132.08" size="1.778" layer="96" ratio="20"/>
 </instance>
 <instance part="GND5" gate="G1" x="179.07" y="133.35" smashed="yes"/>
-<instance part="C8" gate="CE" x="99.06" y="95.25" smashed="yes">
-<attribute name="NAME" x="100.584" y="95.631" size="1.778" layer="95"/>
-<attribute name="VALUE" x="100.584" y="90.551" size="1.778" layer="96"/>
+<instance part="C8" gate="CE" x="99.06" y="93.98" smashed="yes">
+<attribute name="NAME" x="100.584" y="94.361" size="1.778" layer="95"/>
+<attribute name="VALUE" x="100.584" y="89.281" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8793,7 +8790,7 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF4.2" gate="G$1" pin="30"/>
 <pinref part="C8" gate="CE" pin="2"/>
 <wire x1="80.01" y1="87.63" x2="99.06" y2="87.63" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="87.63" x2="99.06" y2="90.17" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="87.63" x2="99.06" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S-PATCH" class="1">
@@ -8884,10 +8881,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF4.2" gate="G$1" pin="25"/>
 <pinref part="CF4.2" gate="G$1" pin="26"/>
 <wire x1="80.01" y1="97.79" x2="95.25" y2="97.79" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="97.79" x2="95.25" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="99.06" x2="99.06" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="97.79" x2="99.06" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="C8" gate="CE" pin="1"/>
-<wire x1="99.06" y1="99.06" x2="99.06" y2="97.79" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="97.79" x2="99.06" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_H" class="0">
@@ -9412,9 +9408,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <attribute name="VALUE" x="64.77" y="167.64" size="1.27" layer="96"/>
 <attribute name="NAME" x="64.77" y="168.91" size="1.27" layer="95"/>
 </instance>
-<instance part="C10" gate="CE" x="100.33" y="100.33" smashed="yes">
-<attribute name="NAME" x="101.854" y="100.711" size="1.778" layer="95"/>
-<attribute name="VALUE" x="101.854" y="95.631" size="1.778" layer="96"/>
+<instance part="C10" gate="CE" x="100.33" y="99.06" smashed="yes">
+<attribute name="NAME" x="101.854" y="99.441" size="1.778" layer="95"/>
+<attribute name="VALUE" x="101.854" y="94.361" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9440,7 +9436,7 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="77.47" y="95.25"/>
 <wire x1="82.55" y1="95.25" x2="77.47" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="C10" gate="CE" pin="2"/>
-<wire x1="100.33" y1="95.25" x2="100.33" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="93.98" x2="100.33" y2="92.71" width="0.1524" layer="91"/>
 <wire x1="100.33" y1="92.71" x2="77.47" y2="92.71" width="0.1524" layer="91"/>
 <pinref part="CF6.2" gate="G$1" pin="27"/>
 <pinref part="CF6.2" gate="G$1" pin="28"/>
@@ -9526,12 +9522,10 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <segment>
 <label x="82.55" y="123.19" size="1.27" layer="95" xref="yes"/>
 <wire x1="77.47" y1="123.19" x2="82.55" y2="123.19" width="0.1524" layer="91"/>
-<wire x1="77.47" y1="123.19" x2="77.47" y2="121.9962" width="0.1524" layer="91"/>
 <pinref part="CF6.2" gate="G$1" pin="17"/>
 <junction x="77.47" y="123.19"/>
 <pinref part="CF6.2" gate="G$1" pin="18"/>
-<wire x1="77.47" y1="120.65" x2="77.47" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="77.47" y1="121.92" x2="77.47" y2="123.19" width="0.1524" layer="91"/>
+<wire x1="77.47" y1="120.65" x2="77.47" y2="123.19" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN2_L" class="0">
@@ -9554,10 +9548,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="77.47" y="105.41"/>
 <wire x1="82.55" y1="105.41" x2="77.47" y2="105.41" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="102.87" x2="96.52" y2="102.87" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="102.87" x2="96.52" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="C10" gate="CE" pin="1"/>
-<wire x1="96.52" y1="104.14" x2="100.33" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="100.33" y1="104.14" x2="100.33" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="102.87" x2="100.33" y2="102.87" width="0.1524" layer="91"/>
+<wire x1="100.33" y1="102.87" x2="100.33" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="CF6.2" gate="G$1" pin="23"/>
 <pinref part="CF6.2" gate="G$1" pin="24"/>
 <pinref part="CF6.2" gate="G$1" pin="25"/>
@@ -9678,9 +9671,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <attribute name="VALUE" x="57.15" y="170.18" size="1.27" layer="96"/>
 <attribute name="NAME" x="57.15" y="171.45" size="1.27" layer="95"/>
 </instance>
-<instance part="C11" gate="CE" x="92.71" y="102.87" smashed="yes">
-<attribute name="NAME" x="94.234" y="103.251" size="1.778" layer="95"/>
-<attribute name="VALUE" x="94.234" y="98.171" size="1.778" layer="96"/>
+<instance part="C11" gate="CE" x="92.71" y="101.6" smashed="yes">
+<attribute name="NAME" x="94.234" y="101.981" size="1.778" layer="95"/>
+<attribute name="VALUE" x="94.234" y="96.901" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -9706,7 +9699,7 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="69.85" y="97.79"/>
 <wire x1="74.93" y1="97.79" x2="69.85" y2="97.79" width="0.1524" layer="91"/>
 <pinref part="C11" gate="CE" pin="2"/>
-<wire x1="92.71" y1="97.79" x2="92.71" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="96.52" x2="92.71" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="95.25" x2="69.85" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="CF7.2" gate="G$1" pin="27"/>
 <pinref part="CF7.2" gate="G$1" pin="28"/>
@@ -9818,10 +9811,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="69.85" y="107.95"/>
 <wire x1="76.2" y1="107.95" x2="69.85" y2="107.95" width="0.1524" layer="91"/>
 <wire x1="69.85" y1="105.41" x2="88.9" y2="105.41" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="105.41" x2="88.9" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C11" gate="CE" pin="1"/>
-<wire x1="88.9" y1="106.68" x2="92.71" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="106.68" x2="92.71" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="105.41" x2="92.71" y2="105.41" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="105.41" x2="92.71" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="CF7.2" gate="G$1" pin="23"/>
 <pinref part="CF7.2" gate="G$1" pin="24"/>
 <pinref part="CF7.2" gate="G$1" pin="25"/>
@@ -9954,16 +9946,16 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <attribute name="VALUE" x="129.54" y="104.648" size="1.778" layer="96"/>
 </instance>
 <instance part="R6" gate="R" x="128.27" y="97.79" smashed="yes">
-<attribute name="NAME" x="124.46" y="99.2886" size="1.778" layer="95"/>
-<attribute name="VALUE" x="129.54" y="99.568" size="1.778" layer="96"/>
+<attribute name="NAME" x="124.46" y="94.2086" size="1.778" layer="95"/>
+<attribute name="VALUE" x="129.54" y="94.488" size="1.778" layer="96"/>
 </instance>
 <instance part="R7" gate="R" x="125.73" y="143.51" smashed="yes">
 <attribute name="NAME" x="121.92" y="145.0086" size="1.778" layer="95"/>
 <attribute name="VALUE" x="127" y="145.288" size="1.778" layer="96"/>
 </instance>
 <instance part="R8" gate="R" x="125.73" y="138.43" smashed="yes">
-<attribute name="NAME" x="121.92" y="139.9286" size="1.778" layer="95"/>
-<attribute name="VALUE" x="127" y="140.208" size="1.778" layer="96"/>
+<attribute name="NAME" x="121.92" y="134.8486" size="1.778" layer="95"/>
+<attribute name="VALUE" x="127" y="135.128" size="1.778" layer="96"/>
 </instance>
 <instance part="C3" gate="CE" x="140.97" y="95.25" smashed="yes">
 <attribute name="NAME" x="142.494" y="95.631" size="1.778" layer="95"/>
@@ -9976,12 +9968,12 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 </instance>
 <instance part="GND20" gate="G1" x="140.97" y="87.63" smashed="yes"/>
 <instance part="R9" gate="R" x="102.87" y="115.57" smashed="yes" rot="R90">
-<attribute name="NAME" x="101.3714" y="111.76" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="106.172" y="111.76" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="101.6" y="111.76" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="101.6" y="118.11" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R10" gate="R" x="110.49" y="115.57" smashed="yes" rot="R90">
-<attribute name="NAME" x="108.9914" y="111.76" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="113.792" y="111.76" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="109.22" y="111.76" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="109.22" y="118.11" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>

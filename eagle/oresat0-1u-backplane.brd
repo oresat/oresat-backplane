@@ -23,15 +23,15 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="6" fill="1" visible="no" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -57,9 +57,9 @@
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="50" name="dxf" color="61" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="61" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -696,9 +696,9 @@ v2.0 (Frame v1.3)
 2021-09-XX</text>
 <circle x="9.8" y="49.25" radius="0.25" width="0.001" layer="50"/>
 <rectangle x1="67" y1="24.5" x2="80" y2="37.5" layer="21"/>
-<text x="62.7" y="91.9" size="1" layer="21" font="vector" ratio="15">L1</text>
+<text x="62.6" y="91.9" size="1" layer="21" font="vector" ratio="15">L1</text>
 <text x="69" y="91.9" size="1" layer="21" font="vector" ratio="15">L</text>
-<text x="74.1" y="91.9" size="1" layer="21" font="vector" ratio="15">UHF</text>
+<text x="74.2" y="91.9" size="1" layer="21" font="vector" ratio="15">UHF</text>
 <text x="62.9" y="61.9" size="1" layer="21" font="vector" ratio="15">S</text>
 <wire x1="63.25" y1="55.7" x2="63.25" y2="15.3" width="2" layer="29"/>
 <wire x1="6.2" y1="56.69" x2="13.4" y2="41.81" width="0.01" layer="50"/>
@@ -2350,7 +2350,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="70.55" y="76.78" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="CM1.1" library="J-Molex-73300-011x-SMPM-M-vertical" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="63.25" y="89.43" smashed="yes" rot="R180">
-<attribute name="NAME" x="62" y="91.93" size="0.635" layer="25" font="vector" ratio="20"/>
+<attribute name="NAME" x="59.5" y="91.6" size="0.635" layer="25" font="vector" ratio="20"/>
 </element>
 <element name="R1" library="oresat-rcl" package="1206-C" value="60.4" x="13.4" y="96.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="12.9" y="97.65" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -2378,19 +2378,19 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="20.9" y="97.2" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="22.45" y="96.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R5" library="oresat-rcl" package="1206-C" value="60.4" x="34.9" y="16" smashed="yes" rot="R180">
+<element name="R5" library="oresat-rcl" package="1206-C" value="NP/60.4" x="34.9" y="16" smashed="yes" rot="R180">
 <attribute name="NAME" x="34.3" y="14.15" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="35.7" y="18.2" size="1" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R6" library="oresat-rcl" package="1206-C" value="60.4" x="29.7" y="16" smashed="yes">
+<element name="R6" library="oresat-rcl" package="1206-C" value="NP/60.4" x="29.7" y="16" smashed="yes">
 <attribute name="NAME" x="29.1" y="14.15" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="28.9" y="13.8" size="1" layer="27" ratio="10"/>
 </element>
-<element name="R7" library="oresat-rcl" package="1206-C" value="60.4" x="45.1" y="16" smashed="yes" rot="R180">
+<element name="R7" library="oresat-rcl" package="1206-C" value="NP/60.4" x="45.1" y="16" smashed="yes" rot="R180">
 <attribute name="NAME" x="44.6" y="14.1" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="45.9" y="18.2" size="1" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="R8" library="oresat-rcl" package="1206-C" value="60.4" x="39.9" y="16" smashed="yes">
+<element name="R8" library="oresat-rcl" package="1206-C" value="NP/60.4" x="39.9" y="16" smashed="yes">
 <attribute name="NAME" x="39.5" y="14.25" size="0.635" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="39.1" y="13.8" size="1" layer="27" ratio="10"/>
 </element>
@@ -2408,7 +2408,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="NAME" x="68.25" y="92.33" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="CM1.3" library="J-Molex-73300-011x-SMPM-M-vertical" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="75.25" y="89.43" smashed="yes" rot="R180">
-<attribute name="NAME" x="74.25" y="92.33" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
+<attribute name="NAME" x="79.45" y="92.23" size="0.635" layer="25" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="CM2.3" library="J-Molex-73300-011x-SMPM-M-vertical" package="J-MOLEX-SMPM-73300-0111X" value="J-MOLEX-SMPM-73300-0111X" x="75.25" y="79.43" smashed="yes">
 <attribute name="NAME" x="76.25" y="76.53" size="0.635" layer="25" font="vector" ratio="20"/>
@@ -2426,46 +2426,46 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="FIDUCIAL1" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="80" y="97" smashed="yes"/>
 <element name="FIDUCIAL2" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="2" y="97" smashed="yes"/>
 <element name="FIDUCIAL3" library="dock_v2" package="FIDUCIAL-1.0X2.0" value="FIDUCIAL-1.0X2.0" x="2" y="2" smashed="yes"/>
-<element name="R9" library="oresat-rcl" package=".0603-B-NOSILK" value="" x="38.5" y="13.4" smashed="yes" rot="R90">
-<attribute name="NAME" x="37.7" y="12.2" size="0.8" layer="25" font="vector" ratio="15" rot="R90"/>
+<element name="R9" library="oresat-rcl" package=".0603-B-NOSILK" value="0" x="38.5" y="13.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="37.9" y="11.1" size="0.8" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="38.5" y="13.4" size="0.3" layer="33" ratio="15" rot="R90" align="center"/>
 <attribute name="VALUE" x="40.1" y="12.2" size="0.8" layer="27" font="vector" ratio="15" rot="R90"/>
 </element>
-<element name="R10" library="oresat-rcl" package=".0603-B-NOSILK" value="" x="42.5" y="13.4" smashed="yes">
-<attribute name="NAME" x="41.3" y="14.2" size="0.8" layer="25" font="vector" ratio="15"/>
+<element name="R10" library="oresat-rcl" package=".0603-B-NOSILK" value="0" x="42.5" y="13.4" smashed="yes">
+<attribute name="NAME" x="41.6" y="11.9" size="0.8" layer="25" font="vector" ratio="15"/>
 <attribute name="NAME" x="42.5" y="13.4" size="0.3" layer="33" ratio="15" align="center"/>
 <attribute name="VALUE" x="41.3" y="11.8" size="0.8" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="C5" library="oresat-rcl" package="1206-B" value="" x="15.8" y="88.7" smashed="yes" rot="MR0">
-<attribute name="NAME" x="16.4" y="86.65" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
+<element name="C5" library="oresat-rcl" package="1206-B" value="10u 25V" x="15.8" y="88.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.4" y="86.75" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="16.6" y="86.4" size="1" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="C6" library="oresat-rcl" package="1206-B" value="" x="37.4" y="78.7" smashed="yes" rot="MR0">
-<attribute name="NAME" x="37.9" y="76.45" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
+<element name="C6" library="oresat-rcl" package="1206-B" value="10u 25V" x="37.4" y="78.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="37.9" y="76.55" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="38.2" y="76.4" size="1" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="C7" library="oresat-rcl" package="1206-B" value="" x="37.3" y="68.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="37.9" y="66.65" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
+<element name="C7" library="oresat-rcl" package="1206-B" value="10u 25V" x="37.3" y="68.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="37.8" y="66.55" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="38.1" y="66.3" size="1" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="CM8" library="J-HRS-U.FL-R-SMT-1(10)-M-RF" package="U.FL-R-SMT" value="U.FL-R-SMA" x="63.25" y="12" smashed="yes">
 <attribute name="NAME" x="66.5" y="11.9" size="0.655" layer="25" font="vector" ratio="20"/>
 <attribute name="VALUE" x="62.25" y="10" size="0.655" layer="27" font="vector" ratio="20" rot="R270"/>
 </element>
-<element name="C8" library="oresat-rcl" package="1206-B" value="" x="37.4" y="58.7" smashed="yes" rot="MR0">
+<element name="C8" library="oresat-rcl" package="1206-B" value="10u 25V" x="37.4" y="58.7" smashed="yes" rot="MR0">
 <attribute name="NAME" x="37.8" y="56.55" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="38.2" y="56.4" size="1" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="C9" library="oresat-rcl" package="1206-B" value="" x="37.4" y="48.7" smashed="yes" rot="MR0">
-<attribute name="NAME" x="37.7" y="46.35" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
+<element name="C9" library="oresat-rcl" package="1206-B" value="10u 25V" x="37.4" y="48.7" smashed="yes" rot="MR0">
+<attribute name="NAME" x="37.6" y="46.55" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="38.2" y="46.4" size="1" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="C10" library="oresat-rcl" package="1206-B" value="" x="37.3" y="38.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="38.1" y="39.85" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
+<element name="C10" library="oresat-rcl" package="1206-B" value="10u 25V" x="37.3" y="38.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="38" y="36.55" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="38.1" y="36.3" size="1" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="C11" library="oresat-rcl" package="1206-B" value="" x="37.3" y="28.6" smashed="yes" rot="MR0">
-<attribute name="NAME" x="38.1" y="29.85" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
+<element name="C11" library="oresat-rcl" package="1206-B" value="10u 25V" x="37.3" y="28.6" smashed="yes" rot="MR0">
+<attribute name="NAME" x="37.9" y="26.5" size="0.8" layer="26" font="vector" ratio="20" rot="MR0"/>
 <attribute name="VALUE" x="38.1" y="26.3" size="1" layer="28" ratio="10" rot="MR0"/>
 </element>
 <element name="J2" library="J-Harwin-M55-60X1642R-16pin-1.27mm-F-vertical" package="CONN_M55-6001642R_HRW" value="M55-6001642R" x="9.8" y="49.25" locked="yes" smashed="yes" rot="MR270">
@@ -2512,8 +2512,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="46.965" y1="41.475" x2="46.965" y2="32.745" width="0.3" layer="16"/>
 <wire x1="46.965" y1="32.745" x2="46.965" y2="31.475" width="0.3" layer="16"/>
 <contactref element="J2" pad="16"/>
-<wire x1="46.965" y1="41.475" x2="46.965" y2="40.265" width="0.2" layer="1"/>
-<wire x1="46.965" y1="40.265" x2="45.2" y2="38.5" width="0.2" layer="1"/>
 <wire x1="46.965" y1="42.745" x2="46.965" y2="43.835" width="0.2" layer="1"/>
 <wire x1="46" y1="44.8" x2="15" y2="44.8" width="0.2" layer="1"/>
 <via x="15" y="44.8" extent="1-16" drill="0.254"/>
@@ -2932,7 +2930,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="29" y1="17.8" x2="28.3" y2="17.1" width="0.3" layer="1"/>
 <wire x1="28.3" y1="17.1" x2="28.3" y2="16" width="0.3" layer="1"/>
 <wire x1="31.1" y1="17.8" x2="29" y2="17.8" width="0.3" layer="1"/>
-<wire x1="31.725" y1="21.375" x2="31.725" y2="21.15" width="0.3" layer="1"/>
 <contactref element="R9" pad="1"/>
 <wire x1="31.725" y1="21.15" x2="31.725" y2="18.425" width="0.3" layer="1"/>
 <wire x1="28.3" y1="16" x2="28.3" y2="14.8" width="0.3" layer="1"/>
@@ -3445,7 +3442,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="31.1" y1="34" x2="30.6" y2="34.5" width="0.2" layer="16"/>
 <wire x1="30.6" y1="34.5" x2="30.6" y2="40.3" width="0.2" layer="16"/>
 <wire x1="30.5" y1="40.4" x2="30.6" y2="40.3" width="0.2" layer="16"/>
-<wire x1="30.4" y1="31.42" x2="30.455" y2="31.475" width="0.2" layer="16"/>
 <wire x1="30.455" y1="31.475" x2="30.455" y2="31.555" width="0.2" layer="16"/>
 <wire x1="30.455" y1="31.555" x2="31.1" y2="32.2" width="0.2" layer="16"/>
 <wire x1="30.455" y1="41.475" x2="31.1" y2="42.12" width="0.2" layer="16"/>
@@ -3568,7 +3564,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="53.315" y1="42.745" x2="53.315" y2="41.475" width="0.4" layer="16"/>
 <wire x1="53.315" y1="41.475" x2="53.315" y2="32.745" width="0.4" layer="16"/>
 <wire x1="53.315" y1="32.745" x2="53.315" y2="31.475" width="0.4" layer="16"/>
-<wire x1="53.315" y1="31.475" x2="53.315" y2="31.285" width="0.4" layer="16"/>
 <contactref element="J1" pad="19"/>
 <contactref element="J1" pad="20"/>
 <wire x1="44.55" y1="11.35" x2="30.065" y2="11.35" width="0.4" layer="16"/>
@@ -4129,7 +4124,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="33.6" y1="42.08" x2="33.6" y2="34.7" width="0.2" layer="16"/>
 <wire x1="34.265" y1="34.035" x2="34.265" y2="32.745" width="0.2" layer="16"/>
 <wire x1="33.6" y1="34.7" x2="34.265" y2="34.035" width="0.2" layer="16"/>
-<wire x1="34.265" y1="32.745" x2="33.6" y2="32.08" width="0.2" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -4140,50 +4134,120 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,1,1203f1e27c3502b5"/>
-<approved hash="5,1,b6da1a676b1b7341"/>
-<approved hash="5,1,0d346ce5463dbd2f"/>
-<approved hash="5,1,76ef9046b84e475c"/>
-<approved hash="5,1,1773f45a726dd809"/>
-<approved hash="5,1,73579536b21e99e8"/>
-<approved hash="5,1,ea310d7d5f8f96e4"/>
-<approved hash="5,1,2bf060e282cc76de"/>
-<approved hash="5,1,ec94881f9000beee"/>
-<approved hash="5,1,7b44672f264d4f4f"/>
-<approved hash="5,1,8d611dc822764614"/>
-<approved hash="5,1,e0d0ff8ca95f05e7"/>
-<approved hash="5,1,1b71c459c270002b"/>
-<approved hash="5,1,eaee7047d84d7f7d"/>
-<approved hash="5,1,2d2d84c7fa18212e"/>
-<approved hash="5,1,605816ae943d2b8e"/>
-<approved hash="5,1,100cbdf195c1b8ef"/>
-<approved hash="5,1,721173a7ac31af20"/>
-<approved hash="5,1,ae5e3edd237c4531"/>
-<approved hash="5,1,fa698ae76921e450"/>
-<approved hash="5,1,effd8c45f76449c9"/>
-<approved hash="5,1,0ec47a5bb7382f5d"/>
-<approved hash="5,1,745a06ac5c3c53a8"/>
-<approved hash="5,1,d60c33ba8433a700"/>
-<approved hash="5,1,964496c39b66852d"/>
-<approved hash="5,1,a85726ae743d2bc4"/>
-<approved hash="5,1,ca17f3a18c333f7f"/>
-<approved hash="5,1,6e4c9ede936f5528"/>
-<approved hash="5,1,12675ae79923f41a"/>
-<approved hash="5,1,47fa0c438764c996"/>
-<approved hash="5,1,9eca1a022f77f74a"/>
-<approved hash="5,1,f0d48f978158bdfe"/>
-<approved hash="5,1,216065ca8274ae32"/>
-<approved hash="5,1,ef59072d564f4770"/>
-<approved hash="5,1,d66bb2e239228476"/>
-<approved hash="5,1,4be00c46b76479e9"/>
-<approved hash="5,1,6574a7a6b96f6820"/>
-<approved hash="5,1,81daafae89cbe8da"/>
-<approved hash="5,1,cb17cc8992338c93"/>
-<approved hash="5,1,42e217439d547f72"/>
-<approved hash="5,1,977f27ae74558640"/>
-<approved hash="5,1,09675fff9c435dae"/>
 <approved hash="5,1,d35271925898fe56"/>
 <approved hash="5,1,d6ad1345115a5b23"/>
+<approved hash="5,1,4b25cb3058ec5aa7"/>
+<approved hash="5,1,5beb9d2026f938c2"/>
+<approved hash="5,1,9cded33fa604db1c"/>
+<approved hash="5,1,a8dc2b078b748c66"/>
+<approved hash="5,1,cb0f95d218215406"/>
+<approved hash="5,1,3662e176c3137dc5"/>
+<approved hash="5,1,f1cef21ae414b90e"/>
+<approved hash="5,1,ed34a6baef53f31e"/>
+<approved hash="5,1,25f2c312afc557ab"/>
+<approved hash="5,1,16c8d063019add1a"/>
+<approved hash="5,1,ba80f1045bbea1da"/>
+<approved hash="5,1,2779cbc41e4e405b"/>
+<approved hash="5,1,2206044bd3eb4888"/>
+<approved hash="5,1,d776bfeb15ee29d1"/>
+<approved hash="5,1,cad0761f1d8dd9c9"/>
+<approved hash="5,1,f2e5ced560b7d868"/>
+<approved hash="5,1,15218436cefdddf6"/>
+<approved hash="5,1,2b998d0dc464db48"/>
+<approved hash="5,1,166e8edbc7e59718"/>
+<approved hash="5,1,7886e7977052adf9"/>
+<approved hash="5,1,04e292e20d19dbd5"/>
+<approved hash="5,1,3d14cce738bb1dbd"/>
+<approved hash="5,1,3027c8f838b7c12c"/>
+<approved hash="5,1,31ff8c5bd3eae478"/>
+<approved hash="5,1,089c53d62b4c7144"/>
+<approved hash="5,1,ac2495f4b93cae8f"/>
+<approved hash="5,1,acc7bec7b93d3fd6"/>
+<approved hash="5,1,eb8c4403ac022618"/>
+<approved hash="5,1,64a1339440523ddf"/>
+<approved hash="5,1,661669c86eea3956"/>
+<approved hash="5,1,c7ea69c9361e60cf"/>
+<approved hash="5,1,9ecf950ee289e6d6"/>
+<approved hash="5,1,b525312a524feccc"/>
+<approved hash="5,1,01e0dd0924ee9fa3"/>
+<approved hash="5,1,2742ee3b5e6f15f7"/>
+<approved hash="5,1,dfae27b63bb6ce2e"/>
+<approved hash="5,1,8f139930c2d3c26d"/>
+<approved hash="5,1,cb35bb2f18efeaab"/>
+<approved hash="5,1,7d31c6badf53831b"/>
+<approved hash="5,1,56d7b062519f6d19"/>
+<approved hash="5,1,233b9f4860eddb8a"/>
+<approved hash="5,1,e65f22c49d0d3ada"/>
+<approved hash="5,1,8c1874a536cecf67"/>
+<approved hash="5,1,7f27769636ba1187"/>
+<approved hash="5,1,b9b27e91d1b586ee"/>
+<approved hash="5,1,7b43ece84cd5d6ef"/>
+<approved hash="5,1,61953a465c48b10e"/>
+<approved hash="5,1,9da4cb41b7db27eb"/>
+<approved hash="5,1,2bbefd70332ecace"/>
+<approved hash="5,1,72abe330431dd77f"/>
+<approved hash="5,1,55a952cf0610f93f"/>
+<approved hash="5,1,0277fa01e6f81f22"/>
+<approved hash="5,1,d1130a52f3359943"/>
+<approved hash="5,1,dd03c80ad2c3c9f5"/>
+<approved hash="5,1,a2c5faecfc966477"/>
+<approved hash="5,1,86f3ea38c18a89e9"/>
+<approved hash="5,1,753923802b9a6257"/>
+<approved hash="5,1,16d2687ae9835501"/>
+<approved hash="5,1,c1c8972d03c42f89"/>
+<approved hash="5,1,bb3f032be8ef12a4"/>
+<approved hash="5,1,69dcdaf11dd3b2e4"/>
+<approved hash="5,1,cd37d6bb8f536b1c"/>
+<approved hash="5,1,e9f2b626a82a2513"/>
+<approved hash="5,1,ecb9e7f39f689560"/>
+<approved hash="5,1,99db687e67cfc87b"/>
+<approved hash="5,1,2c1bd4c5c48a3d10"/>
+<approved hash="5,1,9528d0dac486e1a3"/>
+<approved hash="5,1,5a09421f1cb0e2c7"/>
+<approved hash="5,1,2dae62cc560e1124"/>
+<approved hash="5,1,22a813332b066f64"/>
+<approved hash="5,1,cbbf9d73332cd2ce"/>
+<approved hash="5,1,1e4be63c1ac5e31e"/>
+<approved hash="5,1,f92f166e8f08655c"/>
+<approved hash="5,1,f7a9f02618018e3c"/>
+<approved hash="5,1,480141d10d184aab"/>
+<approved hash="5,1,23defb603ca6c5d6"/>
+<approved hash="5,1,046f1ff605cfcfd5"/>
+<approved hash="5,1,25887cfdb6bb84c7"/>
+<approved hash="5,1,4caf263cd93a4c75"/>
+<approved hash="5,1,cea18822ea1caa0e"/>
+<approved hash="5,1,0bd6d1a578398236"/>
+<approved hash="5,1,b41207e5a78ca7ac"/>
+<approved hash="5,1,f9b35433f14c88f6"/>
+<approved hash="5,1,789b94da1919e582"/>
+<approved hash="5,1,306ae46ec613cb71"/>
+<approved hash="5,1,2702dc3faf0c6098"/>
+<approved hash="5,1,12502277860c3bfa"/>
+<approved hash="5,1,73a78fea69c75cd1"/>
+<approved hash="5,1,78d9f96ae323bb83"/>
+<approved hash="5,1,19e456c8b9f3aee2"/>
+<approved hash="5,1,cecd83b7249fd473"/>
+<approved hash="5,1,5fa49912cc7b1374"/>
+<approved hash="5,1,0a52f2e63bd86324"/>
+<approved hash="5,1,0b531be9e5ecc9f6"/>
+<approved hash="5,1,c622186e67ce64ac"/>
+<approved hash="5,1,5b442fda1e517866"/>
+<approved hash="5,1,46bd0d3827a069e7"/>
+<approved hash="5,1,3894c32182027aeb"/>
+<approved hash="5,1,cea3c502863e12af"/>
+<approved hash="5,1,9fd724ccdc39660e"/>
+<approved hash="5,16,01fe0bc2c4c83884"/>
+<approved hash="5,16,7d5fae1e6d1c41f8"/>
+<approved hash="5,16,72c7dc5a10504e60"/>
+<approved hash="5,16,7cb8b0282e44ace2"/>
+<approved hash="5,16,737773f2bc084d50"/>
+<approved hash="5,16,317ee01462588149"/>
+<approved hash="5,16,39a3fa119b68204b"/>
+<approved hash="5,16,517ac8e5cb5b18e8"/>
+<approved hash="4,16,39c393794e53a2fb"/>
+<approved hash="4,16,339de511c09eab6a"/>
+<approved hash="4,16,dc0fe9e495af95c6"/>
+<approved hash="4,16,ff2e7f76b7b98ae3"/>
 </errors>
 </board>
 </drawing>
