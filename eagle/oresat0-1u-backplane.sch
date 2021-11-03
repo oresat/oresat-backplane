@@ -7678,8 +7678,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <sheet>
 <description>Slot 1</description>
 <plain>
-<text x="264.16" y="7.62" size="2.54" layer="97">v1.1</text>
+<text x="264.16" y="7.62" size="2.54" layer="97">v2.0</text>
 <text x="100.33" y="105.41" size="1.27" layer="97">NOTE: See Slot 8 for CAN 1/2 information.</text>
+<text x="180.34" y="26.67" size="5.08" layer="97">OreSat0 1U backplane v2.0</text>
 </plain>
 <instances>
 <instance part="FRAME20" gate="G$1" x="0" y="0" smashed="yes"/>
