@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7991,55 +7991,55 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <net name="C3-UART-TX" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="37"/>
-<wire x1="54.61" y1="82.55" x2="74.93" y2="82.55" width="0.1524" layer="91"/>
-<label x="74.93" y="82.55" size="1.27" layer="95" xref="yes"/>
+<wire x1="54.61" y1="82.55" x2="59.69" y2="82.55" width="0.1524" layer="91"/>
+<label x="59.69" y="82.55" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="C3-UART-RX" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="38"/>
-<wire x1="54.61" y1="80.01" x2="74.93" y2="80.01" width="0.1524" layer="91"/>
-<label x="74.93" y="80.01" size="1.27" layer="95" xref="yes"/>
+<wire x1="54.61" y1="80.01" x2="59.69" y2="80.01" width="0.1524" layer="91"/>
+<label x="59.69" y="80.01" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPARE1" class="0">
+<net name="SPARE1-MAG-SDA" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="1"/>
 <wire x1="54.61" y1="173.99" x2="55.88" y2="173.99" width="0.1524" layer="91"/>
-<label x="74.93" y="173.99" size="1.27" layer="95" xref="yes"/>
+<label x="59.69" y="173.99" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF1.2" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="173.99" x2="74.93" y2="173.99" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="173.99" x2="59.69" y2="173.99" width="0.1524" layer="91"/>
 <wire x1="54.61" y1="171.45" x2="55.88" y2="171.45" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="171.45" x2="55.88" y2="173.99" width="0.1524" layer="91"/>
 <junction x="55.88" y="173.99"/>
 </segment>
 </net>
-<net name="SPARE3" class="0">
+<net name="SPARE3-MAG-SCL" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="3"/>
-<wire x1="54.61" y1="168.91" x2="74.93" y2="168.91" width="0.1524" layer="91"/>
-<label x="74.93" y="168.91" size="1.27" layer="95" xref="yes"/>
+<wire x1="54.61" y1="168.91" x2="59.69" y2="168.91" width="0.1524" layer="91"/>
+<label x="59.69" y="168.91" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPARE4" class="0">
+<net name="SPARE4-MAG-SCL" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="4"/>
-<wire x1="54.61" y1="166.37" x2="74.93" y2="166.37" width="0.1524" layer="91"/>
-<label x="74.93" y="166.37" size="1.27" layer="95" xref="yes"/>
+<wire x1="54.61" y1="166.37" x2="59.69" y2="166.37" width="0.1524" layer="91"/>
+<label x="59.69" y="166.37" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPARE5" class="0">
+<net name="SPARE5-MAG-POWER" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="5"/>
-<wire x1="54.61" y1="163.83" x2="74.93" y2="163.83" width="0.1524" layer="91"/>
-<label x="74.93" y="163.83" size="1.27" layer="95" xref="yes"/>
+<wire x1="54.61" y1="163.83" x2="59.69" y2="163.83" width="0.1524" layer="91"/>
+<label x="59.69" y="163.83" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPARE6" class="0">
+<net name="SPARE6-MAG-POWER" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="6"/>
-<wire x1="54.61" y1="161.29" x2="74.93" y2="161.29" width="0.1524" layer="91"/>
-<label x="74.93" y="161.29" size="1.27" layer="95" xref="yes"/>
+<wire x1="54.61" y1="161.29" x2="59.69" y2="161.29" width="0.1524" layer="91"/>
+<label x="59.69" y="161.29" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPARE7" class="0">
@@ -8056,18 +8056,18 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <label x="74.93" y="156.21" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPARE9" class="0">
+<net name="SPARE9-TURNSTILE-DEPLOY" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="9"/>
-<wire x1="54.61" y1="153.67" x2="74.93" y2="153.67" width="0.1524" layer="91"/>
-<label x="74.93" y="153.67" size="1.27" layer="95" xref="yes"/>
+<wire x1="54.61" y1="153.67" x2="59.69" y2="153.67" width="0.1524" layer="91"/>
+<label x="59.69" y="153.67" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPARE10" class="0">
+<net name="SPARE10-TURNSTILE-DEPLOY" class="0">
 <segment>
 <pinref part="CF1.2" gate="G$1" pin="10"/>
-<wire x1="54.61" y1="151.13" x2="74.93" y2="151.13" width="0.1524" layer="91"/>
-<label x="74.93" y="151.13" size="1.27" layer="95" xref="yes"/>
+<wire x1="54.61" y1="151.13" x2="59.69" y2="151.13" width="0.1524" layer="91"/>
+<label x="59.69" y="151.13" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SPARE21" class="0">
@@ -8312,55 +8312,55 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 </net>
 <net name="C3-UART-TX" class="0">
 <segment>
-<wire x1="58.42" y1="77.47" x2="78.74" y2="77.47" width="0.1524" layer="91"/>
-<label x="78.74" y="77.47" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="77.47" x2="63.5" y2="77.47" width="0.1524" layer="91"/>
+<label x="63.5" y="77.47" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="37"/>
 </segment>
 </net>
 <net name="C3-UART-RX" class="0">
 <segment>
-<wire x1="58.42" y1="74.93" x2="78.74" y2="74.93" width="0.1524" layer="91"/>
-<label x="78.74" y="74.93" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="74.93" x2="63.5" y2="74.93" width="0.1524" layer="91"/>
+<label x="63.5" y="74.93" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="38"/>
 </segment>
 </net>
-<net name="SPARE1" class="0">
+<net name="SPARE1-MAG-SDA" class="0">
 <segment>
 <wire x1="58.42" y1="168.91" x2="59.69" y2="168.91" width="0.1524" layer="91"/>
-<label x="78.74" y="168.91" size="1.27" layer="95" xref="yes"/>
+<label x="63.5" y="168.91" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="1"/>
 <pinref part="CF2.2" gate="G$1" pin="2"/>
-<wire x1="59.69" y1="168.91" x2="78.74" y2="168.91" width="0.1524" layer="91"/>
+<wire x1="59.69" y1="168.91" x2="63.5" y2="168.91" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="166.37" x2="59.69" y2="166.37" width="0.1524" layer="91"/>
 <wire x1="59.69" y1="166.37" x2="59.69" y2="168.91" width="0.1524" layer="91"/>
 <junction x="59.69" y="168.91"/>
 </segment>
 </net>
-<net name="SPARE3" class="0">
+<net name="SPARE3-MAG-SCL" class="0">
 <segment>
-<wire x1="58.42" y1="163.83" x2="78.74" y2="163.83" width="0.1524" layer="91"/>
-<label x="78.74" y="163.83" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="163.83" x2="63.5" y2="163.83" width="0.1524" layer="91"/>
+<label x="63.5" y="163.83" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="SPARE4" class="0">
+<net name="SPARE4-MAG-SCL" class="0">
 <segment>
-<wire x1="58.42" y1="161.29" x2="78.74" y2="161.29" width="0.1524" layer="91"/>
-<label x="78.74" y="161.29" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="161.29" x2="63.5" y2="161.29" width="0.1524" layer="91"/>
+<label x="63.5" y="161.29" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="SPARE5" class="0">
+<net name="SPARE5-MAG-POWER" class="0">
 <segment>
-<wire x1="58.42" y1="158.75" x2="78.74" y2="158.75" width="0.1524" layer="91"/>
-<label x="78.74" y="158.75" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="158.75" x2="63.5" y2="158.75" width="0.1524" layer="91"/>
+<label x="63.5" y="158.75" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SPARE6" class="0">
+<net name="SPARE6-MAG-POWER" class="0">
 <segment>
-<wire x1="58.42" y1="156.21" x2="78.74" y2="156.21" width="0.1524" layer="91"/>
-<label x="78.74" y="156.21" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="156.21" x2="63.5" y2="156.21" width="0.1524" layer="91"/>
+<label x="63.5" y="156.21" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -8378,17 +8378,17 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF2.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="SPARE9" class="0">
+<net name="SPARE9-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="58.42" y1="148.59" x2="78.74" y2="148.59" width="0.1524" layer="91"/>
-<label x="78.74" y="148.59" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="148.59" x2="63.5" y2="148.59" width="0.1524" layer="91"/>
+<label x="63.5" y="148.59" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="SPARE10" class="0">
+<net name="SPARE10-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="58.42" y1="146.05" x2="78.74" y2="146.05" width="0.1524" layer="91"/>
-<label x="78.74" y="146.05" size="1.27" layer="95" xref="yes"/>
+<wire x1="58.42" y1="146.05" x2="63.5" y2="146.05" width="0.1524" layer="91"/>
+<label x="63.5" y="146.05" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF2.2" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -8618,55 +8618,55 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 </net>
 <net name="C3-UART-TX" class="0">
 <segment>
-<wire x1="69.85" y1="72.39" x2="90.17" y2="72.39" width="0.1524" layer="91"/>
-<label x="90.17" y="72.39" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="72.39" x2="74.93" y2="72.39" width="0.1524" layer="91"/>
+<label x="74.93" y="72.39" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="37"/>
 </segment>
 </net>
 <net name="C3-UART-RX" class="0">
 <segment>
-<wire x1="69.85" y1="69.85" x2="90.17" y2="69.85" width="0.1524" layer="91"/>
-<label x="90.17" y="69.85" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="69.85" x2="74.93" y2="69.85" width="0.1524" layer="91"/>
+<label x="74.93" y="69.85" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="38"/>
 </segment>
 </net>
-<net name="SPARE1" class="0">
+<net name="SPARE1-MAG-SDA" class="0">
 <segment>
 <wire x1="69.85" y1="163.83" x2="71.12" y2="163.83" width="0.1524" layer="91"/>
-<label x="90.17" y="163.83" size="1.27" layer="95" xref="yes"/>
+<label x="74.93" y="163.83" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="1"/>
 <pinref part="CF3.2" gate="G$1" pin="2"/>
-<wire x1="71.12" y1="163.83" x2="90.17" y2="163.83" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="163.83" x2="74.93" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="69.85" y1="161.29" x2="71.12" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="161.29" x2="71.12" y2="163.83" width="0.1524" layer="91"/>
 <junction x="71.12" y="163.83"/>
 </segment>
 </net>
-<net name="SPARE3" class="0">
+<net name="SPARE3-MAG-SCL" class="0">
 <segment>
-<wire x1="69.85" y1="158.75" x2="90.17" y2="158.75" width="0.1524" layer="91"/>
-<label x="90.17" y="158.75" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="158.75" x2="74.93" y2="158.75" width="0.1524" layer="91"/>
+<label x="74.93" y="158.75" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="SPARE4" class="0">
+<net name="SPARE4-MAG-SCL" class="0">
 <segment>
-<wire x1="69.85" y1="156.21" x2="90.17" y2="156.21" width="0.1524" layer="91"/>
-<label x="90.17" y="156.21" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="156.21" x2="74.93" y2="156.21" width="0.1524" layer="91"/>
+<label x="74.93" y="156.21" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="SPARE5" class="0">
+<net name="SPARE5-MAG-POWER" class="0">
 <segment>
-<wire x1="69.85" y1="153.67" x2="90.17" y2="153.67" width="0.1524" layer="91"/>
-<label x="90.17" y="153.67" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="153.67" x2="74.93" y2="153.67" width="0.1524" layer="91"/>
+<label x="74.93" y="153.67" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SPARE6" class="0">
+<net name="SPARE6-MAG-POWER" class="0">
 <segment>
-<wire x1="69.85" y1="151.13" x2="90.17" y2="151.13" width="0.1524" layer="91"/>
-<label x="90.17" y="151.13" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="151.13" x2="74.93" y2="151.13" width="0.1524" layer="91"/>
+<label x="74.93" y="151.13" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -8684,17 +8684,17 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF3.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="SPARE9" class="0">
+<net name="SPARE9-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="69.85" y1="143.51" x2="90.17" y2="143.51" width="0.1524" layer="91"/>
-<label x="90.17" y="143.51" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="143.51" x2="74.93" y2="143.51" width="0.1524" layer="91"/>
+<label x="74.93" y="143.51" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="SPARE10" class="0">
+<net name="SPARE10-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="69.85" y1="140.97" x2="90.17" y2="140.97" width="0.1524" layer="91"/>
-<label x="90.17" y="140.97" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="140.97" x2="74.93" y2="140.97" width="0.1524" layer="91"/>
+<label x="74.93" y="140.97" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF3.2" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -8925,55 +8925,55 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 </net>
 <net name="C3-UART-TX" class="0">
 <segment>
-<wire x1="77.47" y1="67.31" x2="97.79" y2="67.31" width="0.1524" layer="91"/>
-<label x="97.79" y="67.31" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="67.31" x2="82.55" y2="67.31" width="0.1524" layer="91"/>
+<label x="82.55" y="67.31" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="37"/>
 </segment>
 </net>
 <net name="C3-UART-RX" class="0">
 <segment>
-<wire x1="77.47" y1="64.77" x2="97.79" y2="64.77" width="0.1524" layer="91"/>
-<label x="97.79" y="64.77" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="64.77" x2="82.55" y2="64.77" width="0.1524" layer="91"/>
+<label x="82.55" y="64.77" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="38"/>
 </segment>
 </net>
-<net name="SPARE1" class="0">
+<net name="SPARE1-MAG-SDA" class="0">
 <segment>
 <wire x1="77.47" y1="158.75" x2="78.74" y2="158.75" width="0.1524" layer="91"/>
-<label x="97.79" y="158.75" size="1.27" layer="95" xref="yes"/>
+<label x="82.55" y="158.75" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="1"/>
 <pinref part="CF4.2" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="158.75" x2="97.79" y2="158.75" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="158.75" x2="82.55" y2="158.75" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="156.21" x2="78.74" y2="156.21" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="156.21" x2="78.74" y2="158.75" width="0.1524" layer="91"/>
 <junction x="78.74" y="158.75"/>
 </segment>
 </net>
-<net name="SPARE3" class="0">
+<net name="SPARE3-MAG-SCL" class="0">
 <segment>
-<wire x1="77.47" y1="153.67" x2="97.79" y2="153.67" width="0.1524" layer="91"/>
-<label x="97.79" y="153.67" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="153.67" x2="82.55" y2="153.67" width="0.1524" layer="91"/>
+<label x="82.55" y="153.67" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="SPARE4" class="0">
+<net name="SPARE4-MAG-SCL" class="0">
 <segment>
-<wire x1="77.47" y1="151.13" x2="97.79" y2="151.13" width="0.1524" layer="91"/>
-<label x="97.79" y="151.13" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="151.13" x2="82.55" y2="151.13" width="0.1524" layer="91"/>
+<label x="82.55" y="151.13" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="SPARE5" class="0">
+<net name="SPARE5-MAG-POWER" class="0">
 <segment>
-<wire x1="77.47" y1="148.59" x2="97.79" y2="148.59" width="0.1524" layer="91"/>
-<label x="97.79" y="148.59" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="148.59" x2="82.55" y2="148.59" width="0.1524" layer="91"/>
+<label x="82.55" y="148.59" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SPARE6" class="0">
+<net name="SPARE6-MAG-POWER" class="0">
 <segment>
-<wire x1="77.47" y1="146.05" x2="97.79" y2="146.05" width="0.1524" layer="91"/>
-<label x="97.79" y="146.05" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="146.05" x2="82.55" y2="146.05" width="0.1524" layer="91"/>
+<label x="82.55" y="146.05" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -8991,17 +8991,17 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF4.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="SPARE9" class="0">
+<net name="SPARE9-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="77.47" y1="138.43" x2="97.79" y2="138.43" width="0.1524" layer="91"/>
-<label x="97.79" y="138.43" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="138.43" x2="82.55" y2="138.43" width="0.1524" layer="91"/>
+<label x="82.55" y="138.43" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="SPARE10" class="0">
+<net name="SPARE10-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="77.47" y1="135.89" x2="97.79" y2="135.89" width="0.1524" layer="91"/>
-<label x="97.79" y="135.89" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="135.89" x2="82.55" y2="135.89" width="0.1524" layer="91"/>
+<label x="82.55" y="135.89" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF4.2" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -9038,11 +9038,11 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <sheet>
 <description>Slot 5</description>
 <plain>
-<text x="121.92" y="154.94" size="5.08" layer="97">DEBUG CONNECTOR</text>
-<wire x1="101.6" y1="162.56" x2="213.36" y2="162.56" width="0.1524" layer="97"/>
-<wire x1="213.36" y1="162.56" x2="213.36" y2="63.5" width="0.1524" layer="97"/>
-<wire x1="213.36" y1="63.5" x2="101.6" y2="63.5" width="0.1524" layer="97"/>
-<wire x1="101.6" y1="63.5" x2="101.6" y2="162.56" width="0.1524" layer="97"/>
+<text x="157.48" y="154.94" size="5.08" layer="97">DEBUG CONNECTOR</text>
+<wire x1="137.16" y1="162.56" x2="248.92" y2="162.56" width="0.1524" layer="97"/>
+<wire x1="248.92" y1="162.56" x2="248.92" y2="63.5" width="0.1524" layer="97"/>
+<wire x1="248.92" y1="63.5" x2="137.16" y2="63.5" width="0.1524" layer="97"/>
+<wire x1="137.16" y1="63.5" x2="137.16" y2="162.56" width="0.1524" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME16" gate="G$1" x="0" y="0" smashed="yes"/>
@@ -9060,11 +9060,11 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <attribute name="NAME" x="73.914" y="104.521" size="1.778" layer="95"/>
 <attribute name="VALUE" x="73.914" y="99.441" size="1.778" layer="96"/>
 </instance>
-<instance part="J2" gate="A" x="162.56" y="119.38" smashed="yes">
-<attribute name="NAME" x="157.48" y="143.51" size="1.778" layer="95" ratio="6" rot="SR0"/>
-<attribute name="VALUE" x="157.48" y="140.97" size="1.778" layer="96" ratio="6"/>
+<instance part="J2" gate="A" x="198.12" y="119.38" smashed="yes">
+<attribute name="NAME" x="193.04" y="143.51" size="1.778" layer="95" ratio="6" rot="SR0"/>
+<attribute name="VALUE" x="193.04" y="140.97" size="1.778" layer="96" ratio="6"/>
 </instance>
-<instance part="GND7" gate="G1" x="161.29" y="92.71" smashed="yes"/>
+<instance part="GND7" gate="G1" x="196.85" y="92.71" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -9099,23 +9099,23 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <segment>
 <pinref part="GND7" gate="G1" pin="GND"/>
 <pinref part="J2" gate="A" pin="17"/>
-<wire x1="161.29" y1="92.71" x2="161.29" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="196.85" y1="92.71" x2="196.85" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="146.05" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="146.05" y1="124.46" x2="151.13" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="124.46" x2="152.4" y2="124.46" width="0.1524" layer="91"/>
+<label x="181.61" y="124.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="181.61" y1="124.46" x2="186.69" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="6"/>
-<wire x1="152.4" y1="124.46" x2="151.13" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="124.46" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="124.46" x2="152.4" y2="119.38" width="0.1524" layer="91"/>
-<junction x="152.4" y="124.46"/>
+<wire x1="187.96" y1="124.46" x2="186.69" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="124.46" x2="187.96" y2="119.38" width="0.1524" layer="91"/>
+<junction x="187.96" y="124.46"/>
 <pinref part="J2" gate="A" pin="8"/>
-<wire x1="152.4" y1="119.38" x2="154.94" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="119.38" x2="190.5" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="10"/>
-<wire x1="152.4" y1="119.38" x2="152.4" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="152.4" y1="114.3" x2="154.94" y2="114.3" width="0.1524" layer="91"/>
-<junction x="152.4" y="119.38"/>
+<wire x1="187.96" y1="119.38" x2="187.96" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="114.3" x2="190.5" y2="114.3" width="0.1524" layer="91"/>
+<junction x="187.96" y="119.38"/>
 </segment>
 </net>
 <net name="OPD_SDA" class="0">
@@ -9128,9 +9128,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="49.53" y="142.24"/>
 </segment>
 <segment>
-<label x="146.05" y="99.06" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="181.61" y="99.06" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="A" pin="16"/>
-<wire x1="146.05" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="99.06" x2="190.5" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_SCL" class="0">
@@ -9143,9 +9143,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="49.53" y="137.16"/>
 </segment>
 <segment>
-<label x="146.05" y="101.6" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="181.61" y="101.6" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="A" pin="15"/>
-<wire x1="146.05" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="101.6" x2="190.5" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OPD_PWR" class="0">
@@ -9158,9 +9158,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="49.53" y="132.08"/>
 </segment>
 <segment>
-<label x="146.05" y="104.14" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="181.61" y="104.14" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="A" pin="14"/>
-<wire x1="146.05" y1="104.14" x2="154.94" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="104.14" x2="190.5" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN2_H" class="0">
@@ -9173,9 +9173,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="49.53" y="127"/>
 </segment>
 <segment>
-<label x="146.05" y="106.68" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="181.61" y="106.68" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="A" pin="13"/>
-<wire x1="154.94" y1="106.68" x2="146.05" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="106.68" x2="181.61" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN2_L" class="0">
@@ -9188,9 +9188,9 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <junction x="49.53" y="121.92"/>
 </segment>
 <segment>
-<label x="146.05" y="109.22" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<label x="181.61" y="109.22" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="A" pin="12"/>
-<wire x1="146.05" y1="109.22" x2="154.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="181.61" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBUS" class="0">
@@ -9213,17 +9213,17 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <wire x1="72.39" y1="107.95" x2="72.39" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<label x="146.05" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
-<wire x1="146.05" y1="116.84" x2="153.67" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="116.84" x2="153.67" y2="121.92" width="0.1524" layer="91"/>
+<label x="181.61" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="181.61" y1="116.84" x2="189.23" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="116.84" x2="189.23" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="7"/>
-<wire x1="153.67" y1="121.92" x2="154.94" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="153.67" y1="116.84" x2="153.67" y2="111.76" width="0.1524" layer="91"/>
-<junction x="153.67" y="116.84"/>
+<wire x1="189.23" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="116.84" x2="189.23" y2="111.76" width="0.1524" layer="91"/>
+<junction x="189.23" y="116.84"/>
 <pinref part="J2" gate="A" pin="11"/>
-<wire x1="153.67" y1="111.76" x2="154.94" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="189.23" y1="111.76" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="J2" gate="A" pin="9"/>
-<wire x1="154.94" y1="116.84" x2="153.67" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="190.5" y1="116.84" x2="189.23" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="CAN1_H" class="0">
@@ -9236,8 +9236,8 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF5.2" gate="G$1" pin="34"/>
 </segment>
 <segment>
-<wire x1="146.05" y1="127" x2="154.94" y2="127" width="0.1524" layer="91"/>
-<label x="146.05" y="127" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="181.61" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
+<label x="181.61" y="127" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="A" pin="5"/>
 </segment>
 </net>
@@ -9251,8 +9251,8 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF5.2" gate="G$1" pin="36"/>
 </segment>
 <segment>
-<wire x1="146.05" y1="129.54" x2="154.94" y2="129.54" width="0.1524" layer="91"/>
-<label x="146.05" y="129.54" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="181.61" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
+<label x="181.61" y="129.54" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="A" pin="4"/>
 </segment>
 </net>
@@ -9266,32 +9266,32 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF5.2" gate="G$1" pin="40"/>
 </segment>
 <segment>
-<wire x1="146.05" y1="137.16" x2="154.94" y2="137.16" width="0.1524" layer="91"/>
-<label x="146.05" y="137.16" size="1.27" layer="95" rot="MR0" xref="yes"/>
+<wire x1="181.61" y1="137.16" x2="190.5" y2="137.16" width="0.1524" layer="91"/>
+<label x="181.61" y="137.16" size="1.27" layer="95" rot="MR0" xref="yes"/>
 <pinref part="J2" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="C3-UART-TX" class="0">
 <segment>
-<wire x1="49.53" y1="76.2" x2="69.85" y2="76.2" width="0.1524" layer="91"/>
-<label x="69.85" y="76.2" size="1.27" layer="95" xref="yes"/>
+<wire x1="49.53" y1="76.2" x2="54.61" y2="76.2" width="0.1524" layer="91"/>
+<label x="54.61" y="76.2" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF5.2" gate="G$1" pin="37"/>
 </segment>
 <segment>
-<wire x1="154.94" y1="132.08" x2="146.05" y2="132.08" width="0.1524" layer="91"/>
-<label x="146.05" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="132.08" x2="181.61" y2="132.08" width="0.1524" layer="91"/>
+<label x="181.61" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J2" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="C3-UART-RX" class="0">
 <segment>
-<wire x1="49.53" y1="73.66" x2="69.85" y2="73.66" width="0.1524" layer="91"/>
-<label x="69.85" y="73.66" size="1.27" layer="95" xref="yes"/>
+<wire x1="49.53" y1="73.66" x2="54.61" y2="73.66" width="0.1524" layer="91"/>
+<label x="54.61" y="73.66" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF5.2" gate="G$1" pin="38"/>
 </segment>
 <segment>
-<wire x1="154.94" y1="134.62" x2="146.05" y2="134.62" width="0.1524" layer="91"/>
-<label x="146.05" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="190.5" y1="134.62" x2="181.61" y2="134.62" width="0.1524" layer="91"/>
+<label x="181.61" y="134.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J2" gate="A" pin="2"/>
 </segment>
 </net>
@@ -9323,11 +9323,11 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <label x="69.85" y="114.3" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="SPARE1" class="0">
+<net name="SPARE1-MAG-SDA" class="0">
 <segment>
 <wire x1="49.53" y1="167.64" x2="50.8" y2="167.64" width="0.1524" layer="91"/>
-<label x="69.85" y="167.64" size="1.27" layer="95" xref="yes"/>
-<wire x1="50.8" y1="167.64" x2="69.85" y2="167.64" width="0.1524" layer="91"/>
+<label x="54.61" y="167.64" size="1.27" layer="95" xref="yes"/>
+<wire x1="50.8" y1="167.64" x2="54.61" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="49.53" y1="165.1" x2="50.8" y2="165.1" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="165.1" x2="50.8" y2="167.64" width="0.1524" layer="91"/>
 <junction x="50.8" y="167.64"/>
@@ -9335,31 +9335,31 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF5.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SPARE3" class="0">
+<net name="SPARE3-MAG-SCL" class="0">
 <segment>
-<wire x1="49.53" y1="162.56" x2="69.85" y2="162.56" width="0.1524" layer="91"/>
-<label x="69.85" y="162.56" size="1.27" layer="95" xref="yes"/>
+<wire x1="49.53" y1="162.56" x2="54.61" y2="162.56" width="0.1524" layer="91"/>
+<label x="54.61" y="162.56" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF5.2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="SPARE4" class="0">
+<net name="SPARE4-MAG-SCL" class="0">
 <segment>
-<wire x1="49.53" y1="160.02" x2="69.85" y2="160.02" width="0.1524" layer="91"/>
-<label x="69.85" y="160.02" size="1.27" layer="95" xref="yes"/>
+<wire x1="49.53" y1="160.02" x2="54.61" y2="160.02" width="0.1524" layer="91"/>
+<label x="54.61" y="160.02" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF5.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="SPARE5" class="0">
+<net name="SPARE5-MAG-POWER" class="0">
 <segment>
-<wire x1="49.53" y1="157.48" x2="69.85" y2="157.48" width="0.1524" layer="91"/>
-<label x="69.85" y="157.48" size="1.27" layer="95" xref="yes"/>
+<wire x1="49.53" y1="157.48" x2="54.61" y2="157.48" width="0.1524" layer="91"/>
+<label x="54.61" y="157.48" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF5.2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SPARE6" class="0">
+<net name="SPARE6-MAG-POWER" class="0">
 <segment>
-<wire x1="49.53" y1="154.94" x2="69.85" y2="154.94" width="0.1524" layer="91"/>
-<label x="69.85" y="154.94" size="1.27" layer="95" xref="yes"/>
+<wire x1="49.53" y1="154.94" x2="54.61" y2="154.94" width="0.1524" layer="91"/>
+<label x="54.61" y="154.94" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF5.2" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -9377,17 +9377,17 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF5.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="SPARE9" class="0">
+<net name="SPARE9-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="49.53" y1="147.32" x2="69.85" y2="147.32" width="0.1524" layer="91"/>
-<label x="69.85" y="147.32" size="1.27" layer="95" xref="yes"/>
+<wire x1="49.53" y1="147.32" x2="54.61" y2="147.32" width="0.1524" layer="91"/>
+<label x="54.61" y="147.32" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF5.2" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="SPARE10" class="0">
+<net name="SPARE10-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="49.53" y1="144.78" x2="69.85" y2="144.78" width="0.1524" layer="91"/>
-<label x="69.85" y="144.78" size="1.27" layer="95" xref="yes"/>
+<wire x1="49.53" y1="144.78" x2="54.61" y2="144.78" width="0.1524" layer="91"/>
+<label x="54.61" y="144.78" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF5.2" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -9477,15 +9477,15 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 </net>
 <net name="C3-UART-TX" class="0">
 <segment>
-<wire x1="77.47" y1="72.39" x2="97.79" y2="72.39" width="0.1524" layer="91"/>
-<label x="97.79" y="72.39" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="72.39" x2="82.55" y2="72.39" width="0.1524" layer="91"/>
+<label x="82.55" y="72.39" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF6.2" gate="G$1" pin="37"/>
 </segment>
 </net>
 <net name="C3-UART-RX" class="0">
 <segment>
-<wire x1="77.47" y1="69.85" x2="97.79" y2="69.85" width="0.1524" layer="91"/>
-<label x="97.79" y="69.85" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="69.85" x2="82.55" y2="69.85" width="0.1524" layer="91"/>
+<label x="82.55" y="69.85" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF6.2" gate="G$1" pin="38"/>
 </segment>
 </net>
@@ -9586,11 +9586,11 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF6.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="SPARE1" class="0">
+<net name="SPARE1-MAG-SDA" class="0">
 <segment>
 <wire x1="77.47" y1="163.83" x2="78.74" y2="163.83" width="0.1524" layer="91"/>
-<label x="97.79" y="163.83" size="1.27" layer="95" xref="yes"/>
-<wire x1="78.74" y1="163.83" x2="97.79" y2="163.83" width="0.1524" layer="91"/>
+<label x="82.55" y="163.83" size="1.27" layer="95" xref="yes"/>
+<wire x1="78.74" y1="163.83" x2="82.55" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="77.47" y1="161.29" x2="78.74" y2="161.29" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="161.29" x2="78.74" y2="163.83" width="0.1524" layer="91"/>
 <junction x="78.74" y="163.83"/>
@@ -9598,31 +9598,31 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF6.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SPARE3" class="0">
+<net name="SPARE3-MAG-SCL" class="0">
 <segment>
-<wire x1="77.47" y1="158.75" x2="97.79" y2="158.75" width="0.1524" layer="91"/>
-<label x="97.79" y="158.75" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="158.75" x2="82.55" y2="158.75" width="0.1524" layer="91"/>
+<label x="82.55" y="158.75" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF6.2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="SPARE4" class="0">
+<net name="SPARE4-MAG-SCL" class="0">
 <segment>
-<wire x1="77.47" y1="156.21" x2="97.79" y2="156.21" width="0.1524" layer="91"/>
-<label x="97.79" y="156.21" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="156.21" x2="82.55" y2="156.21" width="0.1524" layer="91"/>
+<label x="82.55" y="156.21" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF6.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="SPARE5" class="0">
+<net name="SPARE5-MAG-POWER" class="0">
 <segment>
-<wire x1="77.47" y1="153.67" x2="97.79" y2="153.67" width="0.1524" layer="91"/>
-<label x="97.79" y="153.67" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="153.67" x2="82.55" y2="153.67" width="0.1524" layer="91"/>
+<label x="82.55" y="153.67" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF6.2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SPARE6" class="0">
+<net name="SPARE6-MAG-POWER" class="0">
 <segment>
-<wire x1="77.47" y1="151.13" x2="97.79" y2="151.13" width="0.1524" layer="91"/>
-<label x="97.79" y="151.13" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="151.13" x2="82.55" y2="151.13" width="0.1524" layer="91"/>
+<label x="82.55" y="151.13" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF6.2" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -9640,17 +9640,17 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF6.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="SPARE9" class="0">
+<net name="SPARE9-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="77.47" y1="143.51" x2="97.79" y2="143.51" width="0.1524" layer="91"/>
-<label x="97.79" y="143.51" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="143.51" x2="82.55" y2="143.51" width="0.1524" layer="91"/>
+<label x="82.55" y="143.51" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF6.2" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="SPARE10" class="0">
+<net name="SPARE10-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="77.47" y1="140.97" x2="97.79" y2="140.97" width="0.1524" layer="91"/>
-<label x="97.79" y="140.97" size="1.27" layer="95" xref="yes"/>
+<wire x1="77.47" y1="140.97" x2="82.55" y2="140.97" width="0.1524" layer="91"/>
+<label x="82.55" y="140.97" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF6.2" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -9747,8 +9747,8 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 </net>
 <net name="C3-UART-RX" class="0">
 <segment>
-<wire x1="69.85" y1="72.39" x2="90.17" y2="72.39" width="0.1524" layer="91"/>
-<label x="90.17" y="72.39" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="72.39" x2="74.93" y2="72.39" width="0.1524" layer="91"/>
+<label x="74.93" y="72.39" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF7.2" gate="G$1" pin="38"/>
 </segment>
 </net>
@@ -9849,11 +9849,11 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF7.2" gate="G$1" pin="22"/>
 </segment>
 </net>
-<net name="SPARE1" class="0">
+<net name="SPARE1-MAG-SDA" class="0">
 <segment>
 <wire x1="69.85" y1="166.37" x2="71.12" y2="166.37" width="0.1524" layer="91"/>
-<label x="90.17" y="166.37" size="1.27" layer="95" xref="yes"/>
-<wire x1="71.12" y1="166.37" x2="90.17" y2="166.37" width="0.1524" layer="91"/>
+<label x="74.93" y="166.37" size="1.27" layer="95" xref="yes"/>
+<wire x1="71.12" y1="166.37" x2="74.93" y2="166.37" width="0.1524" layer="91"/>
 <wire x1="69.85" y1="163.83" x2="71.12" y2="163.83" width="0.1524" layer="91"/>
 <wire x1="71.12" y1="163.83" x2="71.12" y2="166.37" width="0.1524" layer="91"/>
 <junction x="71.12" y="166.37"/>
@@ -9861,31 +9861,31 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF7.2" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SPARE3" class="0">
+<net name="SPARE3-MAG-SCL" class="0">
 <segment>
-<wire x1="69.85" y1="161.29" x2="90.17" y2="161.29" width="0.1524" layer="91"/>
-<label x="90.17" y="161.29" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="161.29" x2="74.93" y2="161.29" width="0.1524" layer="91"/>
+<label x="74.93" y="161.29" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF7.2" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="SPARE4" class="0">
+<net name="SPARE4-MAG-SCL" class="0">
 <segment>
-<wire x1="69.85" y1="158.75" x2="90.17" y2="158.75" width="0.1524" layer="91"/>
-<label x="90.17" y="158.75" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="158.75" x2="74.93" y2="158.75" width="0.1524" layer="91"/>
+<label x="74.93" y="158.75" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF7.2" gate="G$1" pin="4"/>
 </segment>
 </net>
-<net name="SPARE5" class="0">
+<net name="SPARE5-MAG-POWER" class="0">
 <segment>
-<wire x1="69.85" y1="156.21" x2="90.17" y2="156.21" width="0.1524" layer="91"/>
-<label x="90.17" y="156.21" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="156.21" x2="74.93" y2="156.21" width="0.1524" layer="91"/>
+<label x="74.93" y="156.21" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF7.2" gate="G$1" pin="5"/>
 </segment>
 </net>
-<net name="SPARE6" class="0">
+<net name="SPARE6-MAG-POWER" class="0">
 <segment>
-<wire x1="69.85" y1="153.67" x2="90.17" y2="153.67" width="0.1524" layer="91"/>
-<label x="90.17" y="153.67" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="153.67" x2="74.93" y2="153.67" width="0.1524" layer="91"/>
+<label x="74.93" y="153.67" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF7.2" gate="G$1" pin="6"/>
 </segment>
 </net>
@@ -9903,17 +9903,17 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <pinref part="CF7.2" gate="G$1" pin="8"/>
 </segment>
 </net>
-<net name="SPARE9" class="0">
+<net name="SPARE9-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="69.85" y1="146.05" x2="90.17" y2="146.05" width="0.1524" layer="91"/>
-<label x="90.17" y="146.05" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="146.05" x2="74.93" y2="146.05" width="0.1524" layer="91"/>
+<label x="74.93" y="146.05" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF7.2" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="SPARE10" class="0">
+<net name="SPARE10-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="69.85" y1="143.51" x2="90.17" y2="143.51" width="0.1524" layer="91"/>
-<label x="90.17" y="143.51" size="1.27" layer="95" xref="yes"/>
+<wire x1="69.85" y1="143.51" x2="74.93" y2="143.51" width="0.1524" layer="91"/>
+<label x="74.93" y="143.51" size="1.27" layer="95" xref="yes"/>
 <pinref part="CF7.2" gate="G$1" pin="10"/>
 </segment>
 </net>
@@ -10112,73 +10112,73 @@ https://www.mouser.com/ProductDetail/Hirose-Connector/UFL-R-SMT-110?qs=kL1ClTr6o
 <label x="173.99" y="123.19" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="SPARE1" class="0">
+<net name="SPARE1-MAG-SDA" class="0">
 <segment>
-<wire x1="93.98" y1="95.25" x2="95.25" y2="95.25" width="0.1524" layer="91"/>
-<label x="107.95" y="95.25" size="1.27" layer="95" xref="yes"/>
-<wire x1="95.25" y1="95.25" x2="107.95" y2="95.25" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="92.71" x2="95.25" y2="92.71" width="0.1524" layer="91"/>
-<wire x1="95.25" y1="92.71" x2="95.25" y2="95.25" width="0.1524" layer="91"/>
-<junction x="95.25" y="95.25"/>
+<wire x1="93.98" y1="95.25" x2="92.71" y2="95.25" width="0.1524" layer="91"/>
+<label x="95.25" y="95.25" size="1.27" layer="95" xref="yes"/>
+<wire x1="92.71" y1="95.25" x2="95.25" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="92.71" x2="92.71" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="92.71" x2="92.71" y2="95.25" width="0.1524" layer="91"/>
+<junction x="92.71" y="95.25"/>
 <pinref part="J1" gate="G$1" pin="19"/>
 <wire x1="87.63" y1="95.25" x2="93.98" y2="95.25" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="20"/>
-<wire x1="93.98" y1="92.71" x2="87.63" y2="92.71" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="92.71" x2="87.63" y2="92.71" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="SPARE3" class="0">
+<net name="SPARE3-MAG-SCL" class="0">
 <segment>
-<wire x1="87.63" y1="97.79" x2="107.95" y2="97.79" width="0.1524" layer="91"/>
-<label x="107.95" y="97.79" size="1.27" layer="95" xref="yes"/>
+<wire x1="87.63" y1="97.79" x2="95.25" y2="97.79" width="0.1524" layer="91"/>
+<label x="95.25" y="97.79" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="18"/>
 </segment>
 </net>
-<net name="SPARE4" class="0">
+<net name="SPARE4-MAG-SCL" class="0">
 <segment>
-<wire x1="87.63" y1="100.33" x2="107.95" y2="100.33" width="0.1524" layer="91"/>
-<label x="107.95" y="100.33" size="1.27" layer="95" xref="yes"/>
+<wire x1="87.63" y1="100.33" x2="95.25" y2="100.33" width="0.1524" layer="91"/>
+<label x="95.25" y="100.33" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="17"/>
 </segment>
 </net>
-<net name="SPARE5" class="0">
+<net name="SPARE5-MAG-POWER" class="0">
 <segment>
-<wire x1="87.63" y1="102.87" x2="107.95" y2="102.87" width="0.1524" layer="91"/>
-<label x="107.95" y="102.87" size="1.27" layer="95" xref="yes"/>
+<wire x1="87.63" y1="102.87" x2="95.25" y2="102.87" width="0.1524" layer="91"/>
+<label x="95.25" y="102.87" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="16"/>
 </segment>
 </net>
-<net name="SPARE6" class="0">
+<net name="SPARE6-MAG-POWER" class="0">
 <segment>
-<wire x1="87.63" y1="105.41" x2="107.95" y2="105.41" width="0.1524" layer="91"/>
-<label x="107.95" y="105.41" size="1.27" layer="95" xref="yes"/>
+<wire x1="87.63" y1="105.41" x2="95.25" y2="105.41" width="0.1524" layer="91"/>
+<label x="95.25" y="105.41" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="15"/>
 </segment>
 </net>
 <net name="SPARE7" class="0">
 <segment>
-<wire x1="87.63" y1="107.95" x2="107.95" y2="107.95" width="0.1524" layer="91"/>
-<label x="107.95" y="107.95" size="1.27" layer="95" xref="yes"/>
+<wire x1="87.63" y1="107.95" x2="115.57" y2="107.95" width="0.1524" layer="91"/>
+<label x="115.57" y="107.95" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="14"/>
 </segment>
 </net>
 <net name="SPARE8" class="0">
 <segment>
-<wire x1="87.63" y1="110.49" x2="107.95" y2="110.49" width="0.1524" layer="91"/>
-<label x="107.95" y="110.49" size="1.27" layer="95" xref="yes"/>
+<wire x1="87.63" y1="110.49" x2="115.57" y2="110.49" width="0.1524" layer="91"/>
+<label x="115.57" y="110.49" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="13"/>
 </segment>
 </net>
-<net name="SPARE9" class="0">
+<net name="SPARE9-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="87.63" y1="113.03" x2="107.95" y2="113.03" width="0.1524" layer="91"/>
-<label x="107.95" y="113.03" size="1.27" layer="95" xref="yes"/>
+<wire x1="87.63" y1="113.03" x2="95.25" y2="113.03" width="0.1524" layer="91"/>
+<label x="95.25" y="113.03" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="12"/>
 </segment>
 </net>
-<net name="SPARE10" class="0">
+<net name="SPARE10-TURNSTILE-DEPLOY" class="0">
 <segment>
-<wire x1="87.63" y1="115.57" x2="107.95" y2="115.57" width="0.1524" layer="91"/>
-<label x="107.95" y="115.57" size="1.27" layer="95" xref="yes"/>
+<wire x1="87.63" y1="115.57" x2="95.25" y2="115.57" width="0.1524" layer="91"/>
+<label x="95.25" y="115.57" size="1.27" layer="95" xref="yes"/>
 <pinref part="J1" gate="G$1" pin="11"/>
 </segment>
 </net>
