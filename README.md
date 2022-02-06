@@ -2,11 +2,11 @@
 
 ## Background
 
-The [OreSat](http://oresat.org) CubeSat bus uses a card cage / backplane system based on a 1 Mbps Controller Area Network (CAN) bus and a 2 cell Lithium ion battery power bus (6.0 - 8.4 V). There are ~ 10 cards per CubeSat "U", and the board is meant to be general purpose enough to allow for some card swapping. The RF lines, however, are microstrips on the backplane PCB so the backplane must be rev'd for changes in the RF cards. There are three sets of connectors:
+The [OreSat](http://oresat.org) CubeSat bus uses a card cage / backplane system based on a 1 Mbps Controller Area Network (CAN) bus and a 2 cell Lithium ion battery power bus (6.0 - 8.4 V). There are ~ 8 cards per CubeSat "U", and the board is meant to be general purpose enough to allow for some card swapping. The RF lines, however, are microstrips on the backplane PCB so the backplane must be rev'd for changes in the RF cards. There are three sets of connectors:
 
-1. 20 pin Auxiliary connectors, used on the all but the "end" cards (top and bottom cards), which are for future inter-card communication.
-2. 40 pin Main connector, which has !shutdown, CAN1, power, CAN2, OreSat power Domain (OPD) lines, and then 5 shared spare pins for custom card interconnects.
-3. SMPM RF conncectors, which allows up to 3 RF connector per card and allows for 50 ohm microstrips to be run up and down the the board.
+1. 40 pin "Main" connector, which has !shutdown, CAN1, power, CAN2, OreSat power Domain (OPD) lines, and then 5 shared spare pins for custom card interconnects.
+2. SMPM RF conncectors, which allows up to 3 RF connector per card and allows for 50 ohm microstrips to be run up and down the the board.
+3. 20 pin "Auxiliary" connectors, used on the all but the "end" cards (top and bottom cards), which are for future inter-card communication. Good for Ethernet, for example.
 
 The backplane now comes in two flavors: a 1U backplane, and a 2U backplane.
 
@@ -30,13 +30,7 @@ The board is designed for a [4 layer stackup](https://docs.oshpark.com/services/
 
 The connectors that we use on this puppy are the:
 
-- RF (70 cm, L band, S band)
-   - Molex 073300-011X
-   - SMPM Connector Plug, Male Pin 50 Ohm Surface Mount, Through Hole Solder, $13.84/ea @ 10
-   - Molex (w/CAD): https://www.molex.com/molex/products/datasheet.jsp?part=active/0733000110_RF_COAX_CONNECTORS.xml&channel=Products&Lang=en-US
-   - We've done a detailed characteraziation of OSH Park's 4 layer process, and found that 0.38 mm is the correct width for a 50 ohm microstrip.
-   
-- 1.27 mm through-hole vertical socket connectors:
+- **1.27 mm through-hole vertical socket connectors:**
     - 40 pin main connector
        - Samtec SFM-120-01-S-D-LC 
        - 3D CAD: https://www.samtec.com/partnumber/sfm-120-01-s-d-lc
@@ -50,7 +44,13 @@ The connectors that we use on this puppy are the:
        - Brochure: http://suddendocs.samtec.com/catalog_english/sfm.pdf
        - SFM footprint: http://suddendocs.samtec.com/prints/sfm-thd.pdf
 
-- CAN termination 
+- **RF (70 cm, L band, S band)**
+   - Molex 073300-011X
+   - SMPM Connector Plug, Male Pin 50 Ohm Surface Mount, Through Hole Solder, $13.84/ea @ 10
+   - Molex (w/CAD): https://www.molex.com/molex/products/datasheet.jsp?part=active/0733000110_RF_COAX_CONNECTORS.xml&channel=Products&Lang=en-US
+   - We've done a detailed characteraziation of OSH Park's 4 layer process, and found that 0.38 mm is the correct width for a 50 ohm microstrip.
+   
+- **CAN termination**
    - We'll use split termination, using two 60 ohm resistors with a center tapped capacitor for reduced EMI.
    - Resistors
       - 60.4 +/- 1% ohms. Might consider higher if the number of notes (~ 20) adds too much parallel resistance)
@@ -63,6 +63,11 @@ The connectors that we use on this puppy are the:
       - TI's [Controller Area Network Physical Layer Requirements](http://www.ti.com/lit/an/slla270/slla270.pdf) suggests 4.7 nF to make the f_3dB = 1.1 MHz.
       - Seems awfully close to our 1 Mbps bus, so let's bump that down to 1 nF which is f_3db = 5.3 MHz.
 
+- **Debug connector**
+   - Harwin M55-6001642R (same family as the solar and end cap connectors)
+   - Located on the back side of the backplane, it's a 16 pin 1.27 mm connector that gives external access to CAN busses, VBUS, and the UART lines. It sits in the 1U solar module "cutout".
+   - For the external connector board, see the `backplane-debug` folder in the `oresat-flatsat` repo.
+   
 ## Versions
 
 - 1U
