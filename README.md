@@ -10,8 +10,8 @@ The [OreSat](http://oresat.org) CubeSat bus uses a card cage / backplane system 
 
 The backplane now comes in two flavors: a 1U backplane, and a 2U backplane.
 
-![OreSat 1U Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/oresat-backplane-1u.png)
-![OreSat 2U Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/oresat-backplane-2u.png)
+![OreSat 1U Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/1u/oresat-backplane-1u.png)
+![OreSat 2U Backplane Picture](https://github.com/oresat/oresat-backplane/blob/master/2u/oresat-backplane-2u.png)
 
 
 ## Mechanical Specifications
@@ -65,26 +65,29 @@ The connectors that we use on this puppy are the:
 
 ## Versions
 
-- 1U: v10
-   - Oh hey look we have a fully done 1U version now!
-- 2U: v2.1
-   - Updated to latest backplane DXF, reducing all sides by 0.15 mm. Fixed solar connector cutout areas that were lopsided. Added CAN termination resistors. Moved RF connectors to latest (2020/02/15) locations.
-   - NOT YET FABBED.
-- 2U: V2.0
-   - Switched to 4 layer board, removed RF connector array, used actual microstrips tuned to the 4 layer OSH Park process.
-   - Fabbed 2019/07/01.
-- 2U: v1.1
-   - End Cards now use 40 pin connector, solar connectors now actually fit.
-   - Fabbed 2019/02/25.
-- 2U: v1.0
-   - First backplane. 2 layer board, RF connector array, aux and main connectors.
-   - Fabbed 2018/10/02.
-
+- 1U
+   - v1.0 - First fabbed 1U, but never assembled. For old frames (v1.1 frames), no -Z end cap connector, no debug connector.
+   - v1.1 - Added -Z end cap connector. Fabbed roughly 2020-09-01, two assembled.
+   - v1.2 - Added 1.27 mm debug connector, which tended to short. Fabbed 2020-12-08. Originally delivered on OreSat0.0 but never flown.
+   - v2.0 -new backplane "v2" signal pinout (less power, more signals, UART lines, CAN bus bridging) and new non-shorting debug connector. Made new debug port board and breakout. Also corrected RF ports, including L1 band microstrip and S band strip to -Z end cap. Fabbed 2021-11-01 and installed on OreSat0.1 handed off to Spaceflight, ready for launch!
+- 2U
+   - v1.0 - First backplane. 2 layer board, RF connector array, aux and main connectors. Fabbed 2018/10/02.
+   - v1.1 - End Cards now use 40 pin connector, solar connectors now actually fit. Fabbed 2019/02/25.
+   - V2.0 - Switched to 4 layer board, removed RF connector array, used actual microstrips tuned to the 4 layer OSH Park process. Fabbed 2019/07/01.
+   - v2.1 - Updated to latest backplane DXF, reducing all sides by 0.15 mm. Fixed solar connector cutout areas that were lopsided. Added CAN termination resistors. Moved RF connectors to latest (2020/02/15) locations. NOT YET FABBED.
+   - vHASP - Made for the NASA HASP mission, fabbed, but never used.
+   
 ## LICENSE
 
-Copyright Portland State Aerospace Society 2018.
+Copyright the Portland State Aerospace Society, 2022.
 
-This documentation describes Open Hardware and is licensed under the CERN OHL v. 1.2.
+This source describes Open Hardware that is licensed under CERN-OHL-S v2, or any later version.
 
-You may redistribute and modify this documentation under the terms of the CERN OHL v.1.2. [http://ohwr.org/cernohl](http://ohwr.org/cernohl). This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN OHL v.1.2 for applicable conditions.
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 (https://ohwr.org/cern_ohl_s_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source location: https://github.com/oresat/
+
+As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
 
