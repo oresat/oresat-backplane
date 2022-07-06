@@ -1,0 +1,407 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ac0124dc-58c2-49bb-a5f2-b641960d9876)
+
+  (paper "User" 490.22 254.406)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 177.8 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 10cb0505-c49f-4362-b5fc-ae78de94371a)
+    (property "Sheet name" "Slot 4" (id 0) (at 177.8 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Slot_4.kicad_sch" (id 1) (at 177.8 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 127 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 327abc35-cf61-4260-a2e8-cdaa95d9229c)
+    (property "Sheet name" "Slot 3" (id 0) (at 127 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Slot_3.kicad_sch" (id 1) (at 127 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 228.6 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 402ac5d8-1ce2-48fe-a0bb-8ca848885903)
+    (property "Sheet name" "Slot 5" (id 0) (at 228.6 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Slot_5.kicad_sch" (id 1) (at 228.6 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 76.2 76.2) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5e9528c3-416e-4efb-8448-a632cb1526b0)
+    (property "Sheet name" "Slot 7" (id 0) (at 76.2 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Slot_7.kicad_sch" (id 1) (at 76.2 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 177.8 76.2) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 807cc67e-00b2-47c0-a853-f2e52893fab0)
+    (property "Sheet name" "To -Z End Cap" (id 0) (at 177.8 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "To_-Z_End_Cap.kicad_sch" (id 1) (at 177.8 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 25.4 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8c915e3f-3679-4cae-892d-de2577b415a0)
+    (property "Sheet name" "Slot 1" (id 0) (at 25.4 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Slot_1.kicad_sch" (id 1) (at 25.4 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 76.2 25.4) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid b971435f-b9d0-4884-815f-9da0a4a7aa22)
+    (property "Sheet name" "Slot 2" (id 0) (at 76.2 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Slot_2.kicad_sch" (id 1) (at 76.2 29.7946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 25.4 76.2) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid daa52ca0-e46f-4d02-9b08-e3b77e292d6d)
+    (property "Sheet name" "Slot 6" (id 0) (at 25.4 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Slot_6.kicad_sch" (id 1) (at 25.4 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 127 76.2) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid e29fab27-b19e-4b0f-8238-2bc550a46b1e)
+    (property "Sheet name" "Slot 8" (id 0) (at 127 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "Slot_8.kicad_sch" (id 1) (at 127 80.5946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0" (page "2"))
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22" (page "3"))
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c" (page "4"))
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a" (page "5"))
+    (path "/402ac5d8-1ce2-48fe-a0bb-8ca848885903" (page "6"))
+    (path "/daa52ca0-e46f-4d02-9b08-e3b77e292d6d" (page "7"))
+    (path "/5e9528c3-416e-4efb-8448-a632cb1526b0" (page "8"))
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e" (page "9"))
+    (path "/807cc67e-00b2-47c0-a853-f2e52893fab0" (page "10"))
+  )
+
+  (symbol_instances
+    (path "/807cc67e-00b2-47c0-a853-f2e52893fab0/976a4208-e667-4d52-9618-10e5d70a96d8"
+      (reference "#FRAME12") (unit 1) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/807cc67e-00b2-47c0-a853-f2e52893fab0/ed8a8309-6f7e-408b-b898-df52377fe4a2"
+      (reference "#FRAME12") (unit 2) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/9d9052c4-339f-4f2e-a42e-d191e2a5038c"
+      (reference "#FRAME13") (unit 1) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/ff04683f-ce59-4998-ae8d-a19d7c4a5795"
+      (reference "#FRAME13") (unit 2) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/5e9528c3-416e-4efb-8448-a632cb1526b0/ccdbedf7-155f-4722-9c40-92358c28788c"
+      (reference "#FRAME14") (unit 1) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/5e9528c3-416e-4efb-8448-a632cb1526b0/c1d7af22-a72c-41ba-a0e8-48180f870b80"
+      (reference "#FRAME14") (unit 2) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/daa52ca0-e46f-4d02-9b08-e3b77e292d6d/10d4f075-799f-481b-9e5b-ac6d48b65b06"
+      (reference "#FRAME15") (unit 1) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/daa52ca0-e46f-4d02-9b08-e3b77e292d6d/7575ec90-ff21-4774-ada3-af1826fe82b2"
+      (reference "#FRAME15") (unit 2) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/402ac5d8-1ce2-48fe-a0bb-8ca848885903/955cdbb2-0bde-4d68-bba6-7e558dd099e7"
+      (reference "#FRAME16") (unit 1) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/402ac5d8-1ce2-48fe-a0bb-8ca848885903/10ddf5bd-160f-4d81-af1d-e9b1dbaffe2d"
+      (reference "#FRAME16") (unit 2) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/edbd71d8-2989-4b0d-9b67-266785fae5ec"
+      (reference "#FRAME17") (unit 1) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/1ecf3af1-5eb9-4432-846e-854747752488"
+      (reference "#FRAME17") (unit 2) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/5310ff39-7685-4445-b4f3-cc8a39c57ab4"
+      (reference "#FRAME18") (unit 1) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/ceeca42c-22c1-468c-a576-5c747c254199"
+      (reference "#FRAME18") (unit 2) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/7a3d295f-0cc5-469c-ba59-e415dbc86629"
+      (reference "#FRAME19") (unit 1) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/7d07acef-50a6-46f8-83fe-510ded89232c"
+      (reference "#FRAME19") (unit 2) (value "FRAME_A_L") (footprint "oresat-backplane-1u:")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/6802aa73-39f4-4770-9103-354d5fd943ae"
+      (reference "#GND1") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/edb409ff-c20d-4f28-9001-b17b4b194e28"
+      (reference "#GND2") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/5848ed8c-1055-4d75-8fc2-10a814a79447"
+      (reference "#GND3") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/6b21e638-4acb-472a-83a9-f144123d42d3"
+      (reference "#GND4") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/32738d07-6b75-4a1b-b5f5-20976f6fe8da"
+      (reference "#GND5") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/807cc67e-00b2-47c0-a853-f2e52893fab0/d26e6bff-430a-4dff-a3c9-25456c4bdce1"
+      (reference "#GND6") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/807cc67e-00b2-47c0-a853-f2e52893fab0/40331e9d-a012-4b31-a92c-6582e8af39c0"
+      (reference "#GND8") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/d8216362-d3c3-4f91-b0b5-6596867b68d4"
+      (reference "#GND11") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/a91fc031-85c2-4228-ac6c-d75fb8489100"
+      (reference "#GND14") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/d6dda31a-843a-47d7-bcd4-0ec66ba4ce7e"
+      (reference "#GND15") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/9c468908-a56d-4551-9069-78065657540d"
+      (reference "#GND16") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/f661eb88-c449-48a8-84be-ef510044f27a"
+      (reference "#GND18") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/9576a8f5-f16d-4d30-a60d-0bf9d52b3d84"
+      (reference "#GND20") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/f3bc449b-8f35-4c65-a976-418a839afff7"
+      (reference "#GND73") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/604246ca-bcba-4a64-b448-4248b99d1d5f"
+      (reference "#GND77") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/5e9528c3-416e-4efb-8448-a632cb1526b0/4cfa6b00-d0a8-40da-99f3-25c490ff6d4d"
+      (reference "#GND79") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/5e9528c3-416e-4efb-8448-a632cb1526b0/292398fb-7588-4102-99d2-f84b31b22151"
+      (reference "#GND83") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/daa52ca0-e46f-4d02-9b08-e3b77e292d6d/9d49dbb8-3937-47dd-a07d-ba49728bda1d"
+      (reference "#GND85") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/ffe51697-5148-4390-a525-f62f5377a867"
+      (reference "#GND90") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/402ac5d8-1ce2-48fe-a0bb-8ca848885903/b0915a68-20bc-499f-97b9-cd05dec69c70"
+      (reference "#GND91") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/e5a9110a-43c8-4d23-a8f2-af5bfbba4662"
+      (reference "#GND97") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/db5a3080-2e87-4233-88ad-cf91933183a6"
+      (reference "#GND101") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/1671142f-3022-4adb-a13a-3caeae6d9ad3"
+      (reference "#GND103") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/4d8dc917-66b2-4cb9-8ad8-ed40aa35a1ed"
+      (reference "#GND107") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/de60e9d4-0e5b-44de-a5ba-d5201516aca8"
+      (reference "#GND109") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/27d804ea-9dcb-403b-884f-97a69af26c6a"
+      (reference "#GND113") (unit 1) (value "GND") (footprint "oresat-backplane-1u:")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/34109967-5fcd-40d0-9179-29e6ce0b5aca"
+      (reference "C1") (unit 1) (value "1n") (footprint "oresat-backplane-1u:.0603-C-NOSILK")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/9edffd58-93cd-449b-ad01-8e7903f7ad10"
+      (reference "C2") (unit 1) (value "1n") (footprint "oresat-backplane-1u:.0603-C-NOSILK")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/9e38e9d6-8584-40ff-b39f-a881777cb8af"
+      (reference "C3") (unit 1) (value "1n") (footprint "oresat-backplane-1u:.0603-C-NOSILK")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/ce9606f1-4e8d-46d5-9944-55d128cd77b4"
+      (reference "C4") (unit 1) (value "1n") (footprint "oresat-backplane-1u:.0603-C-NOSILK")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/ac1eb9ca-3864-403f-8c38-2b77c1460b20"
+      (reference "C5") (unit 1) (value "C-EU1206-B") (footprint "oresat-backplane-1u:1206-B")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/24d257a0-5942-4432-b3a2-d8c73672d19d"
+      (reference "C6") (unit 1) (value "C-EU1206-B") (footprint "oresat-backplane-1u:1206-B")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/c8e1950c-9f1e-4c3c-9b41-6c55cc1e9ecb"
+      (reference "C7") (unit 1) (value "C-EU1206-B") (footprint "oresat-backplane-1u:1206-B")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/e524b4af-3590-4169-8311-b7398eea7fca"
+      (reference "C8") (unit 1) (value "C-EU1206-B") (footprint "oresat-backplane-1u:1206-B")
+    )
+    (path "/402ac5d8-1ce2-48fe-a0bb-8ca848885903/31bda0f9-1abd-48ee-b24c-dc9a39dd77a1"
+      (reference "C9") (unit 1) (value "C-EU1206-B") (footprint "oresat-backplane-1u:1206-B")
+    )
+    (path "/daa52ca0-e46f-4d02-9b08-e3b77e292d6d/e88507f6-298e-419b-a11c-9f2043258d77"
+      (reference "C10") (unit 1) (value "C-EU1206-B") (footprint "oresat-backplane-1u:1206-B")
+    )
+    (path "/5e9528c3-416e-4efb-8448-a632cb1526b0/d5e7dcb3-8be5-41fb-97f0-b6cf199bed86"
+      (reference "C11") (unit 1) (value "C-EU1206-B") (footprint "oresat-backplane-1u:1206-B")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/faf230e8-8dd2-44cf-a5d4-e1f969c46183"
+      (reference "C12") (unit 1) (value "C-EU1206-B") (footprint "oresat-backplane-1u:1206-B")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/4d3d0506-fe0f-4b05-9164-71749679c2cc"
+      (reference "CF1.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-1u:SFM-120-X1-XXX-D")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/895db964-1175-440a-9fb6-8623aee76d2c"
+      (reference "CF2.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-1u:SFM-110-X1-XXX-D-LC")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/c8b162df-0b0a-40f8-bf0a-91aae0fc84b1"
+      (reference "CF2.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-1u:SFM-120-X1-XXX-D")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/2b0b3c73-90ad-4ad2-bd5b-5bbb45eef432"
+      (reference "CF3.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-1u:SFM-110-X1-XXX-D-LC")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/f83d6d6f-6122-4939-ad6e-feeb5072d02e"
+      (reference "CF3.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-1u:SFM-120-X1-XXX-D")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/defc44e4-aedd-4e64-a95d-2ca21085c736"
+      (reference "CF4.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-1u:SFM-110-X1-XXX-D-LC")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/a3f4c647-5c63-44a5-a8aa-ccb1c03bee10"
+      (reference "CF4.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-1u:SFM-120-X1-XXX-D")
+    )
+    (path "/402ac5d8-1ce2-48fe-a0bb-8ca848885903/ab96a332-892d-4822-add0-1b913ab6d523"
+      (reference "CF5.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-1u:SFM-120-X1-XXX-D")
+    )
+    (path "/daa52ca0-e46f-4d02-9b08-e3b77e292d6d/01807489-1369-4e92-b684-f716f5aabf99"
+      (reference "CF6.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-1u:SFM-120-X1-XXX-D")
+    )
+    (path "/5e9528c3-416e-4efb-8448-a632cb1526b0/bcb67d55-06c3-45dc-b6c1-4d58efa72b3d"
+      (reference "CF7.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-1u:SFM-110-X1-XXX-D-LC")
+    )
+    (path "/5e9528c3-416e-4efb-8448-a632cb1526b0/0bae303e-88f8-4d92-abe7-d4d10c188f98"
+      (reference "CF7.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-1u:SFM-120-X1-XXX-D")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/95e19178-29d9-41dd-b287-8855f94d2eb9"
+      (reference "CF8.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-1u:SFM-110-X1-XXX-D-LC")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/8af5b427-2e5a-4ee8-9fc0-7f919ef09a0b"
+      (reference "CF8.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-1u:SFM-120-X1-XXX-D")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/2b94fc61-0b26-4b9c-8dd8-06da7ee12179"
+      (reference "CM1.1") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-backplane-1u:J-MOLEX-SMPM-73300-0111X")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/1daf3149-bd56-4a8a-90da-5209761f6b65"
+      (reference "CM1.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-backplane-1u:J-MOLEX-SMPM-73300-0111X")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/e2323ca5-17e2-4b13-b8a6-144e386be426"
+      (reference "CM1.3") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-backplane-1u:J-MOLEX-SMPM-73300-0111X")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/685ccc29-388a-4e1f-8970-8ff42b55e7f5"
+      (reference "CM2.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-backplane-1u:J-MOLEX-SMPM-73300-0111X")
+    )
+    (path "/b971435f-b9d0-4884-815f-9da0a4a7aa22/82966d66-c948-48c6-99dc-08b8e50b6271"
+      (reference "CM2.3") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-backplane-1u:J-MOLEX-SMPM-73300-0111X")
+    )
+    (path "/327abc35-cf61-4260-a2e8-cdaa95d9229c/655697b7-20ff-4376-8aa0-64ecb4f7abc1"
+      (reference "CM3.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-backplane-1u:J-MOLEX-SMPM-73300-0111X")
+    )
+    (path "/10cb0505-c49f-4362-b5fc-ae78de94371a/a6b3847b-c58c-4819-a053-c0e56341202b"
+      (reference "CM4.1") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-backplane-1u:J-MOLEX-SMPM-73300-0111X")
+    )
+    (path "/807cc67e-00b2-47c0-a853-f2e52893fab0/1f3c4eb8-c60a-44f3-a625-7571cf8cedd0"
+      (reference "CM8") (unit 1) (value "U.FL-R-SMA") (footprint "oresat-backplane-1u:U.FL-R-SMT")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/197d7f2c-933b-4c57-8c3c-d562cf1eb518"
+      (reference "FIDUCIAL1") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "oresat-backplane-1u:FIDUCIAL-1.0X2.0")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/fc233345-7762-45a5-88eb-7ed8b449e92f"
+      (reference "FIDUCIAL2") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "oresat-backplane-1u:FIDUCIAL-1.0X2.0")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/9bc17a73-5e4a-4c4f-b834-3307c9c246b3"
+      (reference "FIDUCIAL3") (unit 1) (value "FIDUCIAL-1.0X2.0") (footprint "oresat-backplane-1u:FIDUCIAL-1.0X2.0")
+    )
+    (path "/807cc67e-00b2-47c0-a853-f2e52893fab0/018c4fea-2cb4-47bc-8298-a34ad62c2724"
+      (reference "J1") (unit 1) (value "5-104196-5") (footprint "oresat-backplane-1u:5-104196-5")
+    )
+    (path "/402ac5d8-1ce2-48fe-a0bb-8ca848885903/5f962075-cf43-46c0-9557-c2c5ec9b6763"
+      (reference "J3") (unit 1) (value "HARWIN-M50-3501042") (footprint "oresat-backplane-1u:HARWIN-M50-3501042")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/c8834436-03cf-42d9-a4ee-bfd6f17e0d79"
+      (reference "R1") (unit 1) (value "60.4") (footprint "oresat-backplane-1u:1206-C")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/e5c68bcc-4ad3-4e4b-af09-12a9aa876ec2"
+      (reference "R2") (unit 1) (value "60.4") (footprint "oresat-backplane-1u:1206-C")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/7f20474c-4997-46ef-8187-c67b3df68c5c"
+      (reference "R3") (unit 1) (value "60.4") (footprint "oresat-backplane-1u:1206-C")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/537f1770-2ed4-4a57-8b6a-5815bb25e1f2"
+      (reference "R4") (unit 1) (value "60.4") (footprint "oresat-backplane-1u:1206-C")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/42e49b3e-40c2-44e6-8b97-3efc83afe0b3"
+      (reference "R5") (unit 1) (value "60.4") (footprint "oresat-backplane-1u:1206-C")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/f5c05098-f273-4699-9233-6f1095b4cc8a"
+      (reference "R6") (unit 1) (value "60.4") (footprint "oresat-backplane-1u:1206-C")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/93cf8381-8bbe-46d2-afbe-89fbf6a5f9a0"
+      (reference "R7") (unit 1) (value "60.4") (footprint "oresat-backplane-1u:1206-C")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/2e81ed2d-69ea-460b-9029-e79fb8fd241d"
+      (reference "R8") (unit 1) (value "60.4") (footprint "oresat-backplane-1u:1206-C")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/21c41937-cf27-4f75-91c8-4e112a8e7dbc"
+      (reference "R9") (unit 1) (value "R-US_0603-B-NOSILK") (footprint "oresat-backplane-1u:.0603-B-NOSILK")
+    )
+    (path "/e29fab27-b19e-4b0f-8238-2bc550a46b1e/5db54461-fb3d-4767-969b-122414d7165b"
+      (reference "R10") (unit 1) (value "R-US_0603-B-NOSILK") (footprint "oresat-backplane-1u:.0603-B-NOSILK")
+    )
+    (path "/8c915e3f-3679-4cae-892d-de2577b415a0/14f3fba3-8ae8-4fa8-a589-07bb4569a3dd"
+      (reference "U$1") (unit 1) (value "FLIGHMARKERNEW") (footprint "oresat-backplane-1u:FLIGHTMARKER_NEW_BOARDS")
+    )
+  )
+)
