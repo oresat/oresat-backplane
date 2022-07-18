@@ -2,7 +2,7 @@
 
   (uuid a3281c42-af77-4a47-832c-089488f45137)
 
-  (paper "A4")
+  (paper "User" 490.22 254.406)
 
   (lib_symbols
   )
@@ -130,122 +130,68 @@
   )
 
   (symbol_instances
-    (path "/52b67d65-65a0-462b-a4fb-6a85bb159c55/a50d14a6-6120-4fb1-b153-1b076e9589bf"
-      (reference "#FRAME12") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/52b67d65-65a0-462b-a4fb-6a85bb159c55/5104ec63-d1dd-42e8-9ec1-2f624f11f9f6"
-      (reference "#FRAME12") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/155a62bb-ad82-437b-b8f4-02c4afccf2ee/c0ae4f5b-c103-43e7-a1e7-5fa47891a0b3"
-      (reference "#FRAME13") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/155a62bb-ad82-437b-b8f4-02c4afccf2ee/a1486e95-063f-4df1-9713-bd7696aab9ec"
-      (reference "#FRAME13") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/499fb1ef-6e0f-4833-a87f-dc16fdcaee8f/7a6e769d-28f7-4799-97dc-d1180d49d5ba"
-      (reference "#FRAME14") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/499fb1ef-6e0f-4833-a87f-dc16fdcaee8f/9f20ce37-462b-4b5b-a579-cf6d00ce133d"
-      (reference "#FRAME14") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/e28a3910-5bb5-47d0-b22c-58fbec58405d/ce4fee5f-4ba8-4c45-a773-d77f059e8395"
-      (reference "#FRAME15") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/e28a3910-5bb5-47d0-b22c-58fbec58405d/3ac6b8e7-ceba-42e2-8988-9413b9065e42"
-      (reference "#FRAME15") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/49a8ed40-26ec-413e-bd4b-18b32e50d103/f327750f-d2d5-4722-a4e6-adfb89fb3e54"
-      (reference "#FRAME16") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/49a8ed40-26ec-413e-bd4b-18b32e50d103/a60ede14-8b05-4e4b-b441-98d4a6e9fd9f"
-      (reference "#FRAME16") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/8dd31f5a-353a-4ab6-a619-06be0c2b74ed/94ac614f-50ef-4dda-8a81-2cb0543c770a"
-      (reference "#FRAME17") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/8dd31f5a-353a-4ab6-a619-06be0c2b74ed/a8948730-2b2b-4caf-9e83-3a19f1e3ec90"
-      (reference "#FRAME17") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/b547714a-0fc7-4c69-8dcc-be4dfeaf352b/a9d0602b-69d1-4dc5-9c91-3527fa419699"
-      (reference "#FRAME18") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/b547714a-0fc7-4c69-8dcc-be4dfeaf352b/e3e64cac-c1e9-422b-b4ca-ad3f3c573770"
-      (reference "#FRAME18") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/cf0c5588-2489-4c12-8f56-7c5a267253fe/64322697-9b11-458e-abb6-0d451cb4072c"
-      (reference "#FRAME19") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/cf0c5588-2489-4c12-8f56-7c5a267253fe/669f76e4-084b-427b-ba0e-fdff96cef183"
-      (reference "#FRAME19") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/6a897287-8b27-4590-9002-d0d918bb1633/19fbf917-39dc-4c7d-9bd2-d99b475d99df"
-      (reference "#FRAME20") (unit 1) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
-    (path "/6a897287-8b27-4590-9002-d0d918bb1633/9558feef-c143-4479-9c6e-dbbc06c84a29"
-      (reference "#FRAME20") (unit 2) (value "FRAME_A_L") (footprint "oresat0-1u-backplane:")
-    )
     (path "/b547714a-0fc7-4c69-8dcc-be4dfeaf352b/04064954-588d-48bc-b561-b1eea860b7af"
-      (reference "#GND1") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND01") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/f8f20335-1b58-435a-a764-7fa98bd8564a"
-      (reference "#GND2") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND02") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/66636ff9-c9f1-48fb-bce7-27753a8e3e1b"
-      (reference "#GND3") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND03") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/cf0c5588-2489-4c12-8f56-7c5a267253fe/b612ab11-ccbb-4acd-8dc2-f0f5395312ec"
-      (reference "#GND4") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND04") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/8dd31f5a-353a-4ab6-a619-06be0c2b74ed/e5a94d34-468b-4e4d-89f8-92c80a966ce9"
-      (reference "#GND5") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND05") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/52b67d65-65a0-462b-a4fb-6a85bb159c55/f62168e5-29f7-44be-a564-e518f35f0c5e"
-      (reference "#GND6") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND06") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/49a8ed40-26ec-413e-bd4b-18b32e50d103/c929fb37-61be-40fa-9389-3a9278cb0122"
-      (reference "#GND7") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND07") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/52b67d65-65a0-462b-a4fb-6a85bb159c55/ce455431-8a64-47a4-9b67-0b82b8738ec3"
-      (reference "#GND8") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND08") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/cf0c5588-2489-4c12-8f56-7c5a267253fe/4983f5fb-75d0-4fef-a68f-a996a20e7552"
-      (reference "#GND11") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND011") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/71dd6f0d-30cf-4a68-a18b-d4bf511b6e21"
-      (reference "#GND14") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND014") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/08444f85-4aa2-40d1-a9b9-35c7229bc291"
-      (reference "#GND15") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND015") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/727549b9-9847-416a-8ee0-885b4ecbea45"
-      (reference "#GND16") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND016") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/155a62bb-ad82-437b-b8f4-02c4afccf2ee/3bd6826a-a357-485e-82c9-f8e032f05afb"
-      (reference "#GND18") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND018") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/155a62bb-ad82-437b-b8f4-02c4afccf2ee/eba9b2a2-7354-4a93-8853-3f435d3f6a16"
-      (reference "#GND20") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND020") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/499fb1ef-6e0f-4833-a87f-dc16fdcaee8f/29cff57f-1b82-4e1b-a56b-9359a0c5c74b"
-      (reference "#GND79") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND079") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/e28a3910-5bb5-47d0-b22c-58fbec58405d/8af0cf6c-c0a7-41a6-9a07-5d2787d190ec"
-      (reference "#GND85") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND085") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/0d9117a6-8757-4597-bf28-079dfb39c2ff"
-      (reference "#GND90") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND090") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/49a8ed40-26ec-413e-bd4b-18b32e50d103/3ed8053b-5a1c-4833-83c7-040823429ad5"
-      (reference "#GND91") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND091") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/8dd31f5a-353a-4ab6-a619-06be0c2b74ed/4f1e63f1-dcec-4a8d-b050-f689d9468a38"
-      (reference "#GND97") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND097") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/b547714a-0fc7-4c69-8dcc-be4dfeaf352b/7b88cd51-80a9-4976-a3f2-6e524d8d3158"
-      (reference "#GND103") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND0103") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/cf0c5588-2489-4c12-8f56-7c5a267253fe/634db9a9-6363-4fb1-8205-091f4278bb8a"
-      (reference "#GND109") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
+      (reference "#GND0109") (unit 1) (value "GND") (footprint "oresat0-1u-backplane:")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/f968c724-b3c5-4032-9d19-ae829d2e83b8"
       (reference "C1") (unit 1) (value "1n") (footprint "oresat0-1u-backplane:.0603-C-NOSILK")
@@ -302,25 +248,25 @@
       (reference "CF7.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat0-1u-backplane:SFM-120-X1-XXX-D")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/d42440e6-3bfb-4355-b3a7-bfaaeb61c5fd"
-      (reference "CM1.1") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat0-1u-backplane:J-MOLEX-SMPM-73300-0111X")
+      (reference "CM1.1") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/cf48f20b-d897-4283-b439-e85953dbc991"
-      (reference "CM1.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat0-1u-backplane:J-MOLEX-SMPM-73300-0111X")
+      (reference "CM1.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long")
     )
     (path "/6a897287-8b27-4590-9002-d0d918bb1633/91b117c1-07c3-478e-94df-b545f4bd7fca"
-      (reference "CM1.3") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat0-1u-backplane:J-MOLEX-SMPM-73300-0111X")
+      (reference "CM1.3") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long")
     )
     (path "/cf0c5588-2489-4c12-8f56-7c5a267253fe/021d4f83-2ead-496f-ad67-8bbaac4b7595"
-      (reference "CM2.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat0-1u-backplane:J-MOLEX-SMPM-73300-0111X")
+      (reference "CM2.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long")
     )
     (path "/cf0c5588-2489-4c12-8f56-7c5a267253fe/84f06654-89f1-4b54-8e74-f59b1884c7d3"
-      (reference "CM2.3") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat0-1u-backplane:J-MOLEX-SMPM-73300-0111X")
+      (reference "CM2.3") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long")
     )
     (path "/b547714a-0fc7-4c69-8dcc-be4dfeaf352b/d927a083-a14d-4dc6-8137-e861510d1e76"
-      (reference "CM3.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat0-1u-backplane:J-MOLEX-SMPM-73300-0111X")
+      (reference "CM3.2") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long")
     )
     (path "/8dd31f5a-353a-4ab6-a619-06be0c2b74ed/1b0fcd1f-fc1b-4800-b8a4-fa4512d7788f"
-      (reference "CM4.1") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat0-1u-backplane:J-MOLEX-SMPM-73300-0111X")
+      (reference "CM4.1") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long")
     )
     (path "/52b67d65-65a0-462b-a4fb-6a85bb159c55/dda96f14-fd30-4145-8150-c9bb8feca0cd"
       (reference "CM8") (unit 1) (value "U.FL-R-SMA") (footprint "oresat0-1u-backplane:U.FL-R-SMT")

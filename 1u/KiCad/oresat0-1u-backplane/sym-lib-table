@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "oresat0-1u-backplane-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat0-1u-backplane-eagle-import.kicad_sym")(options "")(descr ""))
+  (lib (name "J-MOLEX-SMPM-73300-0111X")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/J-MOLEX-SMPM-73300-0111X.kicad_sym")(options "")(descr ""))
 )
