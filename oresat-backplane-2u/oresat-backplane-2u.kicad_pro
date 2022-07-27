@@ -405,7 +405,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-layout-title-block.kicad_wks"
+    "page_layout_descr_file": "${ORESAT_LIBRARIES}/title-blocks/oresat-schematic-title-block.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
