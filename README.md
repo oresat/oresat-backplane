@@ -32,13 +32,13 @@ The connectors that we use on this puppy are the:
 
 - **1.27 mm through-hole vertical socket connectors:**
     - 40 pin main connector
-       - Samtec SFM-120-01-S-D-LC 
+       - Samtec SFM-120-01-S-D-LC
        - 3D CAD: https://www.samtec.com/partnumber/sfm-120-01-s-d-lc
        - Drawing: http://suddendocs.samtec.com/prints/sfm-1xx-xx-xxx-d-xxx-mkt.pdf
        - Brochure: http://suddendocs.samtec.com/catalog_english/sfm.pdf
        - SFM footprint: http://suddendocs.samtec.com/prints/sfm-thd.pdf
     - 20 pin auxiliary connector
-       - Samtec SFM-110-01-S-D-LC 
+       - Samtec SFM-110-01-S-D-LC
        - 3D CAD: https://www.samtec.com/partnumber/sfm-110-01-s-d-lc
        - Drawing: http://suddendocs.samtec.com/prints/sfm-1xx-xx-xxx-d-xxx-mkt.pdf
        - Brochure: http://suddendocs.samtec.com/catalog_english/sfm.pdf
@@ -49,7 +49,7 @@ The connectors that we use on this puppy are the:
    - SMPM Connector Plug, Male Pin 50 Ohm Surface Mount, Through Hole Solder, $13.84/ea @ 10
    - Molex (w/CAD): https://www.molex.com/molex/products/datasheet.jsp?part=active/0733000110_RF_COAX_CONNECTORS.xml&channel=Products&Lang=en-US
    - We've done a detailed characteraziation of OSH Park's 4 layer process, and found that 0.38 mm is the correct width for a 50 ohm microstrip.
-   
+
 - **CAN termination**
    - We'll use split termination, using two 60 ohm resistors with a center tapped capacitor for reduced EMI.
    - Resistors
@@ -67,7 +67,7 @@ The connectors that we use on this puppy are the:
    - Harwin M55-6001642R (same family as the solar and end cap connectors)
    - Located on the back side of the backplane, it's a 16 pin 1.27 mm connector that gives external access to CAN busses, VBUS, and the UART lines. It sits in the 1U solar module "cutout".
    - For the external connector board, see the `backplane-debug` folder in the `oresat-flatsat` repo.
-   
+
 ## Versions
 
 - 1U
@@ -81,7 +81,8 @@ The connectors that we use on this puppy are the:
    - V2.0 - Switched to 4 layer board, removed RF connector array, used actual microstrips tuned to the 4 layer OSH Park process. Fabbed 2019/07/01.
    - v2.1 - Updated to latest backplane DXF, reducing all sides by 0.15 mm. Fixed solar connector cutout areas that were lopsided. Added CAN termination resistors. Moved RF connectors to latest (2020/02/15) locations. NOT YET FABBED.
    - vHASP - Made for the NASA HASP mission, fabbed, but never used.
-   
+   - V2.2 - Updated to FrameV2 and Oresat0.5 card locations
+
 ## LICENSE
 
 Copyright the Portland State Aerospace Society, 2022.
@@ -95,4 +96,3 @@ This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF
 Source location: https://github.com/oresat/
 
 As per CERN-OHL-S v2 section 4, should You produce hardware based on this source, You must where practicable maintain the Source Location visible on the external case of the Gizmo or other products you make using this source.
-
