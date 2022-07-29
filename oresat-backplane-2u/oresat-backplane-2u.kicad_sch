@@ -417,101 +417,101 @@
     (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/f14670c3-71f7-4a0e-bcec-b6383dafe8db"
       (reference "C4") (unit 1) (value "1n") (footprint "oresat-backplane-2u:.0603-C-NOSILK")
     )
+    (path "/9892f36d-61e0-44c9-a792-aa3780623152/310d4bdf-3b15-4a4e-a5bd-f54c3b5558e7"
+      (reference "CF1.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
+    )
     (path "/1f339fb2-b357-4bf8-a609-05c270823670/fa4d51fd-7c6f-4c16-af1b-ed7385ef266e"
-      (reference "CF2.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF2.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/1f339fb2-b357-4bf8-a609-05c270823670/8966ce4c-af43-4740-b0e2-dededd889e27"
-      (reference "CF2.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
-    )
-    (path "/9892f36d-61e0-44c9-a792-aa3780623152/310d4bdf-3b15-4a4e-a5bd-f54c3b5558e7"
-      (reference "CF2.3") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
-    )
-    (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/a87dfe14-f1d2-4ca0-8acb-c350385bab01"
-      (reference "CF2.4") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF2.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/500a540e-1155-49b4-8829-5dc3b207d050/480e3260-0745-42a6-a623-4658330021da"
-      (reference "CF3.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF3.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/500a540e-1155-49b4-8829-5dc3b207d050/d9f12c40-a43f-43fd-b049-ad2769f6bffa"
-      (reference "CF3.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF3.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/5a71d909-bada-4396-9154-8f69a23263d1/00d880b2-44d4-48bc-8a98-b9ae044f36cc"
-      (reference "CF4.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF4.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/5a71d909-bada-4396-9154-8f69a23263d1/67755a9a-2b6e-4c19-b9a1-339d1efcc04d"
-      (reference "CF4.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF4.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/aa405cc5-a10f-427e-bcba-6adcaa8d02c3/e591b9c0-a295-4857-b05d-e3d1ce18b213"
-      (reference "CF5.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF5.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/aa405cc5-a10f-427e-bcba-6adcaa8d02c3/26c7cdd0-a458-44b3-be88-4338c6f593cf"
-      (reference "CF5.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF5.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/6336ce9a-ac59-4896-b0c3-2a1a8b69027a/03678bee-d18e-4910-889b-2b1c2ac4d6cd"
-      (reference "CF6.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF6.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/6336ce9a-ac59-4896-b0c3-2a1a8b69027a/0d9decda-4ee9-432e-976c-af861b0c7814"
-      (reference "CF6.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF6.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/df426085-dc3a-4762-9909-5f790757acd0/ddce5d67-243f-451d-8261-959406b1fab7"
-      (reference "CF7.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF7.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/df426085-dc3a-4762-9909-5f790757acd0/28e070c5-8602-49d6-90da-5cd85383702d"
-      (reference "CF7.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF7.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/7bbcf791-5c0a-4573-8fbd-815cfff80212/393125c0-8eb2-4ef7-a908-9e0721d701b2"
-      (reference "CF8.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF8.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/7bbcf791-5c0a-4573-8fbd-815cfff80212/5372ac87-e7aa-4d99-bf1d-f64b482ade70"
-      (reference "CF8.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF8.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/f8e3751b-f113-41ed-9ac3-5d3371b2fd66/3d11ba03-2de1-4237-8037-f3a8cc9ca4e2"
-      (reference "CF12.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF12.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/f8e3751b-f113-41ed-9ac3-5d3371b2fd66/966bc50a-a58e-4bc0-8585-386c5d49426b"
-      (reference "CF12.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF12.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/7d745376-01b6-4bfa-949e-d183fa0cc7c4/45d50679-9d97-449c-9a6a-a2f998701f83"
-      (reference "CF13.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF13.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/7d745376-01b6-4bfa-949e-d183fa0cc7c4/08600f56-d5c6-47b0-ae2c-0fc4c6c4aff1"
-      (reference "CF13.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF13.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/0c20fbe3-3eb3-4419-8d08-5a77883ebcd5/54d7c69f-6554-467c-81e1-67452b39483a"
-      (reference "CF14.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF14.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/0c20fbe3-3eb3-4419-8d08-5a77883ebcd5/eef3e58a-1e67-4e0c-bbe1-786a62c91c1d"
-      (reference "CF14.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF14.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/aeb42315-eea3-4d10-a741-b8f13681930b/187be33d-53db-4c97-8242-10c3f02c300e"
-      (reference "CF15.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF15.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/aeb42315-eea3-4d10-a741-b8f13681930b/fededab5-9ed3-47c4-8501-2740c33ef84c"
-      (reference "CF15.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF15.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/aeb2e143-0033-461c-acd3-6d8078439b23/c76aba9b-ae6a-4855-b0e7-ee1679d83e25"
-      (reference "CF16.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF16.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/aeb2e143-0033-461c-acd3-6d8078439b23/dacd09a3-5e15-4dc9-8612-5178333cba40"
-      (reference "CF16.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF16.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/91dfd462-0e93-4011-9137-5d697db18145/a6f3084e-0c99-4eab-a420-69cf9e68031a"
-      (reference "CF17.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF17.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/91dfd462-0e93-4011-9137-5d697db18145/1a079acd-1c69-4ab2-ae08-496def7ad0e7"
-      (reference "CF17.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF17.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/9529e3aa-0d1e-405f-b46f-64b16880b7d7/471e2713-0d19-4b47-bb8d-c71de915b50e"
-      (reference "CF18.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF18.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/9529e3aa-0d1e-405f-b46f-64b16880b7d7/e3bf9ee5-e90e-4e63-a5b0-1499965e1bff"
-      (reference "CF18.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF18.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/97fe9ab8-7842-48fd-80e0-855934a7986f/aad42d41-853f-4b43-b11f-1d16c22d7d3b"
-      (reference "CF19.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-backplane-2u:SFM-110-X1-XXX-D-LC")
+      (reference "CF19.1") (unit 1) (value "SFM-110-X1-XXX-D-LC") (footprint "oresat-footprints:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC")
     )
     (path "/97fe9ab8-7842-48fd-80e0-855934a7986f/688bdf2a-2144-49bf-8b6f-1d708afa84a3"
-      (reference "CF19.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-backplane-2u:SFM-120-X1-XXX-D")
+      (reference "CF19.2") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
+    )
+    (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/a87dfe14-f1d2-4ca0-8acb-c350385bab01"
+      (reference "CF20.1") (unit 1) (value "SFM-120-X1-XXX-D") (footprint "oresat-footprints:J-SAMTEC-SFM-120-X1-XXX-D")
     )
     (path "/9892f36d-61e0-44c9-a792-aa3780623152/ef91cc66-a857-48bf-ab16-7e433b1b4898"
       (reference "CM1.1") (unit 1) (value "J-MOLEX-SMPM-73300-0111X") (footprint "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long")
