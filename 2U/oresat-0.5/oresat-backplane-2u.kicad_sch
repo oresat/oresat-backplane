@@ -517,28 +517,34 @@
       (reference "J1") (unit 1) (value "m55-6001642") (footprint "oresat-connectors:m55-6001642")
     )
     (path "/9892f36d-61e0-44c9-a792-aa3780623152/603d3192-7f26-4833-bdfb-9a78be3751bc"
-      (reference "R1") (unit 1) (value "60.4") (footprint "oresat-backplane-2u:1206-C")
+      (reference "R1") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/9892f36d-61e0-44c9-a792-aa3780623152/8fe657a9-28d6-4920-84e0-187569dc9a06"
-      (reference "R2") (unit 1) (value "60.4") (footprint "oresat-backplane-2u:1206-C")
+      (reference "R2") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/9892f36d-61e0-44c9-a792-aa3780623152/6682e94d-7548-422f-864a-5610305af318"
-      (reference "R3") (unit 1) (value "60.4") (footprint "oresat-backplane-2u:1206-C")
+      (reference "R3") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/9892f36d-61e0-44c9-a792-aa3780623152/03d6dd99-9162-4510-a0d9-22888fb88942"
-      (reference "R4") (unit 1) (value "60.4") (footprint "oresat-backplane-2u:1206-C")
+      (reference "R4") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/fb89a746-392f-46ee-ba99-c3f1876f460d"
-      (reference "R5") (unit 1) (value "60.4") (footprint "oresat-backplane-2u:1206-C")
+      (reference "R5") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/d4b16042-eb6b-4ab4-bf56-22437ab51ded"
-      (reference "R6") (unit 1) (value "60.4") (footprint "oresat-backplane-2u:1206-C")
+      (reference "R6") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/242f2a46-f319-45ce-9242-3152f9094234"
-      (reference "R7") (unit 1) (value "60.4") (footprint "oresat-backplane-2u:1206-C")
+      (reference "R7") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/8664dfb7-9719-438a-a804-a6b2b19c559f"
-      (reference "R8") (unit 1) (value "60.4") (footprint "oresat-backplane-2u:1206-C")
+      (reference "R8") (unit 1) (value "60.4") (footprint "Resistor_SMD:R_1206_3216Metric")
+    )
+    (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/387657df-c9b1-4273-b5bc-d88b0872d10e"
+      (reference "R9") (unit 1) (value "0") (footprint "oresat-passives:0603-SMALL")
+    )
+    (path "/86f1ede5-93c7-4c43-b9b6-ff18e75f3042/5e600bbd-75dc-4177-b0ca-dcd5ae5c0899"
+      (reference "R10") (unit 1) (value "0") (footprint "oresat-passives:0603-SMALL")
     )
   )
 )
