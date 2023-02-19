@@ -45,6 +45,7 @@ eagle.epf
 # Below section added when switching to KiCad
 # PSAS local folders
 
+local-archive
 archive
 build
 gerbers
