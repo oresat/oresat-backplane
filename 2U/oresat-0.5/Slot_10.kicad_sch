@@ -1,0 +1,15 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid a52e1ee1-1e7c-4f4c-9c69-a3e4117ac640)
+
+  (paper "User" 490.22 254.406)
+
+  (lib_symbols
+  )
+
+
+  (text "ADCS hardware takes this slot" (at 62.23 128.27 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c9ccfe81-6faf-4957-a4d2-9735ca6e2b67)
+  )
+)
