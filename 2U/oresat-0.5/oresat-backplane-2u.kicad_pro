@@ -380,12 +380,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "RF",
-        "nets": [
-          "L-TURNSTILE",
-          "L1-TURNSTILE",
-          "S-HELICAL",
-          "UHF-TURNSTILE"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.38,
@@ -452,86 +447,6 @@
     [
       "6649d70c-e62a-41bd-a1b7-5b24524e4fc8",
       ""
-    ],
-    [
-      "9892f36d-61e0-44c9-a792-aa3780623152",
-      "Slot 1"
-    ],
-    [
-      "1f339fb2-b357-4bf8-a609-05c270823670",
-      "Slot 2"
-    ],
-    [
-      "500a540e-1155-49b4-8829-5dc3b207d050",
-      "Slot 3"
-    ],
-    [
-      "5a71d909-bada-4396-9154-8f69a23263d1",
-      "Slot 4"
-    ],
-    [
-      "aa405cc5-a10f-427e-bcba-6adcaa8d02c3",
-      "Slot 5"
-    ],
-    [
-      "6336ce9a-ac59-4896-b0c3-2a1a8b69027a",
-      "Slot 6"
-    ],
-    [
-      "df426085-dc3a-4762-9909-5f790757acd0",
-      "Slot 7"
-    ],
-    [
-      "7bbcf791-5c0a-4573-8fbd-815cfff80212",
-      "Slot 8"
-    ],
-    [
-      "cf7a324d-3225-4107-88c5-749401d88788",
-      "Slot 9"
-    ],
-    [
-      "6ac4409b-d3a6-415c-b0ee-32753119f4dc",
-      "Slot 10"
-    ],
-    [
-      "b0e569cd-3a20-429c-925c-6319750044f4",
-      "Slot 11"
-    ],
-    [
-      "f8e3751b-f113-41ed-9ac3-5d3371b2fd66",
-      "Slot 12"
-    ],
-    [
-      "7d745376-01b6-4bfa-949e-d183fa0cc7c4",
-      "Slot 13"
-    ],
-    [
-      "0c20fbe3-3eb3-4419-8d08-5a77883ebcd5",
-      "Slot 14"
-    ],
-    [
-      "aeb42315-eea3-4d10-a741-b8f13681930b",
-      "Slot 15"
-    ],
-    [
-      "aeb2e143-0033-461c-acd3-6d8078439b23",
-      "Slot 16"
-    ],
-    [
-      "91dfd462-0e93-4011-9137-5d697db18145",
-      "Slot 17"
-    ],
-    [
-      "9529e3aa-0d1e-405f-b46f-64b16880b7d7",
-      "Slot 18"
-    ],
-    [
-      "97fe9ab8-7842-48fd-80e0-855934a7986f",
-      "Slot 19"
-    ],
-    [
-      "86f1ede5-93c7-4c43-b9b6-ff18e75f3042",
-      "Slot 20"
     ]
   ],
   "text_variables": {}
