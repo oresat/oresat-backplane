@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name "oresat-backplane-2u-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/oresat-backplane-2u-eagle-import.kicad_sym")(options "")(descr "")(disabled))
-  (lib (name "j-molex-smpm-73300-0111x_1")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/J-MOLEX-SMPM-73300-0111X.kicad_sym")(options "")(descr ""))
   (lib (name "oresat-connectors")(type "KiCad")(uri "${ORESAT_LIBRARIES}/oresat-symbols/oresat-connectors.kicad_sym")(options "")(descr ""))
 )
