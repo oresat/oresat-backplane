@@ -56,7 +56,15 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_sliver|191345759|81527898|00000000-0000-0000-0000-000000000000|F.Cu",
+        "copper_sliver|191345759|82797898|00000000-0000-0000-0000-000000000000|F.Cu",
+        "copper_sliver|191345759|84067898|00000000-0000-0000-0000-000000000000|F.Cu",
+        "copper_sliver|222516300|244120596|00000000-0000-0000-0000-000000000000|F.Cu",
+        "copper_sliver|222516300|35454204|00000000-0000-0000-0000-000000000000|F.Cu",
+        "copper_sliver|227673300|244120586|00000000-0000-0000-0000-000000000000|F.Cu",
+        "copper_sliver|227673300|35454204|00000000-0000-0000-0000-000000000000|F.Cu"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -99,8 +107,8 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
-        "text_height": "warning",
-        "text_thickness": "warning",
+        "text_height": "ignore",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
