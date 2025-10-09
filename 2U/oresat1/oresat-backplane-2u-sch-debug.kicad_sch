@@ -682,8 +682,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -759,8 +763,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1254,7 +1257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 234.95 133.35 0)
 			(effects
 				(font
@@ -1319,7 +1322,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 210.82 143.51 0)
 			(effects
 				(font
