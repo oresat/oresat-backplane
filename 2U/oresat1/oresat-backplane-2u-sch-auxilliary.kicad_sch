@@ -11,7 +11,7 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "J-SAMTEC-TFM-110-01-L-D-RA_1"
+		(symbol "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC"
 			(pin_names
 				(hide yes)
 			)
@@ -26,7 +26,7 @@
 					)
 				)
 			)
-			(property "Value" "J-SAMTEC-TFM-110-01-L-D-RA"
+			(property "Value" "J-SAMTEC-SFM-110-X1-XXX-D-LC"
 				(at 0 -55.88 0)
 				(effects
 					(font
@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" "oresat-connectors:J-SAMTEC-TFM-110-X1-XXX-D-RA"
+			(property "Footprint" "oresat-connectors:J-SAMTEC-TFM-110-X1-XXX-D-LC"
 				(at 5.08 -59.69 0)
 				(effects
 					(font
@@ -43,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tfm.pdf"
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
 				(at 2.54 -63.5 0)
 				(effects
 					(font
@@ -61,7 +61,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "J-SAMTEC-TFM-110-01-L-D-RA_1_0_1"
+			(symbol "J-SAMTEC-SFM-110-X1-XXX-D-LC_0_1"
 				(rectangle
 					(start -2.54 50.8)
 					(end 2.54 -10.16)
@@ -294,690 +294,7 @@
 					)
 				)
 			)
-			(symbol "J-SAMTEC-TFM-110-01-L-D-RA_1_1_1"
-				(pin passive line
-					(at 5.08 48.26 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 45.72 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 43.18 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 40.64 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 38.1 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 35.56 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 33.02 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 30.48 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 27.94 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 25.4 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 22.86 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 20.32 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 17.78 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 15.24 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 12.7 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 10.16 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 7.62 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -7.62 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "oresat-connectors:J-SAMTEC-TFM-110-01-L-D-RA"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -2.54 53.34 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "J-SAMTEC-TFM-110-01-L-D-RA"
-				(at 0 -55.88 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "oresat-connectors:J-SAMTEC-TFM-110-X1-XXX-D-RA"
-				(at 5.08 -59.69 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/tfm.pdf"
-				(at 2.54 -63.5 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "OreSat backplane connector, 2x20 RA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "J-SAMTEC-TFM-110-01-L-D-RA_0_1"
-				(rectangle
-					(start -2.54 50.8)
-					(end 2.54 -10.16)
-					(stroke
-						(width 0.4)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 48.387)
-					(end 1.143 48.133)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 45.847)
-					(end 1.143 45.593)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 43.307)
-					(end 1.143 43.053)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 40.767)
-					(end 1.143 40.513)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 38.227)
-					(end 1.143 37.973)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 35.687)
-					(end 1.143 35.433)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 33.147)
-					(end 1.143 32.893)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 30.607)
-					(end 1.143 30.353)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 28.067)
-					(end 1.143 27.813)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 25.527)
-					(end 1.143 25.273)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 22.987)
-					(end 1.143 22.733)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 20.447)
-					(end 1.143 20.193)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 17.907)
-					(end 1.143 17.653)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 15.367)
-					(end 1.143 15.113)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 12.827)
-					(end 1.143 12.573)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 10.287)
-					(end 1.143 10.033)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 7.747)
-					(end 1.143 7.493)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 5.207)
-					(end 1.143 4.953)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 2.667)
-					(end 1.143 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.413 0.127)
-					(end 1.143 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "J-SAMTEC-TFM-110-01-L-D-RA_1_1"
+			(symbol "J-SAMTEC-SFM-110-X1-XXX-D-LC_1_1"
 				(pin passive line
 					(at 5.08 48.26 180)
 					(length 2.54)
@@ -2487,8 +1804,7 @@
 		)
 	)
 	(symbol
-		(lib_name "J-SAMTEC-TFM-110-01-L-D-RA_1")
-		(lib_id "oresat-connectors:J-SAMTEC-TFM-110-01-L-D-RA")
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
 		(at 166.37 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2515,7 +1831,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
-			(at 166.37 147.32 0)
+			(at 171.45 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,7 +1840,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
-			(at 166.37 147.32 0)
+			(at 168.91 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2532,7 +1848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
+		(property "Description" "OreSat backplane connector, 2x20 RA"
 			(at 166.37 147.32 0)
 			(effects
 				(font
@@ -2653,7 +1969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-SAMTEC-TFM-110-01-L-D-RA")
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
 		(at 203.2 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2680,7 +1996,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
-			(at 203.2 147.32 0)
+			(at 208.28 207.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2689,7 +2005,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
-			(at 203.2 147.32 0)
+			(at 205.74 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2697,7 +2013,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "20 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
+		(property "Description" "OreSat backplane connector, 2x20 RA"
 			(at 203.2 147.32 0)
 			(effects
 				(font

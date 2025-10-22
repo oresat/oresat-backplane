@@ -9477,7 +9477,7 @@
 				)
 			)
 		)
-		(property "Description" "20 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
+		(property "Description" "OreSat backplane connector, 2x20 RA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11102,7 +11102,7 @@
 				)
 			)
 		)
-		(property "Description" "20 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
+		(property "Description" "OreSat backplane connector, 2x20 RA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
