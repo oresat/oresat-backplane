@@ -146,8 +146,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -223,8 +227,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -385,7 +388,7 @@
 	)
 	(global_label "L-ANT"
 		(shape bidirectional)
-		(at 170.4616 123.19 180)
+		(at 170.18 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -395,7 +398,7 @@
 		)
 		(uuid "0bbef9c0-dc4c-41f2-9935-f862e1267468")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.2294 123.1122 0)
+			(at 161.9478 123.1122 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -429,7 +432,7 @@
 	)
 	(global_label "L-ANT"
 		(shape bidirectional)
-		(at 170.4616 161.29 180)
+		(at 170.18 161.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -439,7 +442,7 @@
 		)
 		(uuid "58e8e6e6-04d9-46dd-a90b-75306a12cc4c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.2294 161.2122 0)
+			(at 161.9478 161.2122 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -451,7 +454,7 @@
 	)
 	(global_label "L1-ANT"
 		(shape bidirectional)
-		(at 170.4616 148.59 180)
+		(at 170.18 148.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -461,7 +464,7 @@
 		)
 		(uuid "701e7fcd-bb0f-449d-a9c7-56f6718dab87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0441 148.5122 0)
+			(at 160.7625 148.5122 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -517,7 +520,7 @@
 	)
 	(global_label "UHF-ANT"
 		(shape bidirectional)
-		(at 170.4616 173.99 180)
+		(at 170.18 173.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -527,7 +530,7 @@
 		)
 		(uuid "e94e1f7e-83f2-415c-825b-c7842c059b3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.5624 173.9122 0)
+			(at 159.2808 173.9122 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -539,7 +542,7 @@
 	)
 	(global_label "L1-ANT"
 		(shape bidirectional)
-		(at 170.4616 110.49 180)
+		(at 170.18 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -549,7 +552,7 @@
 		)
 		(uuid "e9ee472e-3fa5-45b0-acf9-22e889a03f95")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.0441 110.0898 0)
+			(at 160.7625 110.0898 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -656,7 +659,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 177.8 154.94 0)
 			(effects
 				(font
@@ -861,7 +864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 177.8 167.64 0)
 			(effects
 				(font
@@ -996,7 +999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 177.8 116.84 0)
 			(effects
 				(font
@@ -1061,7 +1064,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 177.8 129.54 0)
 			(effects
 				(font
@@ -1336,7 +1339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 177.8 142.24 0)
 			(effects
 				(font
@@ -1401,7 +1404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 177.8 102.87 0)
 			(effects
 				(font
@@ -1466,7 +1469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 177.8 180.34 0)
 			(effects
 				(font
@@ -1531,7 +1534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 177.8 91.44 0)
 			(effects
 				(font

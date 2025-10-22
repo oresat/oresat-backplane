@@ -1588,8 +1588,12 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1665,8 +1669,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(hide yes)
-					(name "GND"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13227,7 +13230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 180.34 135.89 0)
 			(effects
 				(font
@@ -13548,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 219.71 135.89 0)
 			(effects
 				(font
@@ -13613,7 +13616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 257.81 135.89 0)
 			(effects
 				(font
@@ -13746,7 +13749,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 143.51 135.89 0)
 			(effects
 				(font
@@ -14203,7 +14206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 143.51 257.81 0)
 			(effects
 				(font
@@ -14268,7 +14271,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 326.39 246.38 0)
 			(effects
 				(font
@@ -14336,7 +14339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 326.39 210.82 0)
 			(effects
 				(font
@@ -14401,7 +14404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 294.64 257.81 0)
 			(effects
 				(font
@@ -14466,7 +14469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 297.18 135.89 0)
 			(effects
 				(font
@@ -14735,7 +14738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 217.17 257.81 0)
 			(effects
 				(font
@@ -15056,7 +15059,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 353.06 219.71 90)
 			(effects
 				(font
@@ -15312,7 +15315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 326.39 252.73 0)
 			(effects
 				(font
@@ -15377,7 +15380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 256.54 257.81 0)
 			(effects
 				(font
@@ -15698,7 +15701,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 353.06 227.33 90)
 			(effects
 				(font
@@ -15834,7 +15837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 180.34 257.81 0)
 			(effects
 				(font
@@ -15899,7 +15902,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "oresat-backplane-2u:"
+		(property "Footprint" ""
 			(at 335.28 135.89 0)
 			(effects
 				(font
@@ -16340,7 +16343,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-passives:0603-SMALL"
+		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 326.39 204.47 0)
 			(effects
 				(font
