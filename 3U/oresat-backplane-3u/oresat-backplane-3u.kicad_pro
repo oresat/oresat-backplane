@@ -676,6 +676,30 @@
     [
       "300eeac4-6caf-4310-939c-5dc51539800c",
       "Root"
+    ],
+    [
+      "0ec651ec-1673-4d79-a377-3af1e330deeb",
+      "Main Connectors 1"
+    ],
+    [
+      "af24dd58-d27a-41e4-b932-04912035cb7a",
+      "Main Connectors 2"
+    ],
+    [
+      "96e408d0-3df4-4718-9b55-8aaf33703ff6",
+      "Main Connectors 3"
+    ],
+    [
+      "59d9a305-4783-4a22-82d8-38a07bfc62a8",
+      "Auxiliary Connectors"
+    ],
+    [
+      "67b7c17b-ae92-4f92-ba4c-9fd98514d697",
+      "RF Connectors"
+    ],
+    [
+      "0dfa61bf-7ec2-42f0-9843-5232fd59e79e",
+      "Debug Connector"
     ]
   ],
   "text_variables": {}
