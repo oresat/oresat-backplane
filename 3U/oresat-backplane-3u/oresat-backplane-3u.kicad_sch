@@ -1925,7 +1925,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 143.51)
+		(at 68.58 133.35)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1941,7 +1941,7 @@
 		)
 		(uuid "0dfa61bf-7ec2-42f0-9843-5232fd59e79e")
 		(property "Sheetname" "Debug Connector"
-			(at 68.58 142.7984 0)
+			(at 68.58 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +1950,7 @@
 			)
 		)
 		(property "Sheetfile" "oresat-backplane-3u-sch-debug.kicad_sch"
-			(at 68.58 147.9046 0)
+			(at 68.58 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2009,6 +2009,64 @@
 		)
 	)
 	(sheet
+		(at 68.58 143.51)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "58fa0270-465b-4525-ade6-c06f84e23f5a")
+		(property "Sheetname" "RF Connectors 1"
+			(at 68.58 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-backplane-3u-sch-rf1.kicad_sch"
+			(at 68.58 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field3" ""
+			(at 68.58 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 68.58 123.19)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
@@ -2051,7 +2109,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 133.35)
+		(at 68.58 152.4)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2065,9 +2123,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "67b7c17b-ae92-4f92-ba4c-9fd98514d697")
-		(property "Sheetname" "RF Connectors"
-			(at 68.58 132.6384 0)
+		(uuid "91d68729-74c2-4cac-a3b3-f0bbc043efb8")
+		(property "Sheetname" "RF Connectors 2"
+			(at 68.58 151.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2075,8 +2133,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-backplane-3u-sch-rf.kicad_sch"
-			(at 68.58 137.7446 0)
+		(property "Sheetfile" "oresat-backplane-3u-sch-rf2.kicad_sch"
+			(at 68.58 156.7946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2087,7 +2145,7 @@
 		(instances
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
-					(page "6")
+					(page "9")
 				)
 			)
 		)
@@ -2172,6 +2230,48 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 161.29)
+		(size 19.05 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f5c1380d-32ae-406c-818a-f1b25e856995")
+		(property "Sheetname" "RF Connectors 3"
+			(at 68.58 160.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oresat-backplane-3u-sch-rf3.kicad_sch"
+			(at 68.58 165.6846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
+					(page "10")
 				)
 			)
 		)

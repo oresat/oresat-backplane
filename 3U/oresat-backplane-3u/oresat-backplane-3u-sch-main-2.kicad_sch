@@ -9638,7 +9638,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10d0c12b-f59c-49a1-b740-8d588376904f")
-		(property "Reference" "CF12.1"
+		(property "Reference" "CF12.2"
 			(at 76.2 69.85 0)
 			(effects
 				(font
@@ -9811,7 +9811,7 @@
 		(instances
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
-					(reference "CF12.1")
+					(reference "CF12.2")
 					(unit 1)
 				)
 			)
@@ -10468,7 +10468,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7662892c-ccc2-4a77-b233-0af3de49d616")
-		(property "Reference" "CF16.1"
+		(property "Reference" "CF16.2"
 			(at 229.87 74.93 0)
 			(effects
 				(font
@@ -10641,7 +10641,7 @@
 		(instances
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
-					(reference "CF16.1")
+					(reference "CF16.2")
 					(unit 1)
 				)
 			)
@@ -10912,7 +10912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9968f6fe-dab7-4133-81a3-6033dc4ff27c")
-		(property "Reference" "CF14.1"
+		(property "Reference" "CF14.2"
 			(at 156.21 74.93 0)
 			(effects
 				(font
@@ -11085,7 +11085,7 @@
 		(instances
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
-					(reference "CF14.1")
+					(reference "CF14.2")
 					(unit 1)
 				)
 			)
@@ -11363,7 +11363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7f6d43a-5645-484f-8d2c-db6b3361f63e")
-		(property "Reference" "CF15.1"
+		(property "Reference" "CF15.2"
 			(at 193.04 74.93 0)
 			(effects
 				(font
@@ -11536,7 +11536,7 @@
 		(instances
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
-					(reference "CF15.1")
+					(reference "CF15.2")
 					(unit 1)
 				)
 			)

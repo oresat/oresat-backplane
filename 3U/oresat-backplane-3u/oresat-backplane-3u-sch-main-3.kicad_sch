@@ -16581,7 +16581,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c724602f-f1a1-40ac-ac0a-6c0f208c887c")
-		(property "Reference" "CF31.1"
+		(property "Reference" "CF20.2"
 			(at 284.48 144.78 0)
 			(effects
 				(font
@@ -16754,7 +16754,7 @@
 		(instances
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/96e408d0-3df4-4718-9b55-8aaf33703ff6"
-					(reference "CF31.1")
+					(reference "CF20.2")
 					(unit 1)
 				)
 			)

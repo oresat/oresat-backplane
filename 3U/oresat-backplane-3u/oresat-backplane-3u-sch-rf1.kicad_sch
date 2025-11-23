@@ -1,0 +1,5483 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "586f2f7d-45b5-4163-a3d0-461d5cc413a8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CM2.2"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+						(bold yes)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "J-MOLEX-SMPM-73300-0111X_1"
+				(at 3.81 -6.35 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+						(bold yes)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "J-MOLEX-SMPM-73300-0111X_1_1_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "RF"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "RF-DOWN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "SHIELD1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 195.58 77.47) (xy 195.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "020d1926-befe-424a-bf89-dc0c7f4931e5")
+	)
+	(wire
+		(pts
+			(xy 67.31 81.28) (xy 64.77 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7fc3cd-2b05-436b-99da-f77c6f9f8a84")
+	)
+	(wire
+		(pts
+			(xy 187.96 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "139b5007-c37e-498e-8685-4dbcf13d2d16")
+	)
+	(wire
+		(pts
+			(xy 64.77 45.72) (xy 67.31 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13dd3f9c-f6cf-41da-9426-57f2d77b796d")
+	)
+	(wire
+		(pts
+			(xy 129.54 58.42) (xy 127 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c136300-2e03-428c-96e5-fd516fbf793b")
+	)
+	(wire
+		(pts
+			(xy 72.39 138.43) (xy 72.39 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1db67447-2853-440b-bc39-2d3ffac1e270")
+	)
+	(wire
+		(pts
+			(xy 72.39 87.63) (xy 72.39 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b6495a-878d-4efa-8192-61860b08fcd4")
+	)
+	(wire
+		(pts
+			(xy 195.58 153.67) (xy 195.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26becbf6-4b3a-460e-afab-a4cf9440d1d6")
+	)
+	(wire
+		(pts
+			(xy 195.58 90.17) (xy 195.58 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4de0d4-13d5-4b2a-b07f-f841233f0b54")
+	)
+	(wire
+		(pts
+			(xy 187.96 45.72) (xy 190.5 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3206adb5-b49b-4a0c-8aa9-d80d092afbb2")
+	)
+	(wire
+		(pts
+			(xy 129.54 45.72) (xy 127 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3351f2d7-3905-4ff9-9102-869ac379e453")
+	)
+	(wire
+		(pts
+			(xy 187.96 160.02) (xy 190.5 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37570db4-1806-44ec-abe1-a76b0e9b4c1d")
+	)
+	(wire
+		(pts
+			(xy 67.31 157.48) (xy 64.77 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ad1e93d-904e-4522-9fad-5af12ef91011")
+	)
+	(wire
+		(pts
+			(xy 187.96 96.52) (xy 190.5 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9b6daf-d1cb-469b-8e73-933932634cb6")
+	)
+	(wire
+		(pts
+			(xy 127 121.92) (xy 129.54 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41c4d5ca-e66c-4b18-90c5-a4f757521712")
+	)
+	(wire
+		(pts
+			(xy 72.39 151.13) (xy 72.39 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4310df38-4566-4a8d-a61b-3c013a6354d6")
+	)
+	(wire
+		(pts
+			(xy 195.58 115.57) (xy 195.58 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d79688-1c9e-4d64-a6c5-63aac46dfc18")
+	)
+	(wire
+		(pts
+			(xy 195.58 102.87) (xy 195.58 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5417f569-ace1-4f39-b13e-38a4d8900345")
+	)
+	(wire
+		(pts
+			(xy 195.58 140.97) (xy 195.58 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55a430e0-0ffd-44f1-8b4b-978a5f7c13b7")
+	)
+	(wire
+		(pts
+			(xy 134.62 64.77) (xy 134.62 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56438634-ecfc-4617-ad9f-fa7e6888c304")
+	)
+	(wire
+		(pts
+			(xy 127 109.22) (xy 129.54 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56548ea1-d318-46c6-9344-441d5bd3a097")
+	)
+	(wire
+		(pts
+			(xy 195.58 52.07) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c220a93-e249-4788-b7ff-1ab437098ca6")
+	)
+	(wire
+		(pts
+			(xy 187.96 109.22) (xy 190.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d425322-19de-47ee-af58-994e44c9e515")
+	)
+	(wire
+		(pts
+			(xy 127 71.12) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d60c7c-a048-4208-bdbf-de1f33539f38")
+	)
+	(wire
+		(pts
+			(xy 187.96 58.42) (xy 190.5 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70affb61-9b93-404a-9968-b6305c22eba6")
+	)
+	(wire
+		(pts
+			(xy 72.39 125.73) (xy 72.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720e56ea-6d31-4901-9bcf-50912b405b3d")
+	)
+	(wire
+		(pts
+			(xy 134.62 165.1) (xy 134.62 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4f9862-f77d-4ae3-96cc-5f281bdfec84")
+	)
+	(wire
+		(pts
+			(xy 67.31 57.15) (xy 64.77 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8466d250-3535-449e-951a-74467abaefdb")
+	)
+	(wire
+		(pts
+			(xy 187.96 121.92) (xy 190.5 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "876cb5aa-8a63-49c8-b8b1-6817ba8fed69")
+	)
+	(wire
+		(pts
+			(xy 129.54 134.62) (xy 127 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87cb295a-5bc3-4aa6-bc17-fa42640f089c")
+	)
+	(wire
+		(pts
+			(xy 134.62 90.17) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b287945-5f24-4fb4-a6c8-f7c08c29caf3")
+	)
+	(wire
+		(pts
+			(xy 187.96 147.32) (xy 190.5 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa36026-cc0b-4d7a-a9e8-79faf9565792")
+	)
+	(wire
+		(pts
+			(xy 64.77 106.68) (xy 67.31 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fceda02-6f6b-4694-886c-e451de7b720d")
+	)
+	(wire
+		(pts
+			(xy 129.54 146.05) (xy 127 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "920b224b-e968-4764-9bd0-56fa5ab5118e")
+	)
+	(wire
+		(pts
+			(xy 64.77 93.98) (xy 67.31 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a88abec-62d3-4edd-9f82-924e26f43ba2")
+	)
+	(wire
+		(pts
+			(xy 64.77 132.08) (xy 67.31 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b39a5b6-48f0-48cf-8f26-52c25479b3fb")
+	)
+	(wire
+		(pts
+			(xy 134.62 102.87) (xy 134.62 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a50eca8a-5303-4098-b5b9-16695794164e")
+	)
+	(wire
+		(pts
+			(xy 134.62 115.57) (xy 134.62 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af812b11-8019-4550-b719-93a009bade54")
+	)
+	(wire
+		(pts
+			(xy 64.77 144.78) (xy 67.31 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3f76c0e-2ab4-490a-9771-4cf701111bd1")
+	)
+	(wire
+		(pts
+			(xy 134.62 77.47) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4226cf9-6ae0-4631-a57e-ddf797a19ae1")
+	)
+	(wire
+		(pts
+			(xy 72.39 113.03) (xy 72.39 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ac4bfc-da51-4d83-b334-a61be93a8fdb")
+	)
+	(wire
+		(pts
+			(xy 195.58 64.77) (xy 195.58 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1e053a0-89a6-46db-ae2b-dd45b0554b08")
+	)
+	(wire
+		(pts
+			(xy 67.31 68.58) (xy 64.77 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4699ff2-ff22-4141-a88b-4532f09f01ee")
+	)
+	(wire
+		(pts
+			(xy 129.54 158.75) (xy 127 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cb9559-b24b-4e39-af59-fb9b21e412db")
+	)
+	(wire
+		(pts
+			(xy 72.39 100.33) (xy 72.39 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb0e6da2-2e00-45cc-9ec4-59d903b07a3f")
+	)
+	(wire
+		(pts
+			(xy 127 96.52) (xy 129.54 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce0abc98-0bb0-425b-b173-a1f46655a579")
+	)
+	(wire
+		(pts
+			(xy 187.96 71.12) (xy 190.5 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0db65f1-474a-4b8b-b3e7-a21e951474c7")
+	)
+	(wire
+		(pts
+			(xy 64.77 119.38) (xy 67.31 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54bf3a3-872e-46a4-b3d4-088158c6589d")
+	)
+	(wire
+		(pts
+			(xy 195.58 166.37) (xy 195.58 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7e28f3-cad5-4a0a-a580-94e7a7fe416f")
+	)
+	(wire
+		(pts
+			(xy 134.62 128.27) (xy 134.62 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d83bc3-65be-40c3-8f6d-00aa458d01a0")
+	)
+	(wire
+		(pts
+			(xy 127 83.82) (xy 129.54 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6dfdcff-fe71-43bd-beca-b0060e6ba3cb")
+	)
+	(wire
+		(pts
+			(xy 187.96 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81a40f3-f70b-45ef-bb0f-d5b4a1c8d9f2")
+	)
+	(wire
+		(pts
+			(xy 195.58 128.27) (xy 195.58 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb4bd0d2-cf86-4ac9-9216-0dd18b86a1ed")
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "035dad93-8da7-41fc-b27a-c74596948c7d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1636c065-3e28-4c6c-8206-d2cfe1f44727")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "170e6d2a-c174-4078-9a6b-95d34c19ce39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1b1918cd-dc3d-4c8e-beb8-7fb4100d79f7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1c544dd6-533a-4c91-b5fb-32632e4b4ee1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1e6c165b-43c4-414c-9383-22295f4324d9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "32f3acc1-b6b7-4f97-8711-5cb8abd9444b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "372e9df8-0cd7-4290-875d-c6c605af9a9b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3982ee2e-c477-461e-b34b-bd9454b9f6fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "L-ANT"
+		(shape bidirectional)
+		(at 64.77 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right)
+		)
+		(uuid "3dc25015-13d0-4931-a5a5-ad9f8a21f808")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 56.5378 132.0022 0)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "411e505b-4887-4ee5-a45e-4a826aaa525f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "454344ea-cb3c-4728-8e5e-9572e2d808f8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "468549a6-cf98-4185-8ad4-e20ed94a82c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "49b34e4b-97b5-4d5e-8391-6786065703b2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b73497c-2c41-42fe-af85-a381e5a6edd4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c3e5c51-78b3-47b7-a2db-3f42ab0e5889")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "811ce21d-461d-4b9f-8d56-ac227eaac017")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8275f4c9-f0f4-4b2f-b5f2-71220123c9ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "897d0f20-df51-4b3a-bc4e-3b5272aec801")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 157.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8ecb253c-3ca0-41b7-a465-7c349072b5de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90c2891d-1fc9-4752-b2fa-206d1316dbde")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9285aafc-16b1-489d-869e-c27ef39c9fc6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a93b9cbc-4a02-4b82-be74-e7ae52e45a82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abdc8081-c466-4c3c-864b-34360e62aae0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af8e7e51-6f10-4727-ba20-acc6931e5302")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 64.77 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6a8e2a0-9d2e-41b1-943f-ca203253dedf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.2491 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 134.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc9d1ee2-dfac-4014-9f45-09b0f38235c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d6832934-4835-4642-8a10-f8d3ae0bdd47")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 187.96 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddad6d00-9138-44d7-936d-42f4042be9e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 180.4391 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RF_1"
+		(shape input)
+		(at 127 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb5749d9-50cf-4024-bd5c-6569a8d43d0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.4791 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0882bcc1-37b4-4811-bb83-49de3c698300")
+		(property "Reference" "#GND089"
+			(at 72.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01a175c6-5872-476c-96c9-6ef47736ca6a")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND089")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b3a3b07-6c4b-443c-be2a-5bb0b6058081")
+		(property "Reference" "CM1.11"
+			(at 138.43 49.53 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "c2d087a1-9379-4451-8cdd-213f89b2d847")
+		)
+		(pin "RF-DOWN"
+			(uuid "4e24e87e-a81b-4b18-a850-71156dfe0873")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d66ec0a-5446-426d-87bb-6d99dccce6ab")
+		(property "Reference" "CM1.6"
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 113.03 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "469c7823-b005-4231-8296-d6a9b2500802")
+		)
+		(pin "RF-DOWN"
+			(uuid "d5556f67-c666-4f8f-98ae-a295dfe202dd")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e2604a7-9a8f-4b58-ab6f-46a65677c630")
+		(property "Reference" "CM1.13"
+			(at 138.43 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "5fa28ee9-b41b-4f30-9e00-ad191bd9996b")
+		)
+		(pin "RF-DOWN"
+			(uuid "d287d320-c07e-432a-9d2e-a8de4b2c3069")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 165.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fc313f2-5339-45cf-a745-6bb06cd74e7e")
+		(property "Reference" "#GND030"
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c4fd8670-9ce4-4ced-9cb2-7f61f7ecdb53")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1640f1ef-e719-4c3b-a009-3a60d1b70c05")
+		(property "Reference" "#GND036"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e4ac03b9-1704-4264-a7f1-59ad8639e1ff")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "186c549d-659f-4abc-9e90-0d2482d0e0e3")
+		(property "Reference" "#GND087"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5352b57c-002f-43f5-9411-809359b80a18")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d02a56f-ca65-46f4-a036-b1f345e50b96")
+		(property "Reference" "CM1.4"
+			(at 76.2 85.09 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 87.63 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "4ea2087a-004c-48bb-9c13-c5b65758508f")
+		)
+		(pin "RF-DOWN"
+			(uuid "fa7bb806-7c81-4a73-99a1-2ab76bcedbdb")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "209994c1-ba35-454b-aaf7-9de209e4e4b8")
+		(property "Reference" "#GND096"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a13d4b89-43bf-4898-aca7-62c1c8cf7295")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32e2a89a-67cb-4132-b2c8-9250ce9a1657")
+		(property "Reference" "#GND083"
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc4880b6-38e2-4a29-9225-6f3e0340b7d8")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35c93a06-0fde-4db2-bed4-5b557d27e71a")
+		(property "Reference" "CM1.8"
+			(at 76.2 135.89 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 138.43 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "87278e82-79da-431d-89cc-aa7caae51154")
+		)
+		(pin "RF-DOWN"
+			(uuid "ec8ae55c-e331-4103-bacd-095658f4170c")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 144.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3731076f-4896-45cf-a83a-674e133465d9")
+		(property "Reference" "CM1.9"
+			(at 76.2 148.59 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 151.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "7f966a8a-982f-4c6a-9242-cec860128424")
+		)
+		(pin "RF-DOWN"
+			(uuid "9553e258-5bf4-407f-9f33-0af59a37a9f5")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "396c88f1-a375-4730-af68-7fe4b00eb5ae")
+		(property "Reference" "CM1.29"
+			(at 199.39 151.13 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 153.67 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "cdb0107e-b90e-4448-9697-eeb0f285255d")
+		)
+		(pin "RF-DOWN"
+			(uuid "41b803f1-a37d-4c88-8e3f-ab0815b54da6")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39a3f55c-b80a-450b-a74b-029d4e212cb7")
+		(property "Reference" "#GND084"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2148ccb-b5c3-48f5-bbd9-5253ae43c038")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e99620c-d656-4b26-9922-a613c53f8bb7")
+		(property "Reference" "CM1.14"
+			(at 138.43 87.63 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 90.17 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "9879836e-26fd-4ea5-a1b6-709e6672d653")
+		)
+		(pin "RF-DOWN"
+			(uuid "2173eeff-feb7-408a-8835-cf9df0010503")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4146342e-742f-44b4-85ff-a7fb264ab651")
+		(property "Reference" "#GND0125"
+			(at 195.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41e3600a-1093-49a2-9a4f-30c3cb1b5aa2")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "45889573-00ca-4d8c-b680-e50fc5a72ddb")
+		(property "Reference" "#GND011"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaee0f66-59c6-47a1-b820-f4142fe25bf3")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49128b08-115a-474c-bbd1-bf6f2a5f13d1")
+		(property "Reference" "CM1.23"
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "b57568e5-f78f-4bdf-adb6-82f6692b1baa")
+		)
+		(pin "RF-DOWN"
+			(uuid "479f466f-6b58-407a-8a21-6f596beee53c")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54f21a4f-162e-4735-b88e-6bbc188a8bd1")
+		(property "Reference" "#GND038"
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "36d456b4-8fb3-4f6e-a507-882a5d98f12f")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d2a4091-c34b-4174-9d39-1ef46f5fff1a")
+		(property "Reference" "CM1.30"
+			(at 199.39 163.83 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 166.37 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "99e217e2-221d-4f29-a1bf-472f762933f4")
+		)
+		(pin "RF-DOWN"
+			(uuid "6e7c0a5b-d400-4738-ab8f-a0385f023a77")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e7955eb-6364-4eb8-90f5-43e8e6962c6a")
+		(property "Reference" "#GND028"
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9eeac5a9-e990-439e-814b-802bbfe9244b")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60da2e0c-8673-4adb-a426-b2fe7119e2e2")
+		(property "Reference" "CM1.28"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 140.97 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "d9cee1ef-ead2-4cd4-8152-a0b07ae5a84d")
+		)
+		(pin "RF-DOWN"
+			(uuid "1c116056-bb21-4e98-808a-1a94bc29de3d")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6b393656-e966-4831-9c58-ac4638f97d11")
+		(property "Reference" "CM1.27"
+			(at 199.39 125.73 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "5c6a8ce4-cd9a-4dc4-9bac-f963dcf61523")
+		)
+		(pin "RF-DOWN"
+			(uuid "6f877f42-466d-4422-9dfb-f5e99dd82c78")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6c46a5b7-a38d-43fb-894b-2f53276c45e3")
+		(property "Reference" "#GND095"
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2a66c58c-a9a5-4508-8713-79c7cb658e4c")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cabfb83-c744-481d-98f8-1787203260ea")
+		(property "Reference" "CM1.21"
+			(at 199.39 49.53 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 53.34 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "6118001d-9201-4f81-bbff-dbcc0b123407")
+		)
+		(pin "RF-DOWN"
+			(uuid "20671de9-502b-4026-94e9-25663da533cb")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e45587b-9325-46a5-82a3-b4f4e8e1c808")
+		(property "Reference" "#GND099"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f3e9433-4ccb-4fe2-a1d8-76fc22f1d916")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "77be41b3-90e5-44a0-8e56-ed2faaf1fdae")
+		(property "Reference" "CM1.15"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 102.87 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "1a12e5a2-6f30-49b2-96a3-7aa986ed2a6c")
+		)
+		(pin "RF-DOWN"
+			(uuid "5ebcf7f2-6a19-4674-8cac-784b4005edb8")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79dd2942-660a-475f-80a4-579e4db8341d")
+		(property "Reference" "CM1.26"
+			(at 199.39 113.03 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 116.84 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "dcfc933e-6461-4e38-b9b7-c41a36a74073")
+		)
+		(pin "RF-DOWN"
+			(uuid "9834a655-2f64-49a6-878a-743d6d159958")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "83569b11-c07a-4a6b-8955-4afe7a807895")
+		(property "Reference" "#GND091"
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed06091b-3581-4518-aee4-78beabeed5f6")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND091")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "850cb4a0-16c5-4630-bcab-4d9da45e6f70")
+		(property "Reference" "CM1.5"
+			(at 76.2 97.79 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 101.6 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "01249d37-e01e-4e9e-9bbd-a33e5439cb71")
+		)
+		(pin "RF-DOWN"
+			(uuid "fe7d88f1-3d76-472d-ba68-2575195716f6")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8f5723eb-4ce2-4277-a009-2e5327699d4e")
+		(property "Reference" "CM1.24"
+			(at 199.39 87.63 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "48deacba-d32a-4993-aa2e-36e53a4755e7")
+		)
+		(pin "RF-DOWN"
+			(uuid "c4b6a5ed-52db-45a3-80f0-b9e021615d2e")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97b5957d-23ca-4202-8400-b4dacb0f9af8")
+		(property "Reference" "#GND043"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "403cbf81-b746-4c03-9ec3-3cf4beed0806")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9a0f4cfc-6c28-4c55-9862-873b2f5f6bb7")
+		(property "Reference" "#GND082"
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "214be03c-1e6b-4306-8223-cbcfbf19a2af")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ce9f48f-3be2-4450-9a72-c5f6ac53c050")
+		(property "Reference" "#GND085"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37605709-9e95-4604-b5f4-2f77825fdbd2")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND085")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2908df5-2e0c-445c-a849-0745b909ae7b")
+		(property "Reference" "CM1.17"
+			(at 138.43 125.73 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 128.27 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "c8f804b2-24bd-4d6c-acbb-5b802833e042")
+		)
+		(pin "RF-DOWN"
+			(uuid "139171b8-51e0-402c-b17f-7338d89c19ea")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4a0e135-a424-4564-89b5-aefb393b9ca6")
+		(property "Reference" "#GND090"
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bb1a92c8-1210-474a-a30f-975ff608fb14")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a80b4bed-7423-41af-bf2c-ee18c1f3c2fb")
+		(property "Reference" "#GND0179"
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "400ebfdf-3465-41d2-8b66-c6ece6f0f059")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND0179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a952336c-735d-4e24-987f-8a57661c950f")
+		(property "Reference" "CM1.16"
+			(at 138.43 113.03 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "a6a6b3f5-c30d-4cae-bbaa-917249880a2a")
+		)
+		(pin "RF-DOWN"
+			(uuid "3a483dde-c285-4f51-9cae-5ba328d6d846")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ab3af695-40f2-4ab2-95cd-813df7609643")
+		(property "Reference" "CM1.19"
+			(at 138.43 149.86 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 152.4 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "df8a0f5f-2ae0-4627-85c0-cd8a857e6468")
+		)
+		(pin "RF-DOWN"
+			(uuid "345df3a9-fde8-460f-81e9-2c3b74301a85")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac136aed-aecf-4527-a271-43d05a87d0d9")
+		(property "Reference" "CM1.22"
+			(at 199.39 62.23 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 64.77 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "b3682c48-261a-451c-914c-66a8e20ed95c")
+		)
+		(pin "RF-DOWN"
+			(uuid "8d78b3ed-fce7-4b37-958d-6c67211f6cde")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac302006-7157-48a2-ac12-9e53c42139b8")
+		(property "Reference" "#GND093"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4c3ff973-9b4a-48fa-a0a7-53ac336c8369")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae401e47-a61a-45e7-b5df-a4f3190fdaf3")
+		(property "Reference" "#GND088"
+			(at 72.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64ec48f8-f666-4765-b190-722039fb7089")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b55699ab-9bb9-4088-8e5a-20635ef552db")
+		(property "Reference" "CM1.12"
+			(at 138.43 62.23 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 64.77 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "d6999f58-f78c-442b-b327-d9f40207cbff")
+		)
+		(pin "RF-DOWN"
+			(uuid "401fbe61-52e1-4f60-8b0d-9d7e55688374")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be87c445-8797-4a74-9745-96960c6511db")
+		(property "Reference" "#GND032"
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b4851882-87a2-4e6a-a171-dace703ef399")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c791f22e-f52a-462c-a426-1e8c63c9708d")
+		(property "Reference" "CM1.20"
+			(at 138.43 162.56 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 165.1 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "c4fc2978-5212-4513-bfd9-435960e2b29d")
+		)
+		(pin "RF-DOWN"
+			(uuid "485aa6ee-48f0-4760-b577-3c86b5fd8a8a")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0fd673b-1e90-4572-8fdb-19b7ce63b31d")
+		(property "Reference" "#GND098"
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cb4de45-a47e-45b2-b994-38f5cf1712e2")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d4782201-6759-43fe-b02a-ed739785dd1a")
+		(property "Reference" "#GND034"
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86914d87-1562-4736-a7f0-f817e545253e")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d763329c-85eb-4128-8f16-f320a7a29ff1")
+		(property "Reference" "#GND081"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "222efa70-74e7-4368-94ec-6d6bd62d1bda")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da7a657e-1dd9-49ff-a70a-e20a464d7f1d")
+		(property "Reference" "#GND0100"
+			(at 195.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f987509c-d898-4812-893e-03481dbb8764")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND0100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 72.39 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "db647d60-0b4d-4530-875d-eb6e98168dc0")
+		(property "Reference" "#GND086"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9a84bc1c-29a1-4f4b-8e24-d0b418765542")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dbfaf972-2f2b-4578-9a46-f8b8ddde89e1")
+		(property "Reference" "CM1.3"
+			(at 76.2 72.39 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 74.93 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "d2d1561d-6e6c-4a51-b96f-7211a2bc32f4")
+		)
+		(pin "RF-DOWN"
+			(uuid "7f35031d-e884-474e-8452-4a20a6853eee")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de80b6b9-c613-44d3-a6e3-4a39ed603dd0")
+		(property "Reference" "CM1.7"
+			(at 76.2 123.19 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 125.73 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "40166c90-854a-4796-b750-ec0592761e4d")
+		)
+		(pin "RF-DOWN"
+			(uuid "1691cfd6-6d30-402a-8f11-75ffee2f9f1f")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4883442-1c0d-4ba0-ab77-612980f3a424")
+		(property "Reference" "#GND092"
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80c9ec85-fe49-4c17-8659-6f4d555b1580")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 195.58 153.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e91a9a3f-2d4b-4928-8a65-310dd7c348fe")
+		(property "Reference" "#GND0124"
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9d95c332-575c-42bd-8568-717eb17d0ae4")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND0124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef82ea0f-9ae4-437f-b915-151018df9aa2")
+		(property "Reference" "#GND094"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97639e70-b16e-41f4-95b3-6212e86cbbc9")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "#GND094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8b7f308-d931-4064-935c-9f8b00214c02")
+		(property "Reference" "CM1.10"
+			(at 76.2 161.29 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 163.83 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "45c6aa78-23ab-4670-b4f2-52dba947f012")
+		)
+		(pin "RF-DOWN"
+			(uuid "c04a067c-64ee-4896-863f-3256d3a30931")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 195.58 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9e0fdf0-e212-4dd2-bfa8-4a7701b518de")
+		(property "Reference" "CM1.25"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 195.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 195.58 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "05e9a89b-f75c-48ca-9ced-0838ca729fcd")
+		)
+		(pin "RF-DOWN"
+			(uuid "5b645595-969c-42de-ad69-0d33b45877d0")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb090264-09e5-4e68-be1c-58f462dc79f2")
+		(property "Reference" "CM1.2"
+			(at 76.2 60.96 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 63.5 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "0866e9ae-a7df-4aca-8eb3-e0092d9e948a")
+		)
+		(pin "RF-DOWN"
+			(uuid "fb2720d5-e9be-4cdd-a671-9aa463ef60a6")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 72.39 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff2b007a-1051-433e-89e1-2c6a6ce772b7")
+		(property "Reference" "CM1.1"
+			(at 76.2 49.53 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "bacbe3d3-6f50-4a71-b037-4286caca8a01")
+		)
+		(pin "RF-DOWN"
+			(uuid "7030eb79-dc96-459b-8c83-5cdc3077b868")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(at 134.62 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff456c0d-f6e3-41db-8aa3-c39c22e8f75e")
+		(property "Reference" "CM1.18"
+			(at 138.43 138.43 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "J-MOLEX-SMPM-73300-0111X"
+			(at 138.43 140.97 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+			(at 134.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "GND"
+			(uuid "6e8ea42d-e4cf-4e10-91a7-932ad630e6d0")
+		)
+		(pin "RF-DOWN"
+			(uuid "b3bf959f-d00c-4cc4-b69e-4e863a842094")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/58fa0270-465b-4525-ade6-c06f84e23f5a"
+					(reference "CM1.18")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

@@ -712,12 +712,20 @@
       "Auxiliary Connectors"
     ],
     [
-      "67b7c17b-ae92-4f92-ba4c-9fd98514d697",
-      "RF Connectors"
-    ],
-    [
       "0dfa61bf-7ec2-42f0-9843-5232fd59e79e",
       "Debug Connector"
+    ],
+    [
+      "58fa0270-465b-4525-ade6-c06f84e23f5a",
+      "RF Connectors 1"
+    ],
+    [
+      "91d68729-74c2-4cac-a3b3-f0bbc043efb8",
+      "RF Connectors 2"
+    ],
+    [
+      "f5c1380d-32ae-406c-818a-f1b25e856995",
+      "RF Connectors 3"
     ]
   ],
   "text_variables": {}
