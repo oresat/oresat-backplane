@@ -543,7 +543,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "RF-50-max",
+        "pattern": "RF_*"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
