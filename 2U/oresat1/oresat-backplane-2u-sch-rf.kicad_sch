@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-09-28")
+		(date "2025-11-30")
 		(rev "1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -1898,17 +1898,6 @@
 		)
 		(uuid "ca765188-4806-4ef4-af2f-a71c3bae5f07")
 	)
-	(text "All capacitors 0603 >= 25V unless otherwise noted.\nAll resistors 0603 1% unelss otherwise noted."
-		(exclude_from_sim no)
-		(at 115.57 261.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ced4b51a-1b4c-4517-9975-1513180603e9")
-	)
 	(text "RF #2 (\"C\")"
 		(exclude_from_sim no)
 		(at 284.48 13.462 0)
@@ -2006,6 +1995,17 @@
 			)
 		)
 		(uuid "f80db377-74d5-4725-b842-db80d55fa7f5")
+	)
+	(text "All resistors 0603 1% AEC-Q200 unless otherwise noted.\nAll capacitors 0603 Vw >= 25V X7R AEC-Q200 unless otherwise noted.\n"
+		(exclude_from_sim no)
+		(at 113.284 264.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f816d03e-5d9a-4611-afd6-f0c29dfdf474")
 	)
 	(text "DNP (Battery)"
 		(exclude_from_sim no)

@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-09-28")
+		(date "2025-11-30")
 		(rev "1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -805,16 +805,16 @@
 		)
 		(uuid "86ce12e5-f095-4042-af91-294f9ceedfe1")
 	)
-	(text "All capacitors 0603 >= 25V unless otherwise noted.\nAll resistors 0603 1% unelss otherwise noted."
+	(text "All resistors 0603 1% AEC-Q200 unless otherwise noted.\nAll capacitors 0603 Vw >= 25V X7R AEC-Q200 unless otherwise noted.\n"
 		(exclude_from_sim no)
-		(at 115.57 261.62 0)
+		(at 113.284 264.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "ed912639-1171-4157-99c1-edecffe0bdf1")
+		(uuid "98c450ca-e84f-4f42-9d26-c75fb4d67031")
 	)
 	(junction
 		(at 204.47 128.27)
@@ -1019,7 +1019,7 @@
 		(uuid "f9fa1415-7abc-40c8-b68f-f7563cf0bab7")
 	)
 	(global_label "OPD_SCL"
-		(shape bidirectional)
+		(shape input)
 		(at 201.93 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1030,11 +1030,12 @@
 		)
 		(uuid "13a2b9fd-b6c7-486f-95a2-a51cd934412f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.19 262.89 0)
+			(at 190.826 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1082,7 +1083,7 @@
 		)
 	)
 	(global_label "C3-UART-TX"
-		(shape bidirectional)
+		(shape input)
 		(at 201.93 135.89 180)
 		(fields_autoplaced yes)
 		(effects
@@ -1093,7 +1094,7 @@
 		)
 		(uuid "689669c2-edb2-4e96-a5dc-e3c4bc7530ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.3563 135.9678 0)
+			(at 186.7959 135.89 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -1146,7 +1147,7 @@
 		)
 	)
 	(global_label "C3-UART-RX"
-		(shape bidirectional)
+		(shape output)
 		(at 219.71 138.43 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1157,7 +1158,7 @@
 		)
 		(uuid "c2867efe-e923-480c-ba33-50a39958bbae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 234.5801 138.3522 0)
+			(at 235.1404 138.43 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -1210,7 +1211,7 @@
 		)
 	)
 	(global_label "OPD_PWR"
-		(shape bidirectional)
+		(shape input)
 		(at 219.71 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1221,11 +1222,12 @@
 		)
 		(uuid "f32207db-197a-4287-bbb1-b95db8f54ff8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 171.45 -24.13 0)
+			(at 231.2882 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)

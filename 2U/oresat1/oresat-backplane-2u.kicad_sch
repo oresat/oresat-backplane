@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-09-28")
+		(date "2025-11-30")
 		(rev "1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -219,6 +219,43 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "For design information, please see the "
+		(exclude_from_sim no)
+		(at 189.738 81.026 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+		)
+		(uuid "3c64ad16-6647-4619-8f7b-024b6df715cd")
+	)
+	(text "Sheets are broken up by \"U\", so the +Z \"1U\" are labeled \"1\" and \nthe -Z \"1U\" are labeled \"2\".\n"
+		(exclude_from_sim no)
+		(at 215.138 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "98110efd-f19e-4905-85c8-394954163775")
+	)
+	(text "Backplane Design Notes (link)."
+		(exclude_from_sim no)
+		(at 219.456 82.296 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+			)
+			(justify left bottom)
+			(href "https://docs.google.com/document/d/1zO-TTvM27BjbEozDkhhjdMhfOL7Qgdrsm62HG446hcQ/edit?usp=sharing")
+		)
+		(uuid "a25cdc8d-2d10-4214-87f9-87ebcb89ef4d")
 	)
 	(wire
 		(pts

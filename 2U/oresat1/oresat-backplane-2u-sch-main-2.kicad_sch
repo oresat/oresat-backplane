@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-09-28")
+		(date "2025-11-30")
 		(rev "1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -1810,19 +1810,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NOTE: Main connector is the Samtec SFM-120, \nwhich has an infinite variety of versions.\nFor a discussion on those varieties, see"
-		(exclude_from_sim no)
-		(at 17.78 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "05e9649d-ea74-402e-bbec-6cfd4c023d9d")
-	)
 	(text "Use R20.5,R20.6 to\nbridge CAN1 and CAN2"
 		(exclude_from_sim no)
 		(at 365.76 219.71 0)
@@ -1834,16 +1821,16 @@
 		)
 		(uuid "60573d35-05e3-46f2-90af-1fa3b865a4e2")
 	)
-	(text "All capacitors 0603 >= 25V unless otherwise noted.\nAll resistors 0603 1% unelss otherwise noted."
+	(text "All resistors 0603 1% AEC-Q200 unless otherwise noted.\nAll capacitors 0603 Vw >= 25V X7R AEC-Q200 unless otherwise noted.\n"
 		(exclude_from_sim no)
-		(at 116.84 262.89 0)
+		(at 113.03 264.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "7fd66fc1-a636-49ff-bb01-3fef82c33a09")
+		(uuid "d6c288c6-5618-4ec4-a132-95bd72f953ed")
 	)
 	(junction
 		(at 220.98 121.92)

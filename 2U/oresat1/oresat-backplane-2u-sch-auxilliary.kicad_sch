@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-09-28")
+		(date "2025-11-30")
 		(rev "1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -796,14 +796,57 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NOTE: Aux connector is the Samtec SFM-110, \nwhich has an infinite variety of versions.\nFor a discussion on those varieties, see"
+	(text "Backplane Design Notes."
 		(exclude_from_sim no)
-		(at 147.32 90.17 0)
+		(at 171.958 83.312 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(thickness 0.254)
-				(bold yes)
+				(thickness 0.1588)
+			)
+			(justify left bottom)
+			(href "https://docs.google.com/document/d/1zO-TTvM27BjbEozDkhhjdMhfOL7Qgdrsm62HG446hcQ/edit?usp=sharing")
+		)
+		(uuid "00b97f0f-1e38-49a3-bc24-55233f307b39")
+	)
+	(text "CFC Procecessor"
+		(exclude_from_sim no)
+		(at 173.482 89.408 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "749cb25b-f462-4d1e-a0ba-d54dfb3895a2")
+	)
+	(text "All resistors 0603 1% AEC-Q200 unless otherwise noted.\nAll capacitors 0603 Vw >= 25V X7R AEC-Q200 unless otherwise noted.\n"
+		(exclude_from_sim no)
+		(at 114.046 264.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84dcfd8e-bc82-4bb6-8cf8-9f16bacb735b")
+	)
+	(text "CFC Sensor"
+		(exclude_from_sim no)
+		(at 210.82 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ac06cd3d-05b1-4e1f-945a-613a87be08df")
+	)
+	(text "NOTE: Aux connector is the Samtec SFM-110, \nwhich has an infinite variety of versions.\nFor a discussion on those varieties, see \nthe"
+		(exclude_from_sim no)
+		(at 168.402 83.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
 			)
 			(justify left bottom)
 		)
@@ -811,25 +854,16 @@
 	)
 	(text "Aux connectors"
 		(exclude_from_sim no)
-		(at 181.61 80.01 0)
+		(at 179.832 71.12 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
 		(uuid "c4c079c5-8ea0-4472-9f1e-2aca38b878e8")
-	)
-	(text "All capacitors 0603 >= 25V unless otherwise noted.\nAll resistors 0603 1% unelss otherwise noted."
-		(exclude_from_sim no)
-		(at 116.84 262.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef427c1d-3695-4dfb-943e-0c617f010d3c")
 	)
 	(junction
 		(at 171.45 124.46)

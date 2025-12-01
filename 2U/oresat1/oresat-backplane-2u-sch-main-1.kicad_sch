@@ -6,7 +6,7 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-09-28")
+		(date "2025-11-30")
 		(rev "1.0")
 		(company "Portland State Aerospace Society")
 	)
@@ -1810,7 +1810,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "NOTE: Main connector is the Samtec SFM-120, \nwhich has an infinite variety of versions.\nFor a discussion on those varieties, see"
+	(text "NOTE: Main connector is the Samtec SFM-120, \nwhich has an infinite variety of versions.\nFor a discussion on those varieties, see the"
 		(exclude_from_sim no)
 		(at 40.64 64.77 0)
 		(effects
@@ -1823,9 +1823,9 @@
 		)
 		(uuid "2d3b71a5-84ad-4951-b264-556846346a04")
 	)
-	(text "All capacitors 0603 >= 25V unless otherwise noted.\nAll resistors 0603 1% unelss otherwise noted."
+	(text "All resistors 0603 1% AEC-Q200 unless otherwise noted.\nAll capacitors 0603 Vw >= 25V X7R AEC-Q200 unless otherwise noted.\n"
 		(exclude_from_sim no)
-		(at 115.57 262.89 0)
+		(at 114.046 264.414 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1834,7 +1834,7 @@
 		)
 		(uuid "593e0d7a-17bf-4d6d-9d06-58dc776ebe9b")
 	)
-	(text "this link."
+	(text "Backplane Design Notes."
 		(exclude_from_sim no)
 		(at 40.64 67.31 0)
 		(effects
