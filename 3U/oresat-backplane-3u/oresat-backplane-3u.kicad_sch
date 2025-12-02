@@ -2024,7 +2024,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "58fa0270-465b-4525-ade6-c06f84e23f5a")
-		(property "Sheetname" "RF Connectors 1"
+		(property "Sheetname" "RF Connectors U1"
 			(at 68.58 142.7984 0)
 			(effects
 				(font
@@ -2124,7 +2124,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "91d68729-74c2-4cac-a3b3-f0bbc043efb8")
-		(property "Sheetname" "RF Connectors 2"
+		(property "Sheetname" "RF Connectors U2"
 			(at 68.58 151.6884 0)
 			(effects
 				(font
@@ -2250,7 +2250,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f5c1380d-32ae-406c-818a-f1b25e856995")
-		(property "Sheetname" "RF Connectors 3"
+		(property "Sheetname" "RF Connectors U3"
 			(at 68.58 160.5784 0)
 			(effects
 				(font

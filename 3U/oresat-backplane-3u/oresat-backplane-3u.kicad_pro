@@ -646,6 +646,30 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DIS",
+          "name": "DIS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DPN",
+          "name": "DPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MFR",
+          "name": "MFR",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -722,15 +746,15 @@
     ],
     [
       "58fa0270-465b-4525-ade6-c06f84e23f5a",
-      "RF Connectors 1"
+      "RF Connectors U1"
     ],
     [
       "91d68729-74c2-4cac-a3b3-f0bbc043efb8",
-      "RF Connectors 2"
+      "RF Connectors U2"
     ],
     [
       "f5c1380d-32ae-406c-818a-f1b25e856995",
-      "RF Connectors 3"
+      "RF Connectors U3"
     ]
   ],
   "text_variables": {}
