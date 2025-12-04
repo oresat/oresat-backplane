@@ -1413,6 +1413,128 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "oresat-power:VBUS"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#VBUS"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -2689,6 +2811,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 148.59) (xy 127 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02210a0a-225a-4832-a9b9-7033e7143c7b")
+	)
+	(wire
+		(pts
 			(xy 163.83 129.54) (xy 163.83 132.08)
 		)
 		(stroke
@@ -2726,6 +2858,16 @@
 			(type default)
 		)
 		(uuid "0745801e-a04a-4d65-87bf-c8e1a1ca9c5f")
+	)
+	(wire
+		(pts
+			(xy 204.47 133.35) (xy 204.47 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0881c58f-0bd4-4464-be9d-6d68a17d784e")
 	)
 	(wire
 		(pts
@@ -3039,16 +3181,6 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 134.62) (xy 284.48 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1db90413-5551-4d13-926c-ee33c9579364")
-	)
-	(wire
-		(pts
 			(xy 317.5 152.4) (xy 317.5 154.94)
 		)
 		(stroke
@@ -3056,16 +3188,6 @@
 			(type default)
 		)
 		(uuid "1e778fbe-2a9f-4874-994e-fd4ecfd7f975")
-	)
-	(wire
-		(pts
-			(xy 88.9 129.54) (xy 87.63 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e88b28c-a936-4e25-92c0-1cedef2d5c34")
 	)
 	(wire
 		(pts
@@ -3109,6 +3231,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 151.13) (xy 204.47 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2133d1c9-ec63-4072-9ffa-78fbe312e3b2")
+	)
+	(wire
+		(pts
 			(xy 123.19 157.48) (xy 123.19 160.02)
 		)
 		(stroke
@@ -3116,6 +3248,16 @@
 			(type default)
 		)
 		(uuid "2156102e-e19e-4b7f-9b04-5b71fe9f24d1")
+	)
+	(wire
+		(pts
+			(xy 167.64 133.35) (xy 167.64 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "224c55e7-030a-42b2-9dd9-3f4321c053df")
 	)
 	(wire
 		(pts
@@ -3146,16 +3288,6 @@
 			(type default)
 		)
 		(uuid "23c69a18-2889-4a88-be09-661301a4dc7f")
-	)
-	(wire
-		(pts
-			(xy 128.27 147.32) (xy 127 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23cc19d0-7fa5-4b00-839e-009652291571")
 	)
 	(wire
 		(pts
@@ -3339,16 +3471,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 134.62) (xy 204.47 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b32f61f-696c-41ca-8e2c-b863ac32b005")
-	)
-	(wire
-		(pts
 			(xy 83.82 78.74) (xy 83.82 81.28)
 		)
 		(stroke
@@ -3436,6 +3558,16 @@
 			(type default)
 		)
 		(uuid "32a1559f-bde1-4991-aee2-3314608ebcf0")
+	)
+	(wire
+		(pts
+			(xy 127 130.81) (xy 127 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3379ece0-b9a0-4a31-be42-f489f0cccfc5")
 	)
 	(wire
 		(pts
@@ -3589,6 +3721,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 133.35) (xy 241.3 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38dcf65b-e29f-4d15-a856-b88c6c498589")
+	)
+	(wire
+		(pts
 			(xy 354.33 109.22) (xy 354.33 111.76)
 		)
 		(stroke
@@ -3609,6 +3751,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 151.13) (xy 167.64 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3aa99cc8-51a5-414f-af3d-854a05698b45")
+	)
+	(wire
+		(pts
 			(xy 163.83 99.06) (xy 163.83 101.6)
 		)
 		(stroke
@@ -3616,6 +3768,16 @@
 			(type default)
 		)
 		(uuid "3ae50233-6e98-4ef5-b8c8-8cc02d26abf4")
+	)
+	(wire
+		(pts
+			(xy 87.63 128.27) (xy 87.63 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ae7c26a-56bd-4924-ba0a-985cb26610e7")
 	)
 	(wire
 		(pts
@@ -3696,16 +3858,6 @@
 			(type default)
 		)
 		(uuid "408e3c3d-d895-465a-b070-f311f409cf90")
-	)
-	(wire
-		(pts
-			(xy 322.58 134.62) (xy 321.31 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a5f77e-c35c-4181-8c33-b15375d39866")
 	)
 	(wire
 		(pts
@@ -3806,16 +3958,6 @@
 			(type default)
 		)
 		(uuid "48651160-bc9f-41e7-9e84-867b207a200c")
-	)
-	(wire
-		(pts
-			(xy 205.74 149.86) (xy 204.47 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a4acc7f-50b5-40f5-9689-95c155d4e67e")
 	)
 	(wire
 		(pts
@@ -4086,16 +4228,6 @@
 			(type default)
 		)
 		(uuid "56a5b786-4d5a-4457-b13d-d71cc8dd7a39")
-	)
-	(wire
-		(pts
-			(xy 359.41 134.62) (xy 358.14 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56dffc80-f644-4627-bdc6-c1be93173fc7")
 	)
 	(wire
 		(pts
@@ -4379,16 +4511,6 @@
 	)
 	(wire
 		(pts
-			(xy 359.41 149.86) (xy 358.14 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65bfc487-f4bc-489f-8966-bd82761dfe38")
-	)
-	(wire
-		(pts
 			(xy 280.67 78.74) (xy 280.67 81.28)
 		)
 		(stroke
@@ -4579,13 +4701,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 134.62) (xy 241.3 134.62)
+			(xy 321.31 151.13) (xy 321.31 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7301c2fb-9b4a-48b6-a3d0-1db0571e7d89")
+		(uuid "7315692b-b0f5-4f09-9f30-f1389f688536")
 	)
 	(wire
 		(pts
@@ -4769,13 +4891,13 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 149.86) (xy 284.48 149.86)
+			(xy 284.48 151.13) (xy 284.48 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "800644bb-bc88-4d3d-8e47-78b1580628d0")
+		(uuid "8016ca6a-553f-4f0b-91b5-f0645e7d986e")
 	)
 	(wire
 		(pts
@@ -5359,16 +5481,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 144.78) (xy 87.63 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a663c5db-2bd3-434f-851f-83e9a62f4b20")
-	)
-	(wire
-		(pts
 			(xy 123.19 81.28) (xy 123.19 83.82)
 		)
 		(stroke
@@ -5386,6 +5498,16 @@
 			(type default)
 		)
 		(uuid "a7fe9e67-cc8e-472f-b37c-3f5b14c1e75c")
+	)
+	(wire
+		(pts
+			(xy 241.3 151.13) (xy 241.3 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a85c2f65-1f2f-4077-b61b-9b63565ec0af")
 	)
 	(wire
 		(pts
@@ -5476,6 +5598,16 @@
 			(type default)
 		)
 		(uuid "b08ea8df-003f-430a-a97f-ba58eae1de1b")
+	)
+	(wire
+		(pts
+			(xy 87.63 146.05) (xy 87.63 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ca28cb-e1f7-4f5e-860a-97de4429fca0")
 	)
 	(wire
 		(pts
@@ -5689,6 +5821,26 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 133.35) (xy 321.31 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c61a1dc7-286b-4e9d-84b5-63935076c729")
+	)
+	(wire
+		(pts
+			(xy 358.14 151.13) (xy 358.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a73f16-0803-4721-bdf7-a2168fa8e8f8")
+	)
+	(wire
+		(pts
 			(xy 123.19 96.52) (xy 123.19 99.06)
 		)
 		(stroke
@@ -5776,16 +5928,6 @@
 			(type default)
 		)
 		(uuid "cdc10e91-0a1e-49a4-9f18-63e2f38fe547")
-	)
-	(wire
-		(pts
-			(xy 168.91 134.62) (xy 167.64 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdf687de-a1a3-4080-9621-145bbcc33d8f")
 	)
 	(wire
 		(pts
@@ -5879,16 +6021,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 149.86) (xy 167.64 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4996f41-0070-42ba-ac9b-4e575001cf67")
-	)
-	(wire
-		(pts
 			(xy 237.49 139.7) (xy 237.49 142.24)
 		)
 		(stroke
@@ -5946,6 +6078,16 @@
 			(type default)
 		)
 		(uuid "d59464f2-e1af-47b6-b2f7-b9c9cb30ecef")
+	)
+	(wire
+		(pts
+			(xy 284.48 133.35) (xy 284.48 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6ec2f48-d767-46fc-a17a-c9e338fa8558")
 	)
 	(wire
 		(pts
@@ -6239,16 +6381,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 149.86) (xy 321.31 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e85f8fbb-4c6f-4ba1-aa7c-43f12eee9c80")
-	)
-	(wire
-		(pts
 			(xy 163.83 132.08) (xy 163.83 134.62)
 		)
 		(stroke
@@ -6379,16 +6511,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 149.86) (xy 241.3 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f7e249-65d5-4a8c-ba32-d76b14520c72")
-	)
-	(wire
-		(pts
 			(xy 322.58 109.22) (xy 317.5 109.22)
 		)
 		(stroke
@@ -6416,6 +6538,16 @@
 			(type default)
 		)
 		(uuid "f796c3b1-a472-4520-b3ac-29ed58b19436")
+	)
+	(wire
+		(pts
+			(xy 358.14 133.35) (xy 358.14 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9b48882-9c39-4fa7-a1ba-950cd474b47e")
 	)
 	(wire
 		(pts
@@ -6466,16 +6598,6 @@
 			(type default)
 		)
 		(uuid "fcc350c3-7da5-42ca-97b6-2f9c2dd8ce3d")
-	)
-	(wire
-		(pts
-			(xy 128.27 132.08) (xy 127 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcd17e32-1c2d-4869-af3b-9e259a2308b2")
 	)
 	(wire
 		(pts
@@ -6541,27 +6663,6 @@
 		(uuid "01fe5a99-0a0a-4128-8f3b-214a3b20887f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.49 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 128.27 132.08 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "02eb7b71-02f3-4d37-8d71-0f76abaa6185")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 -35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6648,48 +6749,6 @@
 		(uuid "0b600096-8cc3-4356-84e5-49dd8fa0e697")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.32 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 359.41 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "1118bf00-15b6-4908-bd6a-322326a59a89")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.15 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 205.74 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "112a1e90-4a25-453e-8fbe-abbb572f177b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6869,27 +6928,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 322.58 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "2781f3ef-0ef6-49f3-8655-7d516e1bc3ef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.32 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{SD}"
 		(shape bidirectional)
 		(at 88.9 170.18 0)
@@ -7030,27 +7068,6 @@
 		(uuid "3d371825-2fa8-4fe9-ae8a-d22bfdd5c9e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.48 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 88.9 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "3d64869f-0768-4592-b36a-d3d02220069a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7295,27 +7312,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 168.91 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "5029dff9-d643-4cde-b30c-0c3175bc0c77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OPD_SCL"
 		(shape bidirectional)
 		(at 359.41 109.22 0)
@@ -7381,27 +7377,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 242.57 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "5501d9fd-9abf-4e60-95dd-fc7015fd03f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OPD_SDA"
 		(shape bidirectional)
 		(at 359.41 104.14 0)
@@ -7423,27 +7398,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 88.9 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "59f45765-401e-4506-85d2-ec79c071e30e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 40.64 -38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "~{SD}"
 		(shape bidirectional)
 		(at 242.57 175.26 0)
@@ -7457,27 +7411,6 @@
 		(uuid "5b126248-5df5-498a-8382-96582015e79d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 194.31 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 285.75 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "5cc397db-3f5e-43a4-83dc-6d0af1d32017")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7783,27 +7716,6 @@
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 168.91 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "78a4121f-2027-4e17-bb29-4368005eae7b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -8322,27 +8234,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 128.27 147.32 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "a3577f1f-9809-4977-be3e-c2a003b57ba2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.01 -35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "TURNSTILE-DEPLOY"
 		(shape bidirectional)
 		(at 322.58 99.06 0)
@@ -8383,27 +8274,6 @@
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 285.75 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "a6155d1e-fd9c-4bb8-af45-393f98e00de6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.49 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -8538,27 +8408,6 @@
 			)
 		)
 	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 205.74 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "b51237a1-7205-41f9-81af-eda40b271aaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MAG-SCL"
 		(shape bidirectional)
 		(at 128.27 81.28 0)
@@ -8577,27 +8426,6 @@
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape bidirectional)
-		(at 242.57 134.62 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "baef8777-2de1-4605-897c-94faa7a08204")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -8946,27 +8774,6 @@
 			)
 		)
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 359.41 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "d624b06b-252d-4473-93b9-b498c53f71c7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 311.15 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MAG-SDA"
 		(shape bidirectional)
 		(at 205.74 78.74 0)
@@ -9242,27 +9049,6 @@
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 322.58 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left)
-		)
-		(uuid "ed973b1c-ad83-499c-97be-205a988b7a68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 274.32 -33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 				(hide yes)
 			)
 		)
@@ -9630,6 +9416,72 @@
 		)
 	)
 	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 358.14 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e3f5f20-9d5f-4432-8d5d-d6e966d80720")
+		(property "Reference" "#VBUS019"
+			(at 358.14 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 358.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 358.14 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b86c2a4-2738-4d72-ab11-2c50dd6d118b")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#VBUS019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
 		(at 78.74 121.92 0)
 		(unit 1)
@@ -9812,6 +9664,72 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
 					(reference "CF12.2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b91cbce-a8a2-4f20-b29a-3acf7189645c")
+		(property "Reference" "#PWR016"
+			(at 127 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 127 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2dbc9d89-b026-4dcd-afa7-3d436d4376b1")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10006,6 +9924,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 167.64 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28003e7d-7e32-4022-90e8-facf74151a2e")
+		(property "Reference" "#PWR015"
+			(at 167.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ffa028c-3739-4f51-b54d-0a902b5ecbee")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e09f002-3f16-4c48-a4eb-4534be4c9d92")
+		(property "Reference" "#PWR014"
+			(at 204.47 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 204.47 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5a82c77-4fca-41df-add5-09ebed9ad79f")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 241.3 142.24 0)
 		(unit 1)
@@ -10068,6 +10118,72 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 204.47 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e434336-b7dc-49ea-960d-b8a1267bf8db")
+		(property "Reference" "#VBUS015"
+			(at 204.47 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 204.47 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 204.47 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d064fa4-7edf-4c2d-8e02-ff23874d75c2")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#VBUS015")
 					(unit 1)
 				)
 			)
@@ -10201,6 +10317,72 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
 					(reference "#GND018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 87.63 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52c925b6-574b-4f97-b341-9e774374a224")
+		(property "Reference" "#VBUS012"
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 87.63 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a567772-8612-4bd8-93cf-d8e0e704675f")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#VBUS012")
 					(unit 1)
 				)
 			)
@@ -10642,6 +10824,72 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
 					(reference "CF16.2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 241.3 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "767b8604-5b1b-4e33-bc84-3aabb4f6756a")
+		(property "Reference" "#VBUS016"
+			(at 241.3 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 241.3 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06bb4323-1782-424e-825c-e62b6a7b8d11")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#VBUS016")
 					(unit 1)
 				)
 			)
@@ -11093,6 +11341,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 284.48 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "999d8d5f-c236-40a6-875d-24378180706d")
+		(property "Reference" "#PWR012"
+			(at 284.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 284.48 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 284.48 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10d3a5d1-24a9-4884-8021-a1956115b5ad")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 86.36 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11151,6 +11465,72 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
 					(reference "#GND010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 321.31 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2dff91b-b0dc-4191-a925-9754c252cd07")
+		(property "Reference" "#PWR011"
+			(at 321.31 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 321.31 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 321.31 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17797f5b-3802-4f25-ae1c-ff5bc7a1db2b")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11686,6 +12066,138 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 241.3 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3d47236-b85e-4d76-88f4-8e51ed21c93d")
+		(property "Reference" "#PWR013"
+			(at 241.3 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 241.3 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "186c9bcf-5923-4958-acaf-2f1a4ec72780")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 87.63 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5142bcd-6b14-4750-b6d7-f270a20db0bc")
+		(property "Reference" "#PWR017"
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fffebd4-f2fd-4fb8-83ee-051f89e07180")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 283.21 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11812,6 +12324,204 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
 					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 127 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2f59206-fc07-483d-b9fa-12258f5cb09e")
+		(property "Reference" "#VBUS013"
+			(at 127 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 127 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1ef2491a-9e2a-4548-a279-34b01f127c3c")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#VBUS013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 284.48 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8ee61ff-9488-4301-b9c3-097ab80b7e57")
+		(property "Reference" "#VBUS017"
+			(at 284.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 284.48 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 284.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 284.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 284.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6501159-c9d5-4a0f-84f1-e36b5e78b8c6")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#VBUS017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 321.31 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef0c6059-4be1-43ad-89e9-6ea4205f0191")
+		(property "Reference" "#VBUS018"
+			(at 321.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 321.31 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 321.31 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "754c636c-3a83-48a0-958c-867de6093e47")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#VBUS018")
 					(unit 1)
 				)
 			)
@@ -12000,6 +12710,138 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
 					(reference "CF18.2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 358.14 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f89932ce-4ee6-44c4-8c3e-4b752dcca629")
+		(property "Reference" "#PWR010"
+			(at 358.14 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 358.14 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 358.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 358.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 358.14 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453d7d23-0cdf-4375-8268-ac1fb8238d1c")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-power:VBUS")
+		(at 167.64 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb0bb7ab-2585-478f-aa5e-126768b3fd80")
+		(property "Reference" "#VBUS014"
+			(at 167.64 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 167.64 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 167.64 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2f42f08-d75f-4d64-befc-86f0b1c6bfa4")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/af24dd58-d27a-41e4-b932-04912035cb7a"
+					(reference "#VBUS014")
 					(unit 1)
 				)
 			)
