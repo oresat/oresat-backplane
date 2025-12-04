@@ -923,7 +923,7 @@
 		(uuid "cb961cfe-6791-484e-9e41-cc290a9b6940")
 	)
 	(junction
-		(at 146.05 91.44)
+		(at 147.32 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbe5f964-27d9-4218-8f3b-7fc59d91481a")
@@ -1005,7 +1005,7 @@
 		(uuid "04874fdb-485d-4b62-b696-6903dbaba5ab")
 	)
 	(no_connect
-		(at 143.51 53.34)
+		(at 144.78 55.88)
 		(uuid "04ce3fa8-ae11-4f0a-bb08-ee2c5e434101")
 	)
 	(no_connect
@@ -1065,7 +1065,7 @@
 		(uuid "0aef55ab-596c-42b9-9c77-745c3485247b")
 	)
 	(no_connect
-		(at 143.51 48.26)
+		(at 144.78 50.8)
 		(uuid "0b8ed429-c4a8-4375-aa34-f882c9146d90")
 	)
 	(no_connect
@@ -1121,7 +1121,7 @@
 		(uuid "1081bb01-b323-4051-95b6-6862270b518c")
 	)
 	(no_connect
-		(at 143.51 81.28)
+		(at 144.78 83.82)
 		(uuid "10d39b4b-0ec1-4d40-9159-3512bcedb610")
 	)
 	(no_connect
@@ -1265,7 +1265,7 @@
 		(uuid "23e2cc89-2d1e-4289-9286-438a5440c38b")
 	)
 	(no_connect
-		(at 143.51 63.5)
+		(at 144.78 66.04)
 		(uuid "23f2d7bd-cf25-44e4-a03d-d7be3efcae19")
 	)
 	(no_connect
@@ -1353,7 +1353,7 @@
 		(uuid "2ddb71f6-377d-4106-b851-49e60a1a7043")
 	)
 	(no_connect
-		(at 143.51 78.74)
+		(at 144.78 81.28)
 		(uuid "2efa3b76-6025-4684-a454-3b64f5956d6a")
 	)
 	(no_connect
@@ -1397,7 +1397,7 @@
 		(uuid "35e5eb6a-c765-47aa-963f-98f113791def")
 	)
 	(no_connect
-		(at 143.51 35.56)
+		(at 144.78 38.1)
 		(uuid "36202a41-bbdd-4bf3-ae85-6cacf72f8b47")
 	)
 	(no_connect
@@ -1413,7 +1413,7 @@
 		(uuid "394252f2-afb1-4036-9b87-70348678eacf")
 	)
 	(no_connect
-		(at 143.51 66.04)
+		(at 144.78 68.58)
 		(uuid "394a5b86-6f5b-40a0-845d-202772cbd6c1")
 	)
 	(no_connect
@@ -1477,7 +1477,7 @@
 		(uuid "3f9b6102-7ce2-406e-a123-46b1fbd2ece6")
 	)
 	(no_connect
-		(at 143.51 55.88)
+		(at 144.78 58.42)
 		(uuid "3fcba988-a249-415f-af86-621d4b284a24")
 	)
 	(no_connect
@@ -1513,11 +1513,11 @@
 		(uuid "42b1d77f-6b3e-433c-a5ed-0e6199247707")
 	)
 	(no_connect
-		(at 143.51 60.96)
+		(at 144.78 63.5)
 		(uuid "434afb29-c543-41eb-9167-1f5ef4722ffe")
 	)
 	(no_connect
-		(at 143.51 38.1)
+		(at 144.78 40.64)
 		(uuid "4540a404-42b7-45d0-81f7-9f06265f0cde")
 	)
 	(no_connect
@@ -1677,7 +1677,7 @@
 		(uuid "5f33e0bf-019c-4c8c-bc2f-3b0ab6e0473c")
 	)
 	(no_connect
-		(at 143.51 43.18)
+		(at 144.78 45.72)
 		(uuid "5f5a0661-2d57-4ba9-a107-64ccf70b6c6e")
 	)
 	(no_connect
@@ -1917,7 +1917,7 @@
 		(uuid "850adf77-759f-4010-a756-24d6f90bfcab")
 	)
 	(no_connect
-		(at 143.51 40.64)
+		(at 144.78 43.18)
 		(uuid "85107b35-b343-4a27-9f7e-b9885ca805f3")
 	)
 	(no_connect
@@ -1985,7 +1985,7 @@
 		(uuid "8ff695c3-53fa-41f9-baf7-3355bc9f230d")
 	)
 	(no_connect
-		(at 143.51 71.12)
+		(at 144.78 73.66)
 		(uuid "9026541e-3912-4e00-a101-eb0a9823f705")
 	)
 	(no_connect
@@ -2237,7 +2237,7 @@
 		(uuid "b13b1e95-213f-44a6-9d05-dbcb6925df81")
 	)
 	(no_connect
-		(at 143.51 45.72)
+		(at 144.78 48.26)
 		(uuid "b19d2122-3d6c-46c2-92dc-a1812c2e57c3")
 	)
 	(no_connect
@@ -2273,7 +2273,7 @@
 		(uuid "b6dc263c-29bc-4af2-b1b0-daff7ee3fb91")
 	)
 	(no_connect
-		(at 143.51 73.66)
+		(at 144.78 76.2)
 		(uuid "b71f1cc0-cce8-4b0b-aa4e-b04a144c2436")
 	)
 	(no_connect
@@ -2329,7 +2329,7 @@
 		(uuid "bb3fa36a-0eaa-4ffe-9d50-4001d6bbbfc5")
 	)
 	(no_connect
-		(at 143.51 50.8)
+		(at 144.78 53.34)
 		(uuid "bb97069c-89b6-4227-8e87-4eb7b99dcc32")
 	)
 	(no_connect
@@ -2629,7 +2629,7 @@
 		(uuid "dce151da-cedf-4cf1-858d-f2818ae5e441")
 	)
 	(no_connect
-		(at 143.51 58.42)
+		(at 144.78 60.96)
 		(uuid "dcfb634a-17d4-4350-b215-17b4c2db9509")
 	)
 	(no_connect
@@ -2701,7 +2701,7 @@
 		(uuid "e6c95c3f-6e50-4d00-a714-0c26b2cb50ea")
 	)
 	(no_connect
-		(at 143.51 68.58)
+		(at 144.78 71.12)
 		(uuid "e706f9cd-e440-4cf0-8e5c-33a5efd7e5c2")
 	)
 	(no_connect
@@ -2801,7 +2801,7 @@
 		(uuid "f1d0527b-8cb5-47c8-87d1-dcc005f28f79")
 	)
 	(no_connect
-		(at 143.51 76.2)
+		(at 144.78 78.74)
 		(uuid "f260af0e-07af-44f7-b09b-fe78d48490ed")
 	)
 	(no_connect
@@ -2825,7 +2825,7 @@
 		(uuid "f45693cb-dfad-41a9-a1e9-c977f642239d")
 	)
 	(no_connect
-		(at 143.51 83.82)
+		(at 144.78 86.36)
 		(uuid "f488118c-07f2-4f7c-9396-25bb2b00e60b")
 	)
 	(no_connect
@@ -3106,7 +3106,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 146.05 88.9)
+			(xy 147.32 93.98) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3256,7 +3256,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 93.98) (xy 146.05 91.44)
+			(xy 147.32 96.52) (xy 147.32 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3456,7 +3456,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 88.9) (xy 143.51 88.9)
+			(xy 147.32 91.44) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3476,7 +3476,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 91.44) (xy 143.51 91.44)
+			(xy 147.32 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -8346,7 +8346,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 93.98 0)
+		(at 147.32 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8354,7 +8354,7 @@
 		(dnp no)
 		(uuid "d0e95321-65d5-418c-acb5-ed312505ddbc")
 		(property "Reference" "#GND049"
-			(at 146.05 93.98 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 93.98 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,7 +8372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 93.98 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +8381,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 93.98 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8390,7 +8390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 93.98 0)
+			(at 147.32 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8576,7 +8576,7 @@
 	)
 	(symbol
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
-		(at 138.43 83.82 0)
+		(at 139.7 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8584,7 +8584,7 @@
 		(dnp no)
 		(uuid "e19e439b-3963-4ef0-b99f-29a660466b55")
 		(property "Reference" "CF7.1"
-			(at 135.89 29.21 0)
+			(at 137.16 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8593,7 +8593,7 @@
 			)
 		)
 		(property "Value" "SFM-110-01-S-D-LC"
-			(at 135.89 31.75 0)
+			(at 137.16 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8602,7 +8602,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
-			(at 143.51 143.51 0)
+			(at 144.78 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8611,7 +8611,7 @@
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
-			(at 140.97 147.32 0)
+			(at 142.24 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8620,7 +8620,7 @@
 			)
 		)
 		(property "Description" "OreSat backplane connector, 2x20 RA"
-			(at 138.43 83.82 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8629,7 +8629,7 @@
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 138.43 83.82 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8638,7 +8638,7 @@
 			)
 		)
 		(property "DPN" "SFM-110-01-S-D-LC-ND"
-			(at 138.43 83.82 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8647,7 +8647,7 @@
 			)
 		)
 		(property "MFR" "Samtec Inc."
-			(at 138.43 83.82 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8656,7 +8656,7 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
-			(at 138.43 83.82 0)
+			(at 139.7 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
