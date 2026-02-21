@@ -3,7 +3,13 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "df64a1fe-04d5-4c20-ac03-a0c80f011b21")
-	(paper "A4")
+	(paper "B")
+	(title_block
+		(title "Generic OreSat 3U Backplane")
+		(date "2026-02-20")
+		(rev "1.0")
+		(company "Portland State Aerospace Society")
+	)
 	(lib_symbols
 		(symbol "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1"
 			(exclude_from_sim no)
