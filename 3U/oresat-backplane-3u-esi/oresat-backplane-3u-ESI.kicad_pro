@@ -60,19 +60,11 @@
       ],
       "drc_exclusions": [
         [
-          "unconnected_items|276444500|353714221|414e7739-fe52-4c1d-a47c-d3e45ddc6d83|414e7739-fe52-4c1d-a47c-d3e45ddc6d83",
+          "unconnected_items|276444500|353714221|F.Cu|4|414e7739-fe52-4c1d-a47c-d3e45ddc6d83|414e7739-fe52-4c1d-a47c-d3e45ddc6d83",
           ""
         ],
         [
-          "unconnected_items|334700000|56022000|2eaab758-932f-418c-a072-233b3f494333|f651ae5f-d157-4363-8527-ce9ab95375cd",
-          "Excluded for generic board"
-        ],
-        [
-          "unconnected_items|334700000|66022000|f651ae5f-d157-4363-8527-ce9ab95375cd|c7bdcf3e-c178-4f9f-96de-29a7a93de49b",
-          ""
-        ],
-        [
-          "unconnected_items|340700000|56022000|5a172e61-4abe-445e-ae18-b3dc992673ba|47424273-1f3a-45fc-9791-e0cd591bfbde",
+          "unconnected_items|334700000|66022000|F.Cu|4|f651ae5f-d157-4363-8527-ce9ab95375cd|c7bdcf3e-c178-4f9f-96de-29a7a93de49b",
           ""
         ]
       ],
@@ -272,7 +264,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "power_pin_not_driven|1803400|1358900|5e5befe9-7bd4-4601-9318-ce55f12af9d9|00000000-0000-0000-0000-000000000000|/300eeac4-6caf-4310-939c-5dc51539800c/96e408d0-3df4-4718-9b55-8aaf33703ff6|/300eeac4-6caf-4310-939c-5dc51539800c/96e408d0-3df4-4718-9b55-8aaf33703ff6|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2095500|2019300|441aa767-e64a-4de0-8750-359e776e9a1e|00000000-0000-0000-0000-000000000000|/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb|/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },

@@ -8,10 +8,10 @@
 	)
 	(paper "A2")
 	(title_block
-		(title "Generic OreSat 3U Backplane")
-		(date "2025-12-03")
+		(title "OreSat 3U Backplane for ESI")
+		(date "2026-02-20")
 		(rev "1.0")
-		(company "Portland State Aerospace Society")
+		(company "Portland State Aerospace Society/ ESI")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -1109,6 +1109,7 @@
 		(property "Reference" "H6"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "7a89f85d-e248-4123-b8ad-2d6762c5e53e")
 			(effects
 				(font
@@ -1128,7 +1129,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1213,6 +1214,7 @@
 		(property "Reference" "H9"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1bbc615a-5bb3-40a5-ac70-946b3b284e46")
 			(effects
 				(font
@@ -1232,7 +1234,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2238,6 +2240,7 @@
 		(property "Reference" "H5"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "166468a9-cb98-4ca0-9451-f9bc222c1641")
 			(effects
 				(font
@@ -2257,7 +2260,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2340,13 +2343,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20.3"
-			(at -0.1875 -2.05 0)
+			(at 0 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "496ddb2e-278d-4e1f-885b-35834340408e")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -2489,17 +2492,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "9f81dada-e91f-4238-b3fd-439aa6d8c15c")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "a678ab11-875b-4e5e-b2f5-213fef44a5d2")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
 		)
 		(pad "1" smd roundrect
 			(at -1.4625 0 180)
@@ -3483,7 +3475,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5409,13 +5401,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20.2"
-			(at -0.15 -2 0)
+			(at -0.05 -1.5 0)
 			(layer "F.SilkS")
 			(uuid "d0d1d8c9-cbad-4bdf-9f8a-4659a0738b3b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -5558,17 +5550,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "6d1e68b9-c674-4367-b33d-bdec9508bc09")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "20e55ddf-e683-429b-8b4b-25ed382ec1c4")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
 		)
 		(pad "1" smd roundrect
 			(at -1.4625 0 180)
@@ -7453,6 +7434,7 @@
 		(property "Reference" "H2"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "02baa0bb-2923-4f17-8b0f-6c0226a0b8e4")
 			(effects
 				(font
@@ -7472,7 +7454,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8915,7 +8897,7 @@
 		(at 292.65 358.05 -90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "C20.1"
-			(at 1.75 -1.05 0)
+			(at -1.8 -1.05 0)
 			(layer "F.SilkS")
 			(uuid "3f6772ed-d5c7-4998-b771-58dc84bad409")
 			(effects
@@ -11038,6 +11020,7 @@
 		(property "Reference" "H7"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "017762fa-6069-406e-bf3c-61d49bddd49b")
 			(effects
 				(font
@@ -11057,7 +11040,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18744,13 +18727,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1.3"
-			(at 3.1 -0.4 90)
+			(at 0.05 -1.5 180)
 			(layer "F.SilkS")
 			(uuid "20f62b5b-5cf2-4638-b28f-aa494cff3f4c")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -18893,17 +18876,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "f6724262-820c-4e0e-83a7-bfb230063d85")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "ff3860ea-4431-45ad-a95f-5c058e0d795c")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
 		)
 		(pad "1" smd roundrect
 			(at -1.4625 0)
@@ -19863,7 +19835,7 @@
 		(at 285.05 351.2425)
 		(descr "0.05\"X0.05\" SOCKET STRIP DOUBLE ROW ASSEMBLY.\nMANUFACTURER: SAMTEC.")
 		(property "Reference" "CF30.2"
-			(at -2.54 4.56 0)
+			(at -2.65 3.9575 0)
 			(layer "F.SilkS")
 			(uuid "b8fe2717-9b67-41a7-857d-3658df54fb8a")
 			(effects
@@ -20785,13 +20757,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20.1"
-			(at -0.3 -2 0)
+			(at 0.1 -1.55 0)
 			(layer "F.SilkS")
 			(uuid "c1df6485-d732-41ff-a3ce-76ace0697555")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -20934,17 +20906,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "6d2b10d7-8730-48b7-8221-6398dba9d3b3")
-		)
-		(fp_text user "${REFERENCE}"
-			(at -0.9125 -5.25 0)
-			(layer "F.Fab")
-			(uuid "cb9e0354-89d8-411a-9185-d0c14df8d741")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
 		)
 		(pad "1" smd roundrect
 			(at -1.4625 0 180)
@@ -25389,6 +25350,7 @@
 		(property "Reference" "H11"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9bcaf5f5-999e-4416-935b-4214cbd6e4db")
 			(effects
 				(font
@@ -25408,7 +25370,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28215,6 +28177,7 @@
 		(property "Reference" "H8"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b0103092-4459-4fa7-8906-f040b2a4fb61")
 			(effects
 				(font
@@ -28234,7 +28197,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29239,13 +29202,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1.2"
-			(at -3.05 -0.15 90)
+			(at 0.05 -1.4 180)
 			(layer "F.SilkS")
 			(uuid "fbbb6097-38e8-48e3-ad02-2b35b669921d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -29388,17 +29351,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "f965ee2b-7b4c-4329-9b54-e561580ec766")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "dcf7e05d-85ff-449e-bc61-54067307b422")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
 		)
 		(pad "1" smd roundrect
 			(at -1.4625 0)
@@ -31999,6 +31951,7 @@
 		(property "Reference" "H12"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "98899056-39a0-4680-adb5-5f57e0565158")
 			(effects
 				(font
@@ -32018,7 +31971,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32540,13 +32493,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1.1"
-			(at 3.2 -0.35 90)
+			(at 0.05 -1.45 180)
 			(layer "F.SilkS")
 			(uuid "ac7e412e-f6d6-41f6-96fe-e8c560c0d0a5")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -32690,17 +32643,6 @@
 			(layer "F.Fab")
 			(uuid "7df5bb07-b064-4410-ad52-aad969bd18d8")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "aef624ad-67d2-4203-a8a1-038b53cc8bde")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
-		)
 		(pad "1" smd roundrect
 			(at -1.4625 0)
 			(size 1.125 1.75)
@@ -32738,7 +32680,7 @@
 		(at 275.85 358.15 -90)
 		(descr "<b>0603 (metric 1608) tight 'IPC-C' without silkscreen</b>\n<br>In house package for minimum spacing based on IPC-7351B.\nThis package is identical to 0603-C, but has its tPlace silkscreen layer removed.")
 		(property "Reference" "C20.2"
-			(at 2.85 1 0)
+			(at -1.2 1 0)
 			(layer "F.SilkS")
 			(uuid "3163b0a4-dfd2-4469-8164-f686084b8385")
 			(effects
@@ -33018,6 +32960,7 @@
 		(property "Reference" "H10"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "55ddf0a1-9b49-4d82-92bc-4f83a5a435f8")
 			(effects
 				(font
@@ -33037,7 +32980,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34044,6 +33987,7 @@
 		(property "Reference" "H4"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "66b764a6-5a30-4f80-b8af-c4e71f5a152e")
 			(effects
 				(font
@@ -34063,7 +34007,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34422,13 +34366,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R20.4"
-			(at 0.1 -2.15 0)
+			(at 0.1 -1.6 0)
 			(layer "F.SilkS")
 			(uuid "cc88e723-7c72-49fb-bc6d-ab9e32fbe3ec")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -35545,6 +35489,7 @@
 		(property "Reference" "H3"
 			(at 0 -2.85 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "8085a948-6b38-450a-824f-ea97a78cc52f")
 			(effects
 				(font
@@ -35564,7 +35509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35647,13 +35592,13 @@
 		(descr "Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R1.4"
-			(at -3.2 0 90)
+			(at -0.05 -1.5 180)
 			(layer "F.SilkS")
 			(uuid "27d90fa6-5bf7-4fdd-a742-1c4ab0f774fb")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -35796,17 +35741,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "3472ca15-7f01-435b-b2e3-42a7df16c9c7")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(uuid "543d5479-ce77-479b-8ad1-f81231bb0fd9")
-			(effects
-				(font
-					(size 0.8 0.8)
-					(thickness 0.12)
-				)
-			)
 		)
 		(pad "1" smd roundrect
 			(at -1.4625 0)
@@ -53992,18 +53926,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "C3"
-		(at 288.85 65.73 0)
-		(layer "F.SilkS")
-		(uuid "55b2897a-32dd-44e3-aace-38635ea50d6c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "BATT 2"
 		(at 285.38 261.62 0)
 		(layer "F.SilkS")
@@ -54041,13 +53963,13 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "OreSat 3U Backplane\n${REVISION} ${ISSUE_DATE}"
+	(gr_text "OreSat/ESI 3U Backplane\n${REVISION} ${ISSUE_DATE}"
 		(at 331.55 363.9 0)
 		(layer "F.SilkS")
 		(uuid "a0e50a7a-8b19-45e5-a487-58c9b2d71250")
 		(effects
 			(font
-				(size 1.8 1.8)
+				(size 1.6 1.6)
 				(thickness 0.37)
 				(bold yes)
 			)
@@ -58591,6 +58513,15 @@
 		(uuid "4944b610-03c3-4ed8-aca8-2630bca17464")
 	)
 	(via
+		(at 291.9 358.75)
+		(size 0.4572)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "494d9c08-af62-49ea-8ea4-5b9f8067a42f")
+	)
+	(via
 		(at 337.57 150.33)
 		(size 0.5532)
 		(drill 0.35)
@@ -62393,6 +62324,15 @@
 		(uuid "8883e870-6218-4c16-90d9-7bba7a18480d")
 	)
 	(via
+		(at 293.4 358.75)
+		(size 0.4572)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "889c4681-6b36-4e76-a4af-39db108275a5")
+	)
+	(via
 		(at 330.34 173.02)
 		(size 0.5532)
 		(drill 0.35)
@@ -62762,6 +62702,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "8db63616-e666-4574-a9c2-c32e4e2339fa")
+	)
+	(via
+		(at 276.65 358.9)
+		(size 0.4572)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "8ddc5b8a-9a86-43b9-b96e-de9dd9243833")
 	)
 	(via
 		(at 330.37 320.97)
@@ -64579,6 +64528,15 @@
 		(layers "F.Cu" "B.Cu")
 		(net 2)
 		(uuid "ac57d438-a512-448c-8d08-4bbf13627c7b")
+	)
+	(via
+		(at 275.05 358.85)
+		(size 0.4572)
+		(drill 0.254)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "ac67449b-94f5-4f4f-89a3-77e9c705760c")
 	)
 	(via
 		(at 333.08 190.87)

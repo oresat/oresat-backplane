@@ -5,10 +5,10 @@
 	(uuid "300eeac4-6caf-4310-939c-5dc51539800c")
 	(paper "B")
 	(title_block
-		(title "Generic OreSat 3U Backplane")
-		(date "2025-10-21")
+		(title "OreSat 3U Backplane for ESI")
+		(date "2026-02-20")
 		(rev "1.0")
-		(company "Portland State Aerospace Society")
+		(company "PSAS / ESI")
 	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"

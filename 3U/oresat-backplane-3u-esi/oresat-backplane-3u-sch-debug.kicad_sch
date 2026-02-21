@@ -5,10 +5,10 @@
 	(uuid "b42005c3-29f6-40de-91d5-b2240b3ecb82")
 	(paper "B")
 	(title_block
-		(title "Generic OreSat 3U Backplane")
-		(date "2025-10-21")
+		(title "OreSat 3U Backplane for ESI")
+		(date "2026-02-20")
 		(rev "1.0")
-		(company "Portland State Aerospace Society")
+		(company "PSAS / ESI")
 	)
 	(lib_symbols
 		(symbol "oresat-connectors:m55-6001642"
