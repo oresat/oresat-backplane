@@ -1,0 +1,9367 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1d0d7dff-251b-4df8-b0a1-2e3c45feb3b6")
+	(paper "B")
+	(title_block
+		(title "Generic OreSat 3U Backplane")
+		(date "2025-10-21")
+		(rev "1.0")
+		(company "Portland State Aerospace Society")
+	)
+	(lib_symbols
+		(symbol "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -2.54 53.34 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "J-SAMTEC-SFM-110-X1-XXX-D-LC"
+				(at 0 -55.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "oresat-connectors:J-SAMTEC-TFM-110-X1-XXX-D-LC"
+				(at 5.08 -59.69 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+				(at 2.54 -63.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "OreSat backplane connector, 2x20 RA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "J-SAMTEC-SFM-110-X1-XXX-D-LC_0_1"
+				(rectangle
+					(start -2.54 50.8)
+					(end 2.54 -10.16)
+					(stroke
+						(width 0.4)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 48.387)
+					(end 1.143 48.133)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 45.847)
+					(end 1.143 45.593)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 43.307)
+					(end 1.143 43.053)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 40.767)
+					(end 1.143 40.513)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 38.227)
+					(end 1.143 37.973)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 35.687)
+					(end 1.143 35.433)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 33.147)
+					(end 1.143 32.893)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 30.607)
+					(end 1.143 30.353)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 28.067)
+					(end 1.143 27.813)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 25.527)
+					(end 1.143 25.273)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 22.987)
+					(end 1.143 22.733)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 20.447)
+					(end 1.143 20.193)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 17.907)
+					(end 1.143 17.653)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 15.367)
+					(end 1.143 15.113)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 12.827)
+					(end 1.143 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 10.287)
+					(end 1.143 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 7.747)
+					(end 1.143 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 5.207)
+					(end 1.143 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 2.667)
+					(end 1.143 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.413 0.127)
+					(end 1.143 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "J-SAMTEC-SFM-110-X1-XXX-D-LC_1_1"
+				(pin passive line
+					(at 5.08 48.26 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 45.72 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 43.18 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 40.64 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 38.1 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 35.56 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 33.02 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 30.48 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 27.94 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 25.4 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 22.86 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 20.32 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 17.78 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 15.24 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 12.7 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 10.16 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -7.62 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "NOTE: Aux connector is the Samtec SFM-110, \nwhich has an infinite variety of versions.\nFor a discussion on those varieties, see"
+		(exclude_from_sim no)
+		(at 19.05 29.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "22f4324e-ba57-45f2-b1d3-bba22f18d7fa")
+	)
+	(text "All capacitors 0603 >= 25V unless otherwise noted.\nAll resistors 0603 1% unelss otherwise noted."
+		(exclude_from_sim no)
+		(at 120.65 266.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b084596f-e382-4cbb-81bc-e5a04b0acf60")
+	)
+	(junction
+		(at 114.3 238.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "13ba457d-6204-404b-bba5-9c686fc3fcd3")
+	)
+	(junction
+		(at 201.93 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "146014f3-cbeb-4389-997a-995bc6ae0b29")
+	)
+	(junction
+		(at 116.84 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1e3ca117-db12-4714-b4ec-03e24314110d")
+	)
+	(junction
+		(at 321.31 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f12a6c2-d647-4306-b3ea-80199c590d7f")
+	)
+	(junction
+		(at 203.2 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "235f7b9c-1f57-4667-aad7-41efca02c1d0")
+	)
+	(junction
+		(at 260.35 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cbc6631-dc68-494d-968a-8cb09ba96491")
+	)
+	(junction
+		(at 290.83 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2ed232cf-3db0-4835-87e4-08acffde1d7f")
+	)
+	(junction
+		(at 173.99 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "309c19a6-aa36-4424-be8e-064f13b65d07")
+	)
+	(junction
+		(at 231.14 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4266cf0f-00b7-4eb5-a8b8-daca81841c0d")
+	)
+	(junction
+		(at 232.41 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "448c488f-ffa8-4aa8-a54d-fcc945b98ef3")
+	)
+	(junction
+		(at 175.26 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e4ff6fe-cd9f-4b0f-95aa-48a80b303ee0")
+	)
+	(junction
+		(at 260.35 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e60cfe0-a198-4508-b0a0-43796b4e0391")
+	)
+	(junction
+		(at 292.1 242.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e70b6e2-d8e5-45c7-80c8-300b6fb5b61d")
+	)
+	(junction
+		(at 115.57 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "967edc78-6841-4b6f-ac0a-60fb696e2bcc")
+	)
+	(junction
+		(at 204.47 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b0386b0f-233e-4da9-9ef1-1ab5c99c8562")
+	)
+	(junction
+		(at 147.32 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c67a7fe1-b981-4147-8cbd-6a332913e98d")
+	)
+	(junction
+		(at 146.05 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb961cfe-6791-484e-9e41-cc290a9b6940")
+	)
+	(junction
+		(at 147.32 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbe5f964-27d9-4218-8f3b-7fc59d91481a")
+	)
+	(junction
+		(at 322.58 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd3bd054-38a9-4426-adac-df033f75767c")
+	)
+	(junction
+		(at 289.56 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0771dd7-c87f-412c-83ad-a49239bffbb8")
+	)
+	(junction
+		(at 233.68 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0e4e3bd-eb2c-4061-9433-6b503dfaa2a0")
+	)
+	(junction
+		(at 260.35 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da65f699-9917-4579-80d7-b42ca6a84bc1")
+	)
+	(junction
+		(at 172.72 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dcdf9370-7a01-48e5-9116-2585793a4244")
+	)
+	(junction
+		(at 320.04 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef45472e-4b4a-4a76-9449-9eb55ca05703")
+	)
+	(no_connect
+		(at 111.76 187.96)
+		(uuid "00034be9-19c3-48c8-bbd8-116da1db4fb8")
+	)
+	(no_connect
+		(at 228.6 114.3)
+		(uuid "016d1255-e4a0-444a-813f-a4f53ab8faaf")
+	)
+	(no_connect
+		(at 113.03 133.35)
+		(uuid "01d35eec-65a5-405f-86da-0056cf8a3ac9")
+	)
+	(no_connect
+		(at 144.78 125.73)
+		(uuid "025441dd-f7df-431b-8098-19c646bd689f")
+	)
+	(no_connect
+		(at 257.81 186.69)
+		(uuid "032af2c0-bdfb-42be-a29f-1e11831571b6")
+	)
+	(no_connect
+		(at 113.03 128.27)
+		(uuid "033a9f5e-f6ac-4076-bfb8-5a27d1a16a02")
+	)
+	(no_connect
+		(at 257.81 161.29)
+		(uuid "036878c0-f506-4416-8334-1f89ee872784")
+	)
+	(no_connect
+		(at 111.76 203.2)
+		(uuid "03886c0c-0bde-4dc4-93e8-f4c010ce8764")
+	)
+	(no_connect
+		(at 320.04 213.36)
+		(uuid "03d706dd-75a8-4e09-857b-256376fdeaa2")
+	)
+	(no_connect
+		(at 172.72 189.23)
+		(uuid "04874fdb-485d-4b62-b696-6903dbaba5ab")
+	)
+	(no_connect
+		(at 144.78 55.88)
+		(uuid "04ce3fa8-ae11-4f0a-bb08-ee2c5e434101")
+	)
+	(no_connect
+		(at 113.03 115.57)
+		(uuid "050f02cf-677a-48a8-8af2-0b70e858b110")
+	)
+	(no_connect
+		(at 200.66 154.94)
+		(uuid "059925af-7528-4b73-84e0-680e0e5274d8")
+	)
+	(no_connect
+		(at 113.03 158.75)
+		(uuid "05e07a60-49a1-4965-8ac9-68563a08e950")
+	)
+	(no_connect
+		(at 257.81 128.27)
+		(uuid "05f0ea37-10bf-44aa-90fc-0f786c10de67")
+	)
+	(no_connect
+		(at 143.51 223.52)
+		(uuid "07e0858c-e0ec-4d5b-97b5-8710b2264b55")
+	)
+	(no_connect
+		(at 200.66 160.02)
+		(uuid "082e2617-1ed7-4dd8-8786-f86b0172be7f")
+	)
+	(no_connect
+		(at 228.6 111.76)
+		(uuid "084e784d-67b9-4913-901d-a60201238d94")
+	)
+	(no_connect
+		(at 199.39 53.34)
+		(uuid "086631eb-e11e-4a0b-a071-7b63c4d68c0e")
+	)
+	(no_connect
+		(at 171.45 132.08)
+		(uuid "087ca024-cf59-4b99-8238-ac37ca264791")
+	)
+	(no_connect
+		(at 228.6 124.46)
+		(uuid "08b2ad71-a8ed-4fcd-a030-4a6e74e7161f")
+	)
+	(no_connect
+		(at 257.81 130.81)
+		(uuid "08df9aee-2b2a-4b0c-830e-07eed3fad177")
+	)
+	(no_connect
+		(at 172.72 199.39)
+		(uuid "09470921-49c7-4741-ad2e-1b000b36e35d")
+	)
+	(no_connect
+		(at 229.87 43.18)
+		(uuid "096dd26f-3cbf-48c3-bedc-1aeed3ef884d")
+	)
+	(no_connect
+		(at 201.93 189.23)
+		(uuid "0aef55ab-596c-42b9-9c77-745c3485247b")
+	)
+	(no_connect
+		(at 144.78 50.8)
+		(uuid "0b8ed429-c4a8-4375-aa34-f882c9146d90")
+	)
+	(no_connect
+		(at 257.81 39.37)
+		(uuid "0bd804ba-5f55-49a6-9a46-3a41aaf6ff3c")
+	)
+	(no_connect
+		(at 111.76 213.36)
+		(uuid "0c37420c-eb51-494b-a561-bb8ee64a0eaa")
+	)
+	(no_connect
+		(at 170.18 83.82)
+		(uuid "0ce3d2ac-ee5c-438c-b2ca-9bedf102c152")
+	)
+	(no_connect
+		(at 289.56 229.87)
+		(uuid "0d5a2573-9187-4ba9-94b5-15fc05600089")
+	)
+	(no_connect
+		(at 318.77 132.08)
+		(uuid "0e5117db-4620-4274-8ba0-d2e5b4bd220d")
+	)
+	(no_connect
+		(at 143.51 190.5)
+		(uuid "0f05d1c5-f0e3-4816-8a69-7c72e06a1d98")
+	)
+	(no_connect
+		(at 289.56 214.63)
+		(uuid "0f3ffeee-131a-4d5e-ad5b-2baaaeeb05e1")
+	)
+	(no_connect
+		(at 257.81 234.95)
+		(uuid "0f5884d9-afe5-47d8-9d14-f9d6b0f4e1c6")
+	)
+	(no_connect
+		(at 143.51 208.28)
+		(uuid "0f8bb51f-1b3b-4110-a3cf-6b6b5d5b17dc")
+	)
+	(no_connect
+		(at 318.77 160.02)
+		(uuid "0faa4e49-f083-4b9f-a011-7d4fc36bddd7")
+	)
+	(no_connect
+		(at 111.76 198.12)
+		(uuid "10319124-29d5-4821-8e05-12b0cac386ea")
+	)
+	(no_connect
+		(at 257.81 229.87)
+		(uuid "104fb56e-7d07-4822-8bd5-88d154d2cb9d")
+	)
+	(no_connect
+		(at 229.87 48.26)
+		(uuid "1081bb01-b323-4051-95b6-6862270b518c")
+	)
+	(no_connect
+		(at 144.78 83.82)
+		(uuid "10d39b4b-0ec1-4d40-9159-3512bcedb610")
+	)
+	(no_connect
+		(at 231.14 205.74)
+		(uuid "117173bb-da4d-4d8c-a7fa-dd7cd94537bb")
+	)
+	(no_connect
+		(at 199.39 58.42)
+		(uuid "136fecff-4897-40d2-bb2e-4d74b058a7d7")
+	)
+	(no_connect
+		(at 287.02 53.34)
+		(uuid "13bc696a-c7a1-434c-a2c5-7ecb480ae93c")
+	)
+	(no_connect
+		(at 144.78 156.21)
+		(uuid "13dabc81-70a5-42f7-a5c2-6d2ab753ef1a")
+	)
+	(no_connect
+		(at 287.02 63.5)
+		(uuid "157655c3-fba5-413d-9679-82bf1092e364")
+	)
+	(no_connect
+		(at 201.93 229.87)
+		(uuid "15fd552d-ed6f-4ae6-af4f-b7c1ab09a053")
+	)
+	(no_connect
+		(at 113.03 120.65)
+		(uuid "164cdbd8-445c-4fe1-8f1f-b4ff72556318")
+	)
+	(no_connect
+		(at 288.29 137.16)
+		(uuid "16863ec4-f9c8-44a8-997d-8ca8647d8a00")
+	)
+	(no_connect
+		(at 228.6 160.02)
+		(uuid "177ce10d-3a13-4107-bd22-69340eb306e1")
+	)
+	(no_connect
+		(at 257.81 196.85)
+		(uuid "18317652-c4ce-42f0-82b3-53bf2387b6bb")
+	)
+	(no_connect
+		(at 144.78 113.03)
+		(uuid "1860805e-9d60-4f77-ae16-5a1412daf43a")
+	)
+	(no_connect
+		(at 317.5 44.45)
+		(uuid "1887e4dd-4367-4d7f-88f2-94b8465369e4")
+	)
+	(no_connect
+		(at 111.76 208.28)
+		(uuid "1896cc6e-bf03-4486-bce5-5ba041dfd7d9")
+	)
+	(no_connect
+		(at 201.93 227.33)
+		(uuid "18a1e4b3-c512-4b5e-8eaa-6901d6118dd1")
+	)
+	(no_connect
+		(at 111.76 205.74)
+		(uuid "1a0fcbda-dbf7-4150-9133-4425a3e84b64")
+	)
+	(no_connect
+		(at 113.03 118.11)
+		(uuid "1a740146-57e8-4f6a-af3c-16546e8c490a")
+	)
+	(no_connect
+		(at 199.39 66.04)
+		(uuid "1ad341eb-d21b-4e5c-a911-981070fabd8c")
+	)
+	(no_connect
+		(at 289.56 219.71)
+		(uuid "1b0e03e1-289e-49c5-9b26-c7c83f083099")
+	)
+	(no_connect
+		(at 257.81 224.79)
+		(uuid "1b5def52-3885-434f-ba2e-737be804dce8")
+	)
+	(no_connect
+		(at 320.04 236.22)
+		(uuid "1b6efb54-84fc-4005-a4e1-fe1b05a76a68")
+	)
+	(no_connect
+		(at 320.04 210.82)
+		(uuid "1b9892ba-7700-4c45-8179-e6459f2abf92")
+	)
+	(no_connect
+		(at 289.56 186.69)
+		(uuid "1ba96d93-cac5-4226-b702-18c77064738c")
+	)
+	(no_connect
+		(at 172.72 234.95)
+		(uuid "1c7caca6-0cfc-4533-8f6e-c52a82651425")
+	)
+	(no_connect
+		(at 199.39 73.66)
+		(uuid "1d303b72-432e-40d0-85fc-3f099eae98b2")
+	)
+	(no_connect
+		(at 114.3 40.64)
+		(uuid "1dfc5e6f-08a1-4df6-8a66-6f04995533cb")
+	)
+	(no_connect
+		(at 199.39 48.26)
+		(uuid "1ebecab0-d168-424a-b13b-afb423a4ace3")
+	)
+	(no_connect
+		(at 287.02 68.58)
+		(uuid "1fb83934-da7b-4358-8869-d2c1dec0c230")
+	)
+	(no_connect
+		(at 114.3 71.12)
+		(uuid "1fe22ff6-3a31-4e97-919b-36052b2ba07f")
+	)
+	(no_connect
+		(at 143.51 203.2)
+		(uuid "2032ae8e-a977-45f0-95ec-2ce94f06bbb9")
+	)
+	(no_connect
+		(at 257.81 209.55)
+		(uuid "2100df6a-2a69-4269-9767-ceac959d9a07")
+	)
+	(no_connect
+		(at 317.5 80.01)
+		(uuid "222f8b28-5306-482c-9fe1-c78362c221a0")
+	)
+	(no_connect
+		(at 287.02 40.64)
+		(uuid "23365a43-735b-43e0-913b-bee8f33d3836")
+	)
+	(no_connect
+		(at 287.02 50.8)
+		(uuid "23621ac7-0017-4499-9342-13d3f6b95b16")
+	)
+	(no_connect
+		(at 200.66 144.78)
+		(uuid "23b33fd4-599b-4da7-82ec-fef736a947cc")
+	)
+	(no_connect
+		(at 318.77 162.56)
+		(uuid "23e2cc89-2d1e-4289-9286-438a5440c38b")
+	)
+	(no_connect
+		(at 144.78 66.04)
+		(uuid "23f2d7bd-cf25-44e4-a03d-d7be3efcae19")
+	)
+	(no_connect
+		(at 289.56 212.09)
+		(uuid "25049a79-3c2d-4c61-97d3-288cd97c59c1")
+	)
+	(no_connect
+		(at 170.18 58.42)
+		(uuid "253df506-493f-4a17-afb7-74740afbdbd8")
+	)
+	(no_connect
+		(at 257.81 212.09)
+		(uuid "255ad843-d620-484e-ad0f-5bc309a937a5")
+	)
+	(no_connect
+		(at 288.29 162.56)
+		(uuid "25c50a5c-35f9-4152-b681-a592839f2a38")
+	)
+	(no_connect
+		(at 200.66 134.62)
+		(uuid "25e6b7e6-ce29-47df-9252-33101c9e8968")
+	)
+	(no_connect
+		(at 257.81 158.75)
+		(uuid "268d2c00-8997-471f-a431-63617c5f8e27")
+	)
+	(no_connect
+		(at 288.29 114.3)
+		(uuid "269bb0ad-b2f4-4ca3-b5b5-dc29ddfcc28c")
+	)
+	(no_connect
+		(at 170.18 53.34)
+		(uuid "285619d6-30ef-4f57-b4a1-d7ef858e22e8")
+	)
+	(no_connect
+		(at 200.66 119.38)
+		(uuid "28dc1b0b-96cd-4c98-aa2b-e3975ed0fcef")
+	)
+	(no_connect
+		(at 114.3 55.88)
+		(uuid "28f5bb93-9aee-4eef-96b4-7a6892c97134")
+	)
+	(no_connect
+		(at 320.04 208.28)
+		(uuid "2a78bb92-010a-4f42-be0d-10518594ce47")
+	)
+	(no_connect
+		(at 172.72 209.55)
+		(uuid "2a85da06-81d7-40ff-8b00-721ca68c305e")
+	)
+	(no_connect
+		(at 231.14 215.9)
+		(uuid "2a9329fa-f696-475f-af97-72c42eac631e")
+	)
+	(no_connect
+		(at 228.6 147.32)
+		(uuid "2abf5bca-94fb-48b2-ad42-9c837577bed4")
+	)
+	(no_connect
+		(at 172.72 224.79)
+		(uuid "2b65ab3f-12a8-4ade-91dd-c719bc8d2a3f")
+	)
+	(no_connect
+		(at 257.81 115.57)
+		(uuid "2bbfdd3d-01b9-4c6c-b431-e7dd5bd492e9")
+	)
+	(no_connect
+		(at 172.72 229.87)
+		(uuid "2c328a75-5662-42ec-beb1-80d218e37391")
+	)
+	(no_connect
+		(at 143.51 200.66)
+		(uuid "2c849796-abcf-4f87-999e-b5f1478464d5")
+	)
+	(no_connect
+		(at 317.5 52.07)
+		(uuid "2cc870e6-5c17-483b-84a5-b625f8354d93")
+	)
+	(no_connect
+		(at 171.45 149.86)
+		(uuid "2d62fce9-a2c0-4a8f-8f4d-94f6cd42787e")
+	)
+	(no_connect
+		(at 114.3 81.28)
+		(uuid "2ddb71f6-377d-4106-b851-49e60a1a7043")
+	)
+	(no_connect
+		(at 144.78 81.28)
+		(uuid "2efa3b76-6025-4684-a454-3b64f5956d6a")
+	)
+	(no_connect
+		(at 114.3 50.8)
+		(uuid "306cc127-e6c0-4297-8988-79170b5851a2")
+	)
+	(no_connect
+		(at 201.93 196.85)
+		(uuid "3166167a-5cd5-447f-a4a6-1c9090985d76")
+	)
+	(no_connect
+		(at 200.66 111.76)
+		(uuid "321a2d72-38ef-4eca-9481-cff7950761a6")
+	)
+	(no_connect
+		(at 257.81 232.41)
+		(uuid "32c3c1de-f10d-4aba-b7e3-d490d6fb4106")
+	)
+	(no_connect
+		(at 257.81 222.25)
+		(uuid "336b5f02-d797-44ae-8d45-942ce7a00472")
+	)
+	(no_connect
+		(at 317.5 74.93)
+		(uuid "34c3d815-da39-45cb-8d52-83cf25224c7e")
+	)
+	(no_connect
+		(at 199.39 43.18)
+		(uuid "34d01d1b-f56c-46e3-85e5-58de39a87805")
+	)
+	(no_connect
+		(at 257.81 207.01)
+		(uuid "34d33890-b05a-494d-a857-0858e653a94f")
+	)
+	(no_connect
+		(at 199.39 50.8)
+		(uuid "35b67a70-01c0-44be-91d1-ca3c3c300ac5")
+	)
+	(no_connect
+		(at 111.76 231.14)
+		(uuid "35e5eb6a-c765-47aa-963f-98f113791def")
+	)
+	(no_connect
+		(at 144.78 38.1)
+		(uuid "36202a41-bbdd-4bf3-ae85-6cacf72f8b47")
+	)
+	(no_connect
+		(at 170.18 73.66)
+		(uuid "36d7702d-f02d-401d-98da-f17182d311bc")
+	)
+	(no_connect
+		(at 170.18 86.36)
+		(uuid "3747291d-3a3e-4b07-b5ff-d031a01f1fff")
+	)
+	(no_connect
+		(at 113.03 151.13)
+		(uuid "394252f2-afb1-4036-9b87-70348678eacf")
+	)
+	(no_connect
+		(at 144.78 68.58)
+		(uuid "394a5b86-6f5b-40a0-845d-202772cbd6c1")
+	)
+	(no_connect
+		(at 288.29 157.48)
+		(uuid "39ae7e39-b8f8-43bb-aeac-6b240b321433")
+	)
+	(no_connect
+		(at 287.02 66.04)
+		(uuid "3ac98434-d1b4-4506-9056-3ceed1b997e7")
+	)
+	(no_connect
+		(at 143.51 185.42)
+		(uuid "3afc2c3a-f01b-482e-9af2-2ecd5a6c9040")
+	)
+	(no_connect
+		(at 114.3 43.18)
+		(uuid "3afed4ca-5f31-422f-9a6a-be8a557f3b28")
+	)
+	(no_connect
+		(at 171.45 137.16)
+		(uuid "3b0cc0cb-5ba2-4a33-ac01-7645f1e18ab2")
+	)
+	(no_connect
+		(at 257.81 62.23)
+		(uuid "3b27c039-7361-4c2d-ac2e-2eb2f9552900")
+	)
+	(no_connect
+		(at 257.81 49.53)
+		(uuid "3b4497aa-fdbf-4fd0-81a9-1f6d5d0c598e")
+	)
+	(no_connect
+		(at 199.39 40.64)
+		(uuid "3c0e32e3-363f-4f8f-a53d-2d32d6328fe0")
+	)
+	(no_connect
+		(at 201.93 186.69)
+		(uuid "3d118c86-50a5-42bc-b7b7-5e88c5bbdb3a")
+	)
+	(no_connect
+		(at 320.04 193.04)
+		(uuid "3dee5e30-d798-4a14-9469-f6ff88b26642")
+	)
+	(no_connect
+		(at 231.14 195.58)
+		(uuid "3ea392bc-0bd7-4a72-8262-0ae0f52d27df")
+	)
+	(no_connect
+		(at 257.81 156.21)
+		(uuid "3ef5c0d1-dec0-44f9-8fcc-43278b1bf1ea")
+	)
+	(no_connect
+		(at 317.5 87.63)
+		(uuid "3f64448e-7206-475c-b332-17e15aabddfe")
+	)
+	(no_connect
+		(at 229.87 71.12)
+		(uuid "3f67ff86-0ebf-4f55-836a-68cc3d1fc3fd")
+	)
+	(no_connect
+		(at 288.29 142.24)
+		(uuid "3f9b6102-7ce2-406e-a123-46b1fbd2ece6")
+	)
+	(no_connect
+		(at 144.78 58.42)
+		(uuid "3fcba988-a249-415f-af86-621d4b284a24")
+	)
+	(no_connect
+		(at 172.72 217.17)
+		(uuid "3fd55ddd-bd20-44c5-9900-2e130a598de7")
+	)
+	(no_connect
+		(at 200.66 116.84)
+		(uuid "3fe2e71d-bb8f-4b94-9945-65dfc1126f7b")
+	)
+	(no_connect
+		(at 289.56 234.95)
+		(uuid "410c6b97-95f3-47a4-bd76-dbb61c4b09d6")
+	)
+	(no_connect
+		(at 257.81 135.89)
+		(uuid "4111a23c-6a4b-44e4-aec6-972ce9a5a581")
+	)
+	(no_connect
+		(at 143.51 218.44)
+		(uuid "41af241e-ffef-4e5e-8d88-9e199fec1516")
+	)
+	(no_connect
+		(at 257.81 113.03)
+		(uuid "420a38ae-010d-4853-a880-2d11b6214791")
+	)
+	(no_connect
+		(at 317.5 69.85)
+		(uuid "422aa3dd-b62f-4544-ba3a-78b7b71d1d7f")
+	)
+	(no_connect
+		(at 199.39 63.5)
+		(uuid "42b1d77f-6b3e-433c-a5ed-0e6199247707")
+	)
+	(no_connect
+		(at 144.78 63.5)
+		(uuid "434afb29-c543-41eb-9167-1f5ef4722ffe")
+	)
+	(no_connect
+		(at 144.78 40.64)
+		(uuid "4540a404-42b7-45d0-81f7-9f06265f0cde")
+	)
+	(no_connect
+		(at 143.51 205.74)
+		(uuid "4552769c-4359-45a6-a2f8-9ef93be20ea3")
+	)
+	(no_connect
+		(at 172.72 227.33)
+		(uuid "468c102f-6efc-4b13-9d8b-ee6f9f7578d7")
+	)
+	(no_connect
+		(at 201.93 214.63)
+		(uuid "46e574b2-ca0c-48f8-92e3-2c2b9385918f")
+	)
+	(no_connect
+		(at 288.29 152.4)
+		(uuid "472b4577-8c7c-4854-a0ab-443cf7203c31")
+	)
+	(no_connect
+		(at 317.5 46.99)
+		(uuid "47ffd6ae-320f-405a-a078-b572f9749715")
+	)
+	(no_connect
+		(at 257.81 143.51)
+		(uuid "49eb2a50-35c9-4168-8d03-1b6bcb30e689")
+	)
+	(no_connect
+		(at 172.72 196.85)
+		(uuid "4a8108f3-01ca-407b-b500-19ead9be031b")
+	)
+	(no_connect
+		(at 201.93 217.17)
+		(uuid "4ae36add-bc0b-42e6-9e11-53462b3bf227")
+	)
+	(no_connect
+		(at 170.18 76.2)
+		(uuid "4b223fc9-fb69-4b31-91f3-438e2b1b113a")
+	)
+	(no_connect
+		(at 287.02 78.74)
+		(uuid "4b9033c4-bc6b-414d-877a-a55f0ce49565")
+	)
+	(no_connect
+		(at 113.03 153.67)
+		(uuid "4b947e3a-d043-45b3-bf49-332476175bcb")
+	)
+	(no_connect
+		(at 229.87 60.96)
+		(uuid "4d9a464c-8fe8-497b-a4c0-58b94fc96d7e")
+	)
+	(no_connect
+		(at 320.04 231.14)
+		(uuid "4e168d38-3ef5-4669-99e9-4373a7835c2f")
+	)
+	(no_connect
+		(at 257.81 194.31)
+		(uuid "4f0747d0-f62c-47de-a13d-62055fa1b592")
+	)
+	(no_connect
+		(at 287.02 55.88)
+		(uuid "4fc663dc-d6a0-49cf-96c6-335e3c4e54da")
+	)
+	(no_connect
+		(at 143.51 210.82)
+		(uuid "5005de05-4876-445d-a7d7-e119c834de9e")
+	)
+	(no_connect
+		(at 171.45 144.78)
+		(uuid "501d54c1-6106-4d6d-a755-ff1b38d6124c")
+	)
+	(no_connect
+		(at 199.39 45.72)
+		(uuid "50321d3f-e1c2-4c5e-8106-afe985794860")
+	)
+	(no_connect
+		(at 257.81 57.15)
+		(uuid "50b5b73c-2b8c-4ac1-a361-0cac9b4de170")
+	)
+	(no_connect
+		(at 318.77 154.94)
+		(uuid "50ffd1ca-9272-4547-8be4-3e22c17e2275")
+	)
+	(no_connect
+		(at 111.76 218.44)
+		(uuid "5103054f-2b50-41e6-90fe-54f0ad1a539b")
+	)
+	(no_connect
+		(at 289.56 227.33)
+		(uuid "51765771-6591-4612-bd29-cdb94625635d")
+	)
+	(no_connect
+		(at 114.3 45.72)
+		(uuid "529a692e-4a08-40fa-ac8b-d6cdbfa59547")
+	)
+	(no_connect
+		(at 113.03 156.21)
+		(uuid "5380a000-abd3-45ed-ae41-f97b020b7fa4")
+	)
+	(no_connect
+		(at 287.02 58.42)
+		(uuid "53c07066-4645-456d-b604-6a28ce544286")
+	)
+	(no_connect
+		(at 144.78 140.97)
+		(uuid "5438ece7-e149-49d1-ab40-87e75d8f4f46")
+	)
+	(no_connect
+		(at 229.87 55.88)
+		(uuid "5888ed3a-c4e2-45ff-82da-0273be05ac6f")
+	)
+	(no_connect
+		(at 200.66 147.32)
+		(uuid "591a1cea-88a2-4a3e-8f54-3511be90d246")
+	)
+	(no_connect
+		(at 201.93 191.77)
+		(uuid "591e4ea5-9b25-436a-9a13-c470c0a185e2")
+	)
+	(no_connect
+		(at 143.51 220.98)
+		(uuid "592e0ff0-a824-4c69-9814-79f09bf9d62c")
+	)
+	(no_connect
+		(at 113.03 125.73)
+		(uuid "59873bdd-0f9c-4fbb-906a-c2f58755bf7b")
+	)
+	(no_connect
+		(at 144.78 146.05)
+		(uuid "59f291d4-74a0-49fc-a785-c9c2f8181c30")
+	)
+	(no_connect
+		(at 144.78 128.27)
+		(uuid "5a47f8ce-c082-4435-9ce1-ba35337ba20a")
+	)
+	(no_connect
+		(at 229.87 40.64)
+		(uuid "5c606270-b6fb-413d-8fba-b313c68bd499")
+	)
+	(no_connect
+		(at 289.56 199.39)
+		(uuid "5d0e143a-8770-497e-b0c4-9ccf240057ff")
+	)
+	(no_connect
+		(at 170.18 78.74)
+		(uuid "5d3eb3d9-5941-4460-bf6d-58eacd5aaae5")
+	)
+	(no_connect
+		(at 317.5 54.61)
+		(uuid "5d75676f-563d-4c5d-b1ac-f8415c445232")
+	)
+	(no_connect
+		(at 257.81 44.45)
+		(uuid "5e37e3b4-af9b-466f-9521-3442abdb82ab")
+	)
+	(no_connect
+		(at 257.81 80.01)
+		(uuid "5f33e0bf-019c-4c8c-bc2f-3b0ab6e0473c")
+	)
+	(no_connect
+		(at 144.78 45.72)
+		(uuid "5f5a0661-2d57-4ba9-a107-64ccf70b6c6e")
+	)
+	(no_connect
+		(at 111.76 220.98)
+		(uuid "5f6ac8f8-1fbd-431a-aeb8-b19e3adfdbdf")
+	)
+	(no_connect
+		(at 289.56 222.25)
+		(uuid "5f7e786c-f681-4fbf-b235-28183a4a7e43")
+	)
+	(no_connect
+		(at 287.02 83.82)
+		(uuid "5fcb8c6f-d2a7-450c-83c1-a851897cf34b")
+	)
+	(no_connect
+		(at 172.72 186.69)
+		(uuid "5fe61b1c-3f49-43c0-94a0-e1996cd93d8c")
+	)
+	(no_connect
+		(at 144.78 143.51)
+		(uuid "60e09a11-dcb6-41f3-8b40-de202ca923d3")
+	)
+	(no_connect
+		(at 171.45 134.62)
+		(uuid "61e3088d-80d9-49d8-b7c0-c394bb60a821")
+	)
+	(no_connect
+		(at 228.6 157.48)
+		(uuid "622da272-54aa-4548-a5e1-b671d858896e")
+	)
+	(no_connect
+		(at 257.81 123.19)
+		(uuid "631efcb2-dbd5-48f6-a1bc-0f753c76dc5e")
+	)
+	(no_connect
+		(at 200.66 142.24)
+		(uuid "64f6f640-8aa6-40a1-9f95-dd0ce4a818d3")
+	)
+	(no_connect
+		(at 318.77 147.32)
+		(uuid "6615b3cf-3045-4191-a559-babca0fba57a")
+	)
+	(no_connect
+		(at 257.81 67.31)
+		(uuid "661dfd6c-6854-40f0-b37b-e8a00a97fac8")
+	)
+	(no_connect
+		(at 144.78 138.43)
+		(uuid "6622c25f-b73d-4237-bb62-bea584da9e0d")
+	)
+	(no_connect
+		(at 144.78 123.19)
+		(uuid "6678eb45-c289-47ee-be7f-13ae7b18ef6a")
+	)
+	(no_connect
+		(at 289.56 232.41)
+		(uuid "66c26335-df78-4b7e-99a9-5d59f5dbb4d1")
+	)
+	(no_connect
+		(at 257.81 64.77)
+		(uuid "671f57ca-8a4c-4365-9c0d-1e91724c53ff")
+	)
+	(no_connect
+		(at 257.81 151.13)
+		(uuid "6b4c5a35-15c1-4988-bb1d-a3c1b5bd5644")
+	)
+	(no_connect
+		(at 143.51 187.96)
+		(uuid "6b5253aa-6fc6-4ea4-b1cd-bc29397658f5")
+	)
+	(no_connect
+		(at 114.3 58.42)
+		(uuid "6c60037e-d21b-454c-a02c-4b352830f3ae")
+	)
+	(no_connect
+		(at 318.77 114.3)
+		(uuid "6c6b81f2-0da3-420f-8ad9-84b5c1c5df8c")
+	)
+	(no_connect
+		(at 228.6 142.24)
+		(uuid "6cab9c52-4379-467b-a825-408ade968b84")
+	)
+	(no_connect
+		(at 143.51 213.36)
+		(uuid "6d716b65-2182-4006-8334-e70c9888e18a")
+	)
+	(no_connect
+		(at 143.51 233.68)
+		(uuid "6dc00823-53e2-4ab3-9f55-9493ed83e9bd")
+	)
+	(no_connect
+		(at 289.56 207.01)
+		(uuid "6de0e401-c9e2-4cd3-82da-585758b09298")
+	)
+	(no_connect
+		(at 200.66 157.48)
+		(uuid "6f13b24d-0359-4e40-8b78-4196bb8c36af")
+	)
+	(no_connect
+		(at 111.76 215.9)
+		(uuid "6f5740ef-81f5-4a99-97ad-6897e54e8fc0")
+	)
+	(no_connect
+		(at 231.14 190.5)
+		(uuid "70a50890-67da-4c1b-a81e-521e9f913fc0")
+	)
+	(no_connect
+		(at 171.45 129.54)
+		(uuid "70b7df8c-b6a8-4dbd-9030-a9a56a4de091")
+	)
+	(no_connect
+		(at 289.56 204.47)
+		(uuid "71cabaae-8f42-4599-8151-e9306a1567e7")
+	)
+	(no_connect
+		(at 200.66 124.46)
+		(uuid "72074fbb-b110-45ca-9d7f-7a8a44b7ccf9")
+	)
+	(no_connect
+		(at 257.81 74.93)
+		(uuid "729c2489-3ba7-45c4-8ebd-f38029d39a9a")
+	)
+	(no_connect
+		(at 320.04 223.52)
+		(uuid "72f69d00-431d-4560-b66a-023a73787255")
+	)
+	(no_connect
+		(at 201.93 212.09)
+		(uuid "731dbe59-bdda-4040-ac16-2c82c68d84b5")
+	)
+	(no_connect
+		(at 288.29 160.02)
+		(uuid "745f6602-b176-44f2-865d-f3f20f51e873")
+	)
+	(no_connect
+		(at 199.39 60.96)
+		(uuid "746e906a-bc5b-47f0-9f64-6c382e78915c")
+	)
+	(no_connect
+		(at 320.04 228.6)
+		(uuid "750a881a-bead-4fb5-bed2-d4681ffbda86")
+	)
+	(no_connect
+		(at 317.5 67.31)
+		(uuid "759dc3da-9031-47fb-823e-73e9ba9e75cc")
+	)
+	(no_connect
+		(at 228.6 154.94)
+		(uuid "75dac18f-9703-43be-839f-2d702b321523")
+	)
+	(no_connect
+		(at 200.66 121.92)
+		(uuid "7634abbd-91e9-42b2-b220-91b6619f65a3")
+	)
+	(no_connect
+		(at 114.3 60.96)
+		(uuid "779d45e7-c206-426e-9b45-2cc13c704613")
+	)
+	(no_connect
+		(at 320.04 187.96)
+		(uuid "77e05534-4a36-47ea-a476-8fea32d0109c")
+	)
+	(no_connect
+		(at 288.29 116.84)
+		(uuid "7803eacd-712f-4a3b-8204-0db414cb8b88")
+	)
+	(no_connect
+		(at 171.45 124.46)
+		(uuid "7833482e-6a1c-4835-8ca8-3ca0d4785243")
+	)
+	(no_connect
+		(at 144.78 135.89)
+		(uuid "78eca3dc-0b6a-43d7-b17b-f9a2aa9b98ca")
+	)
+	(no_connect
+		(at 288.29 154.94)
+		(uuid "790b867c-a42c-40cd-8ca6-593706076d16")
+	)
+	(no_connect
+		(at 111.76 182.88)
+		(uuid "7a728db6-e971-4699-aa84-2dfe91b85b66")
+	)
+	(no_connect
+		(at 231.14 210.82)
+		(uuid "7abf19bb-b220-4a45-8a5c-334c232f88fc")
+	)
+	(no_connect
+		(at 228.6 116.84)
+		(uuid "7b562bbb-3659-432f-8635-f75ce92b8910")
+	)
+	(no_connect
+		(at 288.29 127)
+		(uuid "7c4c2306-729c-4a44-8db3-c2d242316370")
+	)
+	(no_connect
+		(at 113.03 148.59)
+		(uuid "7cba1d61-eff3-4732-8f8e-aec53bef299e")
+	)
+	(no_connect
+		(at 317.5 39.37)
+		(uuid "7e75ce8c-b490-412e-b811-770c3c81f5ca")
+	)
+	(no_connect
+		(at 200.66 139.7)
+		(uuid "7e979c5d-4ba5-4c72-b51b-f45b61505a64")
+	)
+	(no_connect
+		(at 318.77 121.92)
+		(uuid "8021c869-c135-4a89-af48-cec2644f3dc3")
+	)
+	(no_connect
+		(at 143.51 226.06)
+		(uuid "803eb5d6-d026-42ac-b99e-05e15395b541")
+	)
+	(no_connect
+		(at 257.81 219.71)
+		(uuid "807ea555-fb49-4ed9-b0b7-085476e303ce")
+	)
+	(no_connect
+		(at 257.81 46.99)
+		(uuid "8087eb37-c670-4e11-9302-8e33411dc3ea")
+	)
+	(no_connect
+		(at 289.56 201.93)
+		(uuid "80f56453-c419-4281-ba62-562a9868f136")
+	)
+	(no_connect
+		(at 287.02 86.36)
+		(uuid "828b8ae1-22e8-4f36-a837-00e2de6a8da3")
+	)
+	(no_connect
+		(at 257.81 201.93)
+		(uuid "84c05bb5-15c6-411d-aa56-dc5bcd693b81")
+	)
+	(no_connect
+		(at 257.81 120.65)
+		(uuid "850adf77-759f-4010-a756-24d6f90bfcab")
+	)
+	(no_connect
+		(at 144.78 43.18)
+		(uuid "85107b35-b343-4a27-9f7e-b9885ca805f3")
+	)
+	(no_connect
+		(at 231.14 193.04)
+		(uuid "85baa86b-24dd-42fd-a05f-697bf3ed1504")
+	)
+	(no_connect
+		(at 320.04 195.58)
+		(uuid "85d5bb4f-7852-4659-ae93-a112027d90a3")
+	)
+	(no_connect
+		(at 143.51 231.14)
+		(uuid "8605a606-e438-4a7d-aba4-281e4980b0ed")
+	)
+	(no_connect
+		(at 201.93 207.01)
+		(uuid "86f4b11c-4154-4858-a792-787f9d98b964")
+	)
+	(no_connect
+		(at 320.04 203.2)
+		(uuid "8798e5ff-f3d3-43fc-afed-56e31b3fb9d2")
+	)
+	(no_connect
+		(at 289.56 209.55)
+		(uuid "88105077-168d-42e3-9d98-82210631a732")
+	)
+	(no_connect
+		(at 228.6 137.16)
+		(uuid "888de07b-56aa-4912-91da-1f4241145133")
+	)
+	(no_connect
+		(at 288.29 121.92)
+		(uuid "89117991-c5a8-495c-abf4-a2b94d784477")
+	)
+	(no_connect
+		(at 229.87 45.72)
+		(uuid "8ab97702-d315-46cc-bb84-6e15f95413cd")
+	)
+	(no_connect
+		(at 171.45 114.3)
+		(uuid "8c34ac2e-37d8-43d9-999f-039fb987bbd9")
+	)
+	(no_connect
+		(at 288.29 139.7)
+		(uuid "8c6f9a72-a2c0-4cdf-ad26-404a25290dfb")
+	)
+	(no_connect
+		(at 201.93 224.79)
+		(uuid "8cdc466f-5114-444a-98c2-243bc3cbc0bd")
+	)
+	(no_connect
+		(at 199.39 86.36)
+		(uuid "8dadeaaa-5be1-409f-9fef-8fe06ad56874")
+	)
+	(no_connect
+		(at 257.81 227.33)
+		(uuid "8db37ebb-0d94-4305-beb0-7e9f0a58b7f6")
+	)
+	(no_connect
+		(at 114.3 76.2)
+		(uuid "8e36c4d3-9a69-4c7d-818e-1c31491a87bd")
+	)
+	(no_connect
+		(at 257.81 191.77)
+		(uuid "8ff695c3-53fa-41f9-baf7-3355bc9f230d")
+	)
+	(no_connect
+		(at 144.78 73.66)
+		(uuid "9026541e-3912-4e00-a101-eb0a9823f705")
+	)
+	(no_connect
+		(at 199.39 55.88)
+		(uuid "90ab9ff1-50e2-4b97-a606-30be77c397e7")
+	)
+	(no_connect
+		(at 231.14 223.52)
+		(uuid "90df5d7f-e71e-4949-8706-87d2ebf46fc5")
+	)
+	(no_connect
+		(at 257.81 217.17)
+		(uuid "9101362f-5ed0-492b-b95c-5f3b18e53d34")
+	)
+	(no_connect
+		(at 231.14 218.44)
+		(uuid "9103b8e6-8312-415b-8869-23cdff7b016b")
+	)
+	(no_connect
+		(at 170.18 55.88)
+		(uuid "921cce88-33d4-4145-9f96-c9c75f0f866b")
+	)
+	(no_connect
+		(at 170.18 63.5)
+		(uuid "958fe76a-ca19-4a23-8b8c-f513aff16662")
+	)
+	(no_connect
+		(at 144.78 151.13)
+		(uuid "95ceb5ab-750f-4881-90e4-f5381d5b9479")
+	)
+	(no_connect
+		(at 257.81 59.69)
+		(uuid "95f38cae-4f84-42a5-9c0c-94b8e2a61799")
+	)
+	(no_connect
+		(at 171.45 116.84)
+		(uuid "965e5024-84a9-4a33-a208-f054bd0b7a4c")
+	)
+	(no_connect
+		(at 231.14 208.28)
+		(uuid "9743f167-9851-40d5-805a-63b5527a2909")
+	)
+	(no_connect
+		(at 114.3 53.34)
+		(uuid "9744d9dc-314d-4892-8191-ba8a7bac1a94")
+	)
+	(no_connect
+		(at 171.45 147.32)
+		(uuid "97655cf2-7a7e-42e6-bde3-0d02a8c0cae7")
+	)
+	(no_connect
+		(at 170.18 68.58)
+		(uuid "97a8ae40-753c-41c6-8400-11832db1d23e")
+	)
+	(no_connect
+		(at 113.03 130.81)
+		(uuid "97b66ff5-4920-49b2-806d-0ff4e22b0455")
+	)
+	(no_connect
+		(at 113.03 138.43)
+		(uuid "97d9f915-a1a0-4c54-ba3b-79c40d5b9b35")
+	)
+	(no_connect
+		(at 229.87 81.28)
+		(uuid "986a3e96-b2c7-4301-a939-3ba0aa7d32c2")
+	)
+	(no_connect
+		(at 144.78 158.75)
+		(uuid "99500ea1-d8cb-4ca9-b559-56f33ef33dc6")
+	)
+	(no_connect
+		(at 114.3 68.58)
+		(uuid "99f7bc77-9d2f-4b56-9fc3-3cc2810a0b42")
+	)
+	(no_connect
+		(at 257.81 148.59)
+		(uuid "9a440e38-ad5e-4fde-81be-c5ae500e8293")
+	)
+	(no_connect
+		(at 201.93 199.39)
+		(uuid "9cb02d5e-b1a1-464c-9e97-4c902fdb8c89")
+	)
+	(no_connect
+		(at 199.39 81.28)
+		(uuid "9cb860a7-f873-4f90-aae6-813fa48d6130")
+	)
+	(no_connect
+		(at 111.76 190.5)
+		(uuid "9cf16d4c-f1f9-41c4-b0f7-a0d8e525d100")
+	)
+	(no_connect
+		(at 113.03 113.03)
+		(uuid "9d0d03c7-f253-40a5-a62f-b0b9859e6466")
+	)
+	(no_connect
+		(at 170.18 45.72)
+		(uuid "9dbdbbac-d2cb-4b47-86ba-00954e121dae")
+	)
+	(no_connect
+		(at 229.87 73.66)
+		(uuid "9ed64c87-f690-4a49-8455-6040cf043883")
+	)
+	(no_connect
+		(at 229.87 50.8)
+		(uuid "a0a3ed74-1ea3-4646-b0b8-b75502c28868")
+	)
+	(no_connect
+		(at 172.72 204.47)
+		(uuid "a0a75e82-238b-480a-9172-2b157b94f9cc")
+	)
+	(no_connect
+		(at 228.6 119.38)
+		(uuid "a12f4249-6fff-49fe-8e05-439986d91306")
+	)
+	(no_connect
+		(at 172.72 207.01)
+		(uuid "a180abc3-6acf-4b87-b717-f130d7fbb25d")
+	)
+	(no_connect
+		(at 288.29 144.78)
+		(uuid "a189824d-48ac-4fbb-99bf-7381f42e25db")
+	)
+	(no_connect
+		(at 111.76 223.52)
+		(uuid "a1db637e-48d3-4d0b-b7ea-75574fc7275c")
+	)
+	(no_connect
+		(at 317.5 82.55)
+		(uuid "a2589677-ea45-4812-90da-2acff20b918d")
+	)
+	(no_connect
+		(at 317.5 64.77)
+		(uuid "a29132cf-47c8-4b7a-b001-c395cf80f0ed")
+	)
+	(no_connect
+		(at 171.45 119.38)
+		(uuid "a2bf8f5b-35f3-4e5e-a9b7-9e11b67c317f")
+	)
+	(no_connect
+		(at 143.51 193.04)
+		(uuid "a383f9c8-e15f-4f31-ac69-326c7cb68c7d")
+	)
+	(no_connect
+		(at 113.03 123.19)
+		(uuid "a472ed69-9c28-4d07-948a-fa9febcf8d29")
+	)
+	(no_connect
+		(at 287.02 45.72)
+		(uuid "a5d7f837-17aa-4e16-b3f1-05277a505b0e")
+	)
+	(no_connect
+		(at 199.39 71.12)
+		(uuid "a704781d-d856-4ff7-b7cd-d603834bc7ea")
+	)
+	(no_connect
+		(at 318.77 134.62)
+		(uuid "a7d1dcad-cc25-44ed-a6d4-c3dd0840c65b")
+	)
+	(no_connect
+		(at 172.72 222.25)
+		(uuid "a7fe3d10-9acd-44c2-b0c4-f6baade2bb5b")
+	)
+	(no_connect
+		(at 317.5 59.69)
+		(uuid "a806cc0f-dcf1-4e17-a314-4cb59c256623")
+	)
+	(no_connect
+		(at 257.81 41.91)
+		(uuid "a9299ddc-904e-4b61-bc51-3ec4e45d3527")
+	)
+	(no_connect
+		(at 171.45 139.7)
+		(uuid "a97a84ad-6252-4327-b1ea-4811fb4c8012")
+	)
+	(no_connect
+		(at 287.02 73.66)
+		(uuid "a97d2352-50d4-45bf-915b-5639cde78dcc")
+	)
+	(no_connect
+		(at 317.5 85.09)
+		(uuid "aa82d621-f7a1-40d1-8a42-8e4b4c9a4ba9")
+	)
+	(no_connect
+		(at 288.29 124.46)
+		(uuid "ab7a7ac6-12ee-410d-87fb-19c570d4e7ee")
+	)
+	(no_connect
+		(at 144.78 148.59)
+		(uuid "abce7e46-b9cb-4545-9eca-3ea6423f777d")
+	)
+	(no_connect
+		(at 288.29 149.86)
+		(uuid "ac09b5d3-cfe7-40cb-bfca-a8a0b5fc1f4c")
+	)
+	(no_connect
+		(at 229.87 53.34)
+		(uuid "ac13b88e-f8b6-4a41-afce-144ad044abad")
+	)
+	(no_connect
+		(at 228.6 127)
+		(uuid "ac6c6082-0c73-42c6-8663-2c9e60af96d7")
+	)
+	(no_connect
+		(at 200.66 114.3)
+		(uuid "aca4613a-80c6-49e3-a4fb-2c65ad57209a")
+	)
+	(no_connect
+		(at 257.81 69.85)
+		(uuid "acba99fb-1f7f-40b3-a5e6-f789e3c17976")
+	)
+	(no_connect
+		(at 257.81 189.23)
+		(uuid "ad8d52df-707b-4082-91c2-e9d36a6947d5")
+	)
+	(no_connect
+		(at 228.6 132.08)
+		(uuid "ae7aa4d0-0aa7-468b-90a0-3ef402d8860d")
+	)
+	(no_connect
+		(at 228.6 129.54)
+		(uuid "aea4c1da-b40d-413f-b9f0-c421b857d3f5")
+	)
+	(no_connect
+		(at 171.45 152.4)
+		(uuid "aee3ce76-8c8a-41ce-b479-f37885f1d6d7")
+	)
+	(no_connect
+		(at 201.93 201.93)
+		(uuid "af0b47d2-1e2f-4e75-a87e-9f4efb17056e")
+	)
+	(no_connect
+		(at 231.14 198.12)
+		(uuid "b02668c0-bb7c-45e9-a4db-9454ae1ecd1a")
+	)
+	(no_connect
+		(at 318.77 139.7)
+		(uuid "b04944ed-d5a4-478a-a6c0-444f87848edc")
+	)
+	(no_connect
+		(at 172.72 232.41)
+		(uuid "b09bcac0-e045-4a48-971e-b5daecca4a75")
+	)
+	(no_connect
+		(at 171.45 121.92)
+		(uuid "b0ae7508-7758-4e16-b5b0-e6874276c20e")
+	)
+	(no_connect
+		(at 257.81 133.35)
+		(uuid "b13b1e95-213f-44a6-9d05-dbcb6925df81")
+	)
+	(no_connect
+		(at 144.78 48.26)
+		(uuid "b19d2122-3d6c-46c2-92dc-a1812c2e57c3")
+	)
+	(no_connect
+		(at 231.14 200.66)
+		(uuid "b3cb0d97-96cb-4303-a74c-a987765e60fb")
+	)
+	(no_connect
+		(at 114.3 83.82)
+		(uuid "b435419f-1838-42df-aed3-2a9332cd7b8c")
+	)
+	(no_connect
+		(at 288.29 132.08)
+		(uuid "b4ebebf9-b2c8-4844-b22b-38ff0f0ecc09")
+	)
+	(no_connect
+		(at 229.87 38.1)
+		(uuid "b569649d-4a42-4a91-876f-fbb1e5121053")
+	)
+	(no_connect
+		(at 114.3 73.66)
+		(uuid "b582fc8d-d432-4f4e-ba48-a37a6a599ff4")
+	)
+	(no_connect
+		(at 200.66 149.86)
+		(uuid "b6824295-b221-4e93-8c9e-af2ee0421835")
+	)
+	(no_connect
+		(at 170.18 40.64)
+		(uuid "b69e5b5e-cfb6-4b4c-bbd8-72157c03ed85")
+	)
+	(no_connect
+		(at 143.51 195.58)
+		(uuid "b6dc263c-29bc-4af2-b1b0-daff7ee3fb91")
+	)
+	(no_connect
+		(at 144.78 76.2)
+		(uuid "b71f1cc0-cce8-4b0b-aa4e-b04a144c2436")
+	)
+	(no_connect
+		(at 144.78 115.57)
+		(uuid "b733aaf2-19a5-4c32-829a-4cf5eb7563d5")
+	)
+	(no_connect
+		(at 229.87 66.04)
+		(uuid "b7438bcf-62d6-46f1-9158-5ef1949d3221")
+	)
+	(no_connect
+		(at 199.39 68.58)
+		(uuid "b8156719-0448-4095-aae3-9831cb24f420")
+	)
+	(no_connect
+		(at 170.18 71.12)
+		(uuid "b877119d-fcab-4492-8349-fe2272bd5380")
+	)
+	(no_connect
+		(at 170.18 60.96)
+		(uuid "b8be300c-5da5-4a09-b131-ae67af8b0356")
+	)
+	(no_connect
+		(at 200.66 129.54)
+		(uuid "b8d1b431-62a6-4dfd-9796-fdfd3f075b06")
+	)
+	(no_connect
+		(at 257.81 87.63)
+		(uuid "b931bc3e-6164-4c1e-8fd8-fef21e502b9c")
+	)
+	(no_connect
+		(at 172.72 214.63)
+		(uuid "b93e7810-38ed-42a5-974f-0d4269782b91")
+	)
+	(no_connect
+		(at 143.51 228.6)
+		(uuid "b9610e4f-bf34-4622-b4ce-08bb227a42ba")
+	)
+	(no_connect
+		(at 111.76 185.42)
+		(uuid "ba534581-21b4-406b-a96f-272a9383c123")
+	)
+	(no_connect
+		(at 320.04 190.5)
+		(uuid "bad6e13a-38c2-40a0-ade4-95258825bce2")
+	)
+	(no_connect
+		(at 114.3 48.26)
+		(uuid "bb28def7-f409-4e6b-ad7b-e1d6c7319a44")
+	)
+	(no_connect
+		(at 201.93 232.41)
+		(uuid "bb3fa36a-0eaa-4ffe-9d50-4001d6bbbfc5")
+	)
+	(no_connect
+		(at 144.78 53.34)
+		(uuid "bb97069c-89b6-4227-8e87-4eb7b99dcc32")
+	)
+	(no_connect
+		(at 111.76 226.06)
+		(uuid "bcf8be18-ba50-45c9-b80e-3c05cb168651")
+	)
+	(no_connect
+		(at 257.81 140.97)
+		(uuid "bd42500a-88da-4897-868f-6d3032ef79c6")
+	)
+	(no_connect
+		(at 170.18 81.28)
+		(uuid "be27e2f5-206c-4bec-a3a8-b1e256caf082")
+	)
+	(no_connect
+		(at 229.87 58.42)
+		(uuid "bea8b7f3-b779-46fe-b1c5-4eae42080e8a")
+	)
+	(no_connect
+		(at 114.3 78.74)
+		(uuid "bf0ff985-0ae5-4812-b390-8764a6c43bde")
+	)
+	(no_connect
+		(at 170.18 50.8)
+		(uuid "bf6ad108-b715-48e7-9a74-fca0b0f9773f")
+	)
+	(no_connect
+		(at 114.3 86.36)
+		(uuid "bf7bcdf9-8b9f-40d9-b1a0-5329cfa11453")
+	)
+	(no_connect
+		(at 171.45 162.56)
+		(uuid "bfb33415-a24a-4de6-8b5a-42dd69427741")
+	)
+	(no_connect
+		(at 200.66 132.08)
+		(uuid "c0137bfa-47ef-4e19-b99f-d1fbbc94dda9")
+	)
+	(no_connect
+		(at 201.93 194.31)
+		(uuid "c10d815d-42a2-40f2-9764-8546349c8fe1")
+	)
+	(no_connect
+		(at 229.87 86.36)
+		(uuid "c122ac24-8887-4399-a8ae-69d79f2faafd")
+	)
+	(no_connect
+		(at 257.81 138.43)
+		(uuid "c1b4f9ce-81cc-4af5-b930-9bed289c059f")
+	)
+	(no_connect
+		(at 257.81 204.47)
+		(uuid "c1d835ad-cf54-449e-8df9-5d13c0c27f3d")
+	)
+	(no_connect
+		(at 288.29 119.38)
+		(uuid "c21df380-e7a8-44a1-be56-ee62d1ef7136")
+	)
+	(no_connect
+		(at 172.72 194.31)
+		(uuid "c22c2274-3843-408b-a4e7-104ab999a6df")
+	)
+	(no_connect
+		(at 288.29 134.62)
+		(uuid "c2984ea6-bd39-45fd-8b46-65a8a3bc8078")
+	)
+	(no_connect
+		(at 318.77 127)
+		(uuid "c29a1aa7-76a6-4311-968e-634eef4b13ee")
+	)
+	(no_connect
+		(at 228.6 144.78)
+		(uuid "c2e9cebe-80fe-449b-856a-489306437219")
+	)
+	(no_connect
+		(at 200.66 127)
+		(uuid "c47708ff-e9d3-41c5-a563-6308d8d0f2ef")
+	)
+	(no_connect
+		(at 318.77 157.48)
+		(uuid "c5411982-af26-48bb-a1eb-977c226dacf7")
+	)
+	(no_connect
+		(at 257.81 52.07)
+		(uuid "c595a328-d943-45a2-8b52-9a299db590c8")
+	)
+	(no_connect
+		(at 228.6 152.4)
+		(uuid "c6032179-8a43-46db-b655-a85bc9f7f301")
+	)
+	(no_connect
+		(at 317.5 49.53)
+		(uuid "c6666ed4-848d-43d3-8411-7c13cc2e7959")
+	)
+	(no_connect
+		(at 320.04 218.44)
+		(uuid "c675e81b-6cb1-47ee-a919-915866970766")
+	)
+	(no_connect
+		(at 257.81 153.67)
+		(uuid "c7179282-4364-4691-be36-40a397dc7305")
+	)
+	(no_connect
+		(at 231.14 185.42)
+		(uuid "c71ad4ee-b324-4411-8bff-ec3e19155012")
+	)
+	(no_connect
+		(at 320.04 226.06)
+		(uuid "c76d0c23-4633-4b8b-895f-f3ac48aae579")
+	)
+	(no_connect
+		(at 288.29 129.54)
+		(uuid "c78b427f-b4f6-4294-b013-494f007449cf")
+	)
+	(no_connect
+		(at 257.81 82.55)
+		(uuid "c7fbca02-e7da-4360-9327-5fb2e6521018")
+	)
+	(no_connect
+		(at 320.04 205.74)
+		(uuid "c9f948bd-191c-4730-a4bf-7c05e8ec7383")
+	)
+	(no_connect
+		(at 231.14 231.14)
+		(uuid "ca08bcb1-da59-403f-820d-fdb2427fb406")
+	)
+	(no_connect
+		(at 231.14 203.2)
+		(uuid "cb895aa0-64ce-4f04-b72f-93f0ee7e87b5")
+	)
+	(no_connect
+		(at 318.77 124.46)
+		(uuid "cc3d92fe-b266-4003-8932-22ba58437e75")
+	)
+	(no_connect
+		(at 111.76 195.58)
+		(uuid "cce6be6b-6eca-4ee1-8b45-ec00b40f865a")
+	)
+	(no_connect
+		(at 231.14 187.96)
+		(uuid "cd01672a-accb-4253-a494-da5466c526d4")
+	)
+	(no_connect
+		(at 228.6 134.62)
+		(uuid "cd93aaa9-5593-456e-8912-4714ad6a8e86")
+	)
+	(no_connect
+		(at 201.93 219.71)
+		(uuid "cdaba31b-bbfe-4ecd-8a45-7cb78984ee5b")
+	)
+	(no_connect
+		(at 257.81 199.39)
+		(uuid "cf13d888-496a-48be-8799-93f380bb98b7")
+	)
+	(no_connect
+		(at 317.5 72.39)
+		(uuid "cf29267c-536a-4029-9d01-7593f7717ec8")
+	)
+	(no_connect
+		(at 199.39 78.74)
+		(uuid "cfbf375d-518a-4ca8-9be1-203c41f5f8c8")
+	)
+	(no_connect
+		(at 111.76 200.66)
+		(uuid "cfd4a2fb-85ff-4657-b7d1-f53eb4915fc9")
+	)
+	(no_connect
+		(at 318.77 152.4)
+		(uuid "d008dbaf-f1f2-43ff-ae1a-d5909d5413e7")
+	)
+	(no_connect
+		(at 171.45 160.02)
+		(uuid "d0a4e704-2f84-4a9b-a111-eb0053d390c9")
+	)
+	(no_connect
+		(at 231.14 226.06)
+		(uuid "d12c0177-851f-490f-8fa6-57b22cf9b3a0")
+	)
+	(no_connect
+		(at 144.78 120.65)
+		(uuid "d137f757-17d9-4371-b011-d161b39cbee0")
+	)
+	(no_connect
+		(at 320.04 233.68)
+		(uuid "d156d9a6-1f04-4e6c-8d56-fb0a69f9ed00")
+	)
+	(no_connect
+		(at 111.76 193.04)
+		(uuid "d1955165-7815-44f1-96e6-6f9a2d91f649")
+	)
+	(no_connect
+		(at 320.04 198.12)
+		(uuid "d2b028c7-6478-4dda-8f01-fc9aade11f12")
+	)
+	(no_connect
+		(at 317.5 77.47)
+		(uuid "d3549f45-4a05-4061-8a47-573fd8b87c6c")
+	)
+	(no_connect
+		(at 229.87 78.74)
+		(uuid "d36dbf56-9b8c-4336-b54a-89c47a6ffa59")
+	)
+	(no_connect
+		(at 287.02 43.18)
+		(uuid "d3ac1753-f430-42f6-9fd0-593381111e21")
+	)
+	(no_connect
+		(at 171.45 142.24)
+		(uuid "d3d7f07a-37ef-4017-83fa-30cf65f482fc")
+	)
+	(no_connect
+		(at 229.87 76.2)
+		(uuid "d4f25e0d-ec0f-49f2-bef5-a07228616a79")
+	)
+	(no_connect
+		(at 114.3 38.1)
+		(uuid "d55d2a0e-26c4-4786-9398-e5cfd3531588")
+	)
+	(no_connect
+		(at 172.72 212.09)
+		(uuid "d624e86b-546b-4beb-a1fd-38f326ac4c64")
+	)
+	(no_connect
+		(at 113.03 146.05)
+		(uuid "d64a2b2a-d195-4f0b-83d7-144b52af5bf0")
+	)
+	(no_connect
+		(at 229.87 63.5)
+		(uuid "d67f8be5-bb48-43c1-a5e3-83c8c467d1ee")
+	)
+	(no_connect
+		(at 144.78 161.29)
+		(uuid "d7163fd7-0778-4bea-8d26-411f79120317")
+	)
+	(no_connect
+		(at 287.02 88.9)
+		(uuid "d72539b2-2421-4112-997b-c1c091a68198")
+	)
+	(no_connect
+		(at 229.87 68.58)
+		(uuid "d743c302-2c26-402b-a446-776cabcf16f4")
+	)
+	(no_connect
+		(at 113.03 161.29)
+		(uuid "d764c3ae-785b-4697-927a-31bc6d7a5c92")
+	)
+	(no_connect
+		(at 201.93 209.55)
+		(uuid "d825494f-a1b7-4102-9ec3-a6b4c51091c7")
+	)
+	(no_connect
+		(at 288.29 147.32)
+		(uuid "d86db45d-e471-48af-bdb7-969f06746ddc")
+	)
+	(no_connect
+		(at 287.02 60.96)
+		(uuid "d97b788d-302c-4cfe-810a-f4ad1902ae5e")
+	)
+	(no_connect
+		(at 287.02 48.26)
+		(uuid "da5207ba-0c80-4f1d-8ec1-6e8b350e3480")
+	)
+	(no_connect
+		(at 257.81 72.39)
+		(uuid "da67a04b-7577-4baa-9014-35fdfec358cb")
+	)
+	(no_connect
+		(at 171.45 127)
+		(uuid "dad6e87f-1e10-4e58-8095-da5b453bd916")
+	)
+	(no_connect
+		(at 170.18 43.18)
+		(uuid "db2bc3b6-492f-4c93-bf00-99ab9a8021a3")
+	)
+	(no_connect
+		(at 114.3 63.5)
+		(uuid "db51dfc5-6ecc-4ccf-94d7-3d4fd521f112")
+	)
+	(no_connect
+		(at 170.18 48.26)
+		(uuid "dba013a0-fb39-43c1-b719-87cbead81eb4")
+	)
+	(no_connect
+		(at 257.81 77.47)
+		(uuid "dbc2f12a-e6e2-4135-b284-25e0a9fc4e8d")
+	)
+	(no_connect
+		(at 257.81 214.63)
+		(uuid "dc16df9c-8ccf-484c-821f-5ffd36b14eb3")
+	)
+	(no_connect
+		(at 318.77 144.78)
+		(uuid "dc93b983-0c6e-4103-9400-8ed2791bb8db")
+	)
+	(no_connect
+		(at 317.5 57.15)
+		(uuid "dce151da-cedf-4cf1-858d-f2818ae5e441")
+	)
+	(no_connect
+		(at 144.78 60.96)
+		(uuid "dcfb634a-17d4-4350-b215-17b4c2db9509")
+	)
+	(no_connect
+		(at 257.81 125.73)
+		(uuid "ddc71bc6-6f2a-4001-9d2b-679583f8ad56")
+	)
+	(no_connect
+		(at 171.45 154.94)
+		(uuid "de169ded-a367-45db-8dfc-ec802d76a10d")
+	)
+	(no_connect
+		(at 172.72 191.77)
+		(uuid "de406cbc-b3df-4498-b4b4-ca84fad92caa")
+	)
+	(no_connect
+		(at 231.14 220.98)
+		(uuid "df8334d8-a884-4a83-8a7b-017f03f8f78e")
+	)
+	(no_connect
+		(at 170.18 38.1)
+		(uuid "dfbcf944-efa6-454d-84ea-fa71ad71ee15")
+	)
+	(no_connect
+		(at 257.81 85.09)
+		(uuid "e00f07dd-602e-4b7e-822c-b25df4533d4e")
+	)
+	(no_connect
+		(at 317.5 62.23)
+		(uuid "e0718adb-d02b-4516-b323-8abfa72effe7")
+	)
+	(no_connect
+		(at 144.78 118.11)
+		(uuid "e1d11931-c95d-4e1e-b145-d5c6bec839fd")
+	)
+	(no_connect
+		(at 111.76 228.6)
+		(uuid "e2927fd1-df71-4ae9-9b47-8f1f0502b131")
+	)
+	(no_connect
+		(at 231.14 228.6)
+		(uuid "e2c0d213-878e-460d-892f-fe0fc908ddf4")
+	)
+	(no_connect
+		(at 231.14 213.36)
+		(uuid "e2db976c-3b7a-4f6e-ad16-90685e531370")
+	)
+	(no_connect
+		(at 320.04 220.98)
+		(uuid "e36af1de-4c27-4848-90f4-43378a0906ef")
+	)
+	(no_connect
+		(at 113.03 143.51)
+		(uuid "e384db0a-f729-4bc1-bc36-385927f48fb5")
+	)
+	(no_connect
+		(at 317.5 41.91)
+		(uuid "e3cb34db-c58b-4dab-aa5b-b7b2e81bcf7a")
+	)
+	(no_connect
+		(at 318.77 119.38)
+		(uuid "e50c8841-f3e2-4897-a3cd-d9ecdd92738b")
+	)
+	(no_connect
+		(at 289.56 196.85)
+		(uuid "e518a3a4-d627-41c2-a145-5f21b3536d49")
+	)
+	(no_connect
+		(at 320.04 200.66)
+		(uuid "e6c95c3f-6e50-4d00-a714-0c26b2cb50ea")
+	)
+	(no_connect
+		(at 144.78 71.12)
+		(uuid "e706f9cd-e440-4cf0-8e5c-33a5efd7e5c2")
+	)
+	(no_connect
+		(at 228.6 139.7)
+		(uuid "e82dcdfe-b12a-4d9b-96cc-a2d9d4c490fd")
+	)
+	(no_connect
+		(at 113.03 135.89)
+		(uuid "e866c3df-fbf9-4a94-81c8-7844e0693669")
+	)
+	(no_connect
+		(at 318.77 137.16)
+		(uuid "e8be8114-fe0c-484c-940b-df37b6266b72")
+	)
+	(no_connect
+		(at 111.76 210.82)
+		(uuid "e9382792-55e7-4878-b66e-bdc291f4b5c9")
+	)
+	(no_connect
+		(at 228.6 121.92)
+		(uuid "ea100b3e-b194-4c43-b3d0-1db282009fd1")
+	)
+	(no_connect
+		(at 229.87 83.82)
+		(uuid "ead4e9d9-3cc7-4d35-baa0-fbf3a7e4a699")
+	)
+	(no_connect
+		(at 318.77 149.86)
+		(uuid "eb3df1ed-a8c0-46a8-b35a-b4595fe8a88b")
+	)
+	(no_connect
+		(at 289.56 189.23)
+		(uuid "ebe281a6-4757-40cf-a718-5445d57f1d19")
+	)
+	(no_connect
+		(at 201.93 222.25)
+		(uuid "ec43bdaf-7775-4c5b-97c9-19f58e3be763")
+	)
+	(no_connect
+		(at 144.78 133.35)
+		(uuid "ec45fd5b-3ca5-45e9-a3b9-cda88ec40454")
+	)
+	(no_connect
+		(at 257.81 118.11)
+		(uuid "ec51e729-711f-421f-9231-1f69b4a6104f")
+	)
+	(no_connect
+		(at 113.03 140.97)
+		(uuid "ecaebb7e-f39b-45e8-ab3c-8c30ba44accd")
+	)
+	(no_connect
+		(at 257.81 146.05)
+		(uuid "eec2aeb4-3857-471e-9cea-bcfb9aa1f4f4")
+	)
+	(no_connect
+		(at 289.56 191.77)
+		(uuid "ef2393f9-b81d-45c7-8eba-6f4ea9bcd48e")
+	)
+	(no_connect
+		(at 199.39 38.1)
+		(uuid "f0269428-7780-45a2-a9dd-6ff0aab61cbd")
+	)
+	(no_connect
+		(at 144.78 153.67)
+		(uuid "f02a21ba-ca9d-4bcb-b521-49ef1ffc8cd2")
+	)
+	(no_connect
+		(at 170.18 66.04)
+		(uuid "f044e67e-59d1-401b-bff2-82dc0114ca2d")
+	)
+	(no_connect
+		(at 199.39 83.82)
+		(uuid "f04ba190-229a-4846-bb26-f193e94570d3")
+	)
+	(no_connect
+		(at 320.04 215.9)
+		(uuid "f0a7771e-0b95-4b8d-8aa5-2040377a2932")
+	)
+	(no_connect
+		(at 144.78 130.81)
+		(uuid "f0b617e6-cda6-479d-86a7-06e2409494d0")
+	)
+	(no_connect
+		(at 289.56 194.31)
+		(uuid "f11bbb59-f0b1-43db-b5ef-8fb7376e028c")
+	)
+	(no_connect
+		(at 200.66 137.16)
+		(uuid "f179f844-58b3-4df9-ac54-d7f40bf90014")
+	)
+	(no_connect
+		(at 201.93 184.15)
+		(uuid "f17cdab0-fad2-462d-a56e-41d691407de1")
+	)
+	(no_connect
+		(at 143.51 198.12)
+		(uuid "f1d0527b-8cb5-47c8-87d1-dcc005f28f79")
+	)
+	(no_connect
+		(at 144.78 78.74)
+		(uuid "f260af0e-07af-44f7-b09b-fe78d48490ed")
+	)
+	(no_connect
+		(at 228.6 149.86)
+		(uuid "f26c7e42-b966-47fd-8c31-49d1c247112d")
+	)
+	(no_connect
+		(at 318.77 116.84)
+		(uuid "f3eeaa82-e162-4307-b3be-89e35de0bf34")
+	)
+	(no_connect
+		(at 287.02 81.28)
+		(uuid "f40900db-9840-4fce-ab45-104415597a35")
+	)
+	(no_connect
+		(at 201.93 204.47)
+		(uuid "f4203790-7310-4562-80a2-30b0f286ab6a")
+	)
+	(no_connect
+		(at 289.56 217.17)
+		(uuid "f45693cb-dfad-41a9-a1e9-c977f642239d")
+	)
+	(no_connect
+		(at 144.78 86.36)
+		(uuid "f488118c-07f2-4f7c-9396-25bb2b00e60b")
+	)
+	(no_connect
+		(at 172.72 201.93)
+		(uuid "f55eafd4-83b1-4af3-acbe-8c93ae156fc3")
+	)
+	(no_connect
+		(at 114.3 66.04)
+		(uuid "f572bae8-445d-4a1d-9021-bcb99e7f3a90")
+	)
+	(no_connect
+		(at 199.39 76.2)
+		(uuid "f5f89e05-2215-4852-81d8-e9e900c72a2c")
+	)
+	(no_connect
+		(at 172.72 219.71)
+		(uuid "f64c6b26-be56-463f-b7ce-30e585cdf74c")
+	)
+	(no_connect
+		(at 287.02 76.2)
+		(uuid "f6d1e725-933c-4ca2-a047-30c84db13c5c")
+	)
+	(no_connect
+		(at 257.81 54.61)
+		(uuid "f6ffa7a0-20eb-4b71-bde7-cf193f5967cd")
+	)
+	(no_connect
+		(at 231.14 233.68)
+		(uuid "f756327c-a63a-46ce-b6c9-638656ab13d1")
+	)
+	(no_connect
+		(at 200.66 152.4)
+		(uuid "f792bcb0-ba18-42a2-91d0-19f76642c9f1")
+	)
+	(no_connect
+		(at 287.02 71.12)
+		(uuid "f86105e9-aaa5-4dba-8661-29fe203d6e66")
+	)
+	(no_connect
+		(at 143.51 215.9)
+		(uuid "f940e9ce-b2af-4588-92ea-99686fc5d29e")
+	)
+	(no_connect
+		(at 289.56 224.79)
+		(uuid "f9820198-b84e-4591-9990-315756fa3974")
+	)
+	(no_connect
+		(at 171.45 157.48)
+		(uuid "fb3cf771-2702-4a74-ab94-123d334a47d8")
+	)
+	(no_connect
+		(at 318.77 142.24)
+		(uuid "fb800ad3-3924-4dce-99ac-b8dcd39b873e")
+	)
+	(no_connect
+		(at 318.77 129.54)
+		(uuid "ffe88404-e0c6-432f-a675-39d62a87ae71")
+	)
+	(wire
+		(pts
+			(xy 173.99 170.18) (xy 173.99 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "038f55b5-071e-4125-8800-358a497c2d90")
+	)
+	(wire
+		(pts
+			(xy 289.56 96.52) (xy 289.56 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c888ce-4a46-465d-a220-a9b00a223cec")
+	)
+	(wire
+		(pts
+			(xy 260.35 95.25) (xy 257.81 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087295b9-660e-4bad-94ab-fd109385f604")
+	)
+	(wire
+		(pts
+			(xy 175.26 240.03) (xy 172.72 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09c73d46-b9b8-4457-b454-8a32a72a7a68")
+	)
+	(wire
+		(pts
+			(xy 201.93 96.52) (xy 201.93 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bed4c14-e0b9-4bef-b226-c3f221d4cf16")
+	)
+	(wire
+		(pts
+			(xy 260.35 92.71) (xy 257.81 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c92097c-f351-4bd5-a154-d535efa6b7d9")
+	)
+	(wire
+		(pts
+			(xy 233.68 241.3) (xy 231.14 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f11ff43-75be-4dd1-8aa2-a5bebb6206df")
+	)
+	(wire
+		(pts
+			(xy 260.35 171.45) (xy 260.35 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10328aa4-3a8a-4133-b66c-36ddac3efc50")
+	)
+	(wire
+		(pts
+			(xy 320.04 95.25) (xy 320.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11721410-6710-4ae9-89fc-53d7657b7a5a")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1654fc9e-de0a-4bf2-93db-e059ed2d852f")
+	)
+	(wire
+		(pts
+			(xy 233.68 243.84) (xy 233.68 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "171b9665-68c8-4776-b72c-dc77cde3cfee")
+	)
+	(wire
+		(pts
+			(xy 231.14 167.64) (xy 228.6 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5927ad-09a5-440c-9139-c287ee964164")
+	)
+	(wire
+		(pts
+			(xy 260.35 242.57) (xy 260.35 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23bbdef5-57b4-45fb-bc78-b40a612901d3")
+	)
+	(wire
+		(pts
+			(xy 260.35 245.11) (xy 260.35 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28f2f1d8-ef68-4134-a158-88932b39daa2")
+	)
+	(wire
+		(pts
+			(xy 233.68 241.3) (xy 233.68 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e961e19-16f9-4996-ac35-e630f15e3d3d")
+	)
+	(wire
+		(pts
+			(xy 260.35 166.37) (xy 257.81 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39afe5d6-2dd2-479d-869a-e785af0ae945")
+	)
+	(wire
+		(pts
+			(xy 146.05 238.76) (xy 143.51 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb22189-eef0-4864-95b4-528b417dd913")
+	)
+	(wire
+		(pts
+			(xy 204.47 242.57) (xy 204.47 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d08dbd8-cf3c-4954-ba65-709571afd093")
+	)
+	(wire
+		(pts
+			(xy 260.35 168.91) (xy 257.81 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e8132ca-2222-4f39-b1ca-57a5af7638e7")
+	)
+	(wire
+		(pts
+			(xy 175.26 242.57) (xy 172.72 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fd1203a-ba72-42bd-b4ab-8080b804aa9d")
+	)
+	(wire
+		(pts
+			(xy 172.72 93.98) (xy 170.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "424716a8-af57-4833-9b22-9f9fec011519")
+	)
+	(wire
+		(pts
+			(xy 322.58 243.84) (xy 320.04 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a4e6bf-63b2-4ff3-ba8f-8668d561eff3")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 147.32 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49b3c037-b56c-41b5-bb55-33423f6105a4")
+	)
+	(wire
+		(pts
+			(xy 146.05 243.84) (xy 146.05 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ab65894-9308-4dac-ad28-a8625f1a3b96")
+	)
+	(wire
+		(pts
+			(xy 260.35 97.79) (xy 260.35 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cebe5c1-0cd9-4c37-a9a4-30dfbe86e61f")
+	)
+	(wire
+		(pts
+			(xy 147.32 168.91) (xy 144.78 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fe80cd8-df27-42e4-82f8-4e3234626036")
+	)
+	(wire
+		(pts
+			(xy 260.35 95.25) (xy 260.35 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "524cd32b-12e7-492e-a2a6-493650a3f3b0")
+	)
+	(wire
+		(pts
+			(xy 203.2 167.64) (xy 203.2 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54183fcf-6f92-4867-b591-ba7e7fce609c")
+	)
+	(wire
+		(pts
+			(xy 201.93 93.98) (xy 199.39 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564d8fd9-d1c4-4436-8f8c-4c808e59339f")
+	)
+	(wire
+		(pts
+			(xy 116.84 96.52) (xy 116.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58a5057d-7672-40e2-b280-ad5cf3189b7d")
+	)
+	(wire
+		(pts
+			(xy 175.26 245.11) (xy 175.26 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58cd24ed-6475-4940-8822-f3721c87a136")
+	)
+	(wire
+		(pts
+			(xy 173.99 170.18) (xy 171.45 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f5f5fc-69f8-4045-8ca1-67e532623033")
+	)
+	(wire
+		(pts
+			(xy 173.99 172.72) (xy 173.99 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c0e7ef0-bbe9-48bc-9568-c0bac8f1b035")
+	)
+	(wire
+		(pts
+			(xy 232.41 93.98) (xy 232.41 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d21d791-3d5b-4dc8-8d78-ee3d4ab677cf")
+	)
+	(wire
+		(pts
+			(xy 320.04 97.79) (xy 320.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e3f3b5d-9262-4f91-be76-8dd40e402e27")
+	)
+	(wire
+		(pts
+			(xy 292.1 245.11) (xy 292.1 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5eaaa888-b20c-411c-a3cc-92656e11cecb")
+	)
+	(wire
+		(pts
+			(xy 115.57 168.91) (xy 115.57 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619746a3-4729-4b32-8a46-f1dd02bb8854")
+	)
+	(wire
+		(pts
+			(xy 147.32 96.52) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63569659-6453-4734-9fc4-7da57eb93df3")
+	)
+	(wire
+		(pts
+			(xy 201.93 93.98) (xy 201.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ad8832-ee02-4c54-aa2d-ac97e01d10df")
+	)
+	(wire
+		(pts
+			(xy 147.32 171.45) (xy 147.32 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f8d37a-84f3-4fd9-9b5c-3922e7da1819")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 114.3 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65ffc207-e92b-4007-8c47-707c10fd3562")
+	)
+	(wire
+		(pts
+			(xy 173.99 167.64) (xy 171.45 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6adb059b-550f-4fb3-a39e-ca1da7dc4590")
+	)
+	(wire
+		(pts
+			(xy 260.35 168.91) (xy 260.35 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e9acde4-70e9-448a-b799-a45f7b89c036")
+	)
+	(wire
+		(pts
+			(xy 290.83 170.18) (xy 290.83 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f094252-f93d-4637-9f1f-a76e0248b54a")
+	)
+	(wire
+		(pts
+			(xy 289.56 96.52) (xy 287.02 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70d5750c-3dfb-48be-a8cd-46653656222a")
+	)
+	(wire
+		(pts
+			(xy 292.1 240.03) (xy 289.56 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "770ba4e8-9597-43a3-b687-d22f5b248256")
+	)
+	(wire
+		(pts
+			(xy 290.83 172.72) (xy 290.83 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80133804-68cb-4f6f-9032-7be7cdb49572")
+	)
+	(wire
+		(pts
+			(xy 322.58 243.84) (xy 322.58 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8086319c-f363-4fbe-a55d-24867368db42")
+	)
+	(wire
+		(pts
+			(xy 115.57 171.45) (xy 115.57 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823d72a0-a010-4e71-a815-3febd04e7014")
+	)
+	(wire
+		(pts
+			(xy 172.72 91.44) (xy 170.18 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83bbcad5-d38d-456f-9df6-e71381e2737f")
+	)
+	(wire
+		(pts
+			(xy 321.31 170.18) (xy 318.77 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b85593-afa1-4000-8453-60cf4a607bc3")
+	)
+	(wire
+		(pts
+			(xy 289.56 93.98) (xy 287.02 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85fba7ec-2184-4402-919a-b03917156f45")
+	)
+	(wire
+		(pts
+			(xy 203.2 170.18) (xy 203.2 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87697acd-7405-4a03-94a9-844e305f68cf")
+	)
+	(wire
+		(pts
+			(xy 260.35 240.03) (xy 257.81 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e83d98a-35d4-47ff-afe3-3afbc1f8c8c4")
+	)
+	(wire
+		(pts
+			(xy 232.41 91.44) (xy 229.87 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc548b4-d2cd-4af9-8fe6-60b808234941")
+	)
+	(wire
+		(pts
+			(xy 322.58 246.38) (xy 322.58 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96139d36-c3fa-4759-a5ff-1628a8d5e170")
+	)
+	(wire
+		(pts
+			(xy 115.57 166.37) (xy 113.03 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96242d78-742e-4be0-a4f9-42d61354a3ea")
+	)
+	(wire
+		(pts
+			(xy 147.32 91.44) (xy 144.78 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b89c0b-a35f-45db-b620-ee45a0f9bbc8")
+	)
+	(wire
+		(pts
+			(xy 290.83 167.64) (xy 288.29 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989cb371-02c2-46fc-97a0-1e0f8705d55a")
+	)
+	(wire
+		(pts
+			(xy 147.32 93.98) (xy 144.78 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c55f3d1-3ff9-49e1-bd18-c2c8cdd8df6e")
+	)
+	(wire
+		(pts
+			(xy 147.32 168.91) (xy 147.32 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cfc634d-54a6-481a-9fb8-3a0a5d92a422")
+	)
+	(wire
+		(pts
+			(xy 321.31 172.72) (xy 321.31 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a21bc09e-af92-4bc0-b252-0c7978bbee22")
+	)
+	(wire
+		(pts
+			(xy 204.47 240.03) (xy 204.47 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a415114a-2ddf-45d6-beb5-cffab74526e1")
+	)
+	(wire
+		(pts
+			(xy 289.56 99.06) (xy 289.56 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f139bf-4c50-480d-8d01-6caa1f985a51")
+	)
+	(wire
+		(pts
+			(xy 231.14 170.18) (xy 231.14 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac467ebf-c744-4aaa-bfe4-640614d23fb5")
+	)
+	(wire
+		(pts
+			(xy 175.26 242.57) (xy 175.26 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad3a74c4-0752-40c6-96b9-5b0af8cd74f7")
+	)
+	(wire
+		(pts
+			(xy 146.05 241.3) (xy 143.51 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b14d048b-2436-4d8b-9ce1-96ada168fea8")
+	)
+	(wire
+		(pts
+			(xy 231.14 165.1) (xy 228.6 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66c1c71-d4c6-4fc7-8e90-d37d0c54d8f8")
+	)
+	(wire
+		(pts
+			(xy 115.57 168.91) (xy 113.03 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b69358fe-b957-49d0-8cf4-455cd2708e81")
+	)
+	(wire
+		(pts
+			(xy 292.1 242.57) (xy 292.1 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6e3c8ca-2c13-4018-8c41-c6f6898d3c20")
+	)
+	(wire
+		(pts
+			(xy 114.3 236.22) (xy 111.76 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb628f71-b3c7-4d05-804b-cbfb71d0ffba")
+	)
+	(wire
+		(pts
+			(xy 203.2 165.1) (xy 200.66 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c08aaf87-170b-4ad9-91dc-24145d3b2114")
+	)
+	(wire
+		(pts
+			(xy 116.84 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c473256b-9965-43fb-a94e-cc8818edaaef")
+	)
+	(wire
+		(pts
+			(xy 320.04 92.71) (xy 317.5 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c489bdb5-58aa-4086-9213-9d13d9b2e5ee")
+	)
+	(wire
+		(pts
+			(xy 146.05 241.3) (xy 146.05 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80e7929-d230-41cf-95cc-fce20dec49e9")
+	)
+	(wire
+		(pts
+			(xy 290.83 170.18) (xy 288.29 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca28e17c-7dd7-4353-8f8a-215a1a85ce6c")
+	)
+	(wire
+		(pts
+			(xy 231.14 167.64) (xy 231.14 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca882f6c-d14e-4e42-ad72-af9d9c28b392")
+	)
+	(wire
+		(pts
+			(xy 172.72 96.52) (xy 172.72 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca9488d6-bf0c-46cb-9a9c-7a21a87d3f39")
+	)
+	(wire
+		(pts
+			(xy 114.3 241.3) (xy 114.3 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa0d027-00bb-4e4f-9534-bab49f3fe30b")
+	)
+	(wire
+		(pts
+			(xy 201.93 91.44) (xy 199.39 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfe58701-ae02-4908-b918-855498ae6d88")
+	)
+	(wire
+		(pts
+			(xy 321.31 167.64) (xy 318.77 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fd30ff-db46-447b-acce-023c452add9a")
+	)
+	(wire
+		(pts
+			(xy 292.1 242.57) (xy 289.56 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d351304b-793c-43dd-bf11-288a57e1c902")
+	)
+	(wire
+		(pts
+			(xy 321.31 170.18) (xy 321.31 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6722a31-b6e2-4ba9-91a6-91f3da18184e")
+	)
+	(wire
+		(pts
+			(xy 114.3 238.76) (xy 111.76 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d78ce819-48b9-48b2-911e-8f207a1677ac")
+	)
+	(wire
+		(pts
+			(xy 233.68 238.76) (xy 231.14 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1af32db-dcd2-4ac2-8c18-550be6b08f3c")
+	)
+	(wire
+		(pts
+			(xy 232.41 93.98) (xy 229.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e28b91c6-73f1-4d93-9781-60acbf3a47fe")
+	)
+	(wire
+		(pts
+			(xy 147.32 166.37) (xy 144.78 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8839b83-52fb-4616-bc86-c0f15633a7e4")
+	)
+	(wire
+		(pts
+			(xy 203.2 167.64) (xy 200.66 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed33d5b-f2e3-4a35-8f28-d69c8eed5d4d")
+	)
+	(wire
+		(pts
+			(xy 232.41 96.52) (xy 232.41 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef74e6a8-bbdd-4e95-abdd-10417b6af204")
+	)
+	(wire
+		(pts
+			(xy 204.47 240.03) (xy 201.93 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1279028-621d-44ca-9375-83459ba4f0fb")
+	)
+	(wire
+		(pts
+			(xy 320.04 95.25) (xy 317.5 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6baed46-014b-469e-83f4-b862f2676043")
+	)
+	(wire
+		(pts
+			(xy 260.35 242.57) (xy 257.81 242.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc10e91c-f0ef-4797-8e63-4ffb1eb904b1")
+	)
+	(wire
+		(pts
+			(xy 116.84 93.98) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd17feac-5ada-471a-8051-5e9db229f8e7")
+	)
+	(wire
+		(pts
+			(xy 204.47 237.49) (xy 201.93 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc5d51b-8011-4979-9ffb-c829896b3a3c")
+	)
+	(wire
+		(pts
+			(xy 114.3 238.76) (xy 114.3 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe44e595-80a2-428a-835a-323b54a8d519")
+	)
+	(wire
+		(pts
+			(xy 322.58 241.3) (xy 320.04 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee887b1-1d7f-46b4-97d1-87d90cb2fbb5")
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 106.68 231.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "107e3965-3ba6-491d-bea9-a86aa8c93cd8")
+		(property "Reference" "CF4.1"
+			(at 104.14 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 104.14 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 111.76 290.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 109.22 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ef986699-cf91-467e-a6c0-28425b5404b9")
+		)
+		(pin "10"
+			(uuid "8b9c9b35-293b-4ecb-af1e-6ada804ab560")
+		)
+		(pin "11"
+			(uuid "960adfe3-986d-43ad-9ae2-15443fcc5662")
+		)
+		(pin "12"
+			(uuid "4912b240-73d3-4f49-a940-25203a3b5ce6")
+		)
+		(pin "13"
+			(uuid "7338a126-7260-43b1-8808-d59af1c6c74a")
+		)
+		(pin "14"
+			(uuid "8a433ef4-08c9-4df4-a5dd-e7691f04e903")
+		)
+		(pin "15"
+			(uuid "bc1d0af4-95fb-474b-ad11-df7460848e2f")
+		)
+		(pin "16"
+			(uuid "1f4a8a6c-b546-4931-a51f-5b0513fcf1ed")
+		)
+		(pin "17"
+			(uuid "5e1ce198-76c4-4b51-93ee-a557a72f16d5")
+		)
+		(pin "18"
+			(uuid "930e29ba-6b36-408d-aa83-ce861b7e84a5")
+		)
+		(pin "19"
+			(uuid "bd6b47e3-396d-4cd3-a19b-25841cde2a16")
+		)
+		(pin "2"
+			(uuid "792c24d0-563f-4de9-8756-ea31b8d58187")
+		)
+		(pin "20"
+			(uuid "5cf69842-e4ba-4b12-a78e-81ecb5a4f285")
+		)
+		(pin "3"
+			(uuid "d48c0638-cb77-4d4c-87b6-5e9896fe2226")
+		)
+		(pin "4"
+			(uuid "568aea68-8b41-4bfc-918e-02c3b2b56a7b")
+		)
+		(pin "5"
+			(uuid "c27477b5-6090-4ef6-8058-a6fa79efef2f")
+		)
+		(pin "6"
+			(uuid "82b0b42f-85eb-4655-8976-c81c0cd90628")
+		)
+		(pin "7"
+			(uuid "eac98177-8f4e-40b2-a71a-685dc91f4b3e")
+		)
+		(pin "8"
+			(uuid "dfbc6d96-9157-4a68-9c0b-881e8c278e02")
+		)
+		(pin "9"
+			(uuid "9fb19b88-62b6-44a2-b320-efc8ccecce24")
+		)
+		(pin "LC1"
+			(uuid "08e79b77-b788-4603-a1db-cceccdfe048d")
+		)
+		(pin "LC2"
+			(uuid "2e6e0048-3333-40b4-a25b-86c7638027c8")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF4.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 241.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "15b58642-a759-4225-a2ee-097bfd749b30")
+		(property "Reference" "#GND0161"
+			(at 114.3 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 114.3 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6a8ac6e2-7a69-4f01-857c-a4d0dab3fd46")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND0161")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 109.22 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d3cab2d-d1ef-4967-b2ac-94bb83cba639")
+		(property "Reference" "CF2.1"
+			(at 106.045 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 106.045 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 114.3 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 111.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50fe513a-550e-4e47-b3e6-31ef45e7540b")
+		)
+		(pin "10"
+			(uuid "4d93d894-3acc-4772-b11e-f2380502da97")
+		)
+		(pin "11"
+			(uuid "32ca40fa-c4c1-4da9-acb3-70b6fcb42f3a")
+		)
+		(pin "12"
+			(uuid "2f854e43-186a-44f6-938d-0eb09d198e0f")
+		)
+		(pin "13"
+			(uuid "f321e051-b899-48c9-9ea5-4be1306c8bfd")
+		)
+		(pin "14"
+			(uuid "abb424cf-3fa2-48d4-ab30-27d723ee13a8")
+		)
+		(pin "15"
+			(uuid "93d8d14f-aab5-41a6-9647-a0e827a4ea9c")
+		)
+		(pin "16"
+			(uuid "90cbda24-d19c-488d-bdb2-92a07274b37c")
+		)
+		(pin "17"
+			(uuid "115ed1e8-17ca-46bb-8fc1-0c1db5d100d9")
+		)
+		(pin "18"
+			(uuid "c5ed6eaa-dd5b-4e88-b68b-452336a2278c")
+		)
+		(pin "19"
+			(uuid "2b7efec8-dbd3-4ee6-82fb-88b07235d0a9")
+		)
+		(pin "2"
+			(uuid "5460bba3-b0bf-43e0-b8bd-9b448dc961ba")
+		)
+		(pin "20"
+			(uuid "aa8c1c82-8732-43ec-92af-125c36e3937d")
+		)
+		(pin "3"
+			(uuid "fa541693-ed65-4e12-a1f2-07893670f94d")
+		)
+		(pin "4"
+			(uuid "22bb98be-71d0-4714-b6e4-81dc59e6a56b")
+		)
+		(pin "5"
+			(uuid "ab8e860a-d5e7-46e6-831d-89b2b897e400")
+		)
+		(pin "6"
+			(uuid "e5085514-ccc7-4d18-aadc-f45c370232fa")
+		)
+		(pin "7"
+			(uuid "389c37e5-810d-4706-970e-e25d429f758c")
+		)
+		(pin "8"
+			(uuid "af5d0e9d-8d65-44b9-903f-59489c53f422")
+		)
+		(pin "9"
+			(uuid "3c74f3b7-337e-4490-977b-3a3a3d8f5cbd")
+		)
+		(pin "LC1"
+			(uuid "37803bc4-f0c6-45f5-aea9-c7c55e00845f")
+		)
+		(pin "LC2"
+			(uuid "73620a2b-4b42-4bce-a229-cdd6c4e3eebf")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF2.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 320.04 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "21de9fda-20f9-41b1-967c-dcde400fa8a0")
+		(property "Reference" "#GND041"
+			(at 320.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 320.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 320.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 320.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 320.04 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad01addd-801e-4acf-b030-d5129f18340f")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 224.79 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29cf333d-d526-43fd-ac65-37a45c60a3e4")
+		(property "Reference" "CF17.1"
+			(at 222.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 222.25 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 229.87 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 227.33 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e24019d4-740a-43e8-9ccc-32d146637606")
+		)
+		(pin "10"
+			(uuid "b7f5ab9e-a3a9-4234-ac6d-b155a5e64dc9")
+		)
+		(pin "11"
+			(uuid "84a734ab-7d27-4218-9b55-53b6cec46424")
+		)
+		(pin "12"
+			(uuid "fbcad46b-6c16-4b11-a8bc-75159ae7b9c9")
+		)
+		(pin "13"
+			(uuid "611e1784-50ca-48d4-808c-b303f1e9421b")
+		)
+		(pin "14"
+			(uuid "04b8f45b-3cfc-4e56-8be3-2ccc1e086f05")
+		)
+		(pin "15"
+			(uuid "3cd64759-0efc-4f2a-8b3e-bb9ee5459715")
+		)
+		(pin "16"
+			(uuid "878bf0cb-2ea4-450c-ab46-d8c85a062a94")
+		)
+		(pin "17"
+			(uuid "ab89b116-b1fa-4c0b-aa05-3243c5621383")
+		)
+		(pin "18"
+			(uuid "2f25e3fd-c821-450b-8cdc-f4641e12d567")
+		)
+		(pin "19"
+			(uuid "d1d8c4f6-831c-4e74-b9d2-24022165079e")
+		)
+		(pin "2"
+			(uuid "04baf97e-bb1d-41b0-b9f5-53fda6e13f1e")
+		)
+		(pin "20"
+			(uuid "97098860-61df-461d-9041-f3e17e86c4e0")
+		)
+		(pin "3"
+			(uuid "352731f2-ff64-4742-a015-2ddd63c6bc40")
+		)
+		(pin "4"
+			(uuid "ff753835-134e-43d9-93da-c1393816a88a")
+		)
+		(pin "5"
+			(uuid "422aa078-c2e5-4f64-92fe-505bf2e6968c")
+		)
+		(pin "6"
+			(uuid "468b836b-7880-430c-8df1-52052c5274f2")
+		)
+		(pin "7"
+			(uuid "0c2304d3-8ef1-475b-a0ed-656c8b04d502")
+		)
+		(pin "8"
+			(uuid "10e7b496-6b7d-476e-b21f-68d6853c3f53")
+		)
+		(pin "9"
+			(uuid "0a935dee-03f8-4693-8429-0fcedc507f6f")
+		)
+		(pin "LC1"
+			(uuid "7992f815-6f27-42a7-b04c-109686bea991")
+		)
+		(pin "LC2"
+			(uuid "51c0e74c-d3e2-4732-8373-02f51447bd93")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF17.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 204.47 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ca4d06b-e5db-442d-b1db-a9e11277d901")
+		(property "Reference" "#GND050"
+			(at 204.47 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 204.47 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 204.47 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83e6c461-5986-487d-98e9-48f9cb9d1a09")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 167.64 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "309c2270-75ce-415b-ae3f-9acc0a116261")
+		(property "Reference" "CF13.1"
+			(at 164.465 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 164.465 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 172.72 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 170.18 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 167.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 167.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 167.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 167.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 167.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9798b3f0-2207-49c9-8447-c4a24d646882")
+		)
+		(pin "10"
+			(uuid "ef6450e9-eed1-41c8-b8a5-e281e61ceb85")
+		)
+		(pin "11"
+			(uuid "824b520e-75ac-49fa-9ee2-82267d42d1e0")
+		)
+		(pin "12"
+			(uuid "f4dde325-8f89-45dc-b35a-dd4d64139da6")
+		)
+		(pin "13"
+			(uuid "cf82a920-7870-407d-a2e9-b31bdea65ece")
+		)
+		(pin "14"
+			(uuid "80eb9aa0-54ef-4c4c-b772-c4b91228d054")
+		)
+		(pin "15"
+			(uuid "7ce0aba7-1a61-4f57-8bab-08254d905ab3")
+		)
+		(pin "16"
+			(uuid "1dbfcc66-4cd8-4c6e-9f15-5fee0f1227a0")
+		)
+		(pin "17"
+			(uuid "4d3f49e1-6c2a-40ce-8110-d9bff41c2251")
+		)
+		(pin "18"
+			(uuid "1160d2e5-dd80-4032-9c65-5a963be7b28b")
+		)
+		(pin "19"
+			(uuid "6f55218a-7123-4fe8-9441-9fdb2ec26788")
+		)
+		(pin "2"
+			(uuid "acc8a405-8099-43ca-94ff-7e9253e56aa7")
+		)
+		(pin "20"
+			(uuid "eda56005-819a-464a-9c3c-11cd31e33848")
+		)
+		(pin "3"
+			(uuid "515b5dce-b235-4939-8931-91ec6971be91")
+		)
+		(pin "4"
+			(uuid "a7ada4e0-0cf8-4e27-9a80-c620a3cd343b")
+		)
+		(pin "5"
+			(uuid "3168e3fe-ecba-439b-ae1e-4ebe72f8fbc2")
+		)
+		(pin "6"
+			(uuid "8af0c91e-7622-46d6-aff3-79ba442e280d")
+		)
+		(pin "7"
+			(uuid "82294874-a6b9-4e77-a2e4-b80603335320")
+		)
+		(pin "8"
+			(uuid "d13fd60c-05ee-4ac9-bbd7-2a76291c570f")
+		)
+		(pin "9"
+			(uuid "17efcbbf-8b35-4bf5-9d61-560ed67b421d")
+		)
+		(pin "LC1"
+			(uuid "0ae2a9d7-cf22-4c89-9dd5-c66e636c0ca4")
+		)
+		(pin "LC2"
+			(uuid "15f90987-fdd8-444e-b7dd-49cfb5851b22")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF13.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 196.85 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "31098eeb-4c87-47a6-b147-efa20d2ed9cb")
+		(property "Reference" "CF16.1"
+			(at 193.675 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 193.675 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 201.93 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 199.39 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 196.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 196.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 196.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 196.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 196.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e4bdd94b-b070-45e7-8fcd-12d73300fa9b")
+		)
+		(pin "10"
+			(uuid "c288259f-368d-4966-b47c-fea62fd69560")
+		)
+		(pin "11"
+			(uuid "fac29b39-f9db-4bef-bf18-60102a70c08e")
+		)
+		(pin "12"
+			(uuid "8b1ae3cc-25e2-4e07-b60e-f5f6649eb9c5")
+		)
+		(pin "13"
+			(uuid "bdb794a1-9d2b-4a77-b692-4bcabea57492")
+		)
+		(pin "14"
+			(uuid "b67b2963-9846-48b5-aa8c-d95272672cc7")
+		)
+		(pin "15"
+			(uuid "05e5ab11-e1de-4dde-bef0-d009783fcc5f")
+		)
+		(pin "16"
+			(uuid "3f195a50-14de-4cee-80b7-7f7971b8772e")
+		)
+		(pin "17"
+			(uuid "316c1bec-4167-4430-8157-5eb62f3a66ac")
+		)
+		(pin "18"
+			(uuid "4505fb7c-c2ad-4f35-aa46-1d3be400cbff")
+		)
+		(pin "19"
+			(uuid "e08d328d-2b6f-4ad0-8266-bfc2faab667d")
+		)
+		(pin "2"
+			(uuid "86aca692-14a9-4400-8209-f62a43c73a6e")
+		)
+		(pin "20"
+			(uuid "30ebbd7b-b1bf-4d3a-aead-6015e7a38544")
+		)
+		(pin "3"
+			(uuid "2f0b0dc1-27db-4c9d-8d28-058718d64023")
+		)
+		(pin "4"
+			(uuid "675274e4-03d8-4eb8-b4b5-b1f2e42bb4b1")
+		)
+		(pin "5"
+			(uuid "39ae33ff-939a-4633-aec9-1515b5aae512")
+		)
+		(pin "6"
+			(uuid "ef0a2c73-7c05-46ce-87a2-fe87c2f3a972")
+		)
+		(pin "7"
+			(uuid "88537008-b8ac-4324-ac08-fec9f080d594")
+		)
+		(pin "8"
+			(uuid "2764326a-6d97-4c41-9181-6b150d78ab2a")
+		)
+		(pin "9"
+			(uuid "e66635d8-5b63-4274-a019-9ba32bc07da4")
+		)
+		(pin "LC1"
+			(uuid "353ef7f3-f550-4d4c-b175-9f6845107d57")
+		)
+		(pin "LC2"
+			(uuid "69348e6b-98e9-4ee6-9ddb-01fc41f68baf")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF16.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 312.42 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3993cb23-59f2-48d2-8b10-d056da8b585a")
+		(property "Reference" "CF27.1"
+			(at 309.88 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 309.88 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 317.5 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 314.96 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 312.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 312.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 312.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 312.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 312.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f61dc641-9a1c-4fde-a4cc-8376859eae09")
+		)
+		(pin "10"
+			(uuid "51115b7a-b1e3-49ef-a068-640d18499ac4")
+		)
+		(pin "11"
+			(uuid "4604f527-f05f-4741-9979-d2284b2a779a")
+		)
+		(pin "12"
+			(uuid "ed4071c7-d170-4388-a79a-ad0450a26e64")
+		)
+		(pin "13"
+			(uuid "9a465076-1e4c-42e3-ba56-ef4d8e762d45")
+		)
+		(pin "14"
+			(uuid "949f23cf-3eeb-4b8c-a986-17d4b8da1db5")
+		)
+		(pin "15"
+			(uuid "04637fab-fe5b-4d66-9d88-b6ef20408d8e")
+		)
+		(pin "16"
+			(uuid "29a70553-d5b9-4ebf-b8d8-0bf44ca409be")
+		)
+		(pin "17"
+			(uuid "dc922fa2-4b7d-4985-98e3-d4c943573e99")
+		)
+		(pin "18"
+			(uuid "71fe51e0-a6fe-4995-a509-384a9913a07e")
+		)
+		(pin "19"
+			(uuid "4ac41378-5c23-4c24-a42b-fe2d928a05af")
+		)
+		(pin "2"
+			(uuid "2ae3510b-f471-4a57-9449-2d2625da604d")
+		)
+		(pin "20"
+			(uuid "73281a46-a9d0-4906-a17c-79611e97667f")
+		)
+		(pin "3"
+			(uuid "fec13595-fabd-4a62-a129-9bcfbe8a51f7")
+		)
+		(pin "4"
+			(uuid "73538f40-b02f-4ee1-8ad9-3503e0f553d5")
+		)
+		(pin "5"
+			(uuid "92695f6f-f8a1-48b9-bbf6-bce5108569be")
+		)
+		(pin "6"
+			(uuid "b604e12f-f002-43e3-a8c6-e1c6e99c00a1")
+		)
+		(pin "7"
+			(uuid "7c0ba3ce-73f9-491a-833a-8e8cb88dacea")
+		)
+		(pin "8"
+			(uuid "1a14fdbd-ad6c-4f60-9b72-22aefcc83222")
+		)
+		(pin "9"
+			(uuid "f4652ad3-722f-4b20-9be5-8ee40be6f4bc")
+		)
+		(pin "LC1"
+			(uuid "bb8a4c30-ce0c-44e0-bd0c-cd53ad520d3e")
+		)
+		(pin "LC2"
+			(uuid "018b009d-991c-40a9-ac47-586df638ee60")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF27.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 165.1 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f237588-a4a4-4302-b233-9d0c210e1201")
+		(property "Reference" "CF10.1"
+			(at 162.56 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 162.56 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 170.18 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 167.64 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "246dd582-4f5a-4593-871f-b02481e9cc9f")
+		)
+		(pin "10"
+			(uuid "f95595ce-b4d4-4a29-82c8-6ca15a00bed4")
+		)
+		(pin "11"
+			(uuid "277cc3e4-290a-405f-a48b-71db6566c94d")
+		)
+		(pin "12"
+			(uuid "4affc7b4-4f7f-4650-9a4a-fb830952869d")
+		)
+		(pin "13"
+			(uuid "489c3112-225a-43e3-94fa-86dbcac4591a")
+		)
+		(pin "14"
+			(uuid "5b176f58-44d3-4400-af12-0aaf66c608f1")
+		)
+		(pin "15"
+			(uuid "a11091eb-c7fa-48e4-8a8a-64597e96a264")
+		)
+		(pin "16"
+			(uuid "0b92f4aa-ad24-4fcf-b4ce-2d6de929afbb")
+		)
+		(pin "17"
+			(uuid "0c46bec1-1178-453c-ba48-75e960dd0d8f")
+		)
+		(pin "18"
+			(uuid "6b8171f4-d172-4620-9e6b-f9c425ac2ce2")
+		)
+		(pin "19"
+			(uuid "ff27ab36-5b27-4101-8508-c2835a20e24d")
+		)
+		(pin "2"
+			(uuid "aa64dbd3-4def-46da-a269-4b8b337bd91c")
+		)
+		(pin "20"
+			(uuid "6f2c94f9-4d32-4092-9574-ae075c2bb050")
+		)
+		(pin "3"
+			(uuid "2b658ed6-12d0-488c-bf2d-91c4ffe3c97a")
+		)
+		(pin "4"
+			(uuid "eeb3de70-8070-4fef-aaaa-f91b4aefae59")
+		)
+		(pin "5"
+			(uuid "f74b093a-ee6b-4d2d-af7d-73890b93bb5c")
+		)
+		(pin "6"
+			(uuid "7564d3b4-5d2f-4d16-a158-5b69495194ad")
+		)
+		(pin "7"
+			(uuid "55299ca1-09a5-4510-af7a-29ab3154c8b5")
+		)
+		(pin "8"
+			(uuid "90e852ea-3e64-470d-9407-3875a41097b7")
+		)
+		(pin "9"
+			(uuid "f3e15846-ed23-48b1-a60d-48ce6b14ca00")
+		)
+		(pin "LC1"
+			(uuid "dcf01fca-b426-4c42-b247-94e61cf664b4")
+		)
+		(pin "LC2"
+			(uuid "73a45bcf-0d0d-4ac0-a2d9-4c7612ac1841")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF10.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 232.41 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "417ceb18-d0a8-4a65-a7bb-c5a6bf9f47ef")
+		(property "Reference" "#GND045"
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce941622-f9ec-4dad-a673-ee4aacc175c0")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 314.96 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "453c3550-73ed-4a60-9155-211be1f8f1b5")
+		(property "Reference" "CF29.1"
+			(at 312.42 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 312.42 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 320.04 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 317.5 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 314.96 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 314.96 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 314.96 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 314.96 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 314.96 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3ea9565f-2e87-4741-bc68-425c40036e8f")
+		)
+		(pin "10"
+			(uuid "ff4ad801-a0b6-4b9d-872f-31bcb3b48b24")
+		)
+		(pin "11"
+			(uuid "2cf79e79-c434-4599-a964-2c2a8e7bc5b4")
+		)
+		(pin "12"
+			(uuid "a597a78d-6942-460a-802f-7c835fc58311")
+		)
+		(pin "13"
+			(uuid "a4e800a4-9315-41df-a31d-676862d1f7d9")
+		)
+		(pin "14"
+			(uuid "315e8667-034b-4b09-9f49-2a61ba0b40b5")
+		)
+		(pin "15"
+			(uuid "cbc463ae-527b-48d9-bb8b-ebc48b2cfd29")
+		)
+		(pin "16"
+			(uuid "53780e7d-3a7d-4d3c-981e-59573dd5980e")
+		)
+		(pin "17"
+			(uuid "2a7454fa-fd6d-4408-90f7-50d5183ac8f6")
+		)
+		(pin "18"
+			(uuid "be08201c-42ca-4088-bb3f-98cdbfe91865")
+		)
+		(pin "19"
+			(uuid "5401017a-a440-4ca5-9794-a1b292f68ad8")
+		)
+		(pin "2"
+			(uuid "1ed0d8db-df6a-45f2-a063-37c45cc83565")
+		)
+		(pin "20"
+			(uuid "a08120a8-3caf-44b4-a0b8-a09aced58224")
+		)
+		(pin "3"
+			(uuid "a263a8a3-fdd4-4b67-8575-1a89bcb33000")
+		)
+		(pin "4"
+			(uuid "f6132e07-f6ff-4fd8-b93d-8acf87641760")
+		)
+		(pin "5"
+			(uuid "1bb176b8-8924-4086-91f0-9acde8f9dade")
+		)
+		(pin "6"
+			(uuid "07687014-c7c6-499f-bbbe-1a3bdb4ad810")
+		)
+		(pin "7"
+			(uuid "fd09e067-eacc-41b2-8770-640d1295ac8f")
+		)
+		(pin "8"
+			(uuid "8309e4d6-a1a3-4b43-a776-e26b58b9a5c1")
+		)
+		(pin "9"
+			(uuid "37887acb-a07a-4e53-b963-36d2e607f856")
+		)
+		(pin "LC1"
+			(uuid "02857377-ca17-4773-8035-ec882ec66684")
+		)
+		(pin "LC2"
+			(uuid "3a7fbc38-a324-4fe5-9761-3449eb889ae2")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF29.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 322.58 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "461bdb32-b409-46a4-9016-1cd8787b247d")
+		(property "Reference" "#GND0163"
+			(at 322.58 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 322.58 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ce255f8-11da-4d69-89a0-625c0e60d1eb")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 195.58 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bea8362-24ae-422f-bb04-b72455493364")
+		(property "Reference" "CF15.1"
+			(at 193.04 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 193.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 200.66 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 198.12 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58457d61-f150-4345-a65f-9fbd92b146b7")
+		)
+		(pin "10"
+			(uuid "1b3c4d9f-f2cc-4868-9d9d-928cf2d3a0e1")
+		)
+		(pin "11"
+			(uuid "ad9456e5-3623-4c27-9151-63c8e812efb7")
+		)
+		(pin "12"
+			(uuid "e69c021d-425e-41fa-a2e7-2306ca1447d1")
+		)
+		(pin "13"
+			(uuid "48e0980f-782f-4298-b291-2f8ad1c0e338")
+		)
+		(pin "14"
+			(uuid "9e3aa65a-be22-4787-be79-6c70bc497c92")
+		)
+		(pin "15"
+			(uuid "19b27e67-acd7-4da5-a77b-f25a98aab11e")
+		)
+		(pin "16"
+			(uuid "e7003103-7d4f-491f-b557-0b2179238782")
+		)
+		(pin "17"
+			(uuid "f3a6d8b5-dc28-4a16-8ac9-657a73d1679b")
+		)
+		(pin "18"
+			(uuid "b2d70bc9-1934-4120-bc6e-5bdb3df4cf51")
+		)
+		(pin "19"
+			(uuid "2246a785-817c-499a-a891-25ea29ef9b43")
+		)
+		(pin "2"
+			(uuid "c6c0f12f-d158-4892-8c92-40165c8626af")
+		)
+		(pin "20"
+			(uuid "f0894928-cef5-4317-aa94-7eca33046c70")
+		)
+		(pin "3"
+			(uuid "da5ac71b-3767-4855-a50d-36ddbfbeeba8")
+		)
+		(pin "4"
+			(uuid "81380847-07de-439a-8a93-6752f38bcadf")
+		)
+		(pin "5"
+			(uuid "6a6125a0-ea0e-43f7-9518-b4b6eed55f40")
+		)
+		(pin "6"
+			(uuid "bdd2323e-b0a5-4a0c-a24d-3fdb75e589bd")
+		)
+		(pin "7"
+			(uuid "47b904fd-06b9-4bb3-b02b-025b2287dad9")
+		)
+		(pin "8"
+			(uuid "92711ec1-973c-433b-a6a3-4c452f0e1047")
+		)
+		(pin "9"
+			(uuid "c80f9988-4d65-4650-bb8b-fb32e049f643")
+		)
+		(pin "LC1"
+			(uuid "1302cec7-e843-4e4b-b47e-c200a976ef28")
+		)
+		(pin "LC2"
+			(uuid "5b8e4c88-d9d5-4a06-a430-6bb473775041")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF15.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 321.31 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69f4b8ce-9d10-49e1-8087-a4f320a29298")
+		(property "Reference" "#GND052"
+			(at 321.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 321.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 321.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 321.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 321.31 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7653f65-5b0c-49cf-9cfc-ee06d069e76c")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e46295a-a389-4907-9841-f2f4d45cd317")
+		(property "Reference" "#GND054"
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65b3d0e1-1c92-4ea4-89ed-8f72bd8e8a8e")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6ef3b577-d234-4bb7-aff4-a0453ed90da7")
+		(property "Reference" "#GND046"
+			(at 146.05 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "859a1a0a-c01f-4980-8377-355bb29916b7")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 107.95 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fcf050d-5240-45ee-9e71-defa41fa060f")
+		(property "Reference" "CF3.1"
+			(at 105.41 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 105.41 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 113.03 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 110.49 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b98a4534-939d-4837-b6d9-26e9640210e8")
+		)
+		(pin "10"
+			(uuid "13cc2623-5a93-4eb6-a8e8-d5b202b737f7")
+		)
+		(pin "11"
+			(uuid "365ebd36-2ea0-46cc-938a-0e82a6235d01")
+		)
+		(pin "12"
+			(uuid "7ba4d891-3192-43ac-82c9-8ee385fba020")
+		)
+		(pin "13"
+			(uuid "5c0e2294-1c15-45be-9060-7bc07fc4019d")
+		)
+		(pin "14"
+			(uuid "e9afcda4-e348-4e28-b219-ca1af5d9e58b")
+		)
+		(pin "15"
+			(uuid "c1a5f445-940e-4e64-9475-1914089005bf")
+		)
+		(pin "16"
+			(uuid "f6891bef-4440-4e58-8cd1-c0e6573ae3a8")
+		)
+		(pin "17"
+			(uuid "d1791c61-7f06-4284-ae31-c22b5b602384")
+		)
+		(pin "18"
+			(uuid "320d16ab-9faa-46f3-a7f8-7640aef5570e")
+		)
+		(pin "19"
+			(uuid "c658317b-ee29-4c5d-b955-f944944c2f0c")
+		)
+		(pin "2"
+			(uuid "fd9aef0a-3c43-464b-9ac8-3ccce2198eeb")
+		)
+		(pin "20"
+			(uuid "e6619ebc-df52-46bc-8bab-6bd3b5719574")
+		)
+		(pin "3"
+			(uuid "395f333a-9242-4b9d-85e9-fc0aeca7d0d1")
+		)
+		(pin "4"
+			(uuid "4788817c-7fac-448b-ab23-13dfed734205")
+		)
+		(pin "5"
+			(uuid "7493c0ca-206c-4751-b3cf-b40e0dc8052d")
+		)
+		(pin "6"
+			(uuid "846b9d2b-fa57-4250-8ed4-3287ef873c1b")
+		)
+		(pin "7"
+			(uuid "93d5a431-6c75-4915-98b6-a9455e0fb15a")
+		)
+		(pin "8"
+			(uuid "ecec2654-9119-4fe5-a4f3-eeceda57cc3a")
+		)
+		(pin "9"
+			(uuid "cb0aa6e7-445d-4f60-996f-7b677baef0ab")
+		)
+		(pin "LC1"
+			(uuid "b7a417f3-a651-4e84-b197-ca4004607213")
+		)
+		(pin "LC2"
+			(uuid "2937e355-28cd-4dbd-a66f-acf6286672bc")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF3.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7170f8c4-98f5-4c45-a79c-4a416ea75e80")
+		(property "Reference" "#GND0119"
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c7a9801-3387-4fa6-ac74-fb6a0114bfa0")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 290.83 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "738a1161-3cb4-4a61-bcd3-39d362f3e3db")
+		(property "Reference" "#GND040"
+			(at 290.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 290.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 290.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 290.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 290.83 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0ea62ba6-4508-48cb-ae90-9484132b4278")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73f6a12d-138e-4eb7-bea6-f8029d91ac1d")
+		(property "Reference" "#GND048"
+			(at 175.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7dbd67b7-5e94-46dd-8f2d-53633a17b3e4")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 281.94 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "758b8d53-4178-4467-adf8-128c4702b350")
+		(property "Reference" "CF24.1"
+			(at 279.4 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 279.4 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 287.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 284.48 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 281.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 281.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 281.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 281.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 281.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c1365e9-bc11-4989-b7d7-88deeec892d4")
+		)
+		(pin "10"
+			(uuid "61eda85a-1186-458e-b6a4-90a6be5fb1dd")
+		)
+		(pin "11"
+			(uuid "8caf5a61-2b43-4744-b717-3fafe6b6d250")
+		)
+		(pin "12"
+			(uuid "34ab2f61-6364-41e1-83c9-930c7919e10b")
+		)
+		(pin "13"
+			(uuid "193b855d-3f3b-4175-bde2-624a92fe45a0")
+		)
+		(pin "14"
+			(uuid "b7d8b691-b477-4d28-8a43-d6720298c6a0")
+		)
+		(pin "15"
+			(uuid "257606e7-f9f9-4832-97ff-da43674f2988")
+		)
+		(pin "16"
+			(uuid "cf4e65a1-27f5-4ea2-bdf4-a1b94a622ea1")
+		)
+		(pin "17"
+			(uuid "d49ee0ec-5fb6-4b48-8804-55748fabee20")
+		)
+		(pin "18"
+			(uuid "80700c4c-c121-4c85-8bee-e7908f4b14db")
+		)
+		(pin "19"
+			(uuid "85729795-3200-4627-a79c-8d88c029b6d9")
+		)
+		(pin "2"
+			(uuid "f1f444aa-f567-4869-87ea-43b5fb8becfd")
+		)
+		(pin "20"
+			(uuid "d550d7a4-a059-4a44-a9dd-13374e7bfa61")
+		)
+		(pin "3"
+			(uuid "3bb12f73-35df-476e-bdd0-762f2769d8f8")
+		)
+		(pin "4"
+			(uuid "b4c185fe-7c7b-4bfe-86b8-4f07a5fe900b")
+		)
+		(pin "5"
+			(uuid "6d920334-0717-48d2-9522-84c9be7e1990")
+		)
+		(pin "6"
+			(uuid "74539500-9d10-4ef7-88af-72e70ebf01a6")
+		)
+		(pin "7"
+			(uuid "43c47a8c-35f6-4ee8-967d-7664c0b70c84")
+		)
+		(pin "8"
+			(uuid "3518428a-d145-40db-b787-efe0e399ac58")
+		)
+		(pin "9"
+			(uuid "e5b34e71-60e9-409a-8f7b-e6724c97e1ba")
+		)
+		(pin "LC1"
+			(uuid "a419d411-fbea-45a3-922b-ada5f02041d5")
+		)
+		(pin "LC2"
+			(uuid "c3348fea-24e1-42ca-bc4d-44bfd48172ce")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF24.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 172.72 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7b43a4d5-f5a4-46e5-9aa8-61ed90de9748")
+		(property "Reference" "#GND0162"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ed68a94-d7d5-46a6-a951-0ec4039e2e07")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 171.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7bbdb5b1-be4a-43e2-8c0a-bbd59d05795e")
+		(property "Reference" "#GND051"
+			(at 147.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c736615c-c8e6-4095-8725-05b0c14f0595")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 292.1 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7f346e5c-8375-404f-bf6e-36ba1249a26f")
+		(property "Reference" "#GND027"
+			(at 292.1 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 292.1 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 292.1 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2d9355f2-9613-48c0-92cc-3dfc219705fd")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "82c006d6-4f64-4a85-9886-fd3e41b3d8d5")
+		(property "Reference" "#GND044"
+			(at 231.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 231.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "34da7aac-d55c-4309-949a-a2b4dcd96885")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "92c20a1d-69d5-4583-886c-3fd892958d47")
+		(property "Reference" "#GND037"
+			(at 203.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 203.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e1b965f-5da4-464c-b06b-711eba1567bb")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94b60105-fc7e-49d4-a85a-e1cba330c64d")
+		(property "Reference" "#GND031"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03ca8368-748c-4345-9637-f118bdff45ba")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "96d17ed9-b5ee-41ff-a0ec-af35777a05b7")
+		(property "Reference" "#GND042"
+			(at 260.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c205aaa-830b-4009-8e77-ae4fd60fa056")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 138.43 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "978c97b6-deec-4682-a675-53ec3fb49fd2")
+		(property "Reference" "CF9.1"
+			(at 135.255 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 135.255 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 143.51 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 140.97 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 138.43 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 138.43 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 138.43 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 138.43 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 138.43 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b5e96879-6b87-45d5-b333-94dfb93c8530")
+		)
+		(pin "10"
+			(uuid "9715d6be-5d5c-4c80-8fa8-199563a791c1")
+		)
+		(pin "11"
+			(uuid "57f31373-01e6-4565-adaa-3cedab617803")
+		)
+		(pin "12"
+			(uuid "0db963b9-eae2-42b6-bc7b-3d01aa83a7ba")
+		)
+		(pin "13"
+			(uuid "bbdad5c4-4854-4811-822a-2a5ca5e3a55b")
+		)
+		(pin "14"
+			(uuid "4a877f5b-23d6-485e-930c-50a13d072e6e")
+		)
+		(pin "15"
+			(uuid "276c8bab-63d7-4af3-b568-08eaf98df591")
+		)
+		(pin "16"
+			(uuid "0101e158-181a-4e5f-b374-d950f0d29371")
+		)
+		(pin "17"
+			(uuid "d14b649f-2da3-4e5a-843e-496b339c965e")
+		)
+		(pin "18"
+			(uuid "9d755dbb-8264-4177-9cce-4920f68c8ca0")
+		)
+		(pin "19"
+			(uuid "81b664d2-b344-4990-a10d-bd51b64be49c")
+		)
+		(pin "2"
+			(uuid "62b1d68b-b49b-4dc2-bd82-b90718d110b3")
+		)
+		(pin "20"
+			(uuid "37d7494e-646c-4864-aa0b-dd8a07c568f3")
+		)
+		(pin "3"
+			(uuid "81d473a1-e7eb-4799-ae03-68bfb43fa1fc")
+		)
+		(pin "4"
+			(uuid "e9c3a45c-7629-44b1-9c70-673c2838a753")
+		)
+		(pin "5"
+			(uuid "bfbb4dab-c8d5-452a-8b21-2ac646bb199f")
+		)
+		(pin "6"
+			(uuid "1a5a40ed-0d1f-44c8-896b-e0f058cc1574")
+		)
+		(pin "7"
+			(uuid "2b80770f-2a86-4289-893a-fcd79f52883b")
+		)
+		(pin "8"
+			(uuid "a4640773-905c-4f87-aeb6-6c680522e9a7")
+		)
+		(pin "9"
+			(uuid "b2d706da-e40f-4926-b228-7115bb02e5ab")
+		)
+		(pin "LC1"
+			(uuid "90cff38c-79b5-463b-ac97-a5e2425d7d87")
+		)
+		(pin "LC2"
+			(uuid "2ec115f7-3ab6-4189-953d-1c0a6fa09133")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF9.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d26df50-975d-496f-ae38-40371557828c")
+		(property "Reference" "#GND056"
+			(at 233.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bd689cb3-489f-4744-88e9-ba8bb78d7129")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 194.31 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d4275c8-9096-412a-b6f5-adc8e7616fdf")
+		(property "Reference" "CF14.1"
+			(at 191.77 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 191.77 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 199.39 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 196.85 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "778bb07a-a864-43e9-b60b-0a31840efbf4")
+		)
+		(pin "10"
+			(uuid "bec41c72-2486-4a7f-90e1-de8452d49575")
+		)
+		(pin "11"
+			(uuid "ceb71b35-f8ae-4648-a7e2-e16d173c4dca")
+		)
+		(pin "12"
+			(uuid "0f891997-6218-4013-a570-b8673d8025d0")
+		)
+		(pin "13"
+			(uuid "a68ff439-9b81-4118-9852-a083e1ce84a6")
+		)
+		(pin "14"
+			(uuid "e9742140-bfb4-4bd7-9e27-96b566dd13be")
+		)
+		(pin "15"
+			(uuid "2e555e43-a58a-441b-b2e3-aff8f564cad5")
+		)
+		(pin "16"
+			(uuid "a72072a1-ceef-4ddf-8c5e-52f219e487b2")
+		)
+		(pin "17"
+			(uuid "a01ef4cd-d056-4f87-b377-7b6c365aa700")
+		)
+		(pin "18"
+			(uuid "4037160f-3cba-4b18-a482-21ff0b80e115")
+		)
+		(pin "19"
+			(uuid "c66e568d-2e8e-4132-a19d-44748b8977a7")
+		)
+		(pin "2"
+			(uuid "1757d2ed-5e7a-4242-a6cb-1724bc3abea1")
+		)
+		(pin "20"
+			(uuid "3ed0b414-7ed7-4042-a30c-6b33e2b31d0a")
+		)
+		(pin "3"
+			(uuid "4f9f27a2-254a-42d3-8563-2ca25007731a")
+		)
+		(pin "4"
+			(uuid "b77b3ee5-5532-484f-a089-20f7a48f0ef0")
+		)
+		(pin "5"
+			(uuid "9b50cc58-097e-4a14-b642-b1f3fc5b4777")
+		)
+		(pin "6"
+			(uuid "a9d0b132-facb-4cf4-8062-3053c94370e6")
+		)
+		(pin "7"
+			(uuid "2e6e89db-5ce9-43d0-a128-51b2d75cd06d")
+		)
+		(pin "8"
+			(uuid "88d5d41b-c04c-4b89-a205-16a2606f1711")
+		)
+		(pin "9"
+			(uuid "dc9a7f46-c088-4a4f-8eb9-a54f20adae8d")
+		)
+		(pin "LC1"
+			(uuid "b3f944fc-a05c-4cc5-9bf5-11c862ea5de7")
+		)
+		(pin "LC2"
+			(uuid "df0cb9c4-cfa2-4159-896d-8d5006f2c91c")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF14.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 283.21 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9dd159dd-440d-4af8-93eb-54d71abdb157")
+		(property "Reference" "CF25.1"
+			(at 280.67 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 280.67 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 288.29 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 285.75 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 283.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 283.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 283.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 283.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 283.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62a71246-c486-4096-a6e7-913589136583")
+		)
+		(pin "10"
+			(uuid "b01b871f-be91-4088-8b6e-4edf7c42f8fc")
+		)
+		(pin "11"
+			(uuid "9a018b65-f8a5-4f24-8362-89076f4bdb03")
+		)
+		(pin "12"
+			(uuid "a0474a8d-708d-4c52-90d5-b13071036112")
+		)
+		(pin "13"
+			(uuid "2ba9ae82-23d8-4626-b6fa-ad8a9b82d365")
+		)
+		(pin "14"
+			(uuid "964a0ff2-4511-450f-b26b-c16d419af721")
+		)
+		(pin "15"
+			(uuid "3172c011-38c4-45fd-9ca3-45e4877dc64c")
+		)
+		(pin "16"
+			(uuid "9a6a8be9-dab3-4be2-aad0-bac90efdae04")
+		)
+		(pin "17"
+			(uuid "0663852d-5710-4f55-854e-f573bc2b01fc")
+		)
+		(pin "18"
+			(uuid "aded550c-ebb9-4663-90b0-c26819ef4a37")
+		)
+		(pin "19"
+			(uuid "63fb8b9c-3df7-4a10-aaa4-53682d955ad0")
+		)
+		(pin "2"
+			(uuid "5d8ff82e-14f9-426a-9bad-2f82fcd4006a")
+		)
+		(pin "20"
+			(uuid "bbd413ee-a526-4915-8e35-bd6ba47d72fc")
+		)
+		(pin "3"
+			(uuid "a9e835a6-3e03-43e6-9bb3-6609feef800c")
+		)
+		(pin "4"
+			(uuid "5c3e582c-9daf-453e-a4d5-b14bf03a3a5d")
+		)
+		(pin "5"
+			(uuid "df51b7cf-d1d8-4566-91ba-ca1916294880")
+		)
+		(pin "6"
+			(uuid "c383d19e-8a20-40ba-8c6b-7b4db72e07fd")
+		)
+		(pin "7"
+			(uuid "16c19aaf-c4a6-4fa1-b5ed-00b50bda5159")
+		)
+		(pin "8"
+			(uuid "26172fce-37f1-4dc4-b2c0-2882209de19e")
+		)
+		(pin "9"
+			(uuid "f74ae11a-dfb0-4cbb-a14f-52661023bd14")
+		)
+		(pin "LC1"
+			(uuid "db68c1de-c720-4f2a-a500-0884ed375678")
+		)
+		(pin "LC2"
+			(uuid "d3cadfa5-69bd-4f3a-afc0-5dbf3cac9be8")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF25.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 313.69 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fd89113-6ede-4a72-a4cb-366e22c7a944")
+		(property "Reference" "CF28.1"
+			(at 310.515 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 310.515 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 318.77 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 316.23 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 313.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 313.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 313.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 313.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 313.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d3e22ab3-904f-4222-b9dc-d0e7274db7aa")
+		)
+		(pin "10"
+			(uuid "bfd7caec-6c65-4cd4-941e-15caaedf7be8")
+		)
+		(pin "11"
+			(uuid "92f850ba-d9a3-4ccf-b874-a6bb2beb9fea")
+		)
+		(pin "12"
+			(uuid "398ea7f7-fd32-4bde-9985-b42041a727ad")
+		)
+		(pin "13"
+			(uuid "baac25fb-61f9-40f2-a991-9817406f6794")
+		)
+		(pin "14"
+			(uuid "c084b9af-1e61-4889-b28f-965e4364061d")
+		)
+		(pin "15"
+			(uuid "9ef4586e-3d69-44b6-8ae0-9744486fe532")
+		)
+		(pin "16"
+			(uuid "01745148-1df0-4d60-a2a6-98c31947131e")
+		)
+		(pin "17"
+			(uuid "5f07307a-c26e-4d8f-b4a7-54a40d5bdd67")
+		)
+		(pin "18"
+			(uuid "a83474a9-9511-45b2-9f9c-445172240731")
+		)
+		(pin "19"
+			(uuid "9375310e-c87b-46d2-91e1-cc719c0ea6c6")
+		)
+		(pin "2"
+			(uuid "5af71e7b-e122-47fd-978b-ab7d29ab943a")
+		)
+		(pin "20"
+			(uuid "b90cbd10-e0e6-4705-8d89-7a4e0cca4376")
+		)
+		(pin "3"
+			(uuid "98ceef6f-7856-42e0-9860-b9497dd3e548")
+		)
+		(pin "4"
+			(uuid "8554cdc9-fc24-4c69-b790-1245ef9f166f")
+		)
+		(pin "5"
+			(uuid "233a4cbe-9750-4bf9-9b69-3124cd310c00")
+		)
+		(pin "6"
+			(uuid "8389b323-26db-43b5-8d75-5db13e44b6a2")
+		)
+		(pin "7"
+			(uuid "e8f3bb5d-14c3-48f0-b3c3-05e50421ca35")
+		)
+		(pin "8"
+			(uuid "7ddbe6e0-aa4c-4ac0-ade7-7486fbb600e9")
+		)
+		(pin "9"
+			(uuid "57f74a6d-763d-4ace-9583-2d44b8d65a7d")
+		)
+		(pin "LC1"
+			(uuid "56547e39-bac0-4192-8890-40779bbdd1e9")
+		)
+		(pin "LC2"
+			(uuid "526e8001-972f-41d5-b085-9f6da4745cb3")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF28.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 223.52 160.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b64a8c2b-7e76-445f-b666-23fd73a547fc")
+		(property "Reference" "CF18.1"
+			(at 220.98 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 220.98 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 228.6 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 226.06 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 223.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 223.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 223.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 223.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 223.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c7379d2-7f0e-4176-81b0-f2a77bdb026d")
+		)
+		(pin "10"
+			(uuid "fb7a81bc-8764-48a6-b72a-8af6ff60db26")
+		)
+		(pin "11"
+			(uuid "eedd886a-4db3-41f9-8000-0d30fbde019b")
+		)
+		(pin "12"
+			(uuid "47842f70-15e8-4448-8117-04b3a51adf2d")
+		)
+		(pin "13"
+			(uuid "c5cbccc6-3a1e-4c3e-aa4a-39d481d85cc8")
+		)
+		(pin "14"
+			(uuid "dc9b0b91-8e9f-478e-bc64-3280271ef69b")
+		)
+		(pin "15"
+			(uuid "98471c2a-d794-44a0-8ec0-fbcdfefb7274")
+		)
+		(pin "16"
+			(uuid "1d255096-680f-4088-afc7-2b40aa2e90c9")
+		)
+		(pin "17"
+			(uuid "ff7a12c1-3f14-4145-895d-849d69b367bd")
+		)
+		(pin "18"
+			(uuid "e437ac3a-e89e-4162-8373-ed5242242b88")
+		)
+		(pin "19"
+			(uuid "06010787-c175-4d59-bdf8-51533bb85579")
+		)
+		(pin "2"
+			(uuid "c2cb648f-8842-4552-9456-33e964c6fe61")
+		)
+		(pin "20"
+			(uuid "61890092-ea80-4eca-bd0c-72c927ffeaa1")
+		)
+		(pin "3"
+			(uuid "9714e240-2361-4345-a6c3-8a56bd7f7a69")
+		)
+		(pin "4"
+			(uuid "d4b8a02f-f947-4beb-b159-2471c33e2d80")
+		)
+		(pin "5"
+			(uuid "815fe4ac-3952-4810-9716-b30a0f8b4041")
+		)
+		(pin "6"
+			(uuid "c3433c0d-3e89-4758-8a51-26ef692d38df")
+		)
+		(pin "7"
+			(uuid "e2eb8a7a-5144-4e57-adc1-2245c7b1779c")
+		)
+		(pin "8"
+			(uuid "b697d3c5-63b5-41d6-b48d-edddb7ebe6a7")
+		)
+		(pin "9"
+			(uuid "7e5fff0a-f795-4af8-881d-59add0bddf65")
+		)
+		(pin "LC1"
+			(uuid "036cefbc-f159-4d3e-8aed-9f3396b0ff41")
+		)
+		(pin "LC2"
+			(uuid "c8590a23-b644-4a31-9994-f839cb4c8553")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF18.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 252.73 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6a67f78-4993-4617-8723-335d2758ff2b")
+		(property "Reference" "CF21.1"
+			(at 249.555 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 249.555 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 257.81 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 255.27 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 252.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 252.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 252.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 252.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 252.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50e92051-7f8a-4cbb-9a33-29da632732b8")
+		)
+		(pin "10"
+			(uuid "88458114-f4c1-4d9d-bb7b-bfa41f6d7561")
+		)
+		(pin "11"
+			(uuid "64698ca1-2eab-4f60-b386-1e0dbfe4c3f4")
+		)
+		(pin "12"
+			(uuid "9936849c-fd40-4fe3-b869-f0b022997b7c")
+		)
+		(pin "13"
+			(uuid "c0cab4d8-f270-4ffb-917e-8e55dafc97a0")
+		)
+		(pin "14"
+			(uuid "0ee0b1a3-ee93-4227-90b3-d45a5b6d29e7")
+		)
+		(pin "15"
+			(uuid "93fa913f-712f-43fd-a4ae-efb29e65b28a")
+		)
+		(pin "16"
+			(uuid "14f6fd75-52bc-4c02-a778-e8ffa30e4984")
+		)
+		(pin "17"
+			(uuid "3b27af75-3c64-4e5a-9d82-16f8e8ac810b")
+		)
+		(pin "18"
+			(uuid "2c364f46-f3aa-4a62-9752-108721f25e47")
+		)
+		(pin "19"
+			(uuid "fdac0186-aa3b-4a82-af92-b4cb3c6739b3")
+		)
+		(pin "2"
+			(uuid "f0c37e6f-dfcb-471c-9eb7-52121fe36c55")
+		)
+		(pin "20"
+			(uuid "e7da7e67-099d-4049-8509-76da8ba7115b")
+		)
+		(pin "3"
+			(uuid "2f4b24c9-1743-46be-a40c-9665f4782df7")
+		)
+		(pin "4"
+			(uuid "900a744e-477d-4c36-be63-535db5eab5a5")
+		)
+		(pin "5"
+			(uuid "62d70e87-354a-46fb-92fb-0bf4d62d74d2")
+		)
+		(pin "6"
+			(uuid "448a88ed-7b36-4d63-9cf7-98e7db4062e3")
+		)
+		(pin "7"
+			(uuid "7a86996f-2cb4-43f6-a391-ff2226e89697")
+		)
+		(pin "8"
+			(uuid "438b79ce-e7a7-4519-9d1b-3ec51409c09b")
+		)
+		(pin "9"
+			(uuid "16f51370-d374-460b-8440-7ba957c2a99a")
+		)
+		(pin "LC1"
+			(uuid "e447d650-b616-4dfc-823e-8e757742a4f8")
+		)
+		(pin "LC2"
+			(uuid "5f42177e-b093-44ea-a9ac-146dda7cb050")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF21.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 289.56 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be7e10fe-7f91-446e-be98-b9c6c53b3a14")
+		(property "Reference" "#GND039"
+			(at 289.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 289.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 289.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 289.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 289.56 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c75419af-7a66-409f-b694-d5ce79f6960d")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 260.35 245.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bec33acc-27e7-4386-b352-ae1119569aba")
+		(property "Reference" "#GND055"
+			(at 260.35 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 260.35 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 260.35 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 260.35 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 260.35 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8be98079-42f8-41e7-832a-12782cf7356e")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 139.7 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6ca0c37-d25d-4072-8d84-f4471823a490")
+		(property "Reference" "CF8.1"
+			(at 137.16 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 137.16 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 144.78 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 142.24 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b1ba0c82-bad7-4706-acb6-ee1489f81fc7")
+		)
+		(pin "10"
+			(uuid "bdf7f7d9-6b8e-42f9-869e-b8e2c07e2663")
+		)
+		(pin "11"
+			(uuid "4eda682b-7372-43e5-8121-949476eeaf02")
+		)
+		(pin "12"
+			(uuid "ff06af6a-15dc-4bda-b473-758d0ac93aed")
+		)
+		(pin "13"
+			(uuid "465ecf2f-78c1-46c2-ae21-310521d284ba")
+		)
+		(pin "14"
+			(uuid "70141bef-0ac0-4530-8443-3e79c73ed844")
+		)
+		(pin "15"
+			(uuid "80df7354-0dcf-4159-ac5b-fd7297f07108")
+		)
+		(pin "16"
+			(uuid "54641fa5-c473-4585-a49d-5dc27779ee1d")
+		)
+		(pin "17"
+			(uuid "e3a7bc0a-4576-49d5-99ea-6f1af707b011")
+		)
+		(pin "18"
+			(uuid "08e55fe7-fb32-4140-bf8b-3a8ea439d084")
+		)
+		(pin "19"
+			(uuid "58ce0468-90da-4e14-8db0-18d043b0b36d")
+		)
+		(pin "2"
+			(uuid "5b1eea99-afc5-4356-bb4b-fbaaf260eeb4")
+		)
+		(pin "20"
+			(uuid "78c89406-2424-438e-b4a1-5760cd59d65b")
+		)
+		(pin "3"
+			(uuid "11077b17-def8-406d-8d36-4c344304cb74")
+		)
+		(pin "4"
+			(uuid "43eb2b8a-f1d4-4b1e-a7f1-45ec691e8b2d")
+		)
+		(pin "5"
+			(uuid "293dfe83-11b6-41a7-b964-b667d95db191")
+		)
+		(pin "6"
+			(uuid "965487aa-082a-44ad-bc0c-ffd65f0e31a5")
+		)
+		(pin "7"
+			(uuid "309e7a51-4f68-4b65-9df3-010ac8e7c4ec")
+		)
+		(pin "8"
+			(uuid "7300b363-5cbc-4ccd-887e-ed9787b252dd")
+		)
+		(pin "9"
+			(uuid "408c140a-3e87-4f86-9765-17893a865d5e")
+		)
+		(pin "LC1"
+			(uuid "c870119f-e75b-41d8-89dc-e74f57c63f7a")
+		)
+		(pin "LC2"
+			(uuid "36d19dce-4a5d-4489-8d22-47f4410c2406")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF8.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 166.37 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caa1a17e-47e4-4370-b7da-a51eabd9955d")
+		(property "Reference" "CF11.1"
+			(at 163.83 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 171.45 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 168.91 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d2c4f6e-5771-48eb-b17a-09499cffc424")
+		)
+		(pin "10"
+			(uuid "44717da2-e0a4-4d9c-bfe7-02e99a82569b")
+		)
+		(pin "11"
+			(uuid "f6edda35-5801-4f88-85c4-02bac80c812e")
+		)
+		(pin "12"
+			(uuid "f627ef35-c4bd-4b0c-84fb-0bbd6e6eddc6")
+		)
+		(pin "13"
+			(uuid "171ab6b2-2832-4ac2-8982-b64ad8ac567f")
+		)
+		(pin "14"
+			(uuid "c68619a6-5016-4289-be02-9016a5f50bac")
+		)
+		(pin "15"
+			(uuid "cb8ba92a-e92f-4606-82c0-51a4f3084104")
+		)
+		(pin "16"
+			(uuid "de5e1c36-4d92-4e63-88b8-afbc1e3cb504")
+		)
+		(pin "17"
+			(uuid "15014ff5-8892-45d5-8337-57e69f9829de")
+		)
+		(pin "18"
+			(uuid "1e5a5b14-4765-4639-87e9-b08d6fe996e5")
+		)
+		(pin "19"
+			(uuid "37564cff-b8cb-4856-a0bd-d84233add259")
+		)
+		(pin "2"
+			(uuid "037e9688-ba99-40e3-bb17-5a6d34a02c9d")
+		)
+		(pin "20"
+			(uuid "78d8c95c-56b3-4827-842d-f884a6505885")
+		)
+		(pin "3"
+			(uuid "65b1eddf-40ae-43e6-ad5e-f3a7db7e5dbf")
+		)
+		(pin "4"
+			(uuid "a28ba753-4ced-4058-acbc-df0e17ec0785")
+		)
+		(pin "5"
+			(uuid "81bf0327-41fd-40b2-ad3f-c82a14802850")
+		)
+		(pin "6"
+			(uuid "42dd7148-0406-4edd-99b3-0118d19b190d")
+		)
+		(pin "7"
+			(uuid "dc26ad9e-6815-4f4d-ab3f-51f1cbbd48a1")
+		)
+		(pin "8"
+			(uuid "4d698933-63df-4230-89d5-68d2780338e8")
+		)
+		(pin "9"
+			(uuid "ce8d16ba-28e2-470b-9384-822b35053249")
+		)
+		(pin "LC1"
+			(uuid "254e144e-1c16-4e17-81e8-1689f323c775")
+		)
+		(pin "LC2"
+			(uuid "182080cc-cb43-4bde-bcba-b5237a4ad220")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF11.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0e95321-65d5-418c-acb5-ed312505ddbc")
+		(property "Reference" "#GND049"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8ccdda80-12f4-44f1-997c-d666829f7d8c")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 284.48 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d640edf4-23e4-4e27-bffd-e334d8c00424")
+		(property "Reference" "CF26.1"
+			(at 281.94 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 281.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 289.56 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 287.02 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 284.48 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 284.48 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 284.48 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 284.48 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 284.48 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a3fcd82a-53e5-4876-a137-e9dce49830fd")
+		)
+		(pin "10"
+			(uuid "11ff3d05-c118-4e0c-b4f8-3175f10b4c2e")
+		)
+		(pin "11"
+			(uuid "4fe63538-d098-4197-80e6-8f3033510623")
+		)
+		(pin "12"
+			(uuid "6c20e823-cf9d-47f2-a4b8-bf6a6f97ebec")
+		)
+		(pin "13"
+			(uuid "00c71524-e610-4faa-ac49-ddb9138f908c")
+		)
+		(pin "14"
+			(uuid "9a42d94a-ba78-4e7d-9175-265db4f7ef19")
+		)
+		(pin "15"
+			(uuid "cb37c378-faad-4eff-bb05-9776d9afdcc0")
+		)
+		(pin "16"
+			(uuid "03d4e5b8-7348-449c-8860-662dee1bc905")
+		)
+		(pin "17"
+			(uuid "7f61e7fa-ae61-410b-bc7e-7918d25f94db")
+		)
+		(pin "18"
+			(uuid "436643c6-0c6f-4c55-97b1-18715fe6f81f")
+		)
+		(pin "19"
+			(uuid "8d5ffa65-0f49-4f6b-a26d-63700a220373")
+		)
+		(pin "2"
+			(uuid "d8046ef4-848c-452c-833f-ff30381eb790")
+		)
+		(pin "20"
+			(uuid "f3c901ad-8d30-47a2-82e4-80f1f890e34a")
+		)
+		(pin "3"
+			(uuid "7fcd3f83-a45b-4976-9600-7f28a7644f6f")
+		)
+		(pin "4"
+			(uuid "a96237cd-0748-45cd-8458-5a693d036f3a")
+		)
+		(pin "5"
+			(uuid "b1b4ffe1-e02a-4163-a83d-8d1145ec4624")
+		)
+		(pin "6"
+			(uuid "25571513-2792-48e6-b3a3-24a2fd11fc52")
+		)
+		(pin "7"
+			(uuid "9a12c879-462c-4e90-aa87-4b8a57836c0d")
+		)
+		(pin "8"
+			(uuid "6fddde0d-ed27-49e0-897a-229573657630")
+		)
+		(pin "9"
+			(uuid "d6f38beb-b22e-495e-8a76-daebbb0adb21")
+		)
+		(pin "LC1"
+			(uuid "86465ebd-5418-4a27-8c9e-b2123a89cc4f")
+		)
+		(pin "LC2"
+			(uuid "c65b9640-6502-4727-9505-fe665081edc1")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF26.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 139.7 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e19e439b-3963-4ef0-b99f-29a660466b55")
+		(property "Reference" "CF7.1"
+			(at 137.16 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 137.16 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 144.78 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 142.24 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "683f0519-b07f-4e6c-8f0c-d5e134e5eee6")
+		)
+		(pin "10"
+			(uuid "31091339-1a04-4627-8bb2-609b4ca1253f")
+		)
+		(pin "11"
+			(uuid "4cd55379-9458-44e2-9227-f0e1896016b4")
+		)
+		(pin "12"
+			(uuid "49826539-3a7e-4f71-899b-35f16384cbbe")
+		)
+		(pin "13"
+			(uuid "441ddd1d-1e6d-44c0-9d00-01908086fe1c")
+		)
+		(pin "14"
+			(uuid "ed970d33-3ef3-466a-bd3b-333250ee444b")
+		)
+		(pin "15"
+			(uuid "e690f918-7869-43d6-a3c7-11d8b6ca5fe5")
+		)
+		(pin "16"
+			(uuid "84f88eda-e93a-47e7-a959-85baef83df58")
+		)
+		(pin "17"
+			(uuid "3f064e4b-ed90-4c3f-8446-41d237c8d7d1")
+		)
+		(pin "18"
+			(uuid "891e67da-2595-41e2-968c-3febeaf50070")
+		)
+		(pin "19"
+			(uuid "0d8583af-5b05-4f39-b2b2-719ab80efb21")
+		)
+		(pin "2"
+			(uuid "c46b3714-5b9c-4066-9065-a68435270088")
+		)
+		(pin "20"
+			(uuid "6f124b32-bbbe-47a8-8bf4-64f260c0413a")
+		)
+		(pin "3"
+			(uuid "302ff723-5325-41f5-a46f-dd74368bf32c")
+		)
+		(pin "4"
+			(uuid "24563fe2-07e7-419a-b51d-1d2fadd0c33b")
+		)
+		(pin "5"
+			(uuid "4e0fcd7e-926f-4703-8ca3-ec223435354d")
+		)
+		(pin "6"
+			(uuid "a7a5150a-7c22-4731-bd52-cc6c2e7c19c1")
+		)
+		(pin "7"
+			(uuid "96208ada-cc3a-4be8-aea9-a040df7eef6d")
+		)
+		(pin "8"
+			(uuid "d6f752ae-1f5b-400e-97cc-6d18f7a67801")
+		)
+		(pin "9"
+			(uuid "be807a5c-2004-4859-bcda-91d5ec3855ed")
+		)
+		(pin "LC1"
+			(uuid "ed9f892c-7aa6-423b-b7c4-aa2082318987")
+		)
+		(pin "LC2"
+			(uuid "2321e1ba-6d7f-4ec1-8a63-8a60b8c64fac")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF7.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8e2c251-8014-476e-9d14-41fb1496570a")
+		(property "Reference" "#GND029"
+			(at 173.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a775a417-4fe3-499f-b61c-d2124ff54c33")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 252.73 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e9cd8cd0-3895-49ea-83df-d23ff5d821a3")
+		(property "Reference" "CF23.1"
+			(at 249.555 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 249.555 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 257.81 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 255.27 298.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 252.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 252.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 252.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 252.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 252.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "48c90046-bd0e-49e0-8a4a-ba1581bddd3d")
+		)
+		(pin "10"
+			(uuid "7d439648-bcac-42a9-9c5f-536fc56e6158")
+		)
+		(pin "11"
+			(uuid "9e9aaf00-b914-4cfc-b58a-f438d2172da6")
+		)
+		(pin "12"
+			(uuid "c54bcb90-6513-401f-a688-73df7c604487")
+		)
+		(pin "13"
+			(uuid "e3f2f5b1-eb2e-4474-8968-95ac38ff5a40")
+		)
+		(pin "14"
+			(uuid "fecca603-4c24-40c1-b808-81bb54dc8fb1")
+		)
+		(pin "15"
+			(uuid "b36fdefe-ba69-4051-bced-7c22c4948777")
+		)
+		(pin "16"
+			(uuid "2074685f-d221-4ce9-bbc4-06b4a87dc5c5")
+		)
+		(pin "17"
+			(uuid "17139d72-b692-4b0b-8aee-e309d98625ef")
+		)
+		(pin "18"
+			(uuid "54fc2667-c9d3-417b-a505-408a15535c34")
+		)
+		(pin "19"
+			(uuid "d76e76b7-339c-464c-8921-eed7179c34e2")
+		)
+		(pin "2"
+			(uuid "5096833d-4bbf-47cc-a448-f56e9df8b785")
+		)
+		(pin "20"
+			(uuid "11bf6b37-63c9-4a24-9cd5-312472fd8765")
+		)
+		(pin "3"
+			(uuid "e57eb7f7-cdad-47e2-8b74-cfeccd02471b")
+		)
+		(pin "4"
+			(uuid "c0c13141-1027-4a3f-b6a6-54b9b4162be7")
+		)
+		(pin "5"
+			(uuid "dde2a6e6-fec9-43f4-ba17-112a33a126b2")
+		)
+		(pin "6"
+			(uuid "9eca7aa0-69f1-4f4f-938d-ae75d2ee53e4")
+		)
+		(pin "7"
+			(uuid "8cf534b3-9e9c-49f7-9b0b-68744cb16354")
+		)
+		(pin "8"
+			(uuid "11ceb930-be37-4934-9702-288d3b869866")
+		)
+		(pin "9"
+			(uuid "94ace7d5-c228-4b29-95c0-f9a3c326f3d5")
+		)
+		(pin "LC1"
+			(uuid "959d1c22-51a0-4806-8faf-29a9132a02ff")
+		)
+		(pin "LC2"
+			(uuid "39bb0a75-f471-46f1-a721-c3a05ffa1714")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF23.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eabc42d1-2e92-470b-95f1-711a460dc7ce")
+		(property "Reference" "#GND0118"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4f14632-c541-42a7-9b70-3f619a2b8925")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "#GND0118")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 252.73 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eea4d9f6-7aea-4059-87e6-127b99942358")
+		(property "Reference" "CF22.1"
+			(at 250.19 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 250.19 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 257.81 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 255.27 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9369175c-ce08-4fad-b9be-0787f4d838bf")
+		)
+		(pin "10"
+			(uuid "ae64db3a-6627-4e29-a996-16dd44c45023")
+		)
+		(pin "11"
+			(uuid "f51f55ac-0e32-4bed-a501-28094eea1365")
+		)
+		(pin "12"
+			(uuid "0fb163a3-7c1e-4c82-bf23-26a2d08f1503")
+		)
+		(pin "13"
+			(uuid "6d2f8371-5ff0-4f23-a5c5-191c880beeca")
+		)
+		(pin "14"
+			(uuid "d32eb1c4-7219-45e2-b434-ea271b113177")
+		)
+		(pin "15"
+			(uuid "2d52a44d-b6e2-4a3c-9e66-0723126f55a5")
+		)
+		(pin "16"
+			(uuid "4bc278ac-dd44-4c92-aefc-341ca7e43bbf")
+		)
+		(pin "17"
+			(uuid "73a512bc-50a4-4ea1-b429-ac053e38c278")
+		)
+		(pin "18"
+			(uuid "21eb9a33-0907-42aa-a580-475ab158d21d")
+		)
+		(pin "19"
+			(uuid "411edfed-f20c-4c94-ac9f-b02d77ea87f7")
+		)
+		(pin "2"
+			(uuid "24f2fb61-8faf-4e4b-a3a9-2e52b7ff5cd8")
+		)
+		(pin "20"
+			(uuid "360a376d-6dc1-4267-995f-12af2504b7c9")
+		)
+		(pin "3"
+			(uuid "16153274-41a4-4a22-8652-1633fd8db61a")
+		)
+		(pin "4"
+			(uuid "b18cfc45-57be-4cde-999b-01a1fa0826b4")
+		)
+		(pin "5"
+			(uuid "5b18fdeb-a386-42b9-837d-1e07cc6246b8")
+		)
+		(pin "6"
+			(uuid "3aa15783-104c-4a7b-9c89-cca8f78d8976")
+		)
+		(pin "7"
+			(uuid "8abf4e6c-3abe-4a4b-988d-60f219d8abcf")
+		)
+		(pin "8"
+			(uuid "aca0835a-01fa-4abf-bc71-eadba5b8452f")
+		)
+		(pin "9"
+			(uuid "3194bd48-306b-41aa-b065-6199c2b6aad2")
+		)
+		(pin "LC1"
+			(uuid "40a0f866-22b7-4c26-bf08-21fbc03c6365")
+		)
+		(pin "LC2"
+			(uuid "1ba9f4fa-30a4-45f4-a14f-b0ae185e90e0")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF22.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
+		(at 226.06 233.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef8d2f35-e7ad-471c-9afb-6d09f5205ed7")
+		(property "Reference" "CF20.1"
+			(at 223.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "SFM-110-01-S-D-LC"
+			(at 223.52 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
+			(at 231.14 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
+			(at 228.6 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "OreSat backplane connector, 2x20 RA"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SFM-110-01-S-D-LC-ND"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "585026a6-2ba8-4140-94a7-f80f9f536c31")
+		)
+		(pin "10"
+			(uuid "696e872c-c668-4421-96ab-474800fa085e")
+		)
+		(pin "11"
+			(uuid "69051ff8-d935-4d18-95ea-9d687c747d93")
+		)
+		(pin "12"
+			(uuid "99727541-f3c8-454d-a7e3-8c82a75ad93f")
+		)
+		(pin "13"
+			(uuid "25480b3c-d3ea-4956-81da-a61f615d5906")
+		)
+		(pin "14"
+			(uuid "2bb07bab-5ee9-4099-a7b0-3a174d39565d")
+		)
+		(pin "15"
+			(uuid "e2378c24-82b7-4d37-abca-6b1c7967fc61")
+		)
+		(pin "16"
+			(uuid "3dd6d9fd-60db-40c9-ba6b-42a8bbc1f00b")
+		)
+		(pin "17"
+			(uuid "1b1d9ea3-4711-422b-b04c-519870ba85b6")
+		)
+		(pin "18"
+			(uuid "8ce5ebe9-980e-4507-a3f9-2d0afbd59540")
+		)
+		(pin "19"
+			(uuid "f12e06b5-b70d-4002-a7ec-8b072e6b9e13")
+		)
+		(pin "2"
+			(uuid "47fcc3c9-153a-44c8-9c8b-6af69ae62683")
+		)
+		(pin "20"
+			(uuid "aaac45f0-3e40-4082-83f7-7d9341221fb5")
+		)
+		(pin "3"
+			(uuid "dec91119-9ab9-4c4c-9bdf-b7119dca9fc1")
+		)
+		(pin "4"
+			(uuid "bc3a6049-9b02-460b-8bb1-9e58f9d91ba7")
+		)
+		(pin "5"
+			(uuid "f29bd566-8bd0-4da2-b7a1-8f18dbe7464f")
+		)
+		(pin "6"
+			(uuid "43eda7c8-4753-48eb-af6a-12214182d62b")
+		)
+		(pin "7"
+			(uuid "f3a498b9-8a57-437e-8f85-228471ec1c24")
+		)
+		(pin "8"
+			(uuid "1f6a6dc9-2388-431f-92a4-f0c072f01128")
+		)
+		(pin "9"
+			(uuid "90ec84ee-eda3-4bf9-bf85-8a2cd0d72998")
+		)
+		(pin "LC1"
+			(uuid "6e348b39-586f-4216-8313-e0db85839f1e")
+		)
+		(pin "LC2"
+			(uuid "8a221671-5215-4f1b-96fe-ecd2633460c4")
+		)
+		(instances
+			(project "oresat-backplane-3u"
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c/59d9a305-4783-4a22-82d8-38a07bfc62a8"
+					(reference "CF20.1")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
