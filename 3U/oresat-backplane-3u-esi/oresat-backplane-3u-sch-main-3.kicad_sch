@@ -1810,19 +1810,9 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "S26: DNP FOR NO CONNECT"
-		(exclude_from_sim no)
-		(at 167.64 196.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1fc45105-bbb7-4c0f-9d57-a704e07f6077")
-	)
 	(text "Use R20.5,R20.6 to\nbridge CAN1 and CAN2"
 		(exclude_from_sim no)
-		(at 81.28 181.61 0)
+		(at 312.42 226.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1964,7 +1954,7 @@
 		(uuid "12d74ad2-94bd-4ec4-8257-82e92784655a")
 	)
 	(junction
-		(at 81.28 45.72)
+		(at 100.33 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13144c69-e661-4661-9942-ca85218a2858")
@@ -1994,7 +1984,7 @@
 		(uuid "16c94bca-2f6f-4de6-a9b9-f096bd6ac92e")
 	)
 	(junction
-		(at 81.28 106.68)
+		(at 100.33 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17082323-ab38-4418-878e-c4ba243be62e")
@@ -2018,7 +2008,7 @@
 		(uuid "18c36f5f-c30c-4008-bcc4-da0def64519d")
 	)
 	(junction
-		(at 81.28 30.48)
+		(at 100.33 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18c5ba32-7f2b-43b0-b314-10e3c07f4964")
@@ -2048,7 +2038,7 @@
 		(uuid "1bb30044-b582-4df1-a0dc-e87a8c6c3dd6")
 	)
 	(junction
-		(at 81.28 35.56)
+		(at 100.33 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c335f77-9ac7-49a9-9504-3b2e5d24700a")
@@ -2066,7 +2056,7 @@
 		(uuid "1dee0d78-f807-4232-8917-f0fda431af18")
 	)
 	(junction
-		(at 81.28 71.12)
+		(at 100.33 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1e9a9cb6-dadd-459e-99bc-13d3fd5793e4")
@@ -2082,6 +2072,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21eb2230-9e56-4e21-96a4-40b35033110a")
+	)
+	(junction
+		(at 256.54 234.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22333c07-4ef3-4c63-b2b1-bc488154e529")
 	)
 	(junction
 		(at 177.8 107.95)
@@ -2258,7 +2254,7 @@
 		(uuid "41954d20-0ccd-4c36-8d92-774f70169b69")
 	)
 	(junction
-		(at 81.28 99.06)
+		(at 100.33 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42398276-b7fe-471a-bdb3-672f656a161c")
@@ -2288,7 +2284,7 @@
 		(uuid "477c1aa7-5d73-46f0-9c9a-771cd3e6a984")
 	)
 	(junction
-		(at 81.28 93.98)
+		(at 100.33 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "485efdb9-ce5c-423e-8c3e-97c6e7952fdf")
@@ -2330,7 +2326,7 @@
 		(uuid "4d5b39b9-1cb7-4cb6-9bf0-a3221663de9a")
 	)
 	(junction
-		(at 81.28 25.4)
+		(at 100.33 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ddaa297-eb97-4854-8096-1bc6564f4404")
@@ -2360,7 +2356,7 @@
 		(uuid "513fad7e-4d38-4a42-8483-16e68f7155eb")
 	)
 	(junction
-		(at 81.28 40.64)
+		(at 100.33 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5226f8b5-2515-44e2-97cb-ebceffd38417")
@@ -2468,7 +2464,7 @@
 		(uuid "6405f550-7e51-401b-8d23-237aa5a086d5")
 	)
 	(junction
-		(at 81.28 83.82)
+		(at 100.33 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "640b17ff-a371-4bab-a5e6-9ff2bc351e61")
@@ -2486,7 +2482,7 @@
 		(uuid "64a873d8-ec39-4a26-80b4-ac4b4ddb62fa")
 	)
 	(junction
-		(at 115.57 73.66)
+		(at 288.29 196.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "657c8273-6e79-45e5-84ed-6bc7c1ea2951")
@@ -2558,7 +2554,7 @@
 		(uuid "711b249e-b7e0-49a2-a43f-85cd9c3cfbb8")
 	)
 	(junction
-		(at 81.28 111.76)
+		(at 100.33 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a12003-e4a7-4833-9d28-38096e9a211a")
@@ -2618,7 +2614,7 @@
 		(uuid "7c07b751-ec52-4dcf-b404-79f0048a834a")
 	)
 	(junction
-		(at 85.09 96.52)
+		(at 104.14 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c1126ec-371e-47de-8f79-3f6cd74f7556")
@@ -2636,7 +2632,7 @@
 		(uuid "7ce10700-14bd-44d6-b98b-e47906fd05f4")
 	)
 	(junction
-		(at 115.57 114.3)
+		(at 288.29 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7fbe1e4d-7ab3-4df4-b92f-28602415261d")
@@ -2646,12 +2642,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "800c18de-a376-4466-bcb2-24beadcee000")
-	)
-	(junction
-		(at 83.82 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8099b4d6-9e4b-4a89-8ad6-22006ce2fb6b")
 	)
 	(junction
 		(at 256.54 255.27)
@@ -2690,7 +2680,7 @@
 		(uuid "87d4f125-c796-4755-9660-f1d46fd9f7ff")
 	)
 	(junction
-		(at 85.09 81.28)
+		(at 104.14 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88c33a41-ac22-47ab-9189-a10886c46b43")
@@ -2756,7 +2746,7 @@
 		(uuid "8fff2102-db12-40e4-81aa-7e3ac023b218")
 	)
 	(junction
-		(at 81.28 81.28)
+		(at 100.33 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91b71334-c4bf-4b4c-a021-fda0fa997273")
@@ -2804,13 +2794,13 @@
 		(uuid "945ee205-ca01-4638-bdda-2201e0c47f06")
 	)
 	(junction
-		(at 81.28 50.8)
+		(at 100.33 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95a544a2-cd94-448a-9c74-a48d485b1bf3")
 	)
 	(junction
-		(at 83.82 132.08)
+		(at 102.87 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95fe463c-7508-49da-a561-428d9a8bc219")
@@ -2826,12 +2816,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96891381-7a64-401e-922e-38abafbdd2e9")
-	)
-	(junction
-		(at 83.82 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a47c960-642f-4549-b25f-3f93cde5d709")
 	)
 	(junction
 		(at 332.74 95.25)
@@ -2870,7 +2854,7 @@
 		(uuid "9d211a62-68ec-4e39-ba40-ab0bae067ab7")
 	)
 	(junction
-		(at 81.28 60.96)
+		(at 100.33 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e5d0975-8c8d-49d9-9fd2-501b4e5ce87c")
@@ -2888,13 +2872,13 @@
 		(uuid "9ea341cb-5f1a-4736-bba4-412d4114f290")
 	)
 	(junction
-		(at 81.28 86.36)
+		(at 100.33 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0428cfb-23ce-47ab-aebf-9b7ac5ec4ef7")
 	)
 	(junction
-		(at 81.28 101.6)
+		(at 100.33 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0f5db03-41a6-4b7c-8f89-9957bd5fc7e9")
@@ -2954,7 +2938,13 @@
 		(uuid "a96605a0-0e59-4449-914e-4958d5c6cf98")
 	)
 	(junction
-		(at 81.28 55.88)
+		(at 256.54 229.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac9ad019-60d1-4cf5-891d-5f0b2cb6f017")
+	)
+	(junction
+		(at 100.33 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad05ca46-3a9f-4915-8336-f0a0882fa60f")
@@ -2996,7 +2986,7 @@
 		(uuid "b5c56479-ee13-4d06-8207-6accf58d981a")
 	)
 	(junction
-		(at 81.28 96.52)
+		(at 100.33 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b65c3b6f-bae9-4487-96eb-8d553a048152")
@@ -3128,7 +3118,7 @@
 		(uuid "cab8bfe2-0275-4483-bc0d-efb861ee96db")
 	)
 	(junction
-		(at 81.28 78.74)
+		(at 100.33 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "caed49df-ff13-4e22-af1e-e9a7379bf650")
@@ -3260,22 +3250,22 @@
 		(uuid "dbf598cb-1f6c-43d6-9b5c-5bd911932bc2")
 	)
 	(junction
-		(at 81.28 66.04)
+		(at 100.33 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc9cf19d-2bad-4b1b-92e4-ac9d27fbcc6c")
-	)
-	(junction
-		(at 83.82 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de7d54cd-c7fb-4043-a9e0-79b24c5c8da3")
 	)
 	(junction
 		(at 214.63 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dee75f9c-bd98-4811-af56-8ca9cebf8b6e")
+	)
+	(junction
+		(at 256.54 194.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e144ebcd-a8bb-4271-ae73-fe50181615e0")
 	)
 	(junction
 		(at 217.17 97.79)
@@ -3300,12 +3290,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7021994-4881-434e-a727-6d90a5f486aa")
-	)
-	(junction
-		(at 83.82 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9c574f7-549a-4adb-a606-a6db363af15d")
 	)
 	(junction
 		(at 332.74 41.91)
@@ -3392,7 +3376,7 @@
 		(uuid "f4bea3e9-5373-4862-90cd-d48dfa1f52a3")
 	)
 	(junction
-		(at 81.28 121.92)
+		(at 100.33 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4ee0470-90b6-44f8-9ea9-bffc295456a0")
@@ -3440,6 +3424,12 @@
 		(uuid "f9cf12c4-e711-4854-8491-fdb889cab70a")
 	)
 	(junction
+		(at 256.54 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fadc7667-1f88-4d28-a2f0-5a263015e01a")
+	)
+	(junction
 		(at 177.8 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3473,7 +3463,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 114.3) (xy 115.57 119.38)
+			(xy 288.29 237.49) (xy 288.29 242.57)
 		)
 		(stroke
 			(width 0)
@@ -3503,7 +3493,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 83.82 73.66)
+			(xy 256.54 194.31) (xy 256.54 196.85)
 		)
 		(stroke
 			(width 0)
@@ -3563,7 +3553,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 55.88) (xy 81.28 58.42)
+			(xy 100.33 57.15) (xy 100.33 59.69)
 		)
 		(stroke
 			(width 0)
@@ -3603,7 +3593,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 30.48) (xy 86.36 30.48)
+			(xy 100.33 31.75) (xy 105.41 31.75)
 		)
 		(stroke
 			(width 0)
@@ -3793,7 +3783,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 40.64) (xy 86.36 40.64)
+			(xy 100.33 41.91) (xy 105.41 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3823,7 +3813,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 127) (xy 115.57 129.54)
+			(xy 288.29 250.19) (xy 288.29 252.73)
 		)
 		(stroke
 			(width 0)
@@ -3913,7 +3903,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 81.28 83.82)
+			(xy 100.33 82.55) (xy 100.33 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3973,7 +3963,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 40.64) (xy 81.28 43.18)
+			(xy 100.33 41.91) (xy 100.33 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4033,7 +4023,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 68.58) (xy 104.14 68.58)
+			(xy 256.54 191.77) (xy 276.86 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4173,7 +4163,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 99.06) (xy 81.28 101.6)
+			(xy 100.33 100.33) (xy 100.33 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4213,7 +4203,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 132.08) (xy 83.82 132.08)
+			(xy 100.33 133.35) (xy 102.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -4253,7 +4243,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 111.76) (xy 81.28 114.3)
+			(xy 100.33 113.03) (xy 100.33 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4273,7 +4263,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 167.64) (xy 88.9 167.64)
+			(xy 318.77 212.09) (xy 320.04 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4283,7 +4273,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 106.68) (xy 81.28 106.68)
+			(xy 100.33 107.95) (xy 105.41 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4303,7 +4293,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 106.68) (xy 81.28 109.22)
+			(xy 100.33 107.95) (xy 100.33 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4443,7 +4433,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 25.4) (xy 86.36 25.4)
+			(xy 100.33 26.67) (xy 105.41 26.67)
 		)
 		(stroke
 			(width 0)
@@ -4473,7 +4463,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 68.58) (xy 115.57 68.58)
+			(xy 284.48 191.77) (xy 288.29 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4500,16 +4490,6 @@
 			(type default)
 		)
 		(uuid "2af12da3-550c-4ca9-94a6-637f1fcc53b4")
-	)
-	(wire
-		(pts
-			(xy 86.36 106.68) (xy 83.82 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c07d2b6-7d2d-49d8-a176-4e1faa41e0c0")
 	)
 	(wire
 		(pts
@@ -4583,6 +4563,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 189.23) (xy 259.08 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3026a86b-4f54-4dce-9b64-e6c87b3ca01a")
+	)
+	(wire
+		(pts
 			(xy 260.35 123.19) (xy 255.27 123.19)
 		)
 		(stroke
@@ -4603,7 +4593,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 83.82) (xy 81.28 86.36)
+			(xy 100.33 85.09) (xy 100.33 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4753,7 +4743,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 60.96) (xy 81.28 63.5)
+			(xy 100.33 62.23) (xy 100.33 64.77)
 		)
 		(stroke
 			(width 0)
@@ -4800,6 +4790,16 @@
 			(type default)
 		)
 		(uuid "3ca48bfe-eab0-45aa-bb4c-5a6dc02827b8")
+	)
+	(wire
+		(pts
+			(xy 256.54 234.95) (xy 254 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce82545-3da5-4b9d-9d84-505585e1b3c1")
 	)
 	(wire
 		(pts
@@ -4973,6 +4973,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 194.31) (xy 254 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4623fce6-5647-401d-b644-297cce20e42b")
+	)
+	(wire
+		(pts
 			(xy 259.08 82.55) (xy 259.08 86.36)
 		)
 		(stroke
@@ -5053,7 +5063,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 73.66) (xy 104.14 73.66)
+			(xy 256.54 196.85) (xy 276.86 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5173,7 +5183,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 73.66) (xy 115.57 73.66)
+			(xy 284.48 196.85) (xy 288.29 196.85)
 		)
 		(stroke
 			(width 0)
@@ -5203,7 +5213,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 45.72) (xy 81.28 48.26)
+			(xy 100.33 46.99) (xy 100.33 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5343,7 +5353,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 175.26) (xy 97.79 175.26)
+			(xy 327.66 219.71) (xy 328.93 219.71)
 		)
 		(stroke
 			(width 0)
@@ -5443,7 +5453,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 101.6) (xy 81.28 104.14)
+			(xy 100.33 102.87) (xy 100.33 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5493,7 +5503,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 109.22) (xy 115.57 114.3)
+			(xy 288.29 232.41) (xy 288.29 237.49)
 		)
 		(stroke
 			(width 0)
@@ -5563,7 +5573,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 129.54) (xy 83.82 129.54)
+			(xy 100.33 130.81) (xy 102.87 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5573,7 +5583,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 167.64) (xy 97.79 167.64)
+			(xy 327.66 212.09) (xy 328.93 212.09)
 		)
 		(stroke
 			(width 0)
@@ -5623,7 +5633,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 80.01) (xy 85.09 81.28)
+			(xy 104.14 81.28) (xy 104.14 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5633,7 +5643,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 96.52) (xy 81.28 96.52)
+			(xy 104.14 97.79) (xy 100.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5643,13 +5653,23 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 91.44) (xy 81.28 93.98)
+			(xy 100.33 92.71) (xy 100.33 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "64e53b94-3cad-4d5b-8728-602ef9aa3236")
+	)
+	(wire
+		(pts
+			(xy 256.54 229.87) (xy 254 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "654f9914-1f5b-49e7-8dc5-10cb9794006f")
 	)
 	(wire
 		(pts
@@ -5673,7 +5693,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 92.71) (xy 85.09 96.52)
+			(xy 104.14 93.98) (xy 104.14 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5763,7 +5783,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 114.3) (xy 104.14 114.3)
+			(xy 256.54 237.49) (xy 276.86 237.49)
 		)
 		(stroke
 			(width 0)
@@ -6173,7 +6193,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 229.87) (xy 254 229.87)
+			(xy 259.08 229.87) (xy 256.54 229.87)
 		)
 		(stroke
 			(width 0)
@@ -6193,7 +6213,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 109.22) (xy 104.14 109.22)
+			(xy 256.54 232.41) (xy 276.86 232.41)
 		)
 		(stroke
 			(width 0)
@@ -6233,16 +6253,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 111.76) (xy 83.82 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80237c8b-add7-49cc-86fe-f2d0c48711f5")
-	)
-	(wire
-		(pts
 			(xy 255.27 52.07) (xy 255.27 54.61)
 		)
 		(stroke
@@ -6253,7 +6263,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 116.84) (xy 81.28 116.84)
+			(xy 105.41 118.11) (xy 100.33 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6293,7 +6303,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 119.38) (xy 86.36 119.38)
+			(xy 100.33 120.65) (xy 105.41 120.65)
 		)
 		(stroke
 			(width 0)
@@ -6393,7 +6403,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 86.36) (xy 81.28 88.9)
+			(xy 100.33 87.63) (xy 100.33 90.17)
 		)
 		(stroke
 			(width 0)
@@ -6403,7 +6413,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 35.56) (xy 86.36 35.56)
+			(xy 100.33 36.83) (xy 105.41 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6413,7 +6423,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 81.28 99.06)
+			(xy 100.33 97.79) (xy 100.33 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6493,7 +6503,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 71.12) (xy 81.28 73.66)
+			(xy 100.33 72.39) (xy 100.33 74.93)
 		)
 		(stroke
 			(width 0)
@@ -6613,7 +6623,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 35.56) (xy 81.28 38.1)
+			(xy 100.33 36.83) (xy 100.33 39.37)
 		)
 		(stroke
 			(width 0)
@@ -6723,16 +6733,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 71.12) (xy 83.82 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98416a9b-353b-4527-99f5-8ade8f05a7b5")
-	)
-	(wire
-		(pts
 			(xy 177.8 80.01) (xy 177.8 82.55)
 		)
 		(stroke
@@ -6753,7 +6753,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 81.28 68.58)
+			(xy 100.33 67.31) (xy 100.33 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6763,7 +6763,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 45.72) (xy 81.28 45.72)
+			(xy 105.41 46.99) (xy 100.33 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6803,7 +6803,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 81.28 96.52)
+			(xy 100.33 95.25) (xy 100.33 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6903,7 +6903,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 55.88) (xy 81.28 55.88)
+			(xy 105.41 57.15) (xy 100.33 57.15)
 		)
 		(stroke
 			(width 0)
@@ -7103,7 +7103,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 50.8) (xy 81.28 53.34)
+			(xy 100.33 52.07) (xy 100.33 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7153,7 +7153,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 121.92) (xy 81.28 121.92)
+			(xy 105.41 123.19) (xy 100.33 123.19)
 		)
 		(stroke
 			(width 0)
@@ -7173,7 +7173,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 68.58) (xy 115.57 73.66)
+			(xy 288.29 191.77) (xy 288.29 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7223,7 +7223,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 71.12) (xy 81.28 71.12)
+			(xy 100.33 72.39) (xy 105.41 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7243,7 +7243,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 109.22) (xy 115.57 109.22)
+			(xy 284.48 232.41) (xy 288.29 232.41)
 		)
 		(stroke
 			(width 0)
@@ -7253,7 +7253,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 50.8) (xy 81.28 50.8)
+			(xy 105.41 52.07) (xy 100.33 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7283,7 +7283,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 76.2) (xy 81.28 78.74)
+			(xy 100.33 77.47) (xy 100.33 80.01)
 		)
 		(stroke
 			(width 0)
@@ -7453,7 +7453,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 73.66) (xy 115.57 77.47)
+			(xy 288.29 196.85) (xy 288.29 200.66)
 		)
 		(stroke
 			(width 0)
@@ -7523,7 +7523,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 121.92) (xy 81.28 124.46)
+			(xy 100.33 123.19) (xy 100.33 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7773,7 +7773,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 66.04) (xy 83.82 68.58)
+			(xy 256.54 189.23) (xy 256.54 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7833,7 +7833,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 81.28 81.28)
+			(xy 104.14 82.55) (xy 100.33 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7863,7 +7863,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 60.96) (xy 81.28 60.96)
+			(xy 105.41 62.23) (xy 100.33 62.23)
 		)
 		(stroke
 			(width 0)
@@ -7993,7 +7993,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 85.09) (xy 115.57 87.63)
+			(xy 288.29 208.28) (xy 288.29 210.82)
 		)
 		(stroke
 			(width 0)
@@ -8073,7 +8073,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 25.4) (xy 81.28 27.94)
+			(xy 100.33 26.67) (xy 100.33 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8113,7 +8113,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 129.54) (xy 83.82 132.08)
+			(xy 102.87 130.81) (xy 102.87 133.35)
 		)
 		(stroke
 			(width 0)
@@ -8143,7 +8143,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 111.76) (xy 81.28 111.76)
+			(xy 100.33 113.03) (xy 105.41 113.03)
 		)
 		(stroke
 			(width 0)
@@ -8183,16 +8183,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 66.04) (xy 86.36 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd24b3a3-d3bb-4d2a-b7b0-616deaefa3b3")
-	)
-	(wire
-		(pts
 			(xy 214.63 222.25) (xy 214.63 224.79)
 		)
 		(stroke
@@ -8203,7 +8193,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 78.74) (xy 81.28 81.28)
+			(xy 100.33 80.01) (xy 100.33 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8273,7 +8263,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 194.31) (xy 254 194.31)
+			(xy 259.08 194.31) (xy 256.54 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8373,7 +8363,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 81.28) (xy 85.09 85.09)
+			(xy 104.14 82.55) (xy 104.14 86.36)
 		)
 		(stroke
 			(width 0)
@@ -8503,7 +8493,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 114.3) (xy 115.57 114.3)
+			(xy 284.48 237.49) (xy 288.29 237.49)
 		)
 		(stroke
 			(width 0)
@@ -8533,7 +8523,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 97.79) (xy 85.09 96.52)
+			(xy 104.14 99.06) (xy 104.14 97.79)
 		)
 		(stroke
 			(width 0)
@@ -8553,7 +8543,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 106.68) (xy 83.82 109.22)
+			(xy 256.54 229.87) (xy 256.54 232.41)
 		)
 		(stroke
 			(width 0)
@@ -8723,7 +8713,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 66.04) (xy 83.82 66.04)
+			(xy 100.33 67.31) (xy 105.41 67.31)
 		)
 		(stroke
 			(width 0)
@@ -8783,7 +8773,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 189.23) (xy 259.08 189.23)
+			(xy 254 189.23) (xy 256.54 189.23)
 		)
 		(stroke
 			(width 0)
@@ -8803,7 +8793,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 30.48) (xy 81.28 33.02)
+			(xy 100.33 31.75) (xy 100.33 34.29)
 		)
 		(stroke
 			(width 0)
@@ -8833,7 +8823,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 175.26) (xy 88.9 175.26)
+			(xy 318.77 219.71) (xy 320.04 219.71)
 		)
 		(stroke
 			(width 0)
@@ -8893,7 +8883,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 234.95) (xy 254 234.95)
+			(xy 259.08 234.95) (xy 256.54 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8903,7 +8893,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 111.76) (xy 83.82 114.3)
+			(xy 256.54 234.95) (xy 256.54 237.49)
 		)
 		(stroke
 			(width 0)
@@ -8963,7 +8953,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 132.08) (xy 83.82 134.62)
+			(xy 102.87 133.35) (xy 102.87 135.89)
 		)
 		(stroke
 			(width 0)
@@ -9078,7 +9068,7 @@
 	)
 	(global_label "C3-UART-TX"
 		(shape bidirectional)
-		(at 86.36 116.84 0)
+		(at 105.41 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9088,7 +9078,7 @@
 		)
 		(uuid "09125516-c085-4f15-96a7-7fbe9b4b732d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.9337 116.7622 0)
+			(at 119.9837 118.0322 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -9360,7 +9350,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape bidirectional)
-		(at 87.63 167.64 180)
+		(at 318.77 212.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9370,7 +9360,7 @@
 		)
 		(uuid "1ed655bd-66a8-4cce-bd17-de8809d671f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 360.68 0)
+			(at 367.03 405.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9899,7 +9889,7 @@
 	)
 	(global_label "OPD_SDA"
 		(shape bidirectional)
-		(at 86.36 50.8 0)
+		(at 105.41 52.07 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9909,7 +9899,7 @@
 		)
 		(uuid "44edcc02-6b0a-45d9-ae47-0a8c8e50f8c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 -86.36 0)
+			(at 57.15 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9963,7 +9953,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape bidirectional)
-		(at 86.36 106.68 0)
+		(at 105.41 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9973,7 +9963,7 @@
 		)
 		(uuid "4a829751-e2a2-4263-839e-db2fb6ca2209")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 -86.36 0)
+			(at 57.15 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10005,7 +9995,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape bidirectional)
-		(at 87.63 175.26 180)
+		(at 318.77 219.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10015,7 +10005,7 @@
 		)
 		(uuid "4db9b157-17c4-4717-893b-448bddf3ca00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.89 373.38 0)
+			(at 367.03 417.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10263,7 +10253,7 @@
 	)
 	(global_label "~{SD}"
 		(shape bidirectional)
-		(at 86.36 121.92 0)
+		(at 105.41 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10273,7 +10263,7 @@
 		)
 		(uuid "5cbd614d-dfbb-4235-9597-26f83bf4cfd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 -86.36 0)
+			(at 57.15 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10392,7 +10382,7 @@
 	)
 	(global_label "CAN2_L"
 		(shape bidirectional)
-		(at 97.79 175.26 0)
+		(at 328.93 219.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10402,7 +10392,7 @@
 		)
 		(uuid "645e5812-cf09-420b-b5bd-93f167a5c412")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 17.78 0)
+			(at 280.67 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10616,7 @@
 	)
 	(global_label "TURNSTILE-DEPLOY"
 		(shape bidirectional)
-		(at 86.36 45.72 0)
+		(at 105.41 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10636,7 +10626,7 @@
 		)
 		(uuid "714d2887-7bcc-4ff2-8eb0-db12c53a5acd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.9197 45.6422 0)
+			(at 125.9697 46.9122 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -11116,7 +11106,7 @@
 	)
 	(global_label "OPD_SCL"
 		(shape bidirectional)
-		(at 86.36 55.88 0)
+		(at 105.41 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11126,7 +11116,7 @@
 		)
 		(uuid "923acdf6-3d15-4972-bc3f-249dcd1b2a94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 -86.36 0)
+			(at 57.15 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11440,7 +11430,7 @@
 	)
 	(global_label "HELICAL-DEPLOY"
 		(shape bidirectional)
-		(at 86.36 40.64 0)
+		(at 105.41 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11450,7 +11440,7 @@
 		)
 		(uuid "ad902704-9477-4dc9-a24a-41ad3dca0e11")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.6083 40.5622 0)
+			(at 123.6583 41.8322 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -11505,7 +11495,7 @@
 	)
 	(global_label "CAN2_L"
 		(shape bidirectional)
-		(at 86.36 71.12 0)
+		(at 105.41 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11515,7 +11505,7 @@
 		)
 		(uuid "af741b91-c0ed-468c-b932-7695d3c0852a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 -86.36 0)
+			(at 57.15 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11720,7 +11710,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape bidirectional)
-		(at 86.36 111.76 0)
+		(at 105.41 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11730,7 +11720,7 @@
 		)
 		(uuid "bf583b88-5192-4416-8b12-f8cb0b433833")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 -86.36 0)
+			(at 57.15 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11827,7 +11817,7 @@
 	)
 	(global_label "CAN2_H"
 		(shape bidirectional)
-		(at 86.36 66.04 0)
+		(at 105.41 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11837,7 +11827,7 @@
 		)
 		(uuid "c4466072-4516-4a21-af35-edfd00cfd9aa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 -86.36 0)
+			(at 57.15 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11870,7 +11860,7 @@
 	)
 	(global_label "MAG-SCL"
 		(shape bidirectional)
-		(at 86.36 30.48 0)
+		(at 105.41 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11880,7 +11870,7 @@
 		)
 		(uuid "c5e5dd79-1693-474d-bd00-5e89576f80ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.437 30.4022 0)
+			(at 116.487 31.6722 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -11979,7 +11969,7 @@
 	)
 	(global_label "C3-UART-RX"
 		(shape bidirectional)
-		(at 86.36 119.38 0)
+		(at 105.41 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11989,7 +11979,7 @@
 		)
 		(uuid "d15a9229-a95a-45fa-88cf-5eb0eccb6028")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.2301 119.3022 0)
+			(at 120.2801 120.5722 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12086,7 +12076,7 @@
 	)
 	(global_label "MAG-SDA"
 		(shape bidirectional)
-		(at 86.36 25.4 0)
+		(at 105.41 26.67 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12096,7 +12086,7 @@
 		)
 		(uuid "e31187c2-c7a2-4f4f-a039-5b4fee8581b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.4963 25.3222 0)
+			(at 116.5463 26.5922 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12386,7 +12376,7 @@
 	)
 	(global_label "CAN2_H"
 		(shape bidirectional)
-		(at 97.79 167.64 0)
+		(at 328.93 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12396,7 +12386,7 @@
 		)
 		(uuid "f5b8e3e9-a77e-4a57-a2bb-0ad76365a085")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 15.24 0)
+			(at 280.67 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12428,7 +12418,7 @@
 	)
 	(global_label "MAG-POWER"
 		(shape bidirectional)
-		(at 86.36 35.56 0)
+		(at 105.41 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12438,7 +12428,7 @@
 		)
 		(uuid "f74619a2-cf17-46a7-a871-73b91e089983")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.3411 35.4822 0)
+			(at 119.3911 36.7522 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -12556,7 +12546,7 @@
 	)
 	(global_label "OPD_PWR"
 		(shape bidirectional)
-		(at 86.36 60.96 0)
+		(at 105.41 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12566,7 +12556,7 @@
 		)
 		(uuid "fdd287cd-5a69-49e2-8c98-a7f7f95b7815")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 38.1 -86.36 0)
+			(at 57.15 -85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12619,7 +12609,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 85.09 88.9 0)
+		(at 104.14 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12627,7 +12617,7 @@
 		(dnp yes)
 		(uuid "04b5e040-07ed-4a58-975d-07e42a1b4588")
 		(property "Reference" "C13"
-			(at 86.614 88.519 0)
+			(at 105.664 89.789 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12636,7 +12626,7 @@
 			)
 		)
 		(property "Value" "10u 25V"
-			(at 86.614 93.599 0)
+			(at 105.664 94.869 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12645,7 +12635,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 85.09 88.9 0)
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12653,8 +12643,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 85.09 88.9 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12662,12 +12652,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 85.09 88.9 0)
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
+			(at 104.14 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 104.14 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12721,7 +12748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 172.72 74.93 0)
 			(effects
 				(font
@@ -12730,12 +12757,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S22: DNP FOR BATT 2"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 167.64 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 172.72 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13040,7 +13104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -13049,12 +13113,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 144.78 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 144.78 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13090,7 +13191,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SFM-120-X1-XXX-D"
+		(property "Value" "SFM-120-01-S-D-LC"
 			(at 133.35 24.13 0)
 			(effects
 				(font
@@ -13108,7 +13209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 135.89 74.93 0)
 			(effects
 				(font
@@ -13117,12 +13218,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S21: BATTERY #2"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 130.81 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 135.89 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13492,7 +13630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 144.78 212.09 0)
 			(effects
 				(font
@@ -13501,12 +13639,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 144.78 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 144.78 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 144.78 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 144.78 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 144.78 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13757,7 +13932,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 181.61 90.17 0)
 			(effects
 				(font
@@ -13766,12 +13941,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 181.61 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 181.61 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13807,7 +14019,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SFM-120-X1-XXX-D"
+		(property "Value" "SFM-120-01-S-D-LC"
 			(at 246.38 146.05 0)
 			(effects
 				(font
@@ -13825,7 +14037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 248.92 196.85 0)
 			(effects
 				(font
@@ -13834,12 +14046,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S30: -Z ENDCARD"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 243.84 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 248.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 248.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 248.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 248.92 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13979,7 +14228,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 114.3 270)
+		(at 280.67 237.49 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13987,7 +14236,7 @@
 		(dnp yes)
 		(uuid "39c4b183-bb5d-4d9f-958e-f533f4fabfb4")
 		(property "Reference" "R20.4"
-			(at 101.6 118.11 90)
+			(at 274.32 241.3 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -13996,7 +14245,7 @@
 			)
 		)
 		(property "Value" "60.4"
-			(at 110.49 118.11 90)
+			(at 283.21 241.3 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14005,7 +14254,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.95 114.3 90)
+			(at 280.67 237.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14013,8 +14262,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 107.95 114.3 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 280.67 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14022,12 +14271,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 114.3 0)
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
+			(at 280.67 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 280.67 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF1206FT60R4CT-ND"
+			(at 280.67 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 280.67 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT60R4"
+			(at 280.67 237.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14147,7 +14433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 220.98 90.17 0)
 			(effects
 				(font
@@ -14156,12 +14442,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 220.98 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 220.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14312,7 +14635,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 123.19 0)
+		(at 288.29 246.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14320,7 +14643,7 @@
 		(dnp yes)
 		(uuid "422f691b-f8c3-40bf-b420-5bdbcca4486e")
 		(property "Reference" "C20.2"
-			(at 117.094 122.809 0)
+			(at 289.814 245.999 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14329,7 +14652,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 117.094 127.889 0)
+			(at 289.814 251.079 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14338,7 +14661,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 115.57 123.19 0)
+			(at 288.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14346,8 +14669,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 123.19 0)
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
+			(at 288.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14355,12 +14678,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 123.19 0)
+		(property "Description" "1 nF (1000 pF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 288.29 246.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 288.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-C0603C102J5GECAUTOCT-ND"
+			(at 288.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 288.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C102J5GECAUTO"
+			(at 288.29 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14380,7 +14740,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 87.63 0)
+		(at 288.29 210.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14388,7 +14748,7 @@
 		(dnp no)
 		(uuid "4237965f-718a-417a-ba9f-172ac9b58937")
 		(property "Reference" "#GND0116"
-			(at 115.57 87.63 0)
+			(at 288.29 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14397,7 +14757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 87.63 0)
+			(at 288.29 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14406,7 +14766,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 87.63 0)
+			(at 288.29 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14415,7 +14775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 87.63 0)
+			(at 288.29 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14424,7 +14784,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 87.63 0)
+			(at 288.29 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14511,7 +14871,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 83.82 134.62 0)
+		(at 102.87 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14519,7 +14879,7 @@
 		(dnp no)
 		(uuid "4a7e5cfb-0e8c-465c-b854-c674ba5485ee")
 		(property "Reference" "#GND0115"
-			(at 83.82 134.62 0)
+			(at 102.87 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14528,7 +14888,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 134.62 0)
+			(at 102.87 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14537,7 +14897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 134.62 0)
+			(at 102.87 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14546,7 +14906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 134.62 0)
+			(at 102.87 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14555,7 +14915,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 134.62 0)
+			(at 102.87 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14675,7 +15035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 336.55 90.17 0)
 			(effects
 				(font
@@ -14684,12 +15044,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 336.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 336.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 336.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 336.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 336.55 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14775,7 +15172,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 109.22 90)
+		(at 280.67 232.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14783,7 +15180,7 @@
 		(dnp yes)
 		(uuid "5a2458a6-963d-4696-a750-1643227a42f1")
 		(property "Reference" "R20.3"
-			(at 107.95 105.41 90)
+			(at 280.67 228.6 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14792,7 +15189,7 @@
 			)
 		)
 		(property "Value" "60.4"
-			(at 115.57 105.41 90)
+			(at 288.29 228.6 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14801,7 +15198,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.95 109.22 90)
+			(at 280.67 232.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14809,8 +15206,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 107.95 109.22 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 280.67 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14818,12 +15215,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 109.22 0)
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
+			(at 280.67 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 280.67 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF1206FT60R4CT-ND"
+			(at 280.67 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 280.67 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT60R4"
+			(at 280.67 232.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14877,7 +15311,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 181.61 212.09 0)
 			(effects
 				(font
@@ -14886,12 +15320,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 181.61 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 181.61 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 181.61 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 181.61 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 181.61 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15010,7 +15481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 327.66 74.93 0)
 			(effects
 				(font
@@ -15019,12 +15490,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S26: DNP FOR NO CONNECT"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 322.58 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 327.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 327.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 327.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 327.66 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15264,7 +15772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 259.08 90.17 0)
 			(effects
 				(font
@@ -15273,12 +15781,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 259.08 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 259.08 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15430,7 +15975,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 85.09 97.79 0)
+		(at 104.14 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15439,7 +15984,7 @@
 		(fields_autoplaced yes)
 		(uuid "80dbee7e-79cf-4119-9bd0-bf82a136ae3b")
 		(property "Reference" "#PWR022"
-			(at 85.09 104.14 0)
+			(at 104.14 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15448,7 +15993,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 102.87 0)
+			(at 104.14 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15456,7 +16001,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 97.79 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15465,7 +16010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 97.79 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15474,7 +16019,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 97.79 0)
+			(at 104.14 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15496,7 +16041,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 92.71 167.64 90)
+		(at 323.85 212.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15504,7 +16049,7 @@
 		(dnp no)
 		(uuid "80de9f77-f0f9-47ea-9473-d7ead8b4210f")
 		(property "Reference" "R20.5"
-			(at 91.44 163.83 90)
+			(at 322.58 208.28 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15513,7 +16058,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 96.52 163.83 90)
+			(at 327.66 208.28 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -15522,7 +16067,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 92.71 167.64 90)
+			(at 323.85 212.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15530,8 +16075,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 92.71 167.64 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 323.85 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,12 +16084,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 167.64 0)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 323.85 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 323.85 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
+			(at 323.85 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 323.85 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 323.85 212.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15580,7 +16162,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SFM-120-X1-XXX-D"
+		(property "Value" "SFM-120-01-S-D-LC"
 			(at 287.02 24.13 0)
 			(effects
 				(font
@@ -15598,7 +16180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 289.56 74.93 0)
 			(effects
 				(font
@@ -15607,12 +16189,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S25: SEPTENTRIO"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 284.48 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 289.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 289.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 289.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 289.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -15884,7 +16503,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 129.54 0)
+		(at 288.29 252.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15892,7 +16511,7 @@
 		(dnp no)
 		(uuid "87b6328a-2945-4fea-bf3c-3879d04d2d86")
 		(property "Reference" "#GND0117"
-			(at 115.57 129.54 0)
+			(at 288.29 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15901,7 +16520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 129.54 0)
+			(at 288.29 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15910,7 +16529,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 129.54 0)
+			(at 288.29 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15919,7 +16538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 129.54 0)
+			(at 288.29 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15928,7 +16547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 129.54 0)
+			(at 288.29 252.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16014,7 +16633,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 73.66 270)
+		(at 280.67 196.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16022,7 +16641,7 @@
 		(dnp yes)
 		(uuid "8a52eabc-415e-4906-b457-9286637990fc")
 		(property "Reference" "R20.2"
-			(at 100.33 77.47 90)
+			(at 273.05 200.66 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16031,7 +16650,7 @@
 			)
 		)
 		(property "Value" "60.4"
-			(at 110.49 77.47 90)
+			(at 283.21 200.66 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16040,7 +16659,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.95 73.66 90)
+			(at 280.67 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16048,8 +16667,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 107.95 73.66 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 280.67 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16057,12 +16676,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 73.66 0)
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
+			(at 280.67 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 280.67 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF1206FT60R4CT-ND"
+			(at 280.67 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 280.67 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT60R4"
+			(at 280.67 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16116,7 +16772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 212.09 74.93 0)
 			(effects
 				(font
@@ -16125,12 +16781,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S23: DNP FOR BATT 2"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 207.01 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 212.09 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16270,7 +16963,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 92.71 175.26 90)
+		(at 323.85 219.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16278,7 +16971,7 @@
 		(dnp no)
 		(uuid "942b747b-ef87-4b53-a15b-9cda9d96c5e3")
 		(property "Reference" "R20.6"
-			(at 92.71 171.45 90)
+			(at 323.85 215.9 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16287,7 +16980,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 96.52 171.45 90)
+			(at 327.66 215.9 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -16296,7 +16989,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 92.71 175.26 90)
+			(at 323.85 219.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16304,8 +16997,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 92.71 175.26 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
+			(at 323.85 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16313,12 +17006,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 92.71 175.26 0)
+		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
+			(at 323.85 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 323.85 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF0603ZT0R00CT-ND"
+			(at 323.85 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 323.85 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0603ZT0R00"
+			(at 323.85 219.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16372,7 +17102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 218.44 212.09 0)
 			(effects
 				(font
@@ -16381,12 +17111,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 218.44 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 218.44 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 218.44 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 218.44 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 218.44 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16702,7 +17469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 172.72 196.85 0)
 			(effects
 				(font
@@ -16711,12 +17478,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 172.72 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 172.72 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 172.72 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 172.72 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 172.72 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16872,7 +17676,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SFM-120-X1-XXX-D"
+		(property "Value" "SFM-120-01-S-D-LC"
 			(at 207.01 146.05 0)
 			(effects
 				(font
@@ -16890,7 +17694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 209.55 196.85 0)
 			(effects
 				(font
@@ -16899,12 +17703,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S29: OSIRIS"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 204.47 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 209.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 209.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 209.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 209.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17044,7 +17885,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 115.57 81.28 0)
+		(at 288.29 204.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17052,7 +17893,7 @@
 		(dnp yes)
 		(uuid "b64af439-ad33-40dc-af5f-570531c89aee")
 		(property "Reference" "C20.1"
-			(at 117.094 80.899 0)
+			(at 289.814 204.089 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17061,7 +17902,7 @@
 			)
 		)
 		(property "Value" "1n"
-			(at 117.094 85.979 0)
+			(at 289.814 209.169 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -17070,7 +17911,7 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 115.57 81.28 0)
+			(at 288.29 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17078,8 +17919,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 115.57 81.28 0)
+		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
+			(at 288.29 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17087,12 +17928,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 115.57 81.28 0)
+		(property "Description" "1 nF (1000 pF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
+			(at 288.29 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 288.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "399-C0603C102J5GECAUTOCT-ND"
+			(at 288.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "KEMET"
+			(at 288.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C102J5GECAUTO"
+			(at 288.29 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17146,7 +18024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 135.89 196.85 0)
 			(effects
 				(font
@@ -17155,12 +18033,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S27: DNP FOR NO CONNECT"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 130.81 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 135.89 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17300,7 +18215,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:VBUS")
-		(at 85.09 80.01 0)
+		(at 104.14 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17309,7 +18224,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd7340ff-18f6-4beb-96f6-0bc4ec84111e")
 		(property "Reference" "#VBUS024"
-			(at 85.09 83.82 0)
+			(at 104.14 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17318,7 +18233,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 85.09 74.93 0)
+			(at 104.14 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17326,7 +18241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 80.01 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17335,7 +18250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 80.01 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17344,7 +18259,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 85.09 80.01 0)
+			(at 104.14 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17498,7 +18413,7 @@
 	)
 	(symbol
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
-		(at 76.2 73.66 0)
+		(at 95.25 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17506,7 +18421,7 @@
 		(dnp yes)
 		(uuid "c724602f-f1a1-40ac-ac0a-6c0f208c887c")
 		(property "Reference" "CF20.2"
-			(at 73.66 21.59 0)
+			(at 92.71 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17515,7 +18430,7 @@
 			)
 		)
 		(property "Value" "SFM-120-X1-XXX-D"
-			(at 73.66 22.86 0)
+			(at 92.71 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -17524,7 +18439,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
-			(at 76.2 73.66 0)
+			(at 95.25 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17532,8 +18447,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 76.2 73.66 0)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
+			(at 95.25 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17541,12 +18456,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S20: DNP - EMPTY"
-			(at 71.12 73.66 90)
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
+			(at 90.17 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17786,7 +18738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 257.81 212.09 0)
 			(effects
 				(font
@@ -17795,12 +18747,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 257.81 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 257.81 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 257.81 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 257.81 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 257.81 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17854,7 +18843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 250.19 74.93 0)
 			(effects
 				(font
@@ -17863,12 +18852,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S24: DNP FOR SEPTENTRIO"
+		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 245.11 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "SAM11706-ND"
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Samtec Inc."
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 250.19 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18074,7 +19100,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 107.95 68.58 90)
+		(at 280.67 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18082,7 +19108,7 @@
 		(dnp yes)
 		(uuid "e0f0fe6c-5932-4aac-8fa5-e9881f4f5be3")
 		(property "Reference" "R20.1"
-			(at 106.68 64.77 90)
+			(at 279.4 187.96 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18091,7 +19117,7 @@
 			)
 		)
 		(property "Value" "60.4"
-			(at 115.57 64.77 90)
+			(at 288.29 187.96 90)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -18100,7 +19126,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 107.95 68.58 90)
+			(at 280.67 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18108,8 +19134,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 107.95 68.58 0)
+		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
+			(at 280.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18117,12 +19143,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 107.95 68.58 0)
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
+			(at 280.67 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 280.67 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "RMCF1206FT60R4CT-ND"
+			(at 280.67 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Stackpole Electronics Inc"
+			(at 280.67 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF1206FT60R4"
+			(at 280.67 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18242,7 +19305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
 			(at 298.45 90.17 0)
 			(effects
 				(font
@@ -18251,12 +19314,49 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 298.45 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "DIS" "DigiKey"
+			(at 298.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DPN" "587-3485-1-ND"
+			(at 298.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "Taiyo Yuden"
+			(at 298.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMK316AB7106KLHT"
+			(at 298.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
