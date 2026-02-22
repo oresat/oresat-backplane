@@ -697,7 +697,7 @@
         "filter_string": "",
         "group_symbols": true,
         "include_excluded_from_bom": false,
-        "name": "oresat-bom-output-preset",
+        "name": "bom-output-preset",
         "sort_asc": true,
         "sort_field": "Reference"
       },
@@ -792,7 +792,7 @@
         "filter_string": "",
         "group_symbols": true,
         "include_excluded_from_bom": false,
-        "name": "oresat-bom-preset",
+        "name": "bom-preset",
         "sort_asc": true,
         "sort_field": "Reference"
       }
