@@ -2549,7 +2549,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-backplane-3u-sch-rf3.kicad_sch"
+		(property "Sheetfile" "oresat-backplane-3u-sch-rf.kicad_sch"
 			(at 68.58 137.7446 0)
 			(effects
 				(font
