@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-12-28")
-		(rev "1.0")
+		(date "2026-02-21")
+		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
@@ -9257,7 +9257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 99.06 118.11 0)
 			(effects
 				(font
@@ -9427,7 +9427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 99.06 123.19 0)
 			(effects
 				(font
@@ -10637,7 +10637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 99.06 158.75 0)
 			(effects
 				(font
@@ -11344,7 +11344,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 99.06 163.83 0)
 			(effects
 				(font

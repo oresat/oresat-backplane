@@ -6,8 +6,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-12-28")
-		(rev "1.0")
+		(date "2026-02-21")
+		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols

@@ -9,8 +9,8 @@
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2025-12-28")
-		(rev "1.0")
+		(date "2026-02-21")
+		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
 	(layers
@@ -4621,7 +4621,7 @@
 				)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4872,7 +4872,7 @@
 				)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7397,7 +7397,7 @@
 				)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12019,7 +12019,7 @@
 				)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12375,7 +12375,7 @@
 				)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14311,7 +14311,7 @@
 				)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16638,7 +16638,7 @@
 				)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -22509,7 +22509,7 @@
 				)
 			)
 		)
-		(property "Description" "RMCF1206FT60R4"
+		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
