@@ -248,7 +248,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 138.43) (xy 163.83 137.16)
+			(xy 162.56 152.4) (xy 162.56 151.13)
 		)
 		(stroke
 			(width 0)
@@ -258,7 +258,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 147.32) (xy 158.75 147.32)
+			(xy 154.94 128.27) (xy 157.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -288,7 +288,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 132.08) (xy 156.21 132.08)
+			(xy 157.48 146.05) (xy 154.94 146.05)
 		)
 		(stroke
 			(width 0)
@@ -298,7 +298,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 153.67) (xy 163.83 152.4)
+			(xy 162.56 134.62) (xy 162.56 133.35)
 		)
 		(stroke
 			(width 0)
@@ -318,7 +318,7 @@
 	)
 	(global_label "RF_GPS_L1"
 		(shape input)
-		(at 156.21 132.08 180)
+		(at 154.94 146.05 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -328,7 +328,7 @@
 		)
 		(uuid "1b237e1d-6766-4e40-97dd-90d5a06b002f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.9439 132.08 0)
+			(at 141.6739 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -384,7 +384,7 @@
 	)
 	(global_label "RF_GPS_L1"
 		(shape input)
-		(at 156.21 147.32 180)
+		(at 154.94 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -394,7 +394,7 @@
 		)
 		(uuid "9d7c0567-38cb-4510-ba53-272332184659")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.9439 147.32 0)
+			(at 141.6739 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -450,15 +450,15 @@
 	)
 	(symbol
 		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
-		(at 163.83 132.08 0)
+		(at 162.56 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "099e269c-2825-4d87-9e34-fc3cfa518364")
-		(property "Reference" "CM2.4"
-			(at 167.64 135.89 0)
+		(property "Reference" "CM2.30"
+			(at 166.37 149.86 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -468,7 +468,7 @@
 			)
 		)
 		(property "Value" "J-MOLEX-SMPM-73300-0111X"
-			(at 167.64 138.43 0)
+			(at 166.37 152.4 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -478,7 +478,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
-			(at 163.83 132.08 0)
+			(at 162.56 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,7 +487,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 132.08 0)
+			(at 162.56 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -495,8 +495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S4: L1"
-			(at 163.83 127 0)
+		(property "Description" "S30: L1"
+			(at 162.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -512,7 +512,7 @@
 		(instances
 			(project "oresat-backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/f5c1380d-32ae-406c-818a-f1b25e856995"
-					(reference "CM2.4")
+					(reference "CM2.30")
 					(unit 1)
 				)
 			)
@@ -725,7 +725,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 153.67 0)
+		(at 162.56 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -733,7 +733,7 @@
 		(dnp no)
 		(uuid "4146342e-742f-44b4-85ff-a7fb264ab651")
 		(property "Reference" "#GND0125"
-			(at 163.83 153.67 0)
+			(at 162.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 153.67 0)
+			(at 162.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -751,7 +751,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 153.67 0)
+			(at 162.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 153.67 0)
+			(at 162.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +769,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 153.67 0)
+			(at 162.56 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,15 +790,15 @@
 	)
 	(symbol
 		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
-		(at 163.83 147.32 0)
+		(at 162.56 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "5d2a4091-c34b-4174-9d39-1ef46f5fff1a")
-		(property "Reference" "CM1.30"
-			(at 167.64 151.13 0)
+		(property "Reference" "CM2.4"
+			(at 166.37 132.08 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -808,7 +808,7 @@
 			)
 		)
 		(property "Value" "J-MOLEX-SMPM-73300-0111X"
-			(at 167.64 153.67 0)
+			(at 166.37 134.62 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -818,7 +818,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
-			(at 163.83 147.32 0)
+			(at 162.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 147.32 0)
+			(at 162.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -835,8 +835,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S30: L1"
-			(at 163.83 143.51 0)
+		(property "Description" "S4: L1"
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +852,7 @@
 		(instances
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/f5c1380d-32ae-406c-818a-f1b25e856995"
-					(reference "CM1.30")
+					(reference "CM2.4")
 					(unit 1)
 				)
 			)
@@ -930,7 +930,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 163.83 138.43 0)
+		(at 162.56 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -938,7 +938,7 @@
 		(dnp no)
 		(uuid "908f6faf-560f-485d-8102-58ee9e1c7e1d")
 		(property "Reference" "#GND060"
-			(at 163.83 138.43 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -947,7 +947,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 163.83 138.43 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -956,7 +956,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 163.83 138.43 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -965,7 +965,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 138.43 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -974,7 +974,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 138.43 0)
+			(at 162.56 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
