@@ -1637,16 +1637,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "SLOTS 14-17 UNUSED; ADCS FILL\n"
-		(exclude_from_sim no)
-		(at 214.63 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "9920a789-a899-48b5-a4d4-97400fed1702")
-	)
 	(junction
 		(at 123.19 172.72)
 		(diameter 0)
@@ -9290,7 +9280,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "093919cb-e1c4-4e0f-9718-5e311ce16624")
 		(property "Reference" "#GND017"
 			(at 203.2 185.42 0)
@@ -9536,7 +9526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "UNUSED: NO MIDCARD 1"
+		(property "Description" "S12: DNP - NO MIDCARD"
 			(at 73.66 121.92 90)
 			(effects
 				(font
@@ -9790,8 +9780,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 274.32 125.73 0)
+		(property "Description" "S17: DNP FOR ADCS"
+			(at 269.24 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9940,7 +9930,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28003e7d-7e32-4022-90e8-facf74151a2e")
 		(property "Reference" "#PWR015"
@@ -10006,7 +9996,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e09f002-3f16-4c48-a4eb-4534be4c9d92")
 		(property "Reference" "#PWR014"
@@ -10140,7 +10130,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e434336-b7dc-49ea-960d-b8a1267bf8db")
 		(property "Reference" "#VBUS015"
@@ -10274,7 +10264,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4ee1ad87-c2a6-4d11-a1cd-6863295d5c54")
 		(property "Reference" "#GND018"
 			(at 240.03 185.42 0)
@@ -10339,7 +10329,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52c925b6-574b-4f97-b341-9e774374a224")
 		(property "Reference" "#VBUS012"
@@ -10443,7 +10433,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "-Z MIDCARD: SOLAR CON"
+		(property "Description" "S19: -Z MIDCARD - SOLAR CON"
 			(at 344.17 127 90)
 			(effects
 				(font
@@ -10593,7 +10583,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "6d3d8625-4664-4444-8186-1cdb265c2603")
 		(property "Reference" "#GND016"
 			(at 166.37 185.42 0)
@@ -10696,8 +10686,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 232.41 124.46 0)
+		(property "Description" "S16: DNP FOR ADCS"
+			(at 227.33 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10846,7 +10836,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "767b8604-5b1b-4e33-bc84-3aabb4f6756a")
 		(property "Reference" "#VBUS016"
@@ -10950,7 +10940,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "MAG BOARD"
+		(property "Description" "S13: MAG BOARD"
 			(at 113.03 124.46 90)
 			(effects
 				(font
@@ -11206,8 +11196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 158.75 124.46 0)
+		(property "Description" "S14: DNP FOR ADCS"
+			(at 153.67 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11356,7 +11346,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "999d8d5f-c236-40a6-875d-24378180706d")
 		(property "Reference" "#PWR012"
@@ -11422,7 +11412,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "a1bcc5cb-f87c-48fd-8a89-1c13b351122a")
 		(property "Reference" "#GND010"
 			(at 86.36 182.88 0)
@@ -11789,8 +11779,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 195.58 124.46 0)
+		(property "Description" "S15: DNP FOR ADCS"
+			(at 190.5 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12081,7 +12071,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3d47236-b85e-4d76-88f4-8e51ed21c93d")
 		(property "Reference" "#PWR013"
@@ -12147,7 +12137,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5142bcd-6b14-4750-b6d7-f270a20db0bc")
 		(property "Reference" "#PWR017"
@@ -12213,7 +12203,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "d7b5b404-3d66-4201-b551-a2a3cc0aa6c3")
 		(property "Reference" "#GND0111"
 			(at 281.94 186.69 0)
@@ -12412,7 +12402,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8ee61ff-9488-4301-b9c3-097ab80b7e57")
 		(property "Reference" "#VBUS017"
@@ -12582,7 +12572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RW CARD"
+		(property "Description" "S18: RW CARD"
 			(at 307.34 127 90)
 			(effects
 				(font
@@ -12798,7 +12788,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb0bb7ab-2585-478f-aa5e-126768b3fd80")
 		(property "Reference" "#VBUS014"

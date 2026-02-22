@@ -784,7 +784,7 @@
 	)
 	(text "Debug Connector"
 		(exclude_from_sim no)
-		(at 184.15 107.95 0)
+		(at 207.01 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -794,20 +794,20 @@
 		(uuid "2c75a7d1-f1bd-49e2-8912-322974c04e89")
 	)
 	(junction
-		(at 185.42 120.65)
+		(at 208.28 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5bdd0612-b98e-4fe7-94e7-eac3be3b8cb1")
 	)
 	(junction
-		(at 198.12 123.19)
+		(at 220.98 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad2b1f5a-ebae-4029-aa48-06de6d91b985")
 	)
 	(wire
 		(pts
-			(xy 185.42 118.11) (xy 185.42 120.65)
+			(xy 208.28 129.54) (xy 208.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -817,7 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 114.3) (xy 167.64 120.65)
+			(xy 190.5 125.73) (xy 190.5 132.08)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 120.65) (xy 185.42 123.19)
+			(xy 208.28 132.08) (xy 208.28 134.62)
 		)
 		(stroke
 			(width 0)
@@ -837,7 +837,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 123.19) (xy 198.12 125.73)
+			(xy 220.98 134.62) (xy 220.98 137.16)
 		)
 		(stroke
 			(width 0)
@@ -847,7 +847,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 123.19) (xy 198.12 123.19)
+			(xy 240.03 134.62) (xy 220.98 134.62)
 		)
 		(stroke
 			(width 0)
@@ -857,7 +857,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 120.65) (xy 185.42 120.65)
+			(xy 190.5 132.08) (xy 208.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +867,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 120.65) (xy 198.12 123.19)
+			(xy 220.98 132.08) (xy 220.98 134.62)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +877,7 @@
 	)
 	(wire
 		(pts
-			(xy 217.17 134.62) (xy 217.17 123.19)
+			(xy 240.03 146.05) (xy 240.03 134.62)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +887,7 @@
 	)
 	(global_label "OPD_SCL"
 		(shape bidirectional)
-		(at 185.42 113.03 180)
+		(at 208.28 124.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -897,7 +897,7 @@
 		)
 		(uuid "10b555d0-92f6-48d5-bebd-a260f6f2c153")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 255.27 0)
+			(at 256.54 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -908,7 +908,7 @@
 	)
 	(global_label "CAN1_H"
 		(shape bidirectional)
-		(at 185.42 125.73 180)
+		(at 208.28 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -918,7 +918,7 @@
 		)
 		(uuid "16aaa48c-614f-45de-a414-563225fe1415")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 318.77 0)
+			(at 256.54 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -929,7 +929,7 @@
 	)
 	(global_label "C3-UART-RX"
 		(shape bidirectional)
-		(at 198.12 130.81 0)
+		(at 220.98 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -939,7 +939,7 @@
 		)
 		(uuid "228d2f7e-6cf7-4397-adfb-6d66052dc139")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.9901 130.7322 0)
+			(at 235.8501 142.1622 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -951,7 +951,7 @@
 	)
 	(global_label "CAN2_L"
 		(shape bidirectional)
-		(at 198.12 118.11 0)
+		(at 220.98 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -961,7 +961,7 @@
 		)
 		(uuid "540a863d-6bcf-4814-b23e-064ae02a7251")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 -39.37 0)
+			(at 172.72 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +972,7 @@
 	)
 	(global_label "C3-UART-TX"
 		(shape bidirectional)
-		(at 185.42 128.27 180)
+		(at 208.28 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -982,7 +982,7 @@
 		)
 		(uuid "66439763-39df-40ef-b659-34592014ece9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.8463 128.3478 0)
+			(at 193.7063 139.7778 0)
 			(effects
 				(font
 					(size 1.2446 1.2446)
@@ -994,7 +994,7 @@
 	)
 	(global_label "OPD_PWR"
 		(shape bidirectional)
-		(at 198.12 115.57 0)
+		(at 220.98 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1004,7 +1004,7 @@
 		)
 		(uuid "9a72247c-f4b3-4d5e-b387-a18e6c6bfcc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 -31.75 0)
+			(at 172.72 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1015,7 +1015,7 @@
 	)
 	(global_label "CAN2_H"
 		(shape bidirectional)
-		(at 185.42 115.57 180)
+		(at 208.28 127 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1025,7 +1025,7 @@
 		)
 		(uuid "b42059c8-4afd-4031-979a-f8051111965f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 267.97 0)
+			(at 256.54 279.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1036,7 +1036,7 @@
 	)
 	(global_label "OPD_SDA"
 		(shape bidirectional)
-		(at 198.12 113.03 0)
+		(at 220.98 124.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1046,7 +1046,7 @@
 		)
 		(uuid "c5a520c8-e700-4e4d-aa67-5b02b2eac31e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 -24.13 0)
+			(at 172.72 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +1057,7 @@
 	)
 	(global_label "CAN1_L"
 		(shape bidirectional)
-		(at 198.12 128.27 0)
+		(at 220.98 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1067,7 +1067,7 @@
 		)
 		(uuid "d9893fb6-6841-40e8-a64f-9fa6115281fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 -69.85 0)
+			(at 172.72 -58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1078,7 +1078,7 @@
 	)
 	(global_label "~{SD}"
 		(shape bidirectional)
-		(at 185.42 130.81 180)
+		(at 208.28 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1088,7 +1088,7 @@
 		)
 		(uuid "fabc21da-45bd-423e-8f6d-218f57778827")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 339.09 0)
+			(at 256.54 350.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1099,7 +1099,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 191.77 134.62 0)
+		(at 214.63 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1107,7 +1107,7 @@
 		(dnp no)
 		(uuid "51c44011-4c70-49b0-a067-d39e7cc9573f")
 		(property "Reference" "#GND0132"
-			(at 191.77 134.62 0)
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 191.77 134.62 0)
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 134.62 0)
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1134,7 +1134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 134.62 0)
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1143,7 +1143,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 134.62 0)
+			(at 214.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 	)
 	(symbol
 		(lib_id "oresat-connectors:m55-6001642")
-		(at 191.77 110.49 0)
+		(at 214.63 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1172,7 +1172,7 @@
 		(dnp no)
 		(uuid "5255a863-6f42-461a-964f-3e6c503ab18b")
 		(property "Reference" "J1"
-			(at 191.77 109.22 0)
+			(at 214.63 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,7 +1180,7 @@
 			)
 		)
 		(property "Value" "m55-6001642"
-			(at 191.77 110.49 0)
+			(at 214.63 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1188,7 +1188,7 @@
 			)
 		)
 		(property "Footprint" "oresat-connectors:m55-6001642"
-			(at 191.77 110.49 0)
+			(at 214.63 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1197,7 +1197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 110.49 0)
+			(at 214.63 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,7 +1206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 191.77 110.49 0)
+			(at 214.63 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1275,7 @@
 	)
 	(symbol
 		(lib_id "oresat-power:VBUS")
-		(at 167.64 114.3 0)
+		(at 190.5 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1284,7 +1284,7 @@
 		(fields_autoplaced yes)
 		(uuid "72e5a04f-0047-4991-8ee3-349d1ff4840a")
 		(property "Reference" "#VBUS031"
-			(at 167.64 118.11 0)
+			(at 190.5 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +1293,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 167.64 109.22 0)
+			(at 190.5 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1301,7 +1301,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 114.3 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1310,7 +1310,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 114.3 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 167.64 114.3 0)
+			(at 190.5 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1341,7 +1341,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 217.17 134.62 0)
+		(at 240.03 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1350,7 +1350,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb5a6bd5-637b-45cd-9204-b972f1ed35db")
 		(property "Reference" "#PWR029"
-			(at 217.17 140.97 0)
+			(at 240.03 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1359,7 +1359,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 217.17 139.7 0)
+			(at 240.03 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1367,7 +1367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 134.62 0)
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1376,7 +1376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 134.62 0)
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1385,7 +1385,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 134.62 0)
+			(at 240.03 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -58,16 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "unconnected_items|276444500|353714221|F.Cu|4|414e7739-fe52-4c1d-a47c-d3e45ddc6d83|414e7739-fe52-4c1d-a47c-d3e45ddc6d83",
-          ""
-        ],
-        [
-          "unconnected_items|334700000|66022000|F.Cu|4|f651ae5f-d157-4363-8527-ce9ab95375cd|c7bdcf3e-c178-4f9f-96de-29a7a93de49b",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -759,12 +750,8 @@
       "Debug Connector"
     ],
     [
-      "58fa0270-465b-4525-ade6-c06f84e23f5a",
-      "RF Connectors U1"
-    ],
-    [
       "f5c1380d-32ae-406c-818a-f1b25e856995",
-      "RF Connectors U3"
+      "RF Connectors"
     ]
   ],
   "text_variables": {}

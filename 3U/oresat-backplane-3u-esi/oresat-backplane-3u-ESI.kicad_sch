@@ -1961,7 +1961,7 @@
 		(instances
 			(project "oresat-backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
-					(page "7")
+					(page "5")
 				)
 			)
 		)
@@ -2004,64 +2004,6 @@
 			(project "oresat-backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 68.58 133.35)
-		(size 19.05 3.81)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "58fa0270-465b-4525-ade6-c06f84e23f5a")
-		(property "Sheetname" "RF Connectors U1"
-			(at 68.58 132.6384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "oresat-backplane-3u-sch-rf1.kicad_sch"
-			(at 68.58 137.7446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Field2" ""
-			(at 68.58 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field3" ""
-			(at 68.58 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "oresat-backplane-3u-ESI"
-				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
-					(page "8")
 				)
 			)
 		)
@@ -2151,7 +2093,7 @@
 		)
 	)
 	(sheet
-		(at 68.58 143.51)
+		(at 68.58 133.35)
 		(size 19.05 3.81)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2166,8 +2108,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "f5c1380d-32ae-406c-818a-f1b25e856995")
-		(property "Sheetname" "RF Connectors U3"
-			(at 68.58 142.7984 0)
+		(property "Sheetname" "RF Connectors"
+			(at 68.58 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +2118,7 @@
 			)
 		)
 		(property "Sheetfile" "oresat-backplane-3u-sch-rf3.kicad_sch"
-			(at 68.58 147.9046 0)
+			(at 68.58 137.7446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2129,7 @@
 		(instances
 			(project "oresat-backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
-					(page "10")
+					(page "6")
 				)
 			)
 		)

@@ -1810,16 +1810,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "UNUSED 7,8 - FILLED BY BATT PACK #1\n"
-		(exclude_from_sim no)
-		(at 181.61 260.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "90fb2af3-5a99-469e-b4df-311ade77472a")
-	)
 	(junction
 		(at 204.47 87.63)
 		(diameter 0)
@@ -12519,7 +12509,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "024f3da9-8763-4090-8302-4e29a0f13fcf")
 		(property "Reference" "#PWR07"
@@ -12585,7 +12575,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02c23dbc-c53d-47c8-a52f-a1e7ed3c0d7e")
 		(property "Reference" "#VBUS02"
@@ -12689,7 +12679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "EMPTY"
+		(property "Description" "S9: DNP - EMPTY"
 			(at 232.41 195.58 90)
 			(effects
 				(font
@@ -12839,7 +12829,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05a89102-b040-4b7a-9e64-2007a487ecae")
 		(property "Reference" "#VBUS06"
@@ -12943,7 +12933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "BATTERY #1"
+		(property "Description" "S6: BATTERY #1"
 			(at 304.8 74.93 90)
 			(effects
 				(font
@@ -13264,8 +13254,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 74.93 0)
+		(property "Description" "S2: DNP - EMPTY"
+			(at 157.48 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13414,7 +13404,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "165da371-7fa6-4692-9543-c4346f574f11")
 		(property "Reference" "#VBUS011"
@@ -13480,7 +13470,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e96f3e1-1271-46e3-9d85-b72303fb09b2")
 		(property "Reference" "#VBUS09"
@@ -13611,7 +13601,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "2b5afe32-fb88-4aea-8e94-3633f4df8424")
 		(property "Reference" "#GND0103"
 			(at 281.94 256.54 0)
@@ -13807,7 +13797,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3054cb5e-6dba-4991-b778-6c9ce4dfd06b")
 		(property "Reference" "#GND0112"
 			(at 280.67 135.89 0)
@@ -13910,7 +13900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "S BAND"
+		(property "Description" "S11: S BAND"
 			(at 306.07 195.58 90)
 			(effects
 				(font
@@ -14398,7 +14388,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "3d1d7531-55f8-407b-8377-6c3ae9ed8744")
 		(property "Reference" "#GND0123"
 			(at 245.11 256.54 0)
@@ -14463,7 +14453,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "4013b328-6829-4074-b8db-cb25c2f3a5a1")
 		(property "Reference" "#GND0101"
 			(at 170.18 135.89 0)
@@ -14702,8 +14692,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 104.14 73.66 0)
+		(property "Description" "S1: +Z ENDCARD"
+			(at 99.06 73.66 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14890,7 +14880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "UNUSED - FILLED BY S BAND"
+		(property "Description" "S10: DNP FOR SBAND"
 			(at 269.24 195.58 90)
 			(effects
 				(font
@@ -15143,7 +15133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ORESAT GPS"
+		(property "Description" "S4: ORESAT GPS"
 			(at 231.14 74.93 90)
 			(effects
 				(font
@@ -15559,7 +15549,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7290be6b-b5b0-4fca-8f55-92d74e07b3fa")
 		(property "Reference" "#PWR08"
@@ -15663,8 +15653,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 200.66 195.58 0)
+		(property "Description" "S8: DNP FOR BATT 1"
+			(at 195.58 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15813,7 +15803,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "7c6e6015-8082-4d87-be19-944a3a8e816d")
 		(property "Reference" "#GND0120"
 			(at 208.28 256.54 0)
@@ -16077,7 +16067,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b46cf35-bd3e-4003-a8f7-374bed57ac14")
 		(property "Reference" "#PWR02"
@@ -16276,7 +16266,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0ca9a77-e816-46de-a9f8-e70de5d5c1ef")
 		(property "Reference" "#VBUS01"
@@ -16446,8 +16436,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 162.56 193.04 0)
+		(property "Description" "S7: DNP FOR BATT 1"
+			(at 157.48 194.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16664,7 +16654,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd74edd8-e724-4541-8896-8bbcffcedd17")
 		(property "Reference" "#PWR06"
@@ -16798,7 +16788,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "c0ff6fea-62e7-468e-8b98-6a530df89a15")
 		(property "Reference" "#GND0114"
 			(at 170.18 254 0)
@@ -16901,7 +16891,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C3 CARD"
+		(property "Description" "S3: C3 CARD"
 			(at 194.31 74.93 90)
 			(effects
 				(font
@@ -17051,7 +17041,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c48b1027-3f58-4fee-8c79-dfced448b2dc")
 		(property "Reference" "#PWR05"
@@ -17117,7 +17107,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9190432-9d79-4a29-bd8c-fab6183dd3ec")
 		(property "Reference" "#VBUS03"
@@ -17315,7 +17305,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7bdfde9-eee6-43fa-b7f2-f92486a07073")
 		(property "Reference" "#PWR031"
@@ -17487,8 +17477,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 273.05 74.93 0)
+		(property "Description" "S5: DNP - EMPTY"
+			(at 267.97 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
