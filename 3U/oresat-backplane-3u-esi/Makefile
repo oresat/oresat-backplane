@@ -1,4 +1,11 @@
-# Build automation for TOVA USBD Device
+# Build automation for OreSat KiCad projects
+#
+# PROJECT_NAME is the root of your KiCad project (whatever comes before .kicad_pro).
+# OUPUT_DIR is whatever directory you're dumping your build products into
+# PRESET_NAME is the preset for your BOM format. kicad-cli will happily output a completely useless BOM
+#   of just REF, VALUE, FOOTPRINT, that's it, unless you set up the BOM tool with a "preset".
+#   For Oresat, we set up oresat-bom-preset when working in KiCad, and then have oresat-bom-output-preset
+#   which gets rid of value, footprint, and datasheet since you don't need that in your CSV BOM file.
 
 PROJECT_NAME := oresat-backplane-3u-ESI
 OUTPUT_DIR   := build
