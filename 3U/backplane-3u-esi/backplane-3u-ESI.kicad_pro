@@ -489,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "oresat-backplane-3u-ESI.kicad_pro",
+    "filename": "backplane-3u-ESI.kicad_pro",
     "version": 3
   },
   "net_settings": {
