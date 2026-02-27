@@ -555,7 +555,7 @@
     "netclass_patterns": [
       {
         "netclass": "RF-50-max",
-        "pattern": "RF_*"
+        "pattern": "RF-*"
       }
     ]
   },

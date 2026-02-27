@@ -2391,7 +2391,7 @@
 			)
 		)
 		(instances
-			(project "oresat-backplane-3u-ESI"
+			(project "backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "5")
 				)
@@ -2433,7 +2433,7 @@
 			)
 		)
 		(instances
-			(project "oresat-backplane-3u-ESI"
+			(project "backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "2")
 				)
@@ -2475,7 +2475,7 @@
 			)
 		)
 		(instances
-			(project "oresat-backplane-3u-ESI"
+			(project "backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "4")
 				)
@@ -2517,7 +2517,7 @@
 			)
 		)
 		(instances
-			(project "oresat-backplane-3u-ESI"
+			(project "backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "3")
 				)
@@ -2559,7 +2559,7 @@
 			)
 		)
 		(instances
-			(project "oresat-backplane-3u-ESI"
+			(project "backplane-3u-ESI"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "6")
 				)

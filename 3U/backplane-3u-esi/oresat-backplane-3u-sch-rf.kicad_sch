@@ -3223,7 +3223,7 @@
 			)
 		)
 	)
-	(global_label "GPS-L1"
+	(global_label "RF-GPS-L1"
 		(shape input)
 		(at 106.68 96.52 180)
 		(fields_autoplaced yes)
@@ -3235,7 +3235,7 @@
 		)
 		(uuid "1b237e1d-6766-4e40-97dd-90d5a06b002f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.1353 96.52 0)
+			(at 92.2043 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +3245,7 @@
 			)
 		)
 	)
-	(global_label "UHF"
+	(global_label "RF-UHF"
 		(shape input)
 		(at 135.89 76.2 180)
 		(fields_autoplaced yes)
@@ -3257,7 +3257,7 @@
 		)
 		(uuid "5f1f2946-f903-4317-a870-9c66a95cd611")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.1552 76.2 0)
+			(at 125.2242 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3267,7 +3267,7 @@
 			)
 		)
 	)
-	(global_label "S-BAND"
+	(global_label "RF-S-BAND"
 		(shape input)
 		(at 77.47 212.09 180)
 		(fields_autoplaced yes)
@@ -3279,7 +3279,7 @@
 		)
 		(uuid "7bd74dc9-4335-49fb-943f-8cbfbbf7b642")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.7438 212.09 0)
+			(at 62.8128 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3289,7 +3289,7 @@
 			)
 		)
 	)
-	(global_label "GPS-L1"
+	(global_label "RF-GPS-L1"
 		(shape input)
 		(at 325.12 229.87 180)
 		(fields_autoplaced yes)
@@ -3301,7 +3301,7 @@
 		)
 		(uuid "9d7c0567-38cb-4510-ba53-272332184659")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 314.5753 229.87 0)
+			(at 310.6443 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3311,7 +3311,7 @@
 			)
 		)
 	)
-	(global_label "S-BAND"
+	(global_label "RF-S-BAND"
 		(shape input)
 		(at 80.01 39.37 180)
 		(fields_autoplaced yes)
@@ -3323,7 +3323,7 @@
 		)
 		(uuid "d30692ec-08fc-4569-a81e-a2fdfd55252f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.2838 39.37 0)
+			(at 65.3528 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +3333,7 @@
 			)
 		)
 	)
-	(global_label "UHF"
+	(global_label "RF-UHF"
 		(shape input)
 		(at 382.27 229.87 180)
 		(fields_autoplaced yes)
@@ -3345,7 +3345,7 @@
 		)
 		(uuid "fb893b2a-1d5f-4521-a320-6ece3e923be7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 375.5352 229.87 0)
+			(at 371.6042 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
