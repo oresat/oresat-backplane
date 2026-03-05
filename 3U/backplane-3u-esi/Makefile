@@ -16,7 +16,7 @@ PROJECT_NAME = $(PROJECT_FILE:%.kicad_pro=%)
 SCHEMATIC    = $(PROJECT_NAME).kicad_sch
 BOARD        = $(PROJECT_NAME).kicad_pcb
 OUTPUT_DIR  ?= build
-PRESET_NAME  = bom-export-preset
+PRESET_NAME ?= bom-export-preset
 
 # Default target (first target is default)
 all: erc pdf bom drc ipc gbr drl pos jpg dxf stp zip
@@ -58,14 +58,14 @@ pos:	## Position files for pick and place machines (also in the ipc file)
 # Generate renders of the board
 
 jpg:	## Generate photorealistic renders of the top and bottom sides of the PCB
-	kicad-cli pcb render -o $(OUTPUT_DIR)/$(PROJECT_NAME)-render-top.jpg --side top --quality high $(BOARD)
-	kicad-cli pcb render -o $(OUTPUT_DIR)/$(PROJECT_NAME)-render-bot.jpg --side bottom --quality high $(BOARD)
+	kicad-cli pcb render -o $(OUTPUT_DIR)/$(PROJECT_NAME)-render-top.jpg --side top -w 3840 -h 2160 $(BOARD)
+	kicad-cli pcb render -o $(OUTPUT_DIR)/$(PROJECT_NAME)-render-bot.jpg --side bottom -w 3840 -h 2160 $(BOARD)
 	
 dxf:	## DXF drawing of the board outline, with cutouts and larger holes
 	kicad-cli pcb export dxf -o $(OUTPUT_DIR)/$(PROJECT_NAME)-outline.dxf --mode-single -l Edge.Cuts $(BOARD)
 	
 stp:	## A 3D STEP file to import into your MCAD package
-	kicad-cli pcb export step -o $(OUTPUT_DIR)/$(PROJECT_NAME)-pcba.step $(BOARD)
+	kicad-cli pcb export step -o $(OUTPUT_DIR)/$(PROJECT_NAME)-pcba.step --no-dnp --include-silkscreen --include-soldermask --include-pads --cut-vias-in-body $(BOARD)
 
 zip:	## Zip the file with a timestamp
 	zip $(OUTPUT_DIR)/$(PROJECT_NAME)-$(shell date '+%Y-%m-%dT%H-%M-%S').zip $(OUTPUT_DIR)/*
