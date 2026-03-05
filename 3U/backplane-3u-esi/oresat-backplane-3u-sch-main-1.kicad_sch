@@ -13377,7 +13377,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "02ccab89-29a3-4a08-ab00-f0682a48c303")
 		(property "Reference" "CF9.2"
 			(at 224.79 147.32 0)
@@ -17082,7 +17082,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "8629ca5c-8b9f-4768-8546-e14d99d0740c")
 		(property "Reference" "C11"
 			(at 237.744 214.249 0)

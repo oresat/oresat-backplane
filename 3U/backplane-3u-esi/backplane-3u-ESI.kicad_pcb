@@ -67573,18 +67573,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "DNP"
-		(at 288.2 125.9 0)
-		(layer "F.SilkS")
-		(uuid "06c69c3b-d102-4de6-85e7-2e668cb15d37")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "SBAND"
 		(at 331.5 48.4 0)
 		(layer "F.SilkS")
@@ -67790,6 +67778,19 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDR CONTROL"
+		(at 280.75 126.025 0)
+		(layer "F.SilkS")
+		(uuid "92392f6d-742a-49c0-8aa8-25b039a634e8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
