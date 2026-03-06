@@ -2381,7 +2381,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-backplane-3u-sch-debug.kicad_sch"
+		(property "Sheetfile" "esi-backplane-3u-sch-debug.kicad_sch"
 			(at 68.58 127.5846 0)
 			(effects
 				(font
@@ -2391,7 +2391,7 @@
 			)
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "5")
 				)
@@ -2423,7 +2423,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-backplane-3u-sch-main-1.kicad_sch"
+		(property "Sheetfile" "esi-backplane-3u-sch-main-1.kicad_sch"
 			(at 68.58 98.3746 0)
 			(effects
 				(font
@@ -2433,7 +2433,7 @@
 			)
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "2")
 				)
@@ -2465,7 +2465,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-backplane-3u-sch-main-3.kicad_sch"
+		(property "Sheetfile" "esi-backplane-3u-sch-main-3.kicad_sch"
 			(at 68.58 117.4246 0)
 			(effects
 				(font
@@ -2474,8 +2474,16 @@
 				(justify left top)
 			)
 		)
+		(property "Field2" ""
+			(at 68.58 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "4")
 				)
@@ -2507,7 +2515,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-backplane-3u-sch-main-2.kicad_sch"
+		(property "Sheetfile" "esi-backplane-3u-sch-main-2.kicad_sch"
 			(at 68.58 108.5346 0)
 			(effects
 				(font
@@ -2517,7 +2525,7 @@
 			)
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "3")
 				)
@@ -2549,7 +2557,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "oresat-backplane-3u-sch-rf.kicad_sch"
+		(property "Sheetfile" "esi-backplane-3u-sch-rf.kicad_sch"
 			(at 68.58 137.7446 0)
 			(effects
 				(font
@@ -2559,7 +2567,7 @@
 			)
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(page "6")
 				)

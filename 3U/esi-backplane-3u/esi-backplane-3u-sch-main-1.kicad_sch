@@ -13587,7 +13587,7 @@
 			(uuid "39031a28-e474-4460-b87d-643baad1a0c7")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF9.2")
 					(unit 1)
@@ -13812,7 +13812,7 @@
 			(uuid "7b559d4b-9657-40b4-b79f-a47447a0bf1b")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF6.2")
 					(unit 1)
@@ -13917,7 +13917,7 @@
 			(uuid "54d611a7-970d-4538-8662-5a10c3c4fa1b")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C17")
 					(unit 1)
@@ -13982,7 +13982,7 @@
 			(uuid "0053758d-be66-4a34-95b5-cf82d9c16043")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0113")
 					(unit 1)
@@ -14207,7 +14207,7 @@
 			(uuid "4059ac0f-1d5b-4f5e-bd9d-7747cd54a70e")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF2.2")
 					(unit 1)
@@ -14312,7 +14312,7 @@
 			(uuid "4ddb03d5-64e7-4907-9123-ddbaf5459886")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C18")
 					(unit 1)
@@ -14377,7 +14377,7 @@
 			(uuid "b2253b6e-5c69-4d00-adc6-ca6e6a1ba33e")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS04")
 					(unit 1)
@@ -14442,7 +14442,7 @@
 			(uuid "05ac78e2-824c-4374-a315-7eb6751c2332")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR031")
 					(unit 1)
@@ -14507,7 +14507,7 @@
 			(uuid "a179d026-1835-4989-be1e-3f3ae2f527b5")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0104")
 					(unit 1)
@@ -14572,7 +14572,7 @@
 			(uuid "3960903b-8572-498f-80ee-41604de935d6")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0103")
 					(unit 1)
@@ -14637,7 +14637,7 @@
 			(uuid "879b4a40-2cb4-4a49-8833-1ab82d5905e7")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0105")
 					(unit 1)
@@ -14702,7 +14702,7 @@
 			(uuid "8340f21e-3b37-4617-a38a-98bc3cf2e8dd")
 		)
 		(instances
-			(project ""
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR01")
 					(unit 1)
@@ -14767,7 +14767,7 @@
 			(uuid "95ecf77d-a387-482b-b6ab-d88e69a2e874")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0112")
 					(unit 1)
@@ -14992,7 +14992,7 @@
 			(uuid "bd82aca8-083b-4b67-a58d-7d5e5b16e7ee")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF11.2")
 					(unit 1)
@@ -15097,7 +15097,7 @@
 			(uuid "9eff35ec-3de5-4fd4-bf44-234e80c240ea")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "R1.1")
 					(unit 1)
@@ -15202,7 +15202,7 @@
 			(uuid "950da017-d0f1-4e81-b5f2-e23935a2a6e0")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C21")
 					(unit 1)
@@ -15267,7 +15267,7 @@
 			(uuid "c5d690ea-d79f-476e-a8aa-762a16f0e3e4")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0123")
 					(unit 1)
@@ -15332,7 +15332,7 @@
 			(uuid "055e6d57-c333-4017-9bad-99d288b26470")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0101")
 					(unit 1)
@@ -15397,7 +15397,7 @@
 			(uuid "29710aab-f93a-4b4f-90ac-ad321fc480dd")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS08")
 					(unit 1)
@@ -15502,7 +15502,7 @@
 			(uuid "edbbadf1-f3c9-4b1d-a5b1-19178ca2b99b")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "R1.2")
 					(unit 1)
@@ -15607,7 +15607,7 @@
 			(uuid "cc572e35-01f3-42ad-8a01-e8b3018441c2")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C5")
 					(unit 1)
@@ -15712,7 +15712,7 @@
 			(uuid "9f9b037b-a248-426c-ae3e-f105bd37f00a")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C1.1")
 					(unit 1)
@@ -15937,7 +15937,7 @@
 			(uuid "aaab055d-e2c8-47ec-bf52-ba6cbf89c068")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF1.2")
 					(unit 1)
@@ -16162,7 +16162,7 @@
 			(uuid "952ea748-30a3-4907-a6d0-882e9dd1d635")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF10.2")
 					(unit 1)
@@ -16227,7 +16227,7 @@
 			(uuid "08fcf9ba-a1b9-4be7-ba7f-614e00fcb658")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS09")
 					(unit 1)
@@ -16292,7 +16292,7 @@
 			(uuid "e29212f6-6b71-4119-b733-a1364d3f66fa")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0106")
 					(unit 1)
@@ -16517,7 +16517,7 @@
 			(uuid "7d478443-857b-427b-ab20-af7fe0319e24")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF4.2")
 					(unit 1)
@@ -16582,7 +16582,7 @@
 			(uuid "a69616ef-ff31-4e4f-be72-8b92e38b3685")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS05")
 					(unit 1)
@@ -16647,7 +16647,7 @@
 			(uuid "64ebceeb-3620-4e8a-8aa5-d60b28594b61")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS010")
 					(unit 1)
@@ -16712,7 +16712,7 @@
 			(uuid "87501182-ccee-4703-8ce4-88adc64eeb83")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS06")
 					(unit 1)
@@ -16937,7 +16937,7 @@
 			(uuid "b69e7ab4-f1b6-4552-a881-d52c25fb739e")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF8.2")
 					(unit 1)
@@ -17002,7 +17002,7 @@
 			(uuid "e2597bc3-4adb-4dba-a8c1-829dda2ce9e4")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0120")
 					(unit 1)
@@ -17067,7 +17067,7 @@
 			(uuid "5c3213ce-077a-454e-ae39-db3dc8714a74")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS02")
 					(unit 1)
@@ -17172,7 +17172,7 @@
 			(uuid "9f3dc502-5a6a-4787-8600-19407a695cd0")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C11")
 					(unit 1)
@@ -17237,7 +17237,7 @@
 			(uuid "79ebb9ee-b57e-4eaa-afcd-b20f4eefd4b3")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS01")
 					(unit 1)
@@ -17302,7 +17302,7 @@
 			(uuid "488a9715-7cce-4e70-9e45-70bd4f9f96bf")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0108")
 					(unit 1)
@@ -17407,7 +17407,7 @@
 			(uuid "3502b704-a693-4b5b-b40b-a15d88bfe8c5")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "R1.3")
 					(unit 1)
@@ -17472,7 +17472,7 @@
 			(uuid "b5310267-1ade-464c-9c1c-27a919a350b2")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR04")
 					(unit 1)
@@ -17537,7 +17537,7 @@
 			(uuid "ed74b311-30b7-4cec-a1ae-cf1be8e2d822")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0107")
 					(unit 1)
@@ -17602,7 +17602,7 @@
 			(uuid "7f63be95-d5cf-477f-86db-193ff37bc04d")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR030")
 					(unit 1)
@@ -17667,7 +17667,7 @@
 			(uuid "2cbfa646-5064-4ac3-8542-8cfc4c520565")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR05")
 					(unit 1)
@@ -17732,7 +17732,7 @@
 			(uuid "c3c651ae-59e6-409e-9d25-456e69e439b8")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR03")
 					(unit 1)
@@ -17956,7 +17956,7 @@
 			(uuid "184cd874-dc7b-48c5-a24f-3edfd643f483")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF7.2")
 					(unit 1)
@@ -18021,7 +18021,7 @@
 			(uuid "09d6ac59-6808-4db5-9be2-23bb26e66dad")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR07")
 					(unit 1)
@@ -18126,7 +18126,7 @@
 			(uuid "1f77e19d-e9a2-47dc-9090-a7adfe4813b9")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C4")
 					(unit 1)
@@ -18191,7 +18191,7 @@
 			(uuid "b1c48d73-a2cc-4f52-8b21-348a5599501c")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR08")
 					(unit 1)
@@ -18256,7 +18256,7 @@
 			(uuid "a6892391-e794-42ae-bd0e-0602e6fc0bc5")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0114")
 					(unit 1)
@@ -18481,7 +18481,7 @@
 			(uuid "a5145eb3-8752-4ce0-9a1e-9971093231cb")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF3.2")
 					(unit 1)
@@ -18546,7 +18546,7 @@
 			(uuid "d3320a38-eca9-42c8-9ea5-ce0e72d7f5a3")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR06")
 					(unit 1)
@@ -18611,7 +18611,7 @@
 			(uuid "a468c875-3a4b-4918-bf82-d0f72c5ab779")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS07")
 					(unit 1)
@@ -18676,7 +18676,7 @@
 			(uuid "59d084a4-5237-4438-b501-dc71a08b8bff")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS011")
 					(unit 1)
@@ -18741,7 +18741,7 @@
 			(uuid "8df8ff75-5db5-4738-a8aa-e93bae3347dd")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR02")
 					(unit 1)
@@ -18806,7 +18806,7 @@
 			(uuid "23187ada-4feb-4ffd-b5f0-f7429195375c")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#PWR09")
 					(unit 1)
@@ -18911,7 +18911,7 @@
 			(uuid "eb3dd94f-5032-494c-9000-b327e5febd9d")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "R1.4")
 					(unit 1)
@@ -18976,7 +18976,7 @@
 			(uuid "971b6961-606d-4bdf-91d4-5ab7c6399fbe")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#VBUS03")
 					(unit 1)
@@ -19201,7 +19201,7 @@
 			(uuid "efcb8d1f-39f8-47f4-8159-e01129177281")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "CF5.2")
 					(unit 1)
@@ -19306,7 +19306,7 @@
 			(uuid "f8e748b9-d1fe-4c6d-8628-c5d54af06351")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C23")
 					(unit 1)
@@ -19411,7 +19411,7 @@
 			(uuid "79389e92-0537-436a-ac3f-7b2278abe1ba")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C10")
 					(unit 1)
@@ -19516,7 +19516,7 @@
 			(uuid "88211819-adc5-497f-9627-66352f5ea0e4")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C24")
 					(unit 1)
@@ -19581,7 +19581,7 @@
 			(uuid "b877f307-49ff-4d58-a527-ffe5db0d2cee")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "#GND0102")
 					(unit 1)
@@ -19686,7 +19686,7 @@
 			(uuid "e7ae1d4e-62b9-4ae9-8085-325ad449784a")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C8")
 					(unit 1)
@@ -19791,7 +19791,7 @@
 			(uuid "fa7e5dc4-a142-4ee0-91f5-e79b80fca880")
 		)
 		(instances
-			(project "oresat-backplane-3u"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C1.2")
 					(unit 1)
@@ -19896,7 +19896,7 @@
 			(uuid "99049987-3138-4188-ad11-845ce525f946")
 		)
 		(instances
-			(project "backplane-3u-ESI"
+			(project "esi-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c/0ec651ec-1673-4d79-a377-3af1e330deeb"
 					(reference "C9")
 					(unit 1)

@@ -290,7 +290,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/152e34aa-6c04-4e76-b8f3-2286123ffd7b")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -1265,7 +1265,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/b996e237-387f-48a2-9f64-1a978582c542")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1422,7 +1422,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/f595658b-3f59-485f-857e-7b3c7656c122")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -1578,7 +1578,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/1051cbfc-a919-4fff-87a4-f7a8f49bae6c")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -2552,7 +2552,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/f0a3e028-8053-4f24-9f2a-9a207250818a")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -2708,7 +2708,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/5a2458a6-963d-4696-a750-1643227a42f1")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.727064 0.91)
@@ -2959,8 +2959,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/02ccab89-29a3-4a08-ab00-f0682a48c303")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
-		(attr dnp)
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -3934,7 +3933,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/bf0761c0-5657-4c15-b08c-35018dcb9ec7")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -4090,7 +4089,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/52918ef2-91b9-47db-a382-a681af54382c")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -5063,7 +5062,7 @@
 		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/7662892c-ccc2-4a77-b233-0af3de49d616")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -6037,7 +6036,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/8a52eabc-415e-4906-b457-9286637990fc")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.727064 0.91)
@@ -6288,7 +6287,7 @@
 		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/83c27b28-9037-434b-a894-432a4f404c1a")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -7261,7 +7260,7 @@
 		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/24ac5030-999b-4968-8639-194173fe7939")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -8236,7 +8235,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/2e48522e-a419-4ede-b40a-92733cf338c7")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -8392,7 +8391,7 @@
 		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/b7f6d43a-5645-484f-8d2c-db6b3361f63e")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -9366,7 +9365,7 @@
 		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/5d2a4091-c34b-4174-9d39-1ef46f5fff1a")
 		(sheetname "/RF Connectors/")
-		(sheetfile "oresat-backplane-3u-sch-rf.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
 		(fp_rect
 			(start 1.2 -2.3)
 			(end -1.2 -1.8)
@@ -9859,7 +9858,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/b64af439-ad33-40dc-af5f-570531c89aee")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -10187,7 +10186,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/c724602f-f1a1-40ac-ac0a-6c0f208c887c")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -11250,7 +11249,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/307f5dc1-130f-4e74-ab44-1eb43ff3b1b5")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -12224,7 +12223,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/7d3bebe7-529a-4559-b107-a0f9401cd656")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -12469,7 +12468,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/06f4577d-6781-45e9-b263-4c0c81b7797a")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -13442,7 +13441,7 @@
 		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/65c2f68e-25ad-4641-80b7-fb305605523d")
 		(sheetname "/RF Connectors/")
-		(sheetfile "oresat-backplane-3u-sch-rf.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
 		(fp_rect
 			(start 1.2 -2.3)
 			(end -1.2 -1.8)
@@ -13935,7 +13934,7 @@
 		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/0b3a3b07-6c4b-443c-be2a-5bb0b6058081")
 		(sheetname "/RF Connectors/")
-		(sheetfile "oresat-backplane-3u-sch-rf.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
 		(fp_rect
 			(start 1.2 -2.3)
 			(end -1.2 -1.8)
@@ -14427,7 +14426,7 @@
 		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/9968f6fe-dab7-4133-81a3-6033dc4ff27c")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -15401,7 +15400,7 @@
 		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/69d284a9-ea8d-43f4-83ea-7d7b848f7e9d")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -16374,7 +16373,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/82fba479-1652-472c-a5e2-bbd4ca833d30")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -17347,7 +17346,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/b50d6abc-7e81-417f-b08e-74be30f4cfd0")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -18321,7 +18320,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/c3bcc670-5311-41fa-b3dd-f88029727904")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -19295,7 +19294,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/b10d92be-59fe-4009-ad29-36e25eeacefe")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -20269,7 +20268,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/f8c61750-5c0e-4749-ae24-a771253cc5da")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -20596,7 +20595,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/92f759df-e7f5-4cd6-b760-c1a61545e330")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -20847,7 +20846,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/6244071f-a204-4376-a21a-b00204d9bf5f")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -21820,7 +21819,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/34945716-17e3-4788-93c4-d440f9b32012")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -22793,7 +22792,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/e0f0fe6c-5932-4aac-8fa5-e9881f4f5be3")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.727064 0.91)
@@ -23044,7 +23043,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/7a8c5c3c-4c73-43c7-b040-4d609d44fcea")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -24019,7 +24018,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/942b747b-ef87-4b53-a15b-9cda9d96c5e3")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -24346,7 +24345,7 @@
 		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/10d0c12b-f59c-49a1-b740-8d588376904f")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -25320,7 +25319,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/62a39402-b0f3-421f-8b0a-792e23401c04")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -26294,7 +26293,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/aeb122de-4352-4887-9478-eb0b9f77e93c")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -27269,7 +27268,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/15342442-5be5-4501-b69f-99fcc22b5ab3")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -27425,7 +27424,7 @@
 		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/099e269c-2825-4d87-9e34-fc3cfa518364")
 		(sheetname "/RF Connectors/")
-		(sheetfile "oresat-backplane-3u-sch-rf.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
 		(fp_rect
 			(start 1.2 -2.3)
 			(end -1.2 -1.8)
@@ -27917,7 +27916,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/b9a16da9-0c0c-4d49-b1d0-475ff7c452fc")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -28891,7 +28890,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/93780486-ce03-4268-83a5-30ff81f6182c")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -29866,7 +29865,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/2b4d6e85-8356-4e88-85cf-9b18d042af93")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -30022,7 +30021,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/df31c2fc-d7c3-4d99-becf-085b9637e760")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -30996,7 +30995,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/43606ef2-14fd-4069-ae54-3abba668fc58")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -31248,7 +31247,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/499449eb-e511-416f-8570-302fcdc7b9d6")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(fp_line
 			(start 0.845 -0.295)
 			(end 0.555 -0.295)
@@ -31575,7 +31574,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/0513c753-0f05-4dae-83ee-bf1cbfa02bb1")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -32549,7 +32548,7 @@
 		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/dbcadbc9-0bb9-4f1d-bcbe-2e97504dcfe7")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -33523,7 +33522,7 @@
 		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/1fc3498f-7dd7-4474-bff0-7a419fe7ec20")
 		(sheetname "/RF Connectors/")
-		(sheetfile "oresat-backplane-3u-sch-rf.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
 		(fp_rect
 			(start 1.2 -2.3)
 			(end -1.2 -1.8)
@@ -34016,7 +34015,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/f0bb06be-057f-4177-a126-eb2a015f9e43")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -34172,7 +34171,7 @@
 		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/ff2b007a-1051-433e-89e1-2c6a6ce772b7")
 		(sheetname "/RF Connectors/")
-		(sheetfile "oresat-backplane-3u-sch-rf.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
 		(fp_rect
 			(start 1.2 -2.3)
 			(end -1.2 -1.8)
@@ -34664,7 +34663,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/3127e269-87d1-40dd-a113-1194cff0bb16")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -34916,7 +34915,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/422f691b-f8c3-40bf-b420-5bdbcca4486e")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -0.555 0.295)
@@ -35245,7 +35244,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/cfd6a4e4-f543-4784-b839-3e6b2d0f1d3c")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -35401,7 +35400,7 @@
 		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/549acdbd-cd17-4eae-93f4-9209e642adc2")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
@@ -36376,7 +36375,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/863492c7-df7f-4e42-a4b6-bb0cd1b90407")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -36533,7 +36532,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/80de9f77-f0f9-47ea-9473-d7ead8b4210f")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(fp_line
 			(start -0.555 0.295)
 			(end -0.845 0.295)
@@ -36860,7 +36859,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/39c4b183-bb5d-4d9f-958e-f533f4fabfb4")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.727064 0.91)
@@ -37112,7 +37111,7 @@
 		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/f0fcb2f0-4bec-4a32-83dd-ac07bfcfbf9c")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -38086,7 +38085,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/48324469-2f11-4d7a-9eb5-671c086afa3f")
 		(sheetname "/")
-		(sheetfile "backplane-3u-ESI.kicad_sch")
+		(sheetfile "esi-backplane-3u.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
@@ -38242,7 +38241,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/da1d1405-ab65-4805-ad68-8c6c081f5f27")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -38501,7 +38500,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/81bdb05c-3097-4cfb-9e67-86cba5700a5d")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -38761,7 +38760,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/f6cd65ef-d1e2-4783-99de-9af16e6da925")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -39021,7 +39020,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/a23266b3-a187-4896-8894-4ba8d987b4f0")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -39281,7 +39280,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/2e259103-8eaa-42bb-9179-856b9690fca5")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -39540,7 +39539,7 @@
 		)
 		(path "/0dfa61bf-7ec2-42f0-9843-5232fd59e79e/5255a863-6f42-461a-964f-3e6c503ab18b")
 		(sheetname "/Debug Connector/")
-		(sheetfile "oresat-backplane-3u-sch-debug.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-debug.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3.6 -4)
@@ -40008,7 +40007,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/b9f56579-fb28-46a6-b5b8-dc45ccc528aa")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -40268,7 +40267,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/13d9d643-73fd-4838-acb6-d97a2476dad5")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -40528,7 +40527,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/e3d3ed38-85ea-4059-87f4-9a59ab6d03a3")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -40788,7 +40787,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/af580544-d142-4b3e-9e80-9e5e2ea12472")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -41048,7 +41047,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/5f06d58f-5f9a-45ad-8489-4b406707ad65")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -41308,7 +41307,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/bfc2bee8-52e6-48da-b0ce-8919b04a57fa")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -41568,7 +41567,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/3913e96c-9b50-4e0b-af5e-f5ec72f6a42e")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -41828,7 +41827,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/e11ee2b8-fbd7-464a-84d3-25c937405ef2")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -42088,8 +42087,8 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/8629ca5c-8b9f-4768-8546-e14d99d0740c")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
-		(attr smd dnp)
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
@@ -42348,7 +42347,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/e768cbe2-227e-43aa-8f09-4ada345249fd")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -42608,7 +42607,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/2f4febb4-f814-40b4-b164-4f17bbabc95d")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -42868,7 +42867,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/ac854e90-ac79-45a6-bdb2-f430650d6c2c")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -43128,7 +43127,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/46d4040b-3bd6-4e13-bf25-9b4d90836a8b")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -43388,7 +43387,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/f326fbe8-c29d-408e-b289-67782c3e92ff")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -43648,7 +43647,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/e8a5af0a-f360-4984-b06e-77f8a2d093e6")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -43908,7 +43907,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/ff2a2733-c7b0-4f23-9849-4eed5cea1c45")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -44168,7 +44167,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/fbaff1f3-23fa-4b81-b0c0-311856753f7a")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -44428,7 +44427,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/3323b9db-23c1-44ee-8cba-d60a491bfc23")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -44688,7 +44687,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/22cf098e-d0bb-465d-ba28-4d6624b498fa")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -44948,7 +44947,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/17dd5d7b-9cdc-4af7-aeda-5730cbfb0d93")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -45208,7 +45207,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/05f75a2c-63d0-45df-8731-0d1cb40e2066")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -45468,7 +45467,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/a0a8e85b-3fce-47e6-91f1-600bc4f8ae09")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -45728,7 +45727,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/b8f4d08e-5e15-4341-90ef-d3eba7ace275")
 		(sheetname "/Main Connectors 1/")
-		(sheetfile "oresat-backplane-3u-sch-main-1.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -45988,7 +45987,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/899445ee-4ff5-4699-b1f0-12f9fa25c87d")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -46249,7 +46248,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/298ad689-05b0-49aa-b00c-6cb64d1583d5")
 		(sheetname "/Main Connectors 2/")
-		(sheetfile "oresat-backplane-3u-sch-main-2.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
@@ -46509,7 +46508,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/b399d5e8-9ecd-42a0-8a9d-0c6c864109cf")
 		(sheetname "/Main Connectors 3/")
-		(sheetfile "oresat-backplane-3u-sch-main-3.kicad_sch")
+		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
