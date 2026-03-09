@@ -288,19 +288,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8adf82f0-fa17-4dcb-8336-f83c0c446afa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/152e34aa-6c04-4e76-b8f3-2286123ffd7b")
 		(sheetname "/Main Connectors 1/")
 		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
@@ -1199,7 +1186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1268,19 +1255,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27d533be-bc61-49bc-9147-2fa010980227")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5510e500-7702-4f40-ad51-55f1b099ed10")
 			(effects
 				(font
 					(size 1 1)
@@ -1369,7 +1343,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1438,19 +1412,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a31a5d74-4a61-4d35-a956-b9ce57228e4e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c1eea95-1f08-4980-a9b3-5de05fa6150e")
 			(effects
 				(font
 					(size 1 1)
@@ -1608,19 +1569,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1c59c660-4ccf-4e9c-a522-ab477260ef7a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4d20552-d2a1-4738-9929-ba36b79fad41")
 			(effects
 				(font
 					(size 1 1)
@@ -2525,7 +2473,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2594,19 +2542,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "057bbcac-59c5-4074-8a03-6020c833e7f7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4fbda62-11bf-40d9-a1a5-ad96d327a40e")
 			(effects
 				(font
 					(size 1 1)
@@ -2763,19 +2698,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2c61c1a3-41db-41df-b2df-7f5f2bb272e1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c9cf4740-740f-47cb-b087-7b56e074dd9d")
 			(effects
 				(font
 					(size 1 1)
@@ -3028,19 +2950,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2a1646ca-9603-4e4e-bbd2-4dec071f8b6d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c6ecba60-0ca0-439f-b2d9-0fa71ee060f4")
 			(effects
 				(font
 					(size 1 1)
@@ -3945,7 +3854,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4014,19 +3923,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a67e98e1-67aa-4ed1-ba0d-5eb2cb22f888")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f9cf7796-0bfe-46ca-ac25-5ee3651b312f")
 			(effects
 				(font
 					(size 1 1)
@@ -4184,19 +4080,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "30fa0ac5-d52f-4e55-87c3-277cfb46f651")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "05000cb0-a578-454e-a57c-e30143aaaaaf")
 			(effects
 				(font
 					(size 1 1)
@@ -5177,19 +5060,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4de0fca7-52e8-4c5c-9ace-1b875eba885b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/7662892c-ccc2-4a77-b233-0af3de49d616")
 		(sheetname "/Main Connectors 2/")
 		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
@@ -6163,19 +6033,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f004186a-d046-4934-a11c-f3b203e7c82e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/8a52eabc-415e-4906-b457-9286637990fc")
 		(sheetname "/Main Connectors 3/")
@@ -6421,19 +6278,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ced806f0-bc91-48d4-9724-82b25b42a1e2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8361d22f-3903-4587-b71f-ac6251ec6b4f")
 			(effects
 				(font
 					(size 1 1)
@@ -7414,19 +7258,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ab2efae8-4402-4595-ae04-bd6a84c2b57f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/24ac5030-999b-4968-8639-194173fe7939")
 		(sheetname "/Main Connectors 2/")
 		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
@@ -8325,7 +8156,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8394,19 +8225,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3953b1cd-8258-4771-a7b8-c1dfedc514aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e76324aa-28e1-43a6-9d30-5d27312a3a75")
 			(effects
 				(font
 					(size 1 1)
@@ -8564,19 +8382,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d7d079d2-4881-43bd-9c05-a9ff29b413e8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f933841d-232e-443c-bd6c-a3713cd0db5f")
 			(effects
 				(font
 					(size 1 1)
@@ -9558,19 +9363,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "52c63355-f41a-4f29-8ead-f145203835ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/5d2a4091-c34b-4174-9d39-1ef46f5fff1a")
 		(sheetname "/RF Connectors/")
 		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
@@ -10063,19 +9855,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6abeee60-c3e7-4947-9512-3488c5ff1995")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/b64af439-ad33-40dc-af5f-570531c89aee")
 		(sheetname "/Main Connectors 3/")
@@ -10398,19 +10177,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "204b09d9-8a45-493b-a032-ab7217014af0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "faf58634-f5c2-4210-8837-2f56eb5ca7ee")
 			(effects
 				(font
 					(size 1 1)
@@ -11481,19 +11247,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "89eae8c3-29d4-433f-abde-5f0b90e97202")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/307f5dc1-130f-4e74-ab44-1eb43ff3b1b5")
 		(sheetname "/Main Connectors 1/")
 		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
@@ -12391,7 +12144,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12460,19 +12213,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d6d6b224-ccb1-4d5d-a6ea-936fe58f4b7c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1f833333-0390-4f4a-a091-bf50a6c1ef80")
 			(effects
 				(font
 					(size 1 1)
@@ -12719,19 +12459,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "18278115-0d1d-4e58-a02a-b0c1e8535daa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c1011e6-c581-456d-adf4-6a9243f72a1b")
 			(effects
 				(font
 					(size 1 1)
@@ -13637,7 +13364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13807,19 +13534,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5f547df2-1dc2-494a-a695-acd89d2bc369")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c006cd46-ea37-4cb2-ad14-c077e80bd964")
 			(effects
 				(font
 					(size 1 1)
@@ -14320,19 +14034,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "11904970-5e2d-4878-92db-97fda67ff22f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/0b3a3b07-6c4b-443c-be2a-5bb0b6058081")
 		(sheetname "/RF Connectors/")
 		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
@@ -14818,19 +14519,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de4b5bbb-96f3-4c97-a6bd-f52de040a319")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ce4c82fc-6b3d-4e23-b7c9-a9b876ccfcd2")
 			(effects
 				(font
 					(size 1 1)
@@ -15812,19 +15500,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb98c5a6-c136-445b-8d2a-273af15b0700")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/69d284a9-ea8d-43f4-83ea-7d7b848f7e9d")
 		(sheetname "/Main Connectors 2/")
 		(sheetfile "esi-backplane-3u-sch-main-2.kicad_sch")
@@ -16798,19 +16473,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f658f187-8a4c-4ce7-9f94-12efb96018b6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/82fba479-1652-472c-a5e2-bbd4ca833d30")
 		(sheetname "/Main Connectors 3/")
 		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
@@ -17777,19 +17439,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0e8bc580-887f-4077-bca7-93a6d354e330")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5ccb4de4-4988-47a9-ab2c-f7b1d9420b87")
 			(effects
 				(font
 					(size 1 1)
@@ -18771,19 +18420,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6da9c864-4388-440f-abdc-5a689c077d96")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/c3bcc670-5311-41fa-b3dd-f88029727904")
 		(sheetname "/Main Connectors 1/")
 		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
@@ -19751,19 +19387,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b44907fa-89f3-463b-982b-32ac953b6662")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7c7ac88a-cf73-4a79-9d96-ec51aec302c9")
 			(effects
 				(font
 					(size 1 1)
@@ -20744,19 +20367,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac6a17ce-7eca-44d7-835e-69b355f2beb0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/f8c61750-5c0e-4749-ae24-a771253cc5da")
 		(sheetname "/Main Connectors 1/")
@@ -21084,19 +20694,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4d451e11-3fd0-452a-9164-4889b4eb844d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/92f759df-e7f5-4cd6-b760-c1a61545e330")
 		(sheetname "/Main Connectors 1/")
@@ -21342,19 +20939,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "fcaf12af-51e1-40c7-816a-affca40ac054")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5d0f1bc9-116d-4361-a630-fdcf7f672493")
 			(effects
 				(font
 					(size 1 1)
@@ -22335,19 +21919,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "42d2201f-0b20-4bde-886a-e589ddb972eb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/34945716-17e3-4788-93c4-d440f9b32012")
 		(sheetname "/Main Connectors 3/")
 		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
@@ -23320,19 +22891,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "87953364-6996-4767-88c9-6361fbbd0ef1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/e0f0fe6c-5932-4aac-8fa5-e9881f4f5be3")
 		(sheetname "/Main Connectors 3/")
@@ -23578,19 +23136,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f1ce460-76be-4156-8158-a3e517da573a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "880c1693-775b-4f32-be09-71b1f8f11f3d")
 			(effects
 				(font
 					(size 1 1)
@@ -24572,19 +24117,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f32f2990-ef22-4b40-982f-88be4fe6015a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/942b747b-ef87-4b53-a15b-9cda9d96c5e3")
 		(sheetname "/Main Connectors 3/")
@@ -24906,19 +24438,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1202918c-9c34-4c75-978e-414283d224c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac0bcd10-e4f1-4371-a1ef-03910613c0bf")
 			(effects
 				(font
 					(size 1 1)
@@ -25825,7 +25344,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25995,19 +25514,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e7e0743-87cb-4b2d-a03d-e0cf7726cb04")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e64b4c4d-e045-4af4-9f04-adc719d4e9ff")
 			(effects
 				(font
 					(size 1 1)
@@ -26989,19 +26495,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "23c2258d-86e8-4f5e-adbe-8ef2d99220fd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/aeb122de-4352-4887-9478-eb0b9f77e93c")
 		(sheetname "/Main Connectors 3/")
 		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
@@ -27900,7 +27393,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27969,19 +27462,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "078571d7-bc74-400b-942b-3ff5828d3a00")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "aeb79693-ba9d-443b-81b0-d8841285a76b")
 			(effects
 				(font
 					(size 1 1)
@@ -28139,19 +27619,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "eedb758b-530e-4f8b-a48c-bfae7c8d6143")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b734a10e-c5eb-4238-ac1c-992ec7569b87")
 			(effects
 				(font
 					(size 1 1)
@@ -28644,19 +28111,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5eae386e-db6f-4a13-ae1d-43d0ffe871b4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "72f35379-878e-4bf5-b2a2-093c5d1b7e86")
 			(effects
 				(font
 					(size 1 1)
@@ -29563,7 +29017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29733,19 +29187,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "104eb63d-5fd2-419b-ab7e-3d236cda79ad")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cc65fd99-8b67-4661-9ffd-a491ed47b843")
 			(effects
 				(font
 					(size 1 1)
@@ -30651,7 +30092,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -30720,19 +30161,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "93989b9d-dcfe-4bdb-ab2e-3f6d87ba650a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fcba3e97-de33-4f81-a65a-af888ebb72b4")
 			(effects
 				(font
 					(size 1 1)
@@ -30890,19 +30318,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f22ae3b1-8ff1-4130-a22c-389bcf53ae30")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4e4eca82-90e3-42e2-9a0a-1bfea5808229")
 			(effects
 				(font
 					(size 1 1)
@@ -31883,19 +31298,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c725d171-923b-4e05-98b7-e656a539ddc4")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/43606ef2-14fd-4069-ae54-3abba668fc58")
 		(sheetname "/Main Connectors 1/")
@@ -32141,19 +31543,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7586b5d7-eb69-4497-950b-5a78c3b19612")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1879815c-3755-48b8-a778-618a28219f63")
 			(effects
 				(font
 					(size 1 1)
@@ -32482,19 +31871,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1adaeb9d-39d2-4809-b1e9-3b58576332c9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5530cf48-9eba-4843-9ebd-556c9e2f9288")
 			(effects
 				(font
 					(size 1 1)
@@ -33476,19 +32852,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f58add64-10c5-4afd-a472-061fc21b1239")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/dbcadbc9-0bb9-4f1d-bcbe-2e97504dcfe7")
 		(sheetname "/Main Connectors 3/")
 		(sheetfile "esi-backplane-3u-sch-main-3.kicad_sch")
@@ -34463,19 +33826,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "abaa13b6-8b7f-43b5-94fd-767484586c9a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(path "/f5c1380d-32ae-406c-818a-f1b25e856995/1fc3498f-7dd7-4474-bff0-7a419fe7ec20")
 		(sheetname "/RF Connectors/")
 		(sheetfile "esi-backplane-3u-sch-rf.kicad_sch")
@@ -34892,7 +34242,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34961,19 +34311,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd089c14-9f98-412a-8c2d-95f596d87168")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7a19771a-e257-42b6-a264-2de5d5bdd3f2")
 			(effects
 				(font
 					(size 1 1)
@@ -35131,19 +34468,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2ab6803c-7def-4f79-955c-8cd0d5e0fc25")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "12ae3f39-e24d-483a-8e32-039b4eef251d")
 			(effects
 				(font
 					(size 1 1)
@@ -35642,19 +34966,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dfc89f82-028b-4b52-9593-0b5d969e5e7d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/3127e269-87d1-40dd-a113-1194cff0bb16")
 		(sheetname "/Main Connectors 1/")
@@ -35900,19 +35211,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5f881397-b29d-40d3-ae30-79e2f5cefe5c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "daccdfe8-7a9a-4bcd-bd9f-1ff933959e21")
 			(effects
 				(font
 					(size 1 1)
@@ -36173,7 +35471,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36242,19 +35540,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8565cc5f-cd00-43d8-ab09-06ee9734bc29")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0d582591-3c6a-4b56-ba03-dcf56738941a")
 			(effects
 				(font
 					(size 1 1)
@@ -36412,19 +35697,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a038205f-fcc7-4083-aeb1-ec178311d455")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bfeed026-8733-4000-9be6-3d971b067823")
 			(effects
 				(font
 					(size 1 1)
@@ -37330,7 +36602,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37399,19 +36671,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c8fed940-b908-4ced-a12a-35ad82ed5a9d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55dce922-6a0a-4d53-8645-18de85c7cb20")
 			(effects
 				(font
 					(size 1 1)
@@ -37569,19 +36828,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b8164a7-ef62-450c-9f04-9eecbb089496")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6e80f190-c4ce-493a-ba1a-a34e28772542")
 			(effects
 				(font
 					(size 1 1)
@@ -37916,19 +37162,6 @@
 				)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "321cb860-d2d5-48f8-8038-b5ad7a3be639")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property ki_fp_filters "R_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/39c4b183-bb5d-4d9f-958e-f533f4fabfb4")
 		(sheetname "/Main Connectors 3/")
@@ -38175,19 +37408,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a096c5ea-c0a6-4db7-9df9-424ef1115d8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6dce4aa5-2964-4bd8-9ecc-75ec02ce1471")
 			(effects
 				(font
 					(size 1 1)
@@ -39092,7 +38312,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39161,19 +38381,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "075bb279-db9b-4660-aa78-46d3e8854f06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "99afc62a-1109-4245-b765-64eac6d9b528")
 			(effects
 				(font
 					(size 1 1)
@@ -39330,19 +38537,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b01363ce-59a5-4377-82e0-80b034350cea")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3eac3431-70f9-4f81-b8ab-fdf810d4c919")
 			(effects
 				(font
 					(size 1 1)
@@ -39601,20 +38795,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "3ee84526-b74b-4b53-802b-abe8e86fdd08")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5eba05e3-74fe-460f-a80e-1099257afdd3")
 			(effects
 				(font
 					(size 1 1)
@@ -39883,20 +39063,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c09d8d77-aedc-46bd-9c3e-864e846aefbd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/f6cd65ef-d1e2-4783-99de-9af16e6da925")
 		(sheetname "/Main Connectors 3/")
@@ -40149,20 +39315,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "5368fe4f-944e-424d-af25-5c1dc8911b00")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8ed7dd72-3d2a-41f3-bcf4-f0e4afb4c487")
 			(effects
 				(font
 					(size 1 1)
@@ -40431,20 +39583,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "f8c3f39b-0edc-46b3-b5b3-820a5a8eb2f2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/2e259103-8eaa-42bb-9179-856b9690fca5")
 		(sheetname "/Main Connectors 2/")
@@ -40697,20 +39835,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8a1223bf-908b-492b-8c82-b9568f54bc06")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "85bc11bb-49f4-4075-965a-8605b67e4504")
 			(effects
 				(font
 					(size 1 1)
@@ -41186,20 +40310,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1920910e-ea9e-4595-967d-74cdbdc96e8f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/b9f56579-fb28-46a6-b5b8-dc45ccc528aa")
 		(sheetname "/Main Connectors 3/")
@@ -41452,20 +40562,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "0dd81664-b568-424c-8314-67aec15c0318")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "8f6e44c9-8af9-43fd-82aa-40843f504b50")
 			(effects
 				(font
 					(size 1 1)
@@ -41734,20 +40830,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3552aed2-d455-4952-8819-c3dfb54acf83")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/e3d3ed38-85ea-4059-87f4-9a59ab6d03a3")
 		(sheetname "/Main Connectors 1/")
@@ -42008,20 +41090,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "681c91d5-04ab-46e5-95de-6a6181b59354")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/af580544-d142-4b3e-9e80-9e5e2ea12472")
 		(sheetname "/Main Connectors 2/")
@@ -42202,7 +41270,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -42381,20 +41449,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4ffa6e06-be6d-4c51-8b12-1a9db7bae66d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "043249ea-b523-403f-8a3c-1621add87a1a")
 			(effects
 				(font
 					(size 1 1)
@@ -42663,20 +41717,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "7ab7badb-03cd-4a3b-948e-d2403c235ef2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/bfc2bee8-52e6-48da-b0ce-8919b04a57fa")
 		(sheetname "/Main Connectors 3/")
@@ -42929,20 +41969,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "33ff09b7-3f67-4757-9210-a19187a155e5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "fad56d76-6a77-4f48-bad9-2f1272410a20")
 			(effects
 				(font
 					(size 1 1)
@@ -43211,20 +42237,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "81c01c9c-5f69-48a8-b46e-c794cb96c13e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/e11ee2b8-fbd7-464a-84d3-25c937405ef2")
 		(sheetname "/Main Connectors 1/")
@@ -43477,20 +42489,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "33b0d8a4-ead1-44bb-bbe1-3aa31ebe937b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d961af8d-b3d7-41f1-817b-066bcc15071d")
 			(effects
 				(font
 					(size 1 1)
@@ -43759,20 +42757,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b824677a-6476-4ec3-92f5-5291f6a031aa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/e768cbe2-227e-43aa-8f09-4ada345249fd")
 		(sheetname "/Main Connectors 1/")
@@ -44025,20 +43009,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7b685001-6577-4c9e-9b8a-876b3791d1bb")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5c86ba20-268a-4a04-82be-9e80e3999234")
 			(effects
 				(font
 					(size 1 1)
@@ -44307,20 +43277,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9a485ee0-96e8-4fef-82d9-0a42a36eb3f1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/ac854e90-ac79-45a6-bdb2-f430650d6c2c")
 		(sheetname "/Main Connectors 2/")
@@ -44581,20 +43537,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "c622b456-c1f0-4eec-8f8d-108eed16515b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/46d4040b-3bd6-4e13-bf25-9b4d90836a8b")
 		(sheetname "/Main Connectors 1/")
@@ -44775,7 +43717,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -44954,20 +43896,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "74361843-c1c9-4ad4-8f11-f4cc6a0c0ce0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "58517ff3-af85-4139-974e-f33c53ff9ace")
 			(effects
 				(font
 					(size 1 1)
@@ -45236,20 +44164,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9134ff5f-594e-4801-a621-6a25fac21abd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/e8a5af0a-f360-4984-b06e-77f8a2d093e6")
 		(sheetname "/Main Connectors 1/")
@@ -45510,20 +44424,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "da8c62b7-4855-4a66-8cc3-3169077de35d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/ff2a2733-c7b0-4f23-9849-4eed5cea1c45")
 		(sheetname "/Main Connectors 3/")
@@ -45704,7 +44604,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -45883,20 +44783,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d33367c7-05be-48cd-91fd-b8b9aa64cfe6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "5619b073-b0f5-46f1-a1bc-dcd990f7fc52")
 			(effects
 				(font
 					(size 1 1)
@@ -46165,20 +45051,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "ea20cb45-b2de-48f4-a3e9-0d4d3d43e03c")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/3323b9db-23c1-44ee-8cba-d60a491bfc23")
 		(sheetname "/Main Connectors 1/")
@@ -46431,20 +45303,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "56e87a7d-e900-4c00-b8dd-a33eeae92df3")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "b5857881-4f7c-4cd6-8915-94f56a8712b6")
 			(effects
 				(font
 					(size 1 1)
@@ -46713,20 +45571,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9039ee8d-d76b-440c-b14e-e64ff7bb1370")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/17dd5d7b-9cdc-4af7-aeda-5730cbfb0d93")
 		(sheetname "/Main Connectors 1/")
@@ -46979,20 +45823,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fe25cf71-066a-41af-990c-1a9000bae12d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "94caf667-ce18-4f1e-abaf-09b4e8c148c5")
 			(effects
 				(font
 					(size 1 1)
@@ -47261,20 +46091,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3df2a85b-942c-41ac-af5d-f5bbe7e65672")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/96e408d0-3df4-4718-9b55-8aaf33703ff6/a0a8e85b-3fce-47e6-91f1-600bc4f8ae09")
 		(sheetname "/Main Connectors 3/")
@@ -47535,20 +46351,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "838e4628-6270-4adc-9697-2f6d8c72edce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/b8f4d08e-5e15-4341-90ef-d3eba7ace275")
 		(sheetname "/Main Connectors 1/")
@@ -47801,20 +46603,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "adfa0489-3d48-428e-8ab6-5364d7e8652b")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "bf1b03ef-b7c4-4c45-bb5c-5146a8ff7d8c")
 			(effects
 				(font
 					(size 1 1)
@@ -48084,20 +46872,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "9574ba54-8002-4d5e-aa56-b7f635949898")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
 		(property ki_fp_filters "C_*")
 		(path "/af24dd58-d27a-41e4-b932-04912035cb7a/298ad689-05b0-49aa-b00c-6cb64d1583d5")
 		(sheetname "/Main Connectors 2/")
@@ -48350,20 +47124,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b0d3b846-0dae-4d01-a52a-a0e8504b3798")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Field4" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "786f3a53-433b-40eb-8369-3add3af85cdd")
 			(effects
 				(font
 					(size 1 1)
@@ -138004,29 +136764,29 @@
 				(xy 312.956961 42.199133) (xy 312.911206 42.146329) (xy 312.9 42.094818) (xy 312.9 41.802016) (xy 312.900066 41.79797)
 				(xy 312.901674 41.748711) (xy 312.905833 41.720663) (xy 312.931842 41.623599) (xy 312.94423 41.593693)
 				(xy 312.993448 41.508445) (xy 313.013153 41.482764) (xy 313.082759 41.413157) (xy 313.10844 41.393451)
-				(xy 313.19369 41.344231) (xy 313.223595 41.331844) (xy 313.320658 41.305834) (xy 313.348706 41.301674)
-				(xy 313.397964 41.300065) (xy 313.402011 41.299999) (xy 316.199998 41.299984) (xy 316.271543 41.297708)
-				(xy 316.271546 41.297708) (xy 316.408872 41.257387) (xy 316.529274 41.180013) (xy 316.622998 41.071852)
-				(xy 316.623001 41.071847) (xy 316.682454 40.941665) (xy 316.682455 40.94166) (xy 316.702823 40.8)
-				(xy 316.682455 40.658339) (xy 316.682454 40.658334) (xy 316.623001 40.528152) (xy 316.622998 40.528147)
-				(xy 316.529274 40.419986) (xy 316.408872 40.342612) (xy 316.271545 40.302291) (xy 316.271547 40.302291)
-				(xy 316.200001 40.3) (xy 310.2 40.3) (xy 310.134455 40.302139) (xy 310.007834 40.336067) (xy 309.89431 40.401609)
-				(xy 309.894306 40.401612) (xy 309.801616 40.4943) (xy 309.801615 40.494302) (xy 309.736068 40.60783)
-				(xy 309.736067 40.607831) (xy 309.70214 40.734446) (xy 309.702139 40.734449) (xy 309.7 40.799992)
-				(xy 309.7 42.094818) (xy 309.680315 42.161857) (xy 309.627511 42.207612) (xy 309.576 42.218818)
-				(xy 303.824 42.218818) (xy 303.756961 42.199133) (xy 303.711206 42.146329) (xy 303.7 42.094818)
-				(xy 303.7 40.799986) (xy 303.698054 40.734437) (xy 303.698053 40.734431) (xy 303.66411 40.607758)
+				(xy 313.19369 41.344231) (xy 313.223595 41.331844) (xy 313.320658 41.305834) (xy 313.348708 41.301674)
+				(xy 313.397967 41.300066) (xy 313.402013 41.3) (xy 316.200001 41.3) (xy 316.271546 41.297708) (xy 316.408872 41.257387)
+				(xy 316.529274 41.180013) (xy 316.622998 41.071852) (xy 316.623001 41.071847) (xy 316.682454 40.941665)
+				(xy 316.682455 40.94166) (xy 316.702823 40.8) (xy 316.682455 40.658339) (xy 316.682454 40.658334)
+				(xy 316.623001 40.528152) (xy 316.622998 40.528147) (xy 316.529274 40.419986) (xy 316.408872 40.342612)
+				(xy 316.271545 40.302291) (xy 316.271547 40.302291) (xy 316.200001 40.3) (xy 310.2 40.3) (xy 310.134455 40.302139)
+				(xy 310.007834 40.336067) (xy 309.89431 40.401609) (xy 309.894306 40.401612) (xy 309.801616 40.4943)
+				(xy 309.801615 40.494302) (xy 309.736068 40.60783) (xy 309.736067 40.607831) (xy 309.70214 40.734446)
+				(xy 309.702139 40.734449) (xy 309.7 40.799992) (xy 309.7 42.094818) (xy 309.680315 42.161857) (xy 309.627511 42.207612)
+				(xy 309.576 42.218818) (xy 303.824 42.218818) (xy 303.756961 42.199133) (xy 303.711206 42.146329)
+				(xy 303.7 42.094818) (xy 303.7 40.799986) (xy 303.698054 40.734437) (xy 303.698053 40.734431) (xy 303.66411 40.607758)
 				(xy 303.598537 40.494183) (xy 303.598536 40.494182) (xy 303.505808 40.401455) (xy 303.39223 40.335884)
-				(xy 303.265565 40.301946) (xy 303.265553 40.301945) (xy 303.200003 40.3) (xy 297.203867 40.3) (xy 297.132107 40.30178)
-				(xy 297.132105 40.30178) (xy 296.994178 40.34123) (xy 296.994175 40.341231) (xy 296.872997 40.41803)
-				(xy 296.778436 40.525927) (xy 296.718197 40.656134) (xy 296.718196 40.656137) (xy 296.697179 40.798051)
-				(xy 296.697179 40.798054) (xy 296.717096 40.940131) (xy 296.776327 41.070799) (xy 296.870045 41.179423)
-				(xy 296.99063 41.25716) (xy 297.128257 41.297679) (xy 297.199983 41.3) (xy 299.998163 41.3) (xy 300.001841 41.300055)
-				(xy 300.051105 41.301517) (xy 300.079517 41.305686) (xy 300.176465 41.33166) (xy 300.206374 41.344048)
-				(xy 300.291668 41.393291) (xy 300.317349 41.412997) (xy 300.386992 41.482638) (xy 300.406699 41.508319)
-				(xy 300.455947 41.593617) (xy 300.468335 41.623524) (xy 300.494312 41.720469) (xy 300.498482 41.748882)
-				(xy 300.499945 41.798146) (xy 300.5 41.801827) (xy 300.5 42.094818) (xy 300.480315 42.161857) (xy 300.427511 42.207612)
-				(xy 300.376 42.218818) (xy 269.25 42.218818) (xy 269.25 42.344818) (xy 269.230315 42.411857) (xy 269.177511 42.457612)
+				(xy 303.265565 40.301946) (xy 303.265553 40.301945) (xy 303.200003 40.3) (xy 297.20388 40.3) (xy 297.132105 40.301765)
+				(xy 296.994173 40.341216) (xy 296.994168 40.341218) (xy 296.872988 40.418017) (xy 296.872986 40.418018)
+				(xy 296.778423 40.52592) (xy 296.718181 40.656131) (xy 296.697164 40.798049) (xy 296.697164 40.798051)
+				(xy 296.717082 40.940131) (xy 296.717084 40.940138) (xy 296.776313 41.070806) (xy 296.776312 41.070806)
+				(xy 296.870036 41.179435) (xy 296.99062 41.257172) (xy 296.990622 41.257173) (xy 297.12825 41.297692)
+				(xy 297.128254 41.297693) (xy 297.199989 41.3) (xy 299.998163 41.3) (xy 300.001841 41.300055) (xy 300.051105 41.301517)
+				(xy 300.079517 41.305686) (xy 300.176465 41.33166) (xy 300.206374 41.344048) (xy 300.291668 41.393291)
+				(xy 300.317349 41.412997) (xy 300.386992 41.482638) (xy 300.406699 41.508319) (xy 300.455947 41.593617)
+				(xy 300.468335 41.623524) (xy 300.494312 41.720469) (xy 300.498482 41.748882) (xy 300.499945 41.798146)
+				(xy 300.5 41.801827) (xy 300.5 42.094818) (xy 300.480315 42.161857) (xy 300.427511 42.207612) (xy 300.376 42.218818)
+				(xy 269.25 42.218818) (xy 269.25 42.344818) (xy 269.230315 42.411857) (xy 269.177511 42.457612)
 				(xy 269.126 42.468818) (xy 265.574 42.468818) (xy 265.506961 42.449133) (xy 265.461206 42.396329)
 				(xy 265.45 42.344818) (xy 265.45 39.45152) (xy 265.450037 39.448482) (xy 265.452146 39.362414) (xy 265.454492 39.34126)
 				(xy 265.488363 39.170988) (xy 265.495419 39.147727) (xy 265.561272 38.988743) (xy 265.572731 38.967305)
@@ -138185,28 +136945,27 @@
 				(xy 300.468337 362.276468) (xy 300.455949 362.306374) (xy 300.406701 362.391675) (xy 300.386995 362.417357)
 				(xy 300.317354 362.486998) (xy 300.291672 362.506705) (xy 300.206371 362.555952) (xy 300.176463 362.568339)
 				(xy 300.079523 362.594312) (xy 300.051112 362.598482) (xy 300.001843 362.599945) (xy 299.998163 362.6)
-				(xy 297.196118 362.6) (xy 297.124789 362.603088) (xy 296.988165 362.644255) (xy 296.988164 362.644255)
-				(xy 296.868613 362.722164) (xy 296.868612 362.722164) (xy 296.775778 362.830529) (xy 296.717145 362.960612)
-				(xy 296.717142 362.960622) (xy 296.697432 363.101946) (xy 296.697432 363.101947) (xy 296.718237 363.243116)
-				(xy 296.777877 363.372745) (xy 296.777878 363.372747) (xy 296.871545 363.480387) (xy 296.87155 363.480392)
-				(xy 296.991698 363.55737) (xy 297.128639 363.597478) (xy 297.199998 363.6) (xy 303.200003 363.6)
-				(xy 303.265554 363.598054) (xy 303.265563 363.598053) (xy 303.392234 363.564114) (xy 303.505808 363.498544)
-				(xy 303.598539 363.405813) (xy 303.598541 363.40581) (xy 303.664111 363.292238) (xy 303.664111 363.292237)
-				(xy 303.698053 363.165562) (xy 303.698054 363.165556) (xy 303.7 363.100007) (xy 303.7 361.805182)
-				(xy 303.719685 361.738143) (xy 303.772489 361.692388) (xy 303.824 361.681182) (xy 309.576 361.681182)
-				(xy 309.643039 361.700867) (xy 309.688794 361.753671) (xy 309.7 361.805182) (xy 309.7 363.095612)
-				(xy 309.701438 363.161583) (xy 309.701438 363.161585) (xy 309.734637 363.28919) (xy 309.734638 363.289193)
-				(xy 309.799904 363.403776) (xy 309.892729 363.497418) (xy 309.892732 363.497419) (xy 310.006736 363.563685)
-				(xy 310.00674 363.563687) (xy 310.134057 363.598003) (xy 310.199982 363.599999) (xy 316.199998 363.599984)
-				(xy 316.271543 363.597708) (xy 316.271546 363.597708) (xy 316.408872 363.557387) (xy 316.529274 363.480013)
+				(xy 297.196113 362.6) (xy 297.124789 362.603072) (xy 297.124786 362.603072) (xy 296.988158 362.644241)
+				(xy 296.988157 362.644241) (xy 296.868603 362.722151) (xy 296.775766 362.830521) (xy 296.71713 362.960612)
+				(xy 296.717128 362.960619) (xy 296.697417 363.101946) (xy 296.697417 363.101947) (xy 296.718223 363.243121)
+				(xy 296.777864 363.372755) (xy 296.871538 363.480402) (xy 296.87154 363.480403) (xy 296.991696 363.557386)
+				(xy 296.991695 363.557386) (xy 297.128633 363.597493) (xy 297.2 363.6) (xy 303.200003 363.6) (xy 303.265554 363.598054)
+				(xy 303.265563 363.598053) (xy 303.392234 363.564114) (xy 303.505808 363.498544) (xy 303.598539 363.405813)
+				(xy 303.598541 363.40581) (xy 303.664111 363.292238) (xy 303.664111 363.292237) (xy 303.698053 363.165562)
+				(xy 303.698054 363.165556) (xy 303.7 363.100007) (xy 303.7 361.805182) (xy 303.719685 361.738143)
+				(xy 303.772489 361.692388) (xy 303.824 361.681182) (xy 309.576 361.681182) (xy 309.643039 361.700867)
+				(xy 309.688794 361.753671) (xy 309.7 361.805182) (xy 309.7 363.095649) (xy 309.701418 363.161577)
+				(xy 309.701419 363.161584) (xy 309.734622 363.289204) (xy 309.799889 363.403786) (xy 309.89272 363.497435)
+				(xy 309.892724 363.497438) (xy 310.00673 363.563705) (xy 310.134054 363.598022) (xy 310.19998 363.6)
+				(xy 316.200001 363.6) (xy 316.271546 363.597708) (xy 316.408872 363.557387) (xy 316.529274 363.480013)
 				(xy 316.622998 363.371852) (xy 316.623001 363.371847) (xy 316.682454 363.241665) (xy 316.682455 363.24166)
 				(xy 316.702823 363.1) (xy 316.682455 362.958339) (xy 316.682454 362.958334) (xy 316.623001 362.828152)
 				(xy 316.622998 362.828147) (xy 316.529274 362.719986) (xy 316.408872 362.642612) (xy 316.271545 362.602291)
-				(xy 316.271547 362.602291) (xy 316.200001 362.6) (xy 313.401946 362.6) (xy 313.398005 362.599937)
-				(xy 313.349037 362.59838) (xy 313.32106 362.594265) (xy 313.224535 362.568553) (xy 313.194772 362.556301)
-				(xy 313.109853 362.507608) (xy 313.084243 362.488108) (xy 313.014717 362.419197) (xy 312.994991 362.393764)
-				(xy 312.945544 362.309282) (xy 312.933028 362.279629) (xy 312.906452 362.183319) (xy 312.902089 362.155414)
-				(xy 312.900104 362.106997) (xy 312.9 362.101918) (xy 312.9 361.805182) (xy 312.919685 361.738143)
+				(xy 316.271547 362.602291) (xy 316.200001 362.6) (xy 313.401972 362.6) (xy 313.397994 362.599936)
+				(xy 313.349021 362.598364) (xy 313.321081 362.59425) (xy 313.224543 362.568534) (xy 313.194779 362.556282)
+				(xy 313.109866 362.507592) (xy 313.084258 362.488093) (xy 313.014733 362.419185) (xy 312.995006 362.393751)
+				(xy 312.945561 362.309273) (xy 312.933045 362.279619) (xy 312.906466 362.183296) (xy 312.902105 362.15543)
+				(xy 312.900106 362.107027) (xy 312.9 362.10191) (xy 312.9 361.805182) (xy 312.919685 361.738143)
 				(xy 312.972489 361.692388) (xy 313.024 361.681182) (xy 344.181182 361.681182) (xy 344.181182 361.555182)
 				(xy 344.200867 361.488143) (xy 344.253671 361.442388) (xy 344.305182 361.431182) (xy 347.826 361.431182)
 				(xy 347.893039 361.450867) (xy 347.938794 361.503671) (xy 347.95 361.555182) (xy 347.95 364.448553)

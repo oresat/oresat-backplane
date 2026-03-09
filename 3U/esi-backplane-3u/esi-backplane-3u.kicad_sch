@@ -919,15 +919,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 156.21 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fd4a50cf-8250-4be8-a65d-cc6f49945346")
 		)
@@ -1161,15 +1152,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 156.21 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bda40205-183c-4d1c-9b3a-525fb3140f81")
 		)
@@ -1265,15 +1247,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 156.21 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
 			(at 156.21 86.36 0)
 			(effects
 				(font
@@ -1514,15 +1487,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 133.35 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "18183438-5424-4b90-ba23-333f472de7ea")
 		)
@@ -1691,15 +1655,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 133.35 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "80cf1ce6-25cb-4baf-b9a8-52cc7159e9f6")
 		)
@@ -1795,15 +1750,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 156.21 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
 			(at 156.21 97.79 0)
 			(effects
 				(font
@@ -2043,15 +1989,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 156.21 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "7cda47b6-ecfa-400e-ac4d-8a597ddf4013")
 		)
@@ -2147,15 +2084,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 133.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -2397,15 +2325,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 133.35 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2f824a20-9c9b-4989-96bf-02431697bd68")
 		)
@@ -2573,15 +2492,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 133.35 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "34dbd2b5-1ea9-4ce6-8c5e-c5bf668a1d12")
 		)
@@ -2677,15 +2587,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 156.21 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
 			(at 156.21 160.02 0)
 			(effects
 				(font
@@ -2854,15 +2755,6 @@
 			)
 		)
 		(property "MPN" ""
-			(at 133.35 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field4" ""
 			(at 133.35 148.59 0)
 			(effects
 				(font

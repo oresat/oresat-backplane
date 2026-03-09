@@ -1250,15 +1250,6 @@
 				(hide yes)
 			)
 		)
-		(property "Field4" ""
-			(at 214.63 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "a1"
 			(uuid "0c3956ae-68c1-46c1-8daa-281a23e8692a")
 		)
