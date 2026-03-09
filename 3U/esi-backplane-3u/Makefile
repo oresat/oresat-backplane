@@ -24,10 +24,10 @@ ASM_DIR     ?= assembly
 CAD_DIR     ?= cad
 
 # Default target (first target is default)
-all: erc pdf bom drc ipc gbr drl pos jpg dxf stp rme zip
+all: erc pdf bom drc ipc gbr drl pos jpg dxf stp rme cad zip
 
 # Build all but skip ERC and DRC checks. It's called fafo for a reason, kids.
-fafo: pdf bom ipc gbr drl pos jpg dxf stp zip
+fafo: pdf bom ipc gbr drl pos jpg dxf stp rme cad zip
 
 # Generate build files from the schematic
 
@@ -79,6 +79,7 @@ rme:	## Readme files
 	cp README-assembly.md $(OUTPUT_DIR)/$(ASM_DIR)
 
 cad:	## CAD files
+	mkdir -p $(OUTPUT_DIR)/$(CAD_DIR)
 	cp *.kicad_pro *.kicad_sch *.kicad_pcb $(OUTPUT_DIR)/$(CAD_DIR)
 
 zip:	## Zip the file with a timestamp (one for everything, and one for each directory)
@@ -92,5 +93,5 @@ clean:	## delete everything for clean
 	rm -rf $(OUTPUT_DIR)/*
 
 # Tell make that these are commands, not files
-.PHONY: all fafo erc pdf bom drc ipc gbr drl pos jpg dxf stp rme zip clean
+.PHONY: all fafo erc pdf bom drc ipc gbr drl pos jpg dxf stp rme cad zip clean
 
