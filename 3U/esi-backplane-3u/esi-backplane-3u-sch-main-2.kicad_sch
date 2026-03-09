@@ -6,9 +6,9 @@
 	(paper "B")
 	(title_block
 		(title "OreSat 3U Backplane for ESI")
-		(date "2026-02-21")
-		(rev "1.0")
-		(company "PSAS / ESI")
+		(date "2026-03-08")
+		(rev "1.1")
+		(company "ESI / PSAS")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -10114,6 +10114,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 78.74 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3afa2bb-984c-4529-94fa-62d5e3075666")
 		)
@@ -10331,6 +10340,15 @@
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 274.32 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 274.32 125.73 0)
 			(effects
 				(font
@@ -10564,6 +10582,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 167.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0064d80-bdb3-4b9a-9d23-66f468a12724")
 		)
@@ -10661,6 +10688,15 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
+			(at 204.47 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 204.47 139.7 0)
 			(effects
 				(font
@@ -10774,6 +10810,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 321.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad93cf3f-2524-4483-9cb6-f87bd32af938")
 		)
@@ -10871,6 +10916,15 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
+			(at 127 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 127 139.7 0)
 			(effects
 				(font
@@ -11179,6 +11233,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 358.14 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f35f030a-66ef-474d-8e15-ae443fb89719")
 		)
@@ -11406,6 +11469,15 @@
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 349.25 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 349.25 127 0)
 			(effects
 				(font
@@ -11696,6 +11768,15 @@
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 232.41 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 232.41 124.46 0)
 			(effects
 				(font
@@ -12051,6 +12132,15 @@
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 118.11 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 118.11 124.46 0)
 			(effects
 				(font
@@ -12479,6 +12569,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 158.75 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "400b6002-ea3b-4fea-8c14-f647fa2caa30")
 		)
@@ -12769,6 +12868,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 87.63 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efa52852-90e5-418d-982f-0f2a8b8f86f6")
 		)
@@ -12874,6 +12982,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 241.3 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3c76f0e0-7b51-441b-932e-be98bb60deae")
 		)
@@ -12971,6 +13088,15 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
+			(at 283.21 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 283.21 140.97 0)
 			(effects
 				(font
@@ -13206,6 +13332,15 @@
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 195.58 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 195.58 124.46 0)
 			(effects
 				(font
@@ -13756,6 +13891,15 @@
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
+			(at 312.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 312.42 127 0)
 			(effects
 				(font

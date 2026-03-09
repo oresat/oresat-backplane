@@ -6,9 +6,9 @@
 	(paper "B")
 	(title_block
 		(title "OreSat 3U Backplane for ESI")
-		(date "2026-02-21")
-		(rev "1.0")
-		(company "PSAS / ESI")
+		(date "2026-03-08")
+		(rev "1.1")
+		(company "ESI / PSAS")
 	)
 	(lib_symbols
 		(symbol "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1"
@@ -3447,6 +3447,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 114.3 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "GND"
 			(uuid "96b2603f-45f1-4e06-8af9-123af745df7e")
 		)
@@ -3554,6 +3563,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 85.09 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "GND"
 			(uuid "c2d087a1-9379-4451-8cdd-213f89b2d847")
 		)
@@ -3653,6 +3671,15 @@
 			)
 		)
 		(property "MPN" "0733000110"
+			(at 387.35 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 387.35 229.87 0)
 			(effects
 				(font
@@ -3898,6 +3925,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 332.74 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "GND"
 			(uuid "99e217e2-221d-4f29-a1bf-472f762933f4")
 		)
@@ -3997,6 +4033,15 @@
 			)
 		)
 		(property "MPN" "0733000110"
+			(at 140.97 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 140.97 76.2 0)
 			(effects
 				(font
@@ -4364,6 +4409,15 @@
 			)
 		)
 		(property "MPN" "0733000110"
+			(at 87.63 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 87.63 39.37 0)
 			(effects
 				(font

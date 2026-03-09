@@ -6,9 +6,9 @@
 	(paper "B")
 	(title_block
 		(title "OreSat 3U Backplane for ESI")
-		(date "2026-02-21")
-		(rev "1.0")
-		(company "PSAS / ESI")
+		(date "2026-03-08")
+		(rev "1.1")
+		(company "ESI / PSAS")
 	)
 	(lib_symbols
 		(symbol "oresat-connectors:m55-6001642"
@@ -1242,6 +1242,15 @@
 			)
 		)
 		(property "MPN" "M55-6001642R"
+			(at 214.63 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 214.63 121.92 0)
 			(effects
 				(font

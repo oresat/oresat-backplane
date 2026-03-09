@@ -6,11 +6,91 @@
 	(paper "B")
 	(title_block
 		(title "OreSat 3U Backplane for ESI")
-		(date "2026-02-21")
-		(rev "1.0")
-		(company "PSAS / ESI")
+		(date "2026-03-08")
+		(rev "1.1")
+		(company "ESI / PSAS")
 	)
 	(lib_symbols
+		(symbol "Mechanical:Fiducial"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "FID"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Fiducial"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fiducial Marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "fiducial marker"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Fiducial*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Fiducial_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -220,6 +300,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Front side Fiducials"
+		(exclude_from_sim no)
+		(at 136.906 178.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ded4b9c-f0b7-4f32-a5a8-3f5a76fa183e")
+	)
+	(text "Back side Fiducials"
+		(exclude_from_sim no)
+		(at 169.164 178.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b6edd71-1222-47d1-8a5e-8e5c70948675")
+	)
 	(wire
 		(pts
 			(xy 156.21 90.17) (xy 156.21 88.9)
@@ -339,6 +439,70 @@
 			(type default)
 		)
 		(uuid "f1d0ea12-8455-475a-8b1c-122e1c527a9e")
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 167.64 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01f8b472-fdbd-4643-a5f4-8ce41bb10a95")
+		(property "Reference" "FID105"
+			(at 170.18 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 170.18 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 167.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 167.64 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
+					(reference "FID105")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -601,6 +765,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 133.35 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0cf30c87-cde1-45a9-b871-7c41ff9c81d1")
+		(property "Reference" "FID101"
+			(at 135.89 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 135.89 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 133.35 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 133.35 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
+					(reference "FID101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
 		(at 156.21 148.59 0)
 		(unit 1)
@@ -683,6 +911,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 156.21 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 156.21 148.59 0)
 			(effects
 				(font
@@ -924,6 +1161,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 156.21 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bda40205-183c-4d1c-9b3a-525fb3140f81")
 		)
@@ -1027,6 +1273,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 156.21 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7049fcf-62d0-49ce-9a88-e3d55e3e7928")
 		)
@@ -1099,6 +1354,70 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(reference "#GND024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 133.35 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44e2225f-fb7b-4ffa-af56-a79b241f016e")
+		(property "Reference" "FID102"
+			(at 135.89 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 135.89 193.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 133.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 133.35 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
+					(reference "FID102")
 					(unit 1)
 				)
 			)
@@ -1187,6 +1506,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 133.35 97.79 0)
 			(effects
 				(font
@@ -1363,6 +1691,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 133.35 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "80cf1ce6-25cb-4baf-b9a8-52cc7159e9f6")
 		)
@@ -1466,6 +1803,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2613192-0e7c-4d1b-8f5e-90e7cfe3bf87")
 		)
@@ -1473,6 +1819,134 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 167.64 184.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3beacc3-b37d-4b68-af23-c9ca2de3a73f")
+		(property "Reference" "FID104"
+			(at 170.18 182.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 170.18 185.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 167.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 167.64 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
+					(reference "FID104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 167.64 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a70b180f-6f67-4d70-a0ae-dd4066fa0dfb")
+		(property "Reference" "FID106"
+			(at 170.18 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 170.18 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 167.64 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 167.64 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
+					(reference "FID106")
 					(unit 1)
 				)
 			)
@@ -1561,6 +2035,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 156.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 156.21 118.11 0)
 			(effects
 				(font
@@ -1664,6 +2147,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 133.35 86.36 0)
 			(effects
 				(font
@@ -1905,6 +2397,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 133.35 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f824a20-9c9b-4989-96bf-02431697bd68")
 		)
@@ -1912,6 +2413,70 @@
 			(project "oresat-backplane-3u"
 				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
 					(reference "H10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:Fiducial")
+		(at 133.35 199.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7d3ccf6-40aa-4f89-83dd-5035d2d50a30")
+		(property "Reference" "FID103"
+			(at 135.89 198.1199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Fiducial"
+			(at 135.89 200.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 133.35 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fiducial Marker"
+			(at 133.35 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/300eeac4-6caf-4310-939c-5dc51539800c"
+					(reference "FID103")
 					(unit 1)
 				)
 			)
@@ -2000,6 +2565,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -2103,6 +2677,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 156.21 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 156.21 160.02 0)
 			(effects
 				(font
@@ -2271,6 +2854,15 @@
 			)
 		)
 		(property "MPN" ""
+			(at 133.35 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 133.35 148.59 0)
 			(effects
 				(font

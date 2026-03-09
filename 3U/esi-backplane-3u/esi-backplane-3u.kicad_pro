@@ -493,7 +493,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "backplane-3u-ESI.kicad_pro",
+    "filename": "esi-backplane-3u.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -688,7 +688,7 @@
         "filter_string": "",
         "group_symbols": true,
         "include_excluded_from_bom": false,
-        "name": "bom-output-preset",
+        "name": "bom-export-preset",
         "sort_asc": true,
         "sort_field": "Reference"
       },
