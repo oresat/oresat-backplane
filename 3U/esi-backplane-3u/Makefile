@@ -88,6 +88,7 @@ zip:	## Zip the file with a timestamp (one for everything, and one for each dire
 	zip -r $(OUTPUT_DIR)/$(PROJECT_NAME)-$(TIMESTAMP)-$(DOC_DIR).zip $(OUTPUT_DIR)/$(DOC_DIR)/*
 	zip -r $(OUTPUT_DIR)/$(PROJECT_NAME)-$(TIMESTAMP)-$(FAB_DIR).zip $(OUTPUT_DIR)/$(FAB_DIR)/*
 	zip -r $(OUTPUT_DIR)/$(PROJECT_NAME)-$(TIMESTAMP)-$(ASM_DIR).zip $(OUTPUT_DIR)/$(ASM_DIR)/*
+	zip -r $(OUTPUT_DIR)/$(PROJECT_NAME)-$(TIMESTAMP)-$(CAD_DIR).zip $(OUTPUT_DIR)/$(CAD_DIR)/*
 	
 clean:	## delete everything for clean
 	rm -rf $(OUTPUT_DIR)/*
