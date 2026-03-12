@@ -13388,7 +13388,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "SFM-120-X1-XXX-D"
+		(property "Value" "SFM-120-01-S-D-LC"
 			(at 224.79 148.59 0)
 			(effects
 				(font
