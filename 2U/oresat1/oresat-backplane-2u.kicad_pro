@@ -697,7 +697,7 @@
         "filter_string": "",
         "group_symbols": true,
         "include_excluded_from_bom": false,
-        "name": "bom-output-preset",
+        "name": "bom-export-preset",
         "sort_asc": true,
         "sort_field": "Reference"
       },
