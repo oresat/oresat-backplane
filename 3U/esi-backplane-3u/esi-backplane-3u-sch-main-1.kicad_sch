@@ -15517,7 +15517,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "46d4040b-3bd6-4e13-bf25-9b4d90836a8b")
 		(property "Reference" "C5"
 			(at 289.814 214.249 0)
@@ -15952,7 +15952,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "549acdbd-cd17-4eae-93f4-9209e642adc2")
 		(property "Reference" "CF10.2"
 			(at 276.86 147.32 0)
@@ -16307,7 +16307,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6244071f-a204-4376-a21a-b00204d9bf5f")
 		(property "Reference" "CF4.2"
 			(at 254 22.86 0)
