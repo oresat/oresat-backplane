@@ -1,0 +1,12 @@
+(version 1)
+
+# Set the zone clearance (really just ground) for 1.0 mm for these netclasses
+(rule "RF-50-max_zone_clearance"
+  (constraint clearance (min 1.0mm))
+  (condition "A.Type == 'Zone' && B.NetClass == 'RF-50-max")
+)
+
+(rule "RF-50-min_zone_clearance"
+  (constraint clearance (min 0.6mm))
+  (condition "A.Type == 'Zone' && B.NetClass == 'RF-50-min")
+)
