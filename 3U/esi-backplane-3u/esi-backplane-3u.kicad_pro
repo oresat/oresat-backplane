@@ -571,7 +571,7 @@
       "plot": "build",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "build/oresat-backplane-3u-ESI.step",
+      "step": "../../../../../Desktop/esi-backplane-3u.step",
       "svg": "",
       "vrml": ""
     },
