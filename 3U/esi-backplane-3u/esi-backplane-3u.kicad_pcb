@@ -2902,6 +2902,7 @@
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/02ccab89-29a3-4a08-ab00-f0682a48c303")
 		(sheetname "/Main Connectors 1/")
 		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
+		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -9472,7 +9473,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "79456b56-89c2-4d05-9304-75bdeaa6682e")
+			(uuid "b4d0e83e-b4e6-4415-889c-11bc23d1a294")
 		)
 		(pad "2" smd roundrect
 			(at -1.08 1.09 315)
@@ -9488,7 +9489,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "79456b56-89c2-4d05-9304-75bdeaa6682e")
+			(uuid "8af93c5f-14ae-458e-93a7-c07e5a47de82")
 		)
 		(pad "2" thru_hole circle
 			(at -1.08 1.09 180)
@@ -9502,7 +9503,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "79456b56-89c2-4d05-9304-75bdeaa6682e")
+			(uuid "5b257e04-f330-4d52-b107-399c5fb24141")
 		)
 		(pad "2" smd custom
 			(at 0 1.418919)
@@ -9542,7 +9543,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "79456b56-89c2-4d05-9304-75bdeaa6682e")
+			(uuid "3e1ff779-c700-435b-bc39-bb89503a8e9f")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 -1.09 135)
@@ -9558,7 +9559,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "79456b56-89c2-4d05-9304-75bdeaa6682e")
+			(uuid "e5be6ac8-2e79-46e5-850d-40af65f6cbf6")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 -1.09 180)
@@ -9572,7 +9573,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "79456b56-89c2-4d05-9304-75bdeaa6682e")
+			(uuid "36122e1f-02ee-4cf8-a606-e3e1758ec14e")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 1.08 45)
@@ -9588,7 +9589,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "79456b56-89c2-4d05-9304-75bdeaa6682e")
+			(uuid "dff83269-035e-4ffd-a0f6-69b998fa7b2c")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 1.09 180)
@@ -9602,7 +9603,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "79456b56-89c2-4d05-9304-75bdeaa6682e")
+			(uuid "1299d87a-ed25-4d5a-8195-95be68f26a99")
 		)
 		(embedded_fonts no)
 		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/J-Molex-733000110.stp"
@@ -13551,7 +13552,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "c63fe8b6-f82c-45d2-a217-9660db07a842")
+			(uuid "2c77a4b8-10f2-44a0-bf6f-0a3c40d3f191")
 		)
 		(pad "2" smd roundrect
 			(at -1.08 1.09 135)
@@ -13567,7 +13568,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "c63fe8b6-f82c-45d2-a217-9660db07a842")
+			(uuid "0f608363-5bf6-468e-81b5-e4f1eb91ef89")
 		)
 		(pad "2" thru_hole circle
 			(at -1.08 1.09)
@@ -13581,7 +13582,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "c63fe8b6-f82c-45d2-a217-9660db07a842")
+			(uuid "5f4bc2c1-f53d-47a4-90f5-3ce6bacd5ce2")
 		)
 		(pad "2" smd custom
 			(at 0 1.418919 180)
@@ -13621,7 +13622,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "c63fe8b6-f82c-45d2-a217-9660db07a842")
+			(uuid "3747af93-328d-48ba-8c3e-a845d1cbb987")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 -1.09 315)
@@ -13637,7 +13638,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "c63fe8b6-f82c-45d2-a217-9660db07a842")
+			(uuid "8f2f2c3c-d1d9-4f48-a499-a3b1af503352")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 -1.09)
@@ -13651,7 +13652,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "c63fe8b6-f82c-45d2-a217-9660db07a842")
+			(uuid "a6384aa5-fc06-4e81-b5bb-d13ec81f94db")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 1.08 225)
@@ -13667,7 +13668,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "c63fe8b6-f82c-45d2-a217-9660db07a842")
+			(uuid "b2015707-66c9-47f5-a94b-e0b2fc35db1e")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 1.09)
@@ -13681,7 +13682,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "c63fe8b6-f82c-45d2-a217-9660db07a842")
+			(uuid "fcbbde95-1f27-4149-972b-081e7d9b36e1")
 		)
 		(embedded_fonts no)
 		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/J-Molex-733000110.stp"
@@ -14026,7 +14027,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "ffbe1c4c-9c7b-496b-af22-51fee9c3a8dd")
+			(uuid "8bf9e0b3-0d38-46d2-8ec7-393e542fcd6c")
 		)
 		(pad "2" smd roundrect
 			(at -1.08 1.09 45)
@@ -14042,7 +14043,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "ffbe1c4c-9c7b-496b-af22-51fee9c3a8dd")
+			(uuid "afd0e7d6-567f-4434-93d9-2430ba773b1d")
 		)
 		(pad "2" thru_hole circle
 			(at -1.08 1.09 270)
@@ -14056,7 +14057,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "ffbe1c4c-9c7b-496b-af22-51fee9c3a8dd")
+			(uuid "a10ef50e-df52-4dbd-85e4-c047c6ee2534")
 		)
 		(pad "2" smd custom
 			(at 0 1.418919 90)
@@ -14096,7 +14097,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "ffbe1c4c-9c7b-496b-af22-51fee9c3a8dd")
+			(uuid "e3e87553-e829-412e-8e1b-42f263029502")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 -1.09 225)
@@ -14112,7 +14113,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "ffbe1c4c-9c7b-496b-af22-51fee9c3a8dd")
+			(uuid "3faf2d03-662f-48ad-ba5d-8cdeec5c324f")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 -1.09 270)
@@ -14126,7 +14127,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "ffbe1c4c-9c7b-496b-af22-51fee9c3a8dd")
+			(uuid "9faf4390-cb42-44c1-8234-55139c719482")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 1.08 135)
@@ -14142,7 +14143,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "ffbe1c4c-9c7b-496b-af22-51fee9c3a8dd")
+			(uuid "b528e9fa-5988-432c-9e8b-0efae1d4ee65")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 1.09 270)
@@ -14156,7 +14157,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "ffbe1c4c-9c7b-496b-af22-51fee9c3a8dd")
+			(uuid "c9ca8182-01d2-4750-96d7-1d2e945e659c")
 		)
 		(embedded_fonts no)
 		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/J-Molex-733000110.stp"
@@ -27322,7 +27323,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "2f6bd5b6-2f25-4213-8fb5-7aab8daecc1d")
+			(uuid "51ffd13b-a8ef-4294-89ec-85a38bdb8755")
 		)
 		(pad "2" smd roundrect
 			(at -1.08 1.09 135)
@@ -27338,7 +27339,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "2f6bd5b6-2f25-4213-8fb5-7aab8daecc1d")
+			(uuid "71972a4b-cb85-4f80-863b-557f7df2c519")
 		)
 		(pad "2" thru_hole circle
 			(at -1.08 1.09)
@@ -27352,7 +27353,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "2f6bd5b6-2f25-4213-8fb5-7aab8daecc1d")
+			(uuid "63e1ff74-cdb3-4875-8135-9aae8bf246f7")
 		)
 		(pad "2" smd custom
 			(at 0 1.418919 180)
@@ -27392,7 +27393,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "2f6bd5b6-2f25-4213-8fb5-7aab8daecc1d")
+			(uuid "a1450f5d-1350-433d-bd22-8d255a093974")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 -1.09 315)
@@ -27408,7 +27409,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "2f6bd5b6-2f25-4213-8fb5-7aab8daecc1d")
+			(uuid "95dedfa2-09b3-48fe-9614-0a431119d3d9")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 -1.09)
@@ -27422,7 +27423,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "2f6bd5b6-2f25-4213-8fb5-7aab8daecc1d")
+			(uuid "5fb18c55-8977-4679-b4fb-e03aafbdb62b")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 1.08 225)
@@ -27438,7 +27439,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "2f6bd5b6-2f25-4213-8fb5-7aab8daecc1d")
+			(uuid "911d90a1-c9c7-4f40-8c1e-1923022900e4")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 1.09)
@@ -27452,7 +27453,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "2f6bd5b6-2f25-4213-8fb5-7aab8daecc1d")
+			(uuid "7b174fc5-9f6d-4b6e-b655-6be7d735a8df")
 		)
 		(embedded_fonts no)
 		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/J-Molex-733000110.stp"
@@ -29782,7 +29783,6 @@
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/df31c2fc-d7c3-4d99-becf-085b9637e760")
 		(sheetname "/Main Connectors 1/")
 		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
-		(attr dnp)
 		(fp_line
 			(start -14.6685 -0.635)
 			(end -14.6685 -0.4)
@@ -33365,7 +33365,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "d26c48f0-bcaa-451a-a724-3d90d5ccaa02")
+			(uuid "07a39377-8423-4f0b-9e84-fb3ca68f8cc9")
 		)
 		(pad "2" smd roundrect
 			(at -1.08 1.09 315)
@@ -33381,7 +33381,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "d26c48f0-bcaa-451a-a724-3d90d5ccaa02")
+			(uuid "3be7c797-c9fd-4bfe-9f31-8f2ff87b4c57")
 		)
 		(pad "2" thru_hole circle
 			(at -1.08 1.09 180)
@@ -33395,7 +33395,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "d26c48f0-bcaa-451a-a724-3d90d5ccaa02")
+			(uuid "3d6ce19c-10ac-4720-a54e-c83b02655c21")
 		)
 		(pad "2" smd custom
 			(at 0 1.418919)
@@ -33435,7 +33435,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "d26c48f0-bcaa-451a-a724-3d90d5ccaa02")
+			(uuid "eba4edc6-0ba7-4e4b-843d-33f2be902942")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 -1.09 135)
@@ -33451,7 +33451,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "d26c48f0-bcaa-451a-a724-3d90d5ccaa02")
+			(uuid "ca5e11b6-510c-4f05-a0a6-aaa5eb5333be")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 -1.09 180)
@@ -33465,7 +33465,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "d26c48f0-bcaa-451a-a724-3d90d5ccaa02")
+			(uuid "6f155ae4-fb4e-4c63-8e58-db22ca59b36f")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 1.08 45)
@@ -33481,7 +33481,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "d26c48f0-bcaa-451a-a724-3d90d5ccaa02")
+			(uuid "7a75e966-f5fc-4c17-ac26-5dfda423b287")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 1.09 180)
@@ -33495,7 +33495,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "d26c48f0-bcaa-451a-a724-3d90d5ccaa02")
+			(uuid "fd210e55-4cba-4c42-94cf-a5a97487bd01")
 		)
 		(embedded_fonts no)
 		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/J-Molex-733000110.stp"
@@ -33997,7 +33997,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "90d57d91-4c4c-410a-ab6e-eef5bff8a569")
+			(uuid "ea1da475-9b82-4e4a-b7ce-01ac7cd3f8b1")
 		)
 		(pad "2" smd roundrect
 			(at -1.08 1.09 135)
@@ -34013,7 +34013,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "90d57d91-4c4c-410a-ab6e-eef5bff8a569")
+			(uuid "bb7ce0ca-45d4-4759-a529-25fe7775c9dc")
 		)
 		(pad "2" thru_hole circle
 			(at -1.08 1.09)
@@ -34027,7 +34027,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "90d57d91-4c4c-410a-ab6e-eef5bff8a569")
+			(uuid "f9265458-341b-4660-9b50-5b20de71efcc")
 		)
 		(pad "2" smd custom
 			(at 0 1.418919 180)
@@ -34067,7 +34067,7 @@
 					(fill yes)
 				)
 			)
-			(uuid "90d57d91-4c4c-410a-ab6e-eef5bff8a569")
+			(uuid "9c6b7320-e33d-439a-86d1-f6bd0758d582")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 -1.09 315)
@@ -34083,7 +34083,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "90d57d91-4c4c-410a-ab6e-eef5bff8a569")
+			(uuid "c0dec7f6-e841-48d0-b330-4e410ff4c4ba")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 -1.09)
@@ -34097,7 +34097,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "90d57d91-4c4c-410a-ab6e-eef5bff8a569")
+			(uuid "5de965fb-3bc5-406b-8976-e6add105edec")
 		)
 		(pad "2" smd roundrect
 			(at 1.08 1.08 225)
@@ -34113,7 +34113,7 @@
 			(zone_connect 2)
 			(thermal_bridge_width 0.1)
 			(thermal_gap 0.1)
-			(uuid "90d57d91-4c4c-410a-ab6e-eef5bff8a569")
+			(uuid "5456878e-57c3-4bdc-b632-5b2ba3ba1c56")
 		)
 		(pad "2" thru_hole circle
 			(at 1.08 1.09)
@@ -34127,7 +34127,7 @@
 			(solder_mask_margin 0.0635)
 			(zone_connect 1)
 			(thermal_bridge_width 0.2)
-			(uuid "90d57d91-4c4c-410a-ab6e-eef5bff8a569")
+			(uuid "8c301f39-c4f5-4b3c-b77a-0068819f044c")
 		)
 		(embedded_fonts no)
 		(model "${ORESAT_LIBRARIES}/oresat-3dmodels/J-Molex-733000110.stp"
@@ -39214,7 +39214,7 @@
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/13d9d643-73fd-4838-acb6-d97a2476dad5")
 		(sheetname "/Main Connectors 1/")
 		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
-		(attr smd dnp)
+		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
@@ -40735,7 +40735,7 @@
 		(path "/0ec651ec-1673-4d79-a377-3af1e330deeb/8629ca5c-8b9f-4768-8546-e14d99d0740c")
 		(sheetname "/Main Connectors 1/")
 		(sheetfile "esi-backplane-3u-sch-main-1.kicad_sch")
-		(attr smd)
+		(attr smd dnp)
 		(fp_line
 			(start -0.711252 0.91)
 			(end 0.711252 0.91)
@@ -65333,7 +65333,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "DNP(OSIRIS)\n"
+	(gr_text "DNP (OSIRIS)\n"
 		(at 281.59 331.73 0)
 		(layer "F.SilkS")
 		(uuid "29a834d2-4022-4b27-8c2a-eec77bb2cf64")
@@ -65385,6 +65385,18 @@
 		(at 282 271.8 0)
 		(layer "F.SilkS")
 		(uuid "d3d1c591-3696-423e-8eae-0aba74db68d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Star Tracker"
+		(at 282.07 85.9 0)
+		(layer "F.SilkS")
+		(uuid "06318c8e-1e01-49be-9050-a91055571e7c")
 		(effects
 			(font
 				(size 1 1)
@@ -65573,22 +65585,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "DNP"
-		(at 288.3 85.9 0)
+	(gr_text "BATT 2"
+		(at 285.38 261.62 0)
 		(layer "F.SilkS")
-		(uuid "06318c8e-1e01-49be-9050-a91055571e7c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "SDR CONTROL"
-		(at 280.75 126.025 0)
-		(layer "F.SilkS")
-		(uuid "92392f6d-742a-49c0-8aa8-25b039a634e8")
+		(uuid "7756ac99-6e5e-4f06-a4f7-7c1b92e21e87")
 		(effects
 			(font
 				(size 1 1)
@@ -65598,10 +65598,10 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BATT 2"
-		(at 285.38 261.62 0)
+	(gr_text "DNP\n"
+		(at 287.15 126.025 0)
 		(layer "F.SilkS")
-		(uuid "7756ac99-6e5e-4f06-a4f7-7c1b92e21e87")
+		(uuid "92392f6d-742a-49c0-8aa8-25b039a634e8")
 		(effects
 			(font
 				(size 1 1)
