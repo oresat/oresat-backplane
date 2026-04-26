@@ -11,31 +11,31 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1"
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CM2.2"
-				(at 3.81 -3.81 0)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
-						(bold yes)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "J-MOLEX-SMPM-73300-0111X_1"
-				(at 3.81 -6.35 0)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
 				(effects
 					(font
-						(size 1.778 1.5113)
-						(bold yes)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -44,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,30 +62,53 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "J-MOLEX-SMPM-73300-0111X_1_1_0"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -0.635 0)
+						(xy -2.54 0) (xy -0.508 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -96,29 +119,43 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 0.508)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "RF"
+					(name "In"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "RF-DOWN"
+					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -126,17 +163,17 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "SHIELD1"
+					(name "Ext"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "GND"
+					(number "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1195,7 +1232,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1232,7 +1269,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 86.36 0)
 			(effects
 				(font
@@ -1241,12 +1278,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 200.66 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -1258,10 +1296,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "f9251a13-4083-418b-a279-774037ff2e72")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "b4b68551-c94e-4e2f-855c-4a229e835d4f")
 		)
 		(instances
@@ -1274,7 +1312,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 138.43 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1311,7 +1349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 99.06 0)
 			(effects
 				(font
@@ -1320,12 +1358,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 138.43 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -1337,10 +1376,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "5fa28ee9-b41b-4f30-9e00-ad191bd9996b")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "d287d320-c07e-432a-9d2e-a8de4b2c3069")
 		)
 		(instances
@@ -1353,7 +1392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1390,7 +1429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 124.46 0)
 			(effects
 				(font
@@ -1399,12 +1438,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 200.66 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -1416,10 +1456,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "7aa7c291-626b-45ad-8ba7-b30b62660f5a")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "39e22134-2610-4e59-8d09-f854416ff110")
 		)
 		(instances
@@ -1432,7 +1472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 262.89 175.26 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1469,7 +1509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 175.26 0)
 			(effects
 				(font
@@ -1478,12 +1518,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 262.89 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -1495,10 +1536,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "57aa8a38-35a6-45ee-8e98-656d22ea2bfc")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "f0be2a49-4e0f-456d-a763-66c77c310796")
 		)
 		(instances
@@ -1511,7 +1552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 262.89 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1548,7 +1589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 87.63 0)
 			(effects
 				(font
@@ -1557,12 +1598,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 262.89 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -1574,10 +1616,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "adc5842b-78b1-44bc-9007-f19502eb66e1")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "4924674d-3ee3-41a5-a200-75faf528ca01")
 		)
 		(instances
@@ -1655,7 +1697,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 262.89 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1692,7 +1734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 100.33 0)
 			(effects
 				(font
@@ -1701,12 +1743,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 262.89 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -1718,10 +1761,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "dd1b97f1-8616-4cd5-baf2-ae1f92e78026")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "a2ed6a6c-68db-4baf-bddc-63abe0fdb911")
 		)
 		(instances
@@ -1799,7 +1842,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1836,7 +1879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 99.06 0)
 			(effects
 				(font
@@ -1845,12 +1888,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 200.66 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -1862,10 +1906,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "27619673-4d2a-4dbc-b41f-54dc3bdc3422")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "0ea3c884-4f53-4df2-818f-53b55d62a587")
 		)
 		(instances
@@ -1878,7 +1922,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1915,7 +1959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 111.76 0)
 			(effects
 				(font
@@ -1924,12 +1968,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 200.66 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -1941,10 +1986,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "dfac732e-eeff-4ef0-9bcf-8a07e912a22b")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "04e952b4-8a7f-4ac1-b333-d9492a2c578f")
 		)
 		(instances
@@ -1957,7 +2002,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 138.43 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1994,7 +2039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 111.76 0)
 			(effects
 				(font
@@ -2003,12 +2048,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -2020,10 +2066,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "9879836e-26fd-4ea5-a1b6-709e6672d653")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "2173eeff-feb7-408a-8835-cf9df0010503")
 		)
 		(instances
@@ -2166,7 +2212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2203,7 +2249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 162.56 0)
 			(effects
 				(font
@@ -2212,12 +2258,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 200.66 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -2229,10 +2276,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "a0e94780-2280-418f-923c-13dbe193c084")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "11379761-0555-4150-b8ed-f823e8abe152")
 		)
 		(instances
@@ -2635,7 +2682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 138.43 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2672,7 +2719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 124.46 0)
 			(effects
 				(font
@@ -2681,12 +2728,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 138.43 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -2698,10 +2746,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "1a12e5a2-6f30-49b2-96a3-7aa986ed2a6c")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "5ebcf7f2-6a19-4674-8cac-784b4005edb8")
 		)
 		(instances
@@ -2909,7 +2957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2946,7 +2994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 173.99 0)
 			(effects
 				(font
@@ -2955,12 +3003,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 200.66 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -2972,10 +3021,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "c0942db7-a246-4483-83f9-408dabe7dfa0")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "1c98d03d-27b0-4c75-ac79-fb626b9ed34f")
 		)
 		(instances
@@ -3053,7 +3102,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 262.89 163.83 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3090,7 +3139,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 163.83 0)
 			(effects
 				(font
@@ -3099,12 +3148,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 262.89 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -3116,10 +3166,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "e4e147cd-d5b5-45c4-9a88-671a8d9bfb57")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "a5dd7efe-dda9-4165-bb6f-e95dae447b85")
 		)
 		(instances
@@ -3197,7 +3247,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 138.43 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3234,7 +3284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 149.86 0)
 			(effects
 				(font
@@ -3243,12 +3293,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 138.43 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -3260,10 +3311,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "c8f804b2-24bd-4d6c-acbb-5b802833e042")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "139171b8-51e0-402c-b17f-7338d89c19ea")
 		)
 		(instances
@@ -3341,7 +3392,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 138.43 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3378,7 +3429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 137.16 0)
 			(effects
 				(font
@@ -3387,12 +3438,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 138.43 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -3404,10 +3456,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "a6a6b3f5-c30d-4cae-bbaa-917249880a2a")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "3a483dde-c285-4f51-9cae-5ba328d6d846")
 		)
 		(instances
@@ -3420,7 +3472,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 262.89 138.43 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3457,7 +3509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 138.43 0)
 			(effects
 				(font
@@ -3466,12 +3518,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 262.89 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -3483,10 +3536,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "05b05a1b-7a38-457a-8e2d-1f064a25c255")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "87805ff1-4ae7-48b9-942d-acdaf525e3ac")
 		)
 		(instances
@@ -3499,7 +3552,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 262.89 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3536,7 +3589,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 113.03 0)
 			(effects
 				(font
@@ -3545,12 +3598,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 262.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -3562,10 +3616,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "97bbe81f-a8b0-4b39-9c0c-ecaad039a042")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "21542abd-0604-4245-ad73-bcc83d23167a")
 		)
 		(instances
@@ -3578,7 +3632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 138.43 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3615,7 +3669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 173.99 0)
 			(effects
 				(font
@@ -3624,12 +3678,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 138.43 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -3641,10 +3696,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "df8a0f5f-2ae0-4627-85c0-cd8a857e6468")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "345df3a9-fde8-460f-81e9-2c3b74301a85")
 		)
 		(instances
@@ -3722,7 +3777,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 138.43 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3759,7 +3814,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 86.36 0)
 			(effects
 				(font
@@ -3768,12 +3823,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 138.43 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -3785,10 +3841,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "d6999f58-f78c-442b-b327-d9f40207cbff")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "401fbe61-52e1-4f60-8b0d-9d7e55688374")
 		)
 		(instances
@@ -3801,7 +3857,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3838,7 +3894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 137.16 0)
 			(effects
 				(font
@@ -3847,12 +3903,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 200.66 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -3864,10 +3921,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "9be2eb4b-4d6b-4b6e-b8fe-c8fc24a46f2d")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "b2e2d116-4172-43c4-8897-029e79cadccf")
 		)
 		(instances
@@ -4010,7 +4067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 262.89 125.73 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4047,7 +4104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 125.73 0)
 			(effects
 				(font
@@ -4056,12 +4113,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 262.89 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -4073,10 +4131,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "a9ab9693-df26-4b05-b6bc-6ff7770eba5d")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "480f7633-30f3-4707-96fe-d0d251e9cf57")
 		)
 		(instances
@@ -4089,7 +4147,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 200.66 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4126,7 +4184,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 200.66 149.86 0)
 			(effects
 				(font
@@ -4135,12 +4193,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 200.66 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -4152,10 +4211,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "1f046ef1-b26a-4a48-96dd-fbdb0947b916")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "30ab5955-3259-4d65-ac96-83a5c270fd43")
 		)
 		(instances
@@ -4233,7 +4292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 262.89 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4270,7 +4329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 262.89 151.13 0)
 			(effects
 				(font
@@ -4279,12 +4338,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 262.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -4296,10 +4356,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "20b1bc10-588a-4bd8-a21a-e840982a5613")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "854ed72b-4948-4bf3-989d-8200156ace35")
 		)
 		(instances
@@ -4572,7 +4632,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 138.43 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4609,7 +4669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 138.43 162.56 0)
 			(effects
 				(font
@@ -4618,12 +4678,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 138.43 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Field4" ""
@@ -4635,10 +4696,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "6e8ea42d-e4cf-4e10-91a7-932ad630e6d0")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "b3bf959f-d00c-4cc4-b69e-4e863a842094")
 		)
 		(instances
