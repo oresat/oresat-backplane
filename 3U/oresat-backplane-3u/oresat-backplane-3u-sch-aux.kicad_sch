@@ -3934,6 +3934,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 106.68 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ef986699-cf91-467e-a6c0-28425b5404b9")
 		)
@@ -4156,6 +4165,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 109.22 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 109.22 86.36 0)
 			(effects
 				(font
@@ -4394,6 +4412,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 224.79 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e24019d4-740a-43e8-9ccc-32d146637606")
 		)
@@ -4624,6 +4651,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 167.64 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9798b3f0-2207-49c9-8447-c4a24d646882")
 		)
@@ -4781,6 +4817,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 196.85 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 196.85 232.41 0)
 			(effects
 				(font
@@ -4954,6 +4999,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 312.42 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f61dc641-9a1c-4fde-a4cc-8376859eae09")
 		)
@@ -5111,6 +5165,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 165.1 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 165.1 86.36 0)
 			(effects
 				(font
@@ -5349,6 +5412,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 314.96 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3ea9565f-2e87-4741-bc68-425c40036e8f")
 		)
@@ -5571,6 +5643,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 195.58 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 195.58 160.02 0)
 			(effects
 				(font
@@ -5939,6 +6020,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 107.95 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b98a4534-939d-4837-b6d9-26e9640210e8")
 		)
@@ -6291,6 +6381,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 281.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 281.94 88.9 0)
 			(effects
 				(font
@@ -6919,6 +7018,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 138.43 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5e96879-6b87-45d5-b333-94dfb93c8530")
 		)
@@ -7149,6 +7257,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 194.31 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "778bb07a-a864-43e9-b60b-0a31840efbf4")
 		)
@@ -7306,6 +7423,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 283.21 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 283.21 162.56 0)
 			(effects
 				(font
@@ -7479,6 +7605,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 313.69 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3e22ab3-904f-4222-b9dc-d0e7274db7aa")
 		)
@@ -7644,6 +7779,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 223.52 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c7379d2-7f0e-4176-81b0-f2a77bdb026d")
 		)
@@ -7801,6 +7945,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 252.73 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 252.73 87.63 0)
 			(effects
 				(font
@@ -8104,6 +8257,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 139.7 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1ba0c82-bad7-4706-acb6-ee1489f81fc7")
 		)
@@ -8261,6 +8423,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 166.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 166.37 162.56 0)
 			(effects
 				(font
@@ -8499,6 +8670,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 284.48 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3fcd82a-53e5-4876-a137-e9dce49830fd")
 		)
@@ -8656,6 +8836,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 139.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 139.7 86.36 0)
 			(effects
 				(font
@@ -8894,6 +9083,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 252.73 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "48c90046-bd0e-49e0-8a4a-ba1581bddd3d")
 		)
@@ -9124,6 +9322,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 252.73 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9369175c-ce08-4fad-b9be-0787f4d838bf")
 		)
@@ -9281,6 +9488,15 @@
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
+			(at 226.06 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 226.06 233.68 0)
 			(effects
 				(font

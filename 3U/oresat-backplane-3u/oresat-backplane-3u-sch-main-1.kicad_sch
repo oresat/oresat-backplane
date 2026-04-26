@@ -13523,6 +13523,15 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 237.49 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "798a3556-81d0-4823-afbe-3a56efd3e122")
 		)
@@ -13748,6 +13757,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 246.38 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64d84440-2e94-4f94-88f9-138b5126d505")
 		)
@@ -13814,6 +13832,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 309.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14132,6 +14159,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 162.56 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14777,6 +14813,15 @@
 				)
 			)
 		)
+		(property "Field4" ""
+			(at 311.15 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e25b795d-dafc-4525-a231-4cecaef7446d")
 		)
@@ -15002,6 +15047,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 137.16 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dc503e7a-3881-44c7-9dce-fab3105d1bb4")
 		)
@@ -15099,6 +15153,15 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
+			(at 208.28 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 208.28 90.17 0)
 			(effects
 				(font
@@ -15269,6 +15332,15 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
+			(at 320.04 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 320.04 210.82 0)
 			(effects
 				(font
@@ -15642,6 +15714,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 137.16 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4825e0a-b389-4078-aca2-eef102d72b5a")
 		)
@@ -15812,6 +15893,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 149.86 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d3b90378-8614-4c96-a4f4-d65cbd7c44b7")
 		)
@@ -15878,6 +15968,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16066,6 +16165,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 274.32 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16449,6 +16557,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 236.22 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16871,6 +16988,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 245.11 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c253bfdb-4ec3-40ea-92b2-2fe2951fdfef")
 		)
@@ -16937,6 +17063,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 200.66 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17164,6 +17299,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 283.21 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4d5ad1c0-7750-478e-9389-99ea5978194a")
 		)
@@ -17326,6 +17470,15 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
+			(at 281.94 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 281.94 90.17 0)
 			(effects
 				(font
@@ -17569,6 +17722,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 139.7 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7080766e-5700-4a31-bc1e-1d239e4d43bf")
 		)
@@ -17666,6 +17828,15 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
+			(at 318.77 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 318.77 90.17 0)
 			(effects
 				(font
@@ -17935,6 +18106,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 162.56 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18227,6 +18407,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bc855ec1-78de-4230-883c-05cffff3c6c7")
 		)
@@ -18358,6 +18547,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 199.39 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18715,6 +18913,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 209.55 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dfbe6bc7-841f-44b0-a1ef-dbb5e2a5c2e6")
 		)
@@ -18812,6 +19019,15 @@
 			)
 		)
 		(property "MPN" "TMK316AB7106KLHT"
+			(at 171.45 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 171.45 208.28 0)
 			(effects
 				(font
@@ -18990,6 +19206,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 139.7 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "989f61f2-8a68-4f45-bdc4-13bbaae0f9e8")
 		)
@@ -19056,6 +19281,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Field4" ""
+			(at 273.05 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19348,6 +19582,15 @@
 				(hide yes)
 			)
 		)
+		(property "Field4" ""
+			(at 171.45 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3dcb6e0-2ca6-4d4f-a00c-8b4ff35987ac")
 		)
@@ -19445,6 +19688,15 @@
 			)
 		)
 		(property "MPN" "C0603C102J5GECAUTO"
+			(at 152.4 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field4" ""
 			(at 152.4 118.11 0)
 			(effects
 				(font
