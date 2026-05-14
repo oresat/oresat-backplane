@@ -61,6 +61,62 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|246644800|232906332|ae2e5ec8-0cb6-4501-badf-52059979ee0b|c6b0f3a2-31bc-400f-83bd-774e35ff37b6",
+          ""
+        ],
+        [
+          "clearance|246644800|233302424|68ff150c-ca22-48a1-a8e9-20cc15dddf33|ae2e5ec8-0cb6-4501-badf-52059979ee0b",
+          ""
+        ],
+        [
+          "clearance|247094800|44309624|6fd2c869-ccf9-4c3c-a6cf-210f4be6ac46|f12bc7ad-45a2-4b93-907c-ed6d82a51462",
+          ""
+        ],
+        [
+          "clearance|251391424|62613000|42229d72-d0d0-4987-930a-db3a7d6b9fa1|fbf8561e-b721-45ce-8d30-c1a6beb9be81",
+          ""
+        ],
+        [
+          "clearance|251391424|62613000|b9eebff8-1172-440a-a57a-7f495f21245c|fbf8561e-b721-45ce-8d30-c1a6beb9be81",
+          ""
+        ],
+        [
+          "clearance|253094800|233309624|5fdc8147-583b-4f35-be4a-2f760c387b2c|d4f293dd-87ba-41a9-8a08-375c180db6ee",
+          ""
+        ],
+        [
+          "clearance|253094800|50909624|1e217bb0-4112-4f52-ab8f-a3f2fa6408a0|f6652029-590d-4df9-ac34-4972fdb1ac71",
+          ""
+        ],
+        [
+          "clearance|253927313|43633156|10400144-f83e-4eb2-9582-e3e5f31d2466|2f1b9ad0-c22d-4cdc-a734-ec8f71d0792e",
+          ""
+        ],
+        [
+          "clearance|253927313|43633156|10400144-f83e-4eb2-9582-e3e5f31d2466|8ac0f16e-68ba-4e9f-a819-fd6b08419860",
+          ""
+        ],
+        [
+          "clearance|253927313|73633156|23cb7d1f-d033-42ec-8b2a-e8ba1ef940b3|3516f30b-16b5-488a-ab3c-d6fc4f9a7d67",
+          ""
+        ],
+        [
+          "clearance|253927313|73633156|23cb7d1f-d033-42ec-8b2a-e8ba1ef940b3|a74bb481-8e40-4a19-8136-c227a33eede3",
+          ""
+        ],
+        [
+          "clearance|259095000|233309424|a6dd78e6-effa-47ea-96e0-a0dd7d7dc5ae|f0bc5aa0-508b-4c03-807a-f16a675a8b66",
+          ""
+        ],
+        [
+          "clearance|259927313|73633156|3cb97c49-cba7-43b2-ac28-e792d5dcebae|444ff001-7925-4b91-9160-ec1c2f3cc57a",
+          ""
+        ],
+        [
+          "clearance|259927313|73633156|3cb97c49-cba7-43b2-ac28-e792d5dcebae|ebed8df0-e6ec-44d8-a66e-181daf59f247",
+          ""
+        ],
+        [
           "silk_over_copper|188073500|78026205|f11031f2-058f-4ce2-9a9b-87cbed7d4fb6|00000000-0000-0000-0000-000000000000",
           ""
         ],

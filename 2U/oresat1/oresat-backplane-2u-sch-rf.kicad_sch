@@ -11,31 +11,31 @@
 		(company "Portland State Aerospace Society")
 	)
 	(lib_symbols
-		(symbol "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1"
+		(symbol "Connector:Conn_Coaxial"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CM2.2"
-				(at 3.81 -3.81 0)
+			(property "Reference" "J"
+				(at 0.254 3.048 0)
 				(effects
 					(font
-						(size 1.778 1.5113)
-						(bold yes)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "J-MOLEX-SMPM-73300-0111X_1"
-				(at 3.81 -6.35 0)
+			(property "Value" "Conn_Coaxial"
+				(at 2.921 0 90)
 				(effects
 					(font
-						(size 1.778 1.5113)
-						(bold yes)
+						(size 1.27 1.27)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "oresat-footprints:J-MOLEX-SMPM-73300-0111X-long"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -44,7 +44,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -53,7 +53,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -62,30 +62,53 @@
 					(hide yes)
 				)
 			)
-			(property "ki_locked" ""
+			(property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(hide yes)
 				)
 			)
-			(symbol "J-MOLEX-SMPM-73300-0111X_1_1_0"
+			(property "ki_fp_filters" "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_Coaxial_0_1"
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -0.635 0)
+						(xy -2.54 0) (xy -0.508 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(circle
-					(center 0 0)
-					(radius 0.635)
+				(arc
+					(start 1.778 0)
+					(mid 0.222 -1.8079)
+					(end -1.778 -0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.778 0.508)
+					(mid 0.2221 1.8084)
+					(end 1.778 0)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -96,29 +119,43 @@
 				)
 				(circle
 					(center 0 0)
-					(radius 2.54)
+					(radius 0.508)
 					(stroke
-						(width 0.254)
+						(width 0.2032)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "RF"
+					(name "In"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "RF-DOWN"
+					(number "1"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -126,17 +163,17 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
-					(name "SHIELD1"
+					(name "Ext"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "GND"
+					(number "2"
 						(effects
 							(font
-								(size 0 0)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -2523,7 +2560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 353.06 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2551,7 +2588,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 353.06 185.42 0)
 			(effects
 				(font
@@ -2560,7 +2597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 353.06 185.42 0)
 			(effects
 				(font
@@ -2569,7 +2606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 353.06 185.42 0)
 			(effects
 				(font
@@ -2614,10 +2651,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "c78b4f40-2ef5-4c65-937b-d2ee50e3fd86")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "741151dc-c505-43fc-8bbc-25735df237e4")
 		)
 		(instances
@@ -2695,7 +2732,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 170.18 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2723,7 +2760,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 170.18 109.22 0)
 			(effects
 				(font
@@ -2732,7 +2769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 170.18 109.22 0)
 			(effects
 				(font
@@ -2741,7 +2778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 170.18 109.22 0)
 			(effects
 				(font
@@ -2786,10 +2823,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "e20ce34b-994b-47c0-b972-71e9d0b08a57")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "b8edabc5-f57a-4ca4-90d6-3bb445413b32")
 		)
 		(instances
@@ -2802,7 +2839,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 170.18 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2830,7 +2867,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -2839,7 +2876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -2848,7 +2885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 170.18 83.82 0)
 			(effects
 				(font
@@ -2893,10 +2930,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "829c7dd7-6465-4b4c-b5cf-1c133c6e779f")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "2eff1de5-4c7f-4af4-9117-cb9829a73b33")
 		)
 		(instances
@@ -2909,7 +2946,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 325.12 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2937,7 +2974,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 325.12 185.42 0)
 			(effects
 				(font
@@ -2946,7 +2983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 325.12 185.42 0)
 			(effects
 				(font
@@ -2955,7 +2992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 325.12 185.42 0)
 			(effects
 				(font
@@ -3000,10 +3037,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "8933b012-a423-496e-9ad1-b638c72b1ce0")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "bae8c8bc-5c28-4198-b094-81504ac1b407")
 		)
 		(instances
@@ -3081,7 +3118,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 170.18 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3109,7 +3146,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 170.18 96.52 0)
 			(effects
 				(font
@@ -3118,7 +3155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 170.18 96.52 0)
 			(effects
 				(font
@@ -3127,7 +3164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 170.18 96.52 0)
 			(effects
 				(font
@@ -3172,10 +3209,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "674848fe-44e1-4d69-baa8-b7e6d0ba869a")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "67d8008a-e7d1-4dfc-aad3-155fc5817144")
 		)
 		(instances
@@ -3318,7 +3355,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 297.18 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3346,7 +3383,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 297.18 185.42 0)
 			(effects
 				(font
@@ -3355,7 +3392,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 297.18 185.42 0)
 			(effects
 				(font
@@ -3364,7 +3401,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 297.18 185.42 0)
 			(effects
 				(font
@@ -3409,10 +3446,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "d5ad4644-0512-49fd-b1da-f52b5026594f")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "7cbad171-9822-468f-acb1-de6013097732")
 		)
 		(instances
@@ -3425,7 +3462,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 142.24 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3453,7 +3490,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -3462,7 +3499,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -3471,7 +3508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 142.24 83.82 0)
 			(effects
 				(font
@@ -3516,10 +3553,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "63dc6e8e-165e-4618-8ec9-b0e29de9e505")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "daa022d3-e3a6-4690-b5ff-395e88902025")
 		)
 		(instances
@@ -3532,7 +3569,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 198.12 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3560,7 +3597,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -3569,7 +3606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -3578,7 +3615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 198.12 109.22 0)
 			(effects
 				(font
@@ -3623,10 +3660,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "2b8e0384-8cc5-49e8-9373-34e904be2deb")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "082b278a-08b0-4e77-ae27-337e2598612c")
 		)
 		(instances
@@ -3639,7 +3676,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 170.18 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3667,7 +3704,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -3676,7 +3713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -3685,7 +3722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 170.18 71.12 0)
 			(effects
 				(font
@@ -3730,10 +3767,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "1"
 			(uuid "f5448017-215f-4025-a7dc-9d6833a7d746")
 		)
-		(pin "RF-DOWN"
+		(pin "2"
 			(uuid "701673cd-709f-492a-8ffb-8d6300135e52")
 		)
 		(instances
@@ -4071,7 +4108,7 @@
 		)
 	)
 	(symbol
-		(lib_id "oresat-connectors:J-MOLEX-SMPM-73300-0111X_1")
+		(lib_id "Connector:Conn_Coaxial")
 		(at 142.24 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4099,7 +4136,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-0111X-long"
+		(property "Footprint" "oresat-connectors:J-MOLEX-SMPM-73300-011X"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -4108,7 +4145,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/733000110?display=pdf"
+		(property "Datasheet" "~"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -4117,7 +4154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SMPM Connector Plug, Male Pin 50 Ohms Surface Mount, Through Hole Solder"
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 142.24 71.12 0)
 			(effects
 				(font
@@ -4162,10 +4199,10 @@
 				(hide yes)
 			)
 		)
-		(pin "GND"
+		(pin "2"
 			(uuid "bacbe3d3-6f50-4a71-b037-4286caca8a01")
 		)
-		(pin "RF-DOWN"
+		(pin "1"
 			(uuid "7030eb79-dc96-459b-8c83-5cdc3077b868")
 		)
 		(instances

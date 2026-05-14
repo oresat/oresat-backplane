@@ -1188,7 +1188,7 @@
 			(uuid "61b1bbb8-417c-4caf-9fc6-c8cba5aab5e1")
 		)
 		(instances
-			(project ""
+			(project "oresat-backplane-2u"
 				(path "/6649d70c-e62a-41bd-a1b7-5b24524e4fc8"
 					(reference "H1")
 					(unit 1)
