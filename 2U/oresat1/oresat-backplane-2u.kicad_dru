@@ -1,4 +1,16 @@
 (version 1)
-(rule "class 1:1"
-  (condition "A.NetClass == 'RF' && B.NetClass == 'RF'")
-  (constraint clearance (min 1mm)))
+
+# For the RF netclass, ignore erors caused by pads being withing 0.5 mm
+
+(rule "RF_Clearance_Relaxation_at_Pad"
+    (condition "A.NetClass == 'RF-50-max' && B.Type == 'Pad'")
+    (constraint clearance (min 0.17mm))
+)
+
+# For the RF netclass, ignore erors caused by traces being withing 0.5 mm
+# while still allowing the clearance to be 0.5 mm
+
+(rule "RF_Clearance_Trace_to_Trace_Relaxation"
+    (condition "A.NetClass == 'RF-50-max' && B.Type == 'Track'")
+    (constraint clearance (min 0.15mm))
+)

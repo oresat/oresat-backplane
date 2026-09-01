@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "cb5607ef-8d0f-4774-b22f-6d60bc635d45")
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2026-02-21")
+		(date "2026-09-01")
 		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
@@ -18,8 +18,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -2.54 53.34 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -28,6 +32,8 @@
 			)
 			(property "Value" "J-SAMTEC-SFM-110-X1-XXX-D-LC"
 				(at 0 -55.88 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -36,29 +42,35 @@
 			)
 			(property "Footprint" "oresat-connectors:J-SAMTEC-TFM-110-X1-XXX-D-LC"
 				(at 5.08 -59.69 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
 				(at 2.54 -63.5 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "OreSat backplane connector, 2x20 RA"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "J-SAMTEC-SFM-110-X1-XXX-D-LC_0_1"
@@ -695,7 +707,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -706,17 +718,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -725,38 +743,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -777,7 +803,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1430,11 +1456,13 @@
 		(uuid "11dcf83b-66f4-41c2-9311-589401723399")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1451,11 +1479,13 @@
 		(uuid "27ca6d94-513e-44f7-abf2-a58664c85b17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1472,11 +1502,13 @@
 		(uuid "321c4d02-e5a0-4d9b-9323-41ac011847d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1493,11 +1525,13 @@
 		(uuid "352ffc9b-f056-4312-9159-271b8c113c4f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1514,11 +1548,13 @@
 		(uuid "4ccb6a76-4bd2-4d15-9a97-55fd9fe199cd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1535,11 +1571,13 @@
 		(uuid "52532ba7-2bf9-4d6d-8671-5e2d05b31e3a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1556,11 +1594,13 @@
 		(uuid "59765b15-05f8-44ab-acaf-26852d3b80b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1577,11 +1617,13 @@
 		(uuid "6605e91a-da5a-4041-84df-e4382c11d484")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1598,11 +1640,13 @@
 		(uuid "68ffab9a-fb90-420a-9808-e97e2dc71b74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1619,11 +1663,13 @@
 		(uuid "78e823a0-4d82-4a70-9f38-122f7dc6713c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1640,11 +1686,13 @@
 		(uuid "8a0f6780-7009-4fc1-945b-cd8a8d1632e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1661,11 +1709,13 @@
 		(uuid "8a293fa2-8ffa-4f1c-86c7-36f7d8a44eb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1682,11 +1732,13 @@
 		(uuid "91fb8a5b-f3aa-4757-b528-aa9cf66977e6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1703,11 +1755,13 @@
 		(uuid "9d681d72-ed34-43f2-8ba2-4371890e2da3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1724,11 +1778,13 @@
 		(uuid "aaa6e1cc-d3c6-4891-b2a6-9cee5be552e5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1745,11 +1801,13 @@
 		(uuid "b43aeab8-9551-4cc8-8ed1-7cf71f0bdc21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1766,11 +1824,13 @@
 		(uuid "b8a70683-ff61-4b8e-a684-ad4f87425144")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1787,11 +1847,13 @@
 		(uuid "cd8fa7f8-94a9-41fc-bb0c-391cdf2ad9e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 158.75 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1808,11 +1870,13 @@
 		(uuid "e62f6a96-62e9-4780-b407-13658d8c2bc4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1829,11 +1893,13 @@
 		(uuid "f25b1fff-1983-4d55-9e8d-31b9c78c0689")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 121.92 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -1841,13 +1907,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
 		(at 166.37 147.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d3cab2d-d1ef-4967-b2ac-94bb83cba639")
 		(property "Reference" "CF17.1"
 			(at 163.195 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,6 +1927,8 @@
 		)
 		(property "Value" "SFM-110-01-S-D-LC"
 			(at 163.195 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,65 +1938,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
 			(at 171.45 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
 			(at 168.91 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "20 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SFM-110-01-S-D-LC-ND"
 			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
 			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2006,13 +2092,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-110-X1-XXX-D-LC")
 		(at 203.2 147.32 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fcf050d-5240-45ee-9e71-defa41fa060f")
 		(property "Reference" "CF18.1"
 			(at 200.66 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2022,6 +2112,8 @@
 		)
 		(property "Value" "SFM-110-01-S-D-LC"
 			(at 200.66 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2031,65 +2123,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-CF-SFM-110-X1-XXX-D-LC"
 			(at 208.28 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://suddendocs.samtec.com/catalog_english/sfm.pdf"
 			(at 205.74 210.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "20 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 203.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 203.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SFM-110-01-S-D-LC-ND"
 			(at 203.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 203.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-110-01-S-D-LC"
 			(at 203.2 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2171,49 +2277,61 @@
 		(lib_id "power:GND")
 		(at 210.82 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7170f8c4-98f5-4c45-a79c-4a416ea75e80")
 		(property "Reference" "#GND0119"
 			(at 210.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 210.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 210.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 210.82 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 210.82 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2236,49 +2354,61 @@
 		(lib_id "power:GND")
 		(at 173.99 157.48 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "eabc42d1-2e92-470b-95f1-711a460dc7ce")
 		(property "Reference" "#GND0118"
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 173.99 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 173.99 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)

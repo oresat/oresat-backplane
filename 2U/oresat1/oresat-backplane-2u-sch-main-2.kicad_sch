@@ -1,12 +1,12 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "f30478ac-b7ec-4aca-8dab-410020c24fd1")
 	(paper "USLedger")
 	(title_block
 		(title "OreSat1 2U Backplane")
-		(date "2026-02-21")
+		(date "2026-09-01")
 		(rev "1.1")
 		(company "Portland State Aerospace Society")
 	)
@@ -21,8 +21,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -32,6 +36,8 @@
 			)
 			(property "Value" "C"
 				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -41,47 +47,57 @@
 			)
 			(property "Footprint" ""
 				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Unpolarized capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "C_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "C_0_1"
@@ -114,7 +130,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -132,7 +148,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 2.794)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -160,8 +176,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -170,6 +190,8 @@
 			)
 			(property "Value" "R_US"
 				(at -2.54 0 90)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -178,47 +200,57 @@
 			)
 			(property "Footprint" ""
 				(at 1.016 -0.254 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Resistor, US symbol"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "R_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "R_US_0_1"
@@ -287,7 +319,7 @@
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -305,7 +337,7 @@
 				(pin passive line
 					(at 0 -3.81 90)
 					(length 1.27)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -330,8 +362,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at -15.24 55.88 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -340,6 +376,8 @@
 			)
 			(property "Value" "J-SAMTEC-SFM-120-X1-XXX-D"
 				(at 0 53.34 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -348,29 +386,35 @@
 			)
 			(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "J-SAMTEC-SFM-120-X1-XXX-D_0_1"
@@ -1587,24 +1631,30 @@
 			(embedded_fonts no)
 		)
 		(symbol "oresat-power:VBUS"
-			(power)
+			(power global)
 			(pin_names
 				(offset 0)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#VBUS"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "VBUS"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1613,38 +1663,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"VBUS\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "power-flag"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "VBUS_0_1"
@@ -1709,7 +1767,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1720,17 +1778,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1739,38 +1803,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1791,7 +1863,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1812,7 +1884,7 @@
 	)
 	(text "Use R20.5,R20.6 to\nbridge CAN1 and CAN2"
 		(exclude_from_sim no)
-		(at 365.76 219.71 0)
+		(at 387.35 163.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3036,7 +3108,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 213.36) (xy 382.27 213.36)
+			(xy 402.59 157.48) (xy 403.86 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3046,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 205.74) (xy 373.38 205.74)
+			(xy 393.7 149.86) (xy 394.97 149.86)
 		)
 		(stroke
 			(width 0)
@@ -3426,7 +3498,7 @@
 	)
 	(wire
 		(pts
-			(xy 381 205.74) (xy 382.27 205.74)
+			(xy 402.59 149.86) (xy 403.86 149.86)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5348,7 @@
 	)
 	(wire
 		(pts
-			(xy 372.11 213.36) (xy 373.38 213.36)
+			(xy 393.7 157.48) (xy 394.97 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6257,12 +6329,14 @@
 		(uuid "01fc52ef-17c1-4425-8726-dde13448dee6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 92.7211 91.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6279,11 +6353,13 @@
 		(uuid "022c9292-e418-4720-8452-08ea8ff2e055")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6300,12 +6376,14 @@
 		(uuid "02f22645-11ff-45ff-8e64-736bce70a455")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 204.1001 175.1822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6322,12 +6400,14 @@
 		(uuid "04b45cbc-a1d2-403e-b7f6-c386fff0aa45")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7326 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6344,12 +6424,14 @@
 		(uuid "04c53f9a-7926-42e1-bbf1-cd45e4b22d35")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2426 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6366,11 +6448,13 @@
 		(uuid "0505c8ca-fe18-4697-8580-a5dff63ad7a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.29 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6387,11 +6471,13 @@
 		(uuid "08decd74-e4ed-410c-8f0e-cf2137a0b9fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6408,12 +6494,14 @@
 		(uuid "09d64eec-3106-43e1-83ad-c9490fd4c60a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 349.0526 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6430,12 +6518,14 @@
 		(uuid "0a39e519-a9b7-4134-ae83-196e49fb8559")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.3811 91.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6452,11 +6542,13 @@
 		(uuid "0d575069-62ab-40bb-9e75-2521cc1c19bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6473,12 +6565,14 @@
 		(uuid "0ea618ae-0477-4b9d-9351-d1da4430032b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7326 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6495,12 +6589,14 @@
 		(uuid "0ec51799-87db-4211-aa8d-f64e485d6d07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 273.967 86.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6517,11 +6613,13 @@
 		(uuid "0f2eb731-0d18-439a-a878-a67467c2736f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6538,12 +6636,14 @@
 		(uuid "18cb2672-367b-4fad-a779-b2fda9f4eeaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.6863 81.2022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6560,12 +6660,14 @@
 		(uuid "1abf4a52-37a3-4a04-9cb6-55d891cecba6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.3663 81.2022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6582,11 +6684,13 @@
 		(uuid "1c8330a2-6912-458b-9687-76dde968f747")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6603,11 +6707,13 @@
 		(uuid "1d09dd32-fe25-4797-9b41-a5511ff94f5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6624,12 +6730,14 @@
 		(uuid "1dd09a51-011a-476d-8f98-fc856108d3fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.7601 175.1822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6646,12 +6754,14 @@
 		(uuid "22898284-795c-456a-820c-fa1a5038cb17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5626 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6668,11 +6778,13 @@
 		(uuid "22e4a829-7875-467d-8da9-aef079241d9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6689,11 +6801,13 @@
 		(uuid "24393490-cb28-4e7b-98c4-0c2973ea85ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6710,11 +6824,13 @@
 		(uuid "2762e6ad-1ee3-427c-8424-8d40181d6ce8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.29 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6731,11 +6847,13 @@
 		(uuid "27adb58d-03a4-4daa-8a43-ef8e3e06cfbf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6752,11 +6870,13 @@
 		(uuid "2871254b-53bb-464b-82d6-172c0ce8de17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.31 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6773,12 +6893,14 @@
 		(uuid "28aaf43b-b582-4f5e-beef-dcf2794979ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.0726 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6795,11 +6917,13 @@
 		(uuid "2924802a-ecdf-4134-a041-430a22eab5bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6816,12 +6940,14 @@
 		(uuid "2a1df2f9-94ce-4eb5-a9d0-6ceda047468c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5626 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6838,12 +6964,14 @@
 		(uuid "2b37f073-a927-44d5-8520-dccff7254baa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.7063 81.2022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6860,11 +6988,13 @@
 		(uuid "2c79b9e6-838c-4d05-a687-f1f8186e972b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6881,12 +7011,14 @@
 		(uuid "2e877b6a-2226-4c6f-881e-a372869776be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 167.2701 175.1822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6903,11 +7035,13 @@
 		(uuid "30aedea5-7dee-4dd4-8566-dcd31b0a7900")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.31 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6924,12 +7058,14 @@
 		(uuid "317e09f1-5fe4-4439-b690-9634a243019f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 349.0526 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6946,12 +7082,14 @@
 		(uuid "318944a4-2b32-43ff-892b-9fef46e6f1b1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.0726 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -6968,11 +7106,13 @@
 		(uuid "331c2254-4e5d-4b53-89a3-6516fb40704a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -6989,11 +7129,13 @@
 		(uuid "33a45249-723f-40fa-b043-9a1da8abadec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7010,11 +7152,13 @@
 		(uuid "33bd9b43-5043-4df3-81e0-468348d64b08")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7031,18 +7175,20 @@
 		(uuid "348233dc-2230-4dd1-a37b-96b7a91c9769")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.9026 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "CAN1_L"
 		(shape bidirectional)
-		(at 372.11 213.36 180)
+		(at 393.7 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7052,12 +7198,14 @@
 		)
 		(uuid "34c9f48d-f49e-445b-bf3f-7037dfdc8c92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 420.37 411.48 0)
+			(at 441.96 355.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7074,11 +7222,13 @@
 		(uuid "3639472a-2a29-4042-8ecc-3ae33d98d996")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.29 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7095,12 +7245,14 @@
 		(uuid "3744af69-a884-460d-b4f9-3adee81a0846")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.3926 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7117,12 +7269,14 @@
 		(uuid "37955058-2599-49fb-b242-cb0fb5c90043")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 129.5511 91.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7139,11 +7293,13 @@
 		(uuid "3a092901-677c-4789-b986-acf87d89a9c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7160,12 +7316,14 @@
 		(uuid "3aa51342-020a-4d6e-8c54-230ec43e666b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5626 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7182,11 +7340,13 @@
 		(uuid "3ac210f7-0ee8-4099-b06c-a94e3cf56615")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.29 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7203,12 +7363,14 @@
 		(uuid "3df283fa-8b4e-47d0-824f-320491dee012")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.9026 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7225,12 +7387,14 @@
 		(uuid "3efef79b-af18-49e7-88b5-2cedf434e472")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 349.0526 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7247,17 +7411,19 @@
 		(uuid "415e4d73-9635-4974-aace-325a05a7ede8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "CAN1_H"
 		(shape bidirectional)
-		(at 372.11 205.74 180)
+		(at 393.7 149.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7267,12 +7433,14 @@
 		)
 		(uuid "4426e5db-0450-4f9a-b0fb-14a6600c5f7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 420.37 398.78 0)
+			(at 441.96 342.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7289,11 +7457,13 @@
 		(uuid "45d28c43-e9bf-4571-8209-68e2e8c55995")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7310,12 +7480,14 @@
 		(uuid "472e738b-e410-4428-b0c5-55247f64509c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.1963 81.2022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7332,12 +7504,14 @@
 		(uuid "4beb4046-1e29-4931-9d69-99b600fe9b5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.3137 172.6422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7354,12 +7528,14 @@
 		(uuid "4bf3579a-a3b1-476f-9b67-c1e6f8554813")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.9737 172.6422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7376,12 +7552,14 @@
 		(uuid "4c80dd7c-4518-4edd-9357-e56bb93cd1dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5626 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7398,12 +7576,14 @@
 		(uuid "5011d8c2-7722-40ee-9d79-8d08b70c9a2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7326 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7420,11 +7600,13 @@
 		(uuid "509da6b7-5135-4636-bd78-e785f9d54931")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7441,12 +7623,14 @@
 		(uuid "58b39a4f-7779-42e4-9fa0-34c95fedbcc3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.0726 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7463,12 +7647,14 @@
 		(uuid "5ad77738-f5b8-40fa-b34b-8d7a2f262008")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.0726 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7485,12 +7671,14 @@
 		(uuid "5b415feb-7864-4a60-a252-91787645a59f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5626 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7507,12 +7695,14 @@
 		(uuid "5da76005-6375-42a8-9d03-0508e55bbecf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.0726 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7529,12 +7719,14 @@
 		(uuid "5e2bfa4b-4fd0-41b4-ad56-2eb7032e019f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2426 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7551,11 +7743,13 @@
 		(uuid "618bb7b7-597e-41d8-b671-982d5facdf92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.31 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7572,11 +7766,13 @@
 		(uuid "637ccd04-123f-4809-8b37-b2f804502493")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.31 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7593,11 +7789,13 @@
 		(uuid "63aaf7d8-94bc-4632-954e-0f7f6e149bea")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7614,12 +7812,14 @@
 		(uuid "65c25432-d549-4133-b4a5-8cada8d0f6ab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.817 86.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7636,12 +7836,14 @@
 		(uuid "671824bc-0ead-4145-8a99-8bf9b1545073")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.3926 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7658,11 +7860,13 @@
 		(uuid "67f2a778-bd4b-4a90-b946-ca48dec8dc8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7679,12 +7883,14 @@
 		(uuid "68d7932b-00c0-43c9-8297-5724fccc0976")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 274.0263 81.2022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7701,12 +7907,14 @@
 		(uuid "6962d8b5-5933-4d38-90c4-d144166aa1d3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.8763 81.2022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7723,11 +7931,13 @@
 		(uuid "6abb477d-457e-4a2d-a28a-9d7c2080988c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7744,12 +7954,14 @@
 		(uuid "6af933ff-6aff-4948-8036-122b5fcf8953")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.0726 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7766,12 +7978,14 @@
 		(uuid "6b85ac6d-cd28-43d0-90a4-c7193b5332d9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5626 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7788,11 +8002,13 @@
 		(uuid "7043f7b7-92ab-4c34-be91-aedbc94a60cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7809,11 +8025,13 @@
 		(uuid "70f99320-249e-4d91-bbce-f61b096d6682")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7830,12 +8048,14 @@
 		(uuid "7231dd00-84b0-4c60-aa98-a39bb2d8aa02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 277.4637 172.6422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7852,11 +8072,13 @@
 		(uuid "765e2e31-80af-4d98-ae16-4587616ad6d0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7873,12 +8095,14 @@
 		(uuid "76b0ca8b-44e7-45f6-9b7e-1dd0ada5ace4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5626 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7895,12 +8119,14 @@
 		(uuid "79ef53ba-b9ac-47aa-a3b2-7f91c4056503")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2426 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7917,11 +8143,13 @@
 		(uuid "7b05299d-124f-4b65-8ec4-60242489858a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.29 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -7938,12 +8166,14 @@
 		(uuid "7b93054a-9a85-4985-9efb-9012f12dfc3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.0726 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7960,12 +8190,14 @@
 		(uuid "7e6f3bcf-02a4-4b2e-b496-d48b148db4db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.3926 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -7982,12 +8214,14 @@
 		(uuid "80309f88-5baf-4914-a8e5-53c0d78de4b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.9026 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8004,12 +8238,14 @@
 		(uuid "806a5709-e3a8-4fd0-a029-386f2dfd33b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.9026 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8026,12 +8262,14 @@
 		(uuid "813f95d4-5e7c-4941-8af2-8eab7bd3aa74")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.8037 172.6422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8048,12 +8286,14 @@
 		(uuid "826d379e-74e1-45f8-8afc-84c6ba188f5e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 349.0526 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8070,12 +8310,14 @@
 		(uuid "85202564-f3f8-46ba-a326-3be0dc3f9f4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2426 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8092,12 +8334,14 @@
 		(uuid "86c69ee4-cf6a-46f8-9f0a-a0093d1db0e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 349.0526 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8114,12 +8358,14 @@
 		(uuid "8a024767-049c-4af2-a31f-695d6c2f3712")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 351.4201 175.1822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8136,12 +8382,14 @@
 		(uuid "8c0eaa89-be48-41b0-ac5c-548980b8d96e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 276.8711 91.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8158,11 +8406,13 @@
 		(uuid "8c7a1442-024f-4ca9-b9d6-b7d431137ac9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8179,12 +8429,14 @@
 		(uuid "8d896697-4bb3-4e75-8ef8-993ff743c4f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.9026 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8201,12 +8453,14 @@
 		(uuid "8dcaa3ba-b1e9-41fc-9905-cad96860d918")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7326 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8223,11 +8477,13 @@
 		(uuid "900992a0-14fc-4cfa-a3a4-586be80924c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8244,17 +8500,19 @@
 		(uuid "92678570-aa02-4691-9016-122dbbd66f30")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.31 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "CAN2_L"
 		(shape bidirectional)
-		(at 382.27 213.36 0)
+		(at 403.86 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8264,12 +8522,14 @@
 		)
 		(uuid "96efcdc6-d384-473b-ad0c-29fa579aa0fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.01 55.88 0)
+			(at 355.6 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8286,11 +8546,13 @@
 		(uuid "97c0b217-6144-4c2b-91bc-f726315dd819")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.29 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8307,12 +8569,14 @@
 		(uuid "9828fda3-a810-49ea-ba57-7e2dae7f3a06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2426 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8329,11 +8593,13 @@
 		(uuid "9915901e-cfc5-4957-b959-d9dfb66696a3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 104.14 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8350,12 +8616,14 @@
 		(uuid "9918168b-79b4-4201-9d49-8f37a96d12d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.3926 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8372,12 +8640,14 @@
 		(uuid "9af3233c-6e4b-4e68-8783-8d31a56161ca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.307 86.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8394,17 +8664,19 @@
 		(uuid "9ca95860-42ea-40cd-83df-145203eb6032")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
 	(global_label "CAN2_H"
 		(shape bidirectional)
-		(at 382.27 205.74 0)
+		(at 403.86 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8414,12 +8686,14 @@
 		)
 		(uuid "9d07b810-3eda-45ff-8757-af00604be39e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 334.01 53.34 0)
+			(at 355.6 -2.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8436,12 +8710,14 @@
 		(uuid "9dc84107-17fe-41b9-a0b8-7cd49f206675")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 349.0526 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8458,11 +8734,13 @@
 		(uuid "a0f09ac3-fd8d-4053-97dc-3381df5af0be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.31 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8479,12 +8757,14 @@
 		(uuid "a2d3531e-8005-4ca6-9abf-c701cf767fb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 349.0526 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8501,12 +8781,14 @@
 		(uuid "a4233e7a-ba37-4d56-9d24-8c953b1db526")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.3926 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8523,12 +8805,14 @@
 		(uuid "a5ab6b01-5a32-4dcd-aeee-dcec8da16289")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 126.647 86.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8545,12 +8829,14 @@
 		(uuid "a67d5f35-0e17-4712-92aa-38a2207f1ec8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 351.1237 172.6422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8567,11 +8853,13 @@
 		(uuid "a8507673-b76d-43ed-9618-fcdf4348d73e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8588,12 +8876,14 @@
 		(uuid "a8e3624c-932c-4b46-9903-148caaa11834")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 349.0526 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8610,11 +8900,13 @@
 		(uuid "a91917d2-a91d-4ea0-b4d1-13fdc2a8db57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.31 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8631,12 +8923,14 @@
 		(uuid "ab930827-82dd-4256-9281-aca8f34a6564")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.6337 172.6422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8653,12 +8947,14 @@
 		(uuid "acdd83e0-98f0-444f-8f23-133df8d0072e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.9026 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8675,12 +8971,14 @@
 		(uuid "ae71651e-57ce-4b5f-8f9d-9eb68e7c0c16")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.3926 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8697,12 +8995,14 @@
 		(uuid "b0e11854-24cc-4c0e-a399-990ae092a917")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.4401 175.1822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8719,11 +9019,13 @@
 		(uuid "b47a99d6-8e70-4493-bc39-f3dfbfb6576f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8740,11 +9042,13 @@
 		(uuid "b4ee8b98-c0fe-4ebb-b471-aae712183521")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 30.48 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8761,11 +9065,13 @@
 		(uuid "b94a7bb5-c84f-4d09-8770-74a6e16572f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8782,12 +9088,14 @@
 		(uuid "ba5ebee6-240e-4472-8e45-58779bc5a78c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.2111 91.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8804,11 +9112,13 @@
 		(uuid "ba9bd08d-40e8-49fb-938a-8735fee84122")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 67.31 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8825,11 +9135,13 @@
 		(uuid "bbfe4594-3c03-4659-8b96-b825548c99f7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8846,12 +9158,14 @@
 		(uuid "bdc57582-dc49-4589-a9bf-d34003de1ea0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.9026 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8868,12 +9182,14 @@
 		(uuid "bf211391-d2c2-4326-99ed-dc191bd08913")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.3926 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8890,11 +9206,13 @@
 		(uuid "bf767c5e-c233-40b7-973d-403fe7237002")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.29 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8911,11 +9229,13 @@
 		(uuid "c13e689f-cea9-4c32-8445-350a36568678")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8932,11 +9252,13 @@
 		(uuid "c16a3bac-541a-438c-a81e-e425ab75566e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8953,12 +9275,14 @@
 		(uuid "c404aea8-cfed-4424-8584-77abcf0f0cd6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.0411 91.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -8975,11 +9299,13 @@
 		(uuid "c531aa53-360f-40d4-9a2d-1e94bf6c3783")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -8996,12 +9322,14 @@
 		(uuid "c5443d4f-0a58-48f5-99d9-d15244b1382a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 347.627 86.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9018,11 +9346,13 @@
 		(uuid "c6494206-46fd-4e83-aed4-e70295c2bbd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -9039,12 +9369,14 @@
 		(uuid "c9131b27-82c4-47fd-a74c-c91288a49f4a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 130.1437 172.6422 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9061,12 +9393,14 @@
 		(uuid "c9e94e83-6b94-4c2d-b508-f21fe90bbe02")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7326 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9083,11 +9417,13 @@
 		(uuid "cb7997f0-0d47-4004-a17a-3e1a91087708")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 288.29 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -9104,12 +9440,14 @@
 		(uuid "cfadb7f0-7f29-48a5-bbfe-5a93ea604785")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 93.6101 175.1822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9126,12 +9464,14 @@
 		(uuid "d42e2b0a-b9ef-496c-8f8f-0815c6437f5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2426 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9148,11 +9488,13 @@
 		(uuid "d5405dab-234b-42c2-9663-6008192e99ef")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -9169,12 +9511,14 @@
 		(uuid "d6336089-3e7b-4cc6-848b-eb6a39c8806f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.477 86.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9191,12 +9535,14 @@
 		(uuid "d7925ea4-b28e-4691-a549-9f79a972c417")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.9301 175.1822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9213,11 +9559,13 @@
 		(uuid "d9b6d80e-ff89-4c11-aa4f-d9217d4a9308")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 214.63 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -9234,12 +9582,14 @@
 		(uuid "dd6f8952-f5f4-4eb9-9f36-b7eddf5b15ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7326 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9256,12 +9606,14 @@
 		(uuid "dfd18c0d-1a2a-4f6e-af80-53ad1703ead8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7326 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9278,11 +9630,13 @@
 		(uuid "e02f6f78-8f64-4abd-a06d-d6e068f60ff7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 140.97 -30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 	)
@@ -9299,12 +9653,14 @@
 		(uuid "e06237cb-797e-4862-8a6a-2e064a3f8fa1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.5363 81.2022 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9321,12 +9677,14 @@
 		(uuid "e89dd88c-c010-4ae6-ac5d-e8ed118b04cf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 201.7326 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9343,12 +9701,14 @@
 		(uuid "ebe88785-6689-4ef7-af32-bffa5467d6f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.3926 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9365,12 +9725,14 @@
 		(uuid "eecaf57f-4e37-4147-a99d-fe5e905ea11b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 164.9026 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9387,12 +9749,14 @@
 		(uuid "f0a34023-88d8-4bca-bea2-0dd48b0b57d5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2426 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9409,12 +9773,14 @@
 		(uuid "f208bc36-d18a-4466-9f75-4d62873a5aee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 128.0726 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9431,12 +9797,14 @@
 		(uuid "f351cfcb-8aab-4fe3-b713-b7334b80a3b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.2426 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9453,12 +9821,14 @@
 		(uuid "f7546b22-b0ec-4078-a784-c2068ae432a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 238.5626 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9475,12 +9845,14 @@
 		(uuid "fe25addc-313f-4b10-9d8b-3e54d060076b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.137 86.2822 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9497,12 +9869,14 @@
 		(uuid "ff3f90b8-6f78-4ed0-919c-5972db5d5f69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 350.5311 91.3622 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.2446 1.2446)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 	)
@@ -9511,13 +9885,17 @@
 		(at 353.06 144.78 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "04b5e040-07ed-4a58-975d-07e42a1b4588")
 		(property "Reference" "C20"
 			(at 350.52 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9527,6 +9905,8 @@
 		)
 		(property "Value" "10u 25V 0805"
 			(at 350.52 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9536,65 +9916,79 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 353.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT31CR71E106KE13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 353.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 353.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 353.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DPN" "587-3485-1-ND"
+		(property "DPN" "490-GRT31CR71E106KE13LCT-ND"
 			(at 353.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 353.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TMK316AB7106KLHT"
+		(property "MPN" "GRT31CR71E106KE13L"
 			(at 353.06 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9616,13 +10010,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
 		(at 179.07 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "06f4577d-6781-45e9-b263-4c0c81b7797a")
 		(property "Reference" "CF16.2"
 			(at 176.53 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,6 +10030,8 @@
 		)
 		(property "Value" "SFM-120-01-S-D-LC"
 			(at 176.53 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,65 +10041,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
 			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SAM11706-ND"
 			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
 			(at 179.07 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9841,49 +10255,61 @@
 		(lib_id "power:GND")
 		(at 279.4 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "08fa150d-e9c0-4677-939c-fcae8188e362")
 		(property "Reference" "#GND015"
 			(at 279.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 279.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 279.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 279.4 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 279.4 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9906,49 +10332,61 @@
 		(lib_id "power:GND")
 		(at 168.91 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "08ff5337-c53b-4d12-8146-24573d548506")
 		(property "Reference" "#GND012"
 			(at 168.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 168.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 168.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 168.91 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 168.91 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9972,13 +10410,17 @@
 		(at 168.91 144.78 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1302f71d-a07f-411f-9291-cc87301612d1")
 		(property "Reference" "C15"
 			(at 166.37 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9988,6 +10430,8 @@
 		)
 		(property "Value" "10u 25V 0805"
 			(at 166.37 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9997,65 +10441,79 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT31CR71E106KE13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DPN" "587-3485-1-ND"
+		(property "DPN" "490-GRT31CR71E106KE13LCT-ND"
 			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TMK316AB7106KLHT"
+		(property "MPN" "GRT31CR71E106KE13L"
 			(at 168.91 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10077,49 +10535,61 @@
 		(lib_id "power:GND")
 		(at 186.69 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "14b7b41b-64b2-4b1f-b37a-76121acc5961")
 		(property "Reference" "#GND0113"
 			(at 186.69 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 186.69 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 186.69 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 186.69 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 186.69 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10142,49 +10612,61 @@
 		(lib_id "power:GND")
 		(at 132.08 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "2549ef52-6667-448e-bfa8-5b7574a8b77a")
 		(property "Reference" "#GND011"
 			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 132.08 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10207,49 +10689,61 @@
 		(lib_id "power:GND")
 		(at 149.86 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3054cb5e-6dba-4991-b778-6c9ce4dfd06b")
 		(property "Reference" "#GND0112"
 			(at 149.86 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 149.86 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 149.86 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 149.86 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 149.86 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10273,13 +10767,17 @@
 		(at 279.4 144.78 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3322442e-6e2b-4aec-8963-f9711a4d7d5a")
 		(property "Reference" "C18"
 			(at 276.86 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10289,6 +10787,8 @@
 		)
 		(property "Value" "10u 25V 0805"
 			(at 276.86 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10298,65 +10798,79 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 279.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT31CR71E106KE13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 279.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 279.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 279.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DPN" "587-3485-1-ND"
+		(property "DPN" "490-GRT31CR71E106KE13LCT-ND"
 			(at 279.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 279.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TMK316AB7106KLHT"
+		(property "MPN" "GRT31CR71E106KE13L"
 			(at 279.4 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10379,13 +10893,17 @@
 		(at 242.57 144.78 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "364a3778-89ee-4a5b-b3c3-27430ebbbb17")
 		(property "Reference" "C17"
 			(at 240.03 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10395,6 +10913,8 @@
 		)
 		(property "Value" "10u 25V 0805"
 			(at 240.03 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10404,65 +10924,79 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 242.57 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT31CR71E106KE13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 242.57 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 242.57 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 242.57 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DPN" "587-3485-1-ND"
+		(property "DPN" "490-GRT31CR71E106KE13LCT-ND"
 			(at 242.57 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 242.57 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TMK316AB7106KLHT"
+		(property "MPN" "GRT31CR71E106KE13L"
 			(at 242.57 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10484,13 +11018,17 @@
 		(lib_id "Device:R_US")
 		(at 369.57 170.18 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(in_pos_files yes)
+		(dnp yes)
 		(uuid "39c4b183-bb5d-4d9f-958e-f533f4fabfb4")
 		(property "Reference" "R20.4"
 			(at 363.22 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10500,6 +11038,8 @@
 		)
 		(property "Value" "60.4"
 			(at 370.84 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10509,65 +11049,79 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 369.57 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 369.57 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 369.57 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 369.57 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "RMCF1206FT60R4CT-ND"
 			(at 369.57 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
 			(at 369.57 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "RMCF1206FT60R4"
 			(at 369.57 170.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10589,22 +11143,28 @@
 		(lib_id "oresat-power:VBUS")
 		(at 279.4 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "3ec979d4-19c3-4212-9e2c-0f7a3654739f")
 		(property "Reference" "#VBUS015"
 			(at 279.4 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 279.4 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10613,29 +11173,35 @@
 		)
 		(property "Footprint" ""
 			(at 279.4 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 279.4 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 279.4 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10654,13 +11220,17 @@
 		(lib_id "Device:C")
 		(at 377.19 179.07 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(in_pos_files yes)
+		(dnp yes)
 		(uuid "422f691b-f8c3-40bf-b420-5bdbcca4486e")
 		(property "Reference" "C20.2"
 			(at 379.73 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10670,6 +11240,8 @@
 		)
 		(property "Value" "1n"
 			(at 379.73 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10679,65 +11251,79 @@
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 377.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
 			(at 377.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1 nF (1000 pF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 377.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 377.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "399-C0603C102J5GECAUTOCT-ND"
 			(at 377.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "KEMET"
 			(at 377.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "C0603C102J5GECAUTO"
 			(at 377.19 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10759,49 +11345,61 @@
 		(lib_id "power:GND")
 		(at 377.19 143.51 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4237965f-718a-417a-ba9f-172ac9b58937")
 		(property "Reference" "#GND0116"
 			(at 377.19 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 377.19 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 377.19 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 377.19 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 377.19 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10824,49 +11422,61 @@
 		(lib_id "power:GND")
 		(at 334.01 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4a7e5cfb-0e8c-465c-b854-c674ba5485ee")
 		(property "Reference" "#GND0115"
 			(at 334.01 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 334.01 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 334.01 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 334.01 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 334.01 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10889,13 +11499,17 @@
 		(lib_id "Device:R_US")
 		(at 369.57 165.1 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(in_pos_files yes)
+		(dnp yes)
 		(uuid "5a2458a6-963d-4696-a750-1643227a42f1")
 		(property "Reference" "R20.3"
 			(at 369.57 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10905,6 +11519,8 @@
 		)
 		(property "Value" "60.4"
 			(at 375.92 161.29 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -10914,65 +11530,79 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 369.57 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 369.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 369.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 369.57 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "RMCF1206FT60R4CT-ND"
 			(at 369.57 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
 			(at 369.57 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "RMCF1206FT60R4"
 			(at 369.57 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10994,49 +11624,61 @@
 		(lib_id "power:GND")
 		(at 242.57 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "605f0395-e0cb-4b85-bd3a-e9a686df3d05")
 		(property "Reference" "#GND014"
 			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 242.57 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 242.57 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11059,13 +11701,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
 		(at 105.41 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6244071f-a204-4376-a21a-b00204d9bf5f")
 		(property "Reference" "CF14.2"
 			(at 102.87 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11075,6 +11721,8 @@
 		)
 		(property "Value" "SFM-120-01-S-D-LC"
 			(at 102.87 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11084,65 +11732,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
 			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SAM11706-ND"
 			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
 			(at 105.41 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11285,13 +11947,17 @@
 		(at 95.25 144.78 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e0a0520-4b44-46dd-b7e8-2d8afb75e949")
 		(property "Reference" "C13"
 			(at 92.71 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11301,6 +11967,8 @@
 		)
 		(property "Value" "10u 25V 0805"
 			(at 92.71 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11310,65 +11978,79 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT31CR71E106KE13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DPN" "587-3485-1-ND"
+		(property "DPN" "490-GRT31CR71E106KE13LCT-ND"
 			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TMK316AB7106KLHT"
+		(property "MPN" "GRT31CR71E106KE13L"
 			(at 95.25 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11390,13 +12072,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
 		(at 252.73 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7a8c5c3c-4c73-43c7-b040-4d609d44fcea")
 		(property "Reference" "CF18.2"
 			(at 250.19 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11406,6 +12092,8 @@
 		)
 		(property "Value" "SFM-120-01-S-D-LC"
 			(at 250.19 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11415,65 +12103,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
 			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SAM11706-ND"
 			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
 			(at 252.73 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11615,49 +12317,61 @@
 		(lib_id "power:GND")
 		(at 260.35 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c6e6015-8082-4d87-be19-944a3a8e816d")
 		(property "Reference" "#GND0120"
 			(at 260.35 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 260.35 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 260.35 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 260.35 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 260.35 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11680,22 +12394,28 @@
 		(lib_id "oresat-power:VBUS")
 		(at 353.06 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "80372d2f-c83d-437c-9b52-349632696f3f")
 		(property "Reference" "#VBUS017"
 			(at 353.06 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 353.06 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11704,29 +12424,35 @@
 		)
 		(property "Footprint" ""
 			(at 353.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 353.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 353.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11743,15 +12469,19 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 377.19 205.74 90)
+		(at 398.78 149.86 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "80de9f77-f0f9-47ea-9473-d7ead8b4210f")
 		(property "Reference" "R20.5"
-			(at 375.92 201.93 90)
+			(at 397.51 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11760,7 +12490,9 @@
 			)
 		)
 		(property "Value" "0"
-			(at 381 201.93 90)
+			(at 402.59 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11769,66 +12501,80 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 377.19 205.74 90)
+			(at 398.78 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 377.19 205.74 0)
+			(at 398.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 377.19 205.74 0)
+			(at 398.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 377.19 205.74 90)
+			(at 398.78 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "RMCF0603ZT0R00CT-ND"
-			(at 377.19 205.74 90)
+			(at 398.78 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 377.19 205.74 90)
+			(at 398.78 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "RMCF0603ZT0R00"
-			(at 377.19 205.74 90)
+			(at 398.78 149.86 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11850,49 +12596,61 @@
 		(lib_id "power:GND")
 		(at 377.19 185.42 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "87b6328a-2945-4fea-bf3c-3879d04d2d86")
 		(property "Reference" "#GND0117"
 			(at 377.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 377.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 377.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 377.19 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 377.19 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11915,13 +12673,17 @@
 		(lib_id "Device:R_US")
 		(at 369.57 129.54 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(in_pos_files yes)
+		(dnp yes)
 		(uuid "8a52eabc-415e-4906-b457-9286637990fc")
 		(property "Reference" "R20.2"
 			(at 361.95 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11931,6 +12693,8 @@
 		)
 		(property "Value" "60.4"
 			(at 370.84 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -11940,65 +12704,79 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 369.57 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 369.57 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "RMCF1206FT60R4CT-ND"
 			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
 			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "RMCF1206FT60R4"
 			(at 369.57 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12020,49 +12798,61 @@
 		(lib_id "power:GND")
 		(at 113.03 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "914687ef-4082-4a20-9524-c8531b487ddd")
 		(property "Reference" "#GND0108"
 			(at 113.03 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 113.03 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 113.03 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 113.03 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 113.03 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,15 +12873,19 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 377.19 213.36 90)
+		(at 398.78 157.48 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "942b747b-ef87-4b53-a15b-9cda9d96c5e3")
 		(property "Reference" "R20.6"
-			(at 377.19 209.55 90)
+			(at 398.78 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12100,7 +12894,9 @@
 			)
 		)
 		(property "Value" "0"
-			(at 381 209.55 90)
+			(at 402.59 153.67 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12109,66 +12905,80 @@
 			)
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
-			(at 377.19 213.36 90)
+			(at 398.78 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf"
-			(at 377.19 213.36 0)
+			(at 398.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "0 Ohms Jumper Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film"
-			(at 377.19 213.36 0)
+			(at 398.78 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
-			(at 377.19 213.36 90)
+			(at 398.78 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "RMCF0603ZT0R00CT-ND"
-			(at 377.19 213.36 90)
+			(at 398.78 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
-			(at 377.19 213.36 90)
+			(at 398.78 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "RMCF0603ZT0R00"
-			(at 377.19 213.36 90)
+			(at 398.78 157.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12190,22 +13000,28 @@
 		(lib_id "oresat-power:VBUS")
 		(at 168.91 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d8910c3-6439-4188-b90f-e1844eab7357")
 		(property "Reference" "#VBUS012"
 			(at 168.91 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 168.91 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,29 +13030,35 @@
 		)
 		(property "Footprint" ""
 			(at 168.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 168.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 168.91 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12255,49 +13077,61 @@
 		(lib_id "power:GND")
 		(at 95.25 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a4bba67f-773b-43ef-8347-82498d8093bf")
 		(property "Reference" "#GND010"
 			(at 95.25 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 95.25 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 95.25 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 95.25 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 95.25 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12321,13 +13155,17 @@
 		(at 132.08 144.78 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9afde63-6068-4c2d-80ac-790610ffdb2b")
 		(property "Reference" "C14"
 			(at 129.54 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12337,6 +13175,8 @@
 		)
 		(property "Value" "10u 25V 0805"
 			(at 129.54 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12346,65 +13186,79 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT31CR71E106KE13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DPN" "587-3485-1-ND"
+		(property "DPN" "490-GRT31CR71E106KE13LCT-ND"
 			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TMK316AB7106KLHT"
+		(property "MPN" "GRT31CR71E106KE13L"
 			(at 132.08 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12426,49 +13280,61 @@
 		(lib_id "power:GND")
 		(at 205.74 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "aeb95619-cfa0-41bb-98ed-8c7f48a1e2dc")
 		(property "Reference" "#GND013"
 			(at 205.74 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 205.74 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 205.74 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 205.74 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 205.74 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12491,13 +13357,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
 		(at 215.9 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b50d6abc-7e81-417f-b08e-74be30f4cfd0")
 		(property "Reference" "CF17.2"
 			(at 213.36 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12507,6 +13377,8 @@
 		)
 		(property "Value" "SFM-120-01-S-D-LC"
 			(at 213.36 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12516,65 +13388,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
 			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SAM11706-ND"
 			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
 			(at 215.9 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12716,13 +13602,17 @@
 		(lib_id "Device:C")
 		(at 377.19 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(in_pos_files yes)
+		(dnp yes)
 		(uuid "b64af439-ad33-40dc-af5f-570531c89aee")
 		(property "Reference" "C20.1"
 			(at 379.73 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12732,6 +13622,8 @@
 		)
 		(property "Value" "1n"
 			(at 379.73 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12741,65 +13633,79 @@
 		)
 		(property "Footprint" "oresat-passives:0603-C-NOSILK"
 			(at 377.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://search.kemet.com/download/datasheet/C0402C102J3GACAUTO"
 			(at 377.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "1 nF (1000 pF) ±5% 50V Ceramic Capacitor C0G, NP0 0603 (1608 Metric)"
 			(at 377.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 377.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "399-C0603C102J5GECAUTOCT-ND"
 			(at 377.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "KEMET"
 			(at 377.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "C0603C102J5GECAUTO"
 			(at 377.19 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12821,22 +13727,28 @@
 		(lib_id "oresat-power:VBUS")
 		(at 205.74 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b75f65ba-8b0a-427f-ba6d-097f7828d1e4")
 		(property "Reference" "#VBUS013"
 			(at 205.74 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 205.74 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12845,29 +13757,35 @@
 		)
 		(property "Footprint" ""
 			(at 205.74 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 205.74 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 205.74 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12886,49 +13804,61 @@
 		(lib_id "power:GND")
 		(at 353.06 151.13 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc111583-265e-4813-9cad-faefc260f0cd")
 		(property "Reference" "#GND017"
 			(at 353.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 353.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 353.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 353.06 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 353.06 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12952,13 +13882,17 @@
 		(at 205.74 144.78 0)
 		(mirror y)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "be1cd647-47a0-439f-98dd-27d06a2fa7a6")
 		(property "Reference" "C16"
 			(at 203.2 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12968,6 +13902,8 @@
 		)
 		(property "Value" "10u 25V 0805"
 			(at 203.2 147.32 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -12977,65 +13913,79 @@
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 205.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/898/TMK316AB7106KLHT_SS.pdf"
+		(property "Datasheet" "https://pim.murata.com/asset/pim4/ceramicCapacitorSMD/GRT31CR71E106KE13-01A-EN_PDF_CERAMICCAPACITORSMD"
 			(at 205.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 1206 (3216 Metric)"
 			(at 205.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 205.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "DPN" "587-3485-1-ND"
+		(property "DPN" "490-GRT31CR71E106KE13LCT-ND"
 			(at 205.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MFR" "Taiyo Yuden"
+		(property "MFR" "Murata Electronics"
 			(at 205.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "MPN" "TMK316AB7106KLHT"
+		(property "MPN" "GRT31CR71E106KE13L"
 			(at 205.74 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13057,49 +14007,61 @@
 		(lib_id "power:GND")
 		(at 223.52 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0ff6fea-62e7-468e-8b98-6a530df89a15")
 		(property "Reference" "#GND0114"
 			(at 223.52 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 223.52 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 223.52 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 223.52 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 223.52 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13122,13 +14084,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
 		(at 68.58 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c3bcc670-5311-41fa-b3dd-f88029727904")
 		(property "Reference" "CF13.2"
 			(at 66.04 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13138,6 +14104,8 @@
 		)
 		(property "Value" "SFM-120-01-S-D-LC"
 			(at 66.04 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13147,65 +14115,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
 			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SAM11706-ND"
 			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
 			(at 68.58 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13347,13 +14329,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
 		(at 326.39 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c724602f-f1a1-40ac-ac0a-6c0f208c887c")
 		(property "Reference" "CF20.2"
 			(at 323.85 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13363,6 +14349,8 @@
 		)
 		(property "Value" "SFM-120-01-S-D-LC"
 			(at 323.85 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13372,65 +14360,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
 			(at 326.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 326.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 326.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 326.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SAM11706-ND"
 			(at 326.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 326.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
 			(at 326.39 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13572,22 +14574,28 @@
 		(lib_id "oresat-power:VBUS")
 		(at 132.08 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d18ef8ad-a62f-4fae-8c09-d4fd04aac469")
 		(property "Reference" "#VBUS011"
 			(at 132.08 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 132.08 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13596,29 +14604,35 @@
 		)
 		(property "Footprint" ""
 			(at 132.08 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 132.08 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 132.08 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13637,22 +14651,28 @@
 		(lib_id "oresat-power:VBUS")
 		(at 242.57 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d301d22a-ed33-49f2-babb-81b2f613781d")
 		(property "Reference" "#VBUS014"
 			(at 242.57 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 242.57 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13661,29 +14681,35 @@
 		)
 		(property "Footprint" ""
 			(at 242.57 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 242.57 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 242.57 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13702,13 +14728,17 @@
 		(lib_id "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D")
 		(at 142.24 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "df31c2fc-d7c3-4d99-becf-085b9637e760")
 		(property "Reference" "CF15.2"
 			(at 139.7 74.93 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13718,6 +14748,8 @@
 		)
 		(property "Value" "SFM-120-01-S-D-LC"
 			(at 139.7 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13727,65 +14759,79 @@
 		)
 		(property "Footprint" "oresat-connectors:J-SAMTEC-SFM-120-X1-XXX-D"
 			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6129/sfm-1xx-xx-xxx-d-xxx-x-xx-mkt.pdf"
 			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "40 Position Receptacle Connector 0.050\" (1.27mm) Through Hole Gold"
 			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "SAM11706-ND"
 			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Samtec Inc."
 			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "SFM-120-01-S-D-LC"
 			(at 142.24 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13927,22 +14973,28 @@
 		(lib_id "oresat-power:VBUS")
 		(at 95.25 138.43 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e03647ae-b5df-4f88-a66b-f1b2c53f9b3b")
 		(property "Reference" "#VBUS010"
 			(at 95.25 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "VBUS"
 			(at 95.25 134.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13951,29 +15003,35 @@
 		)
 		(property "Footprint" ""
 			(at 95.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 95.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
 			(at 95.25 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13992,13 +15050,17 @@
 		(lib_id "Device:R_US")
 		(at 369.57 124.46 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(in_pos_files yes)
+		(dnp yes)
 		(uuid "e0f0fe6c-5932-4aac-8fa5-e9881f4f5be3")
 		(property "Reference" "R20.1"
 			(at 368.3 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14008,6 +15070,8 @@
 		)
 		(property "Value" "60.4"
 			(at 375.92 120.65 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -14017,65 +15081,79 @@
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 369.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf"
 			(at 369.57 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Automotive AEC-Q200 Thick Film"
 			(at 369.57 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DIS" "DigiKey"
 			(at 369.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "DPN" "RMCF1206FT60R4CT-ND"
 			(at 369.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MFR" "Stackpole Electronics Inc"
 			(at 369.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "MPN" "RMCF1206FT60R4"
 			(at 369.57 124.46 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14097,49 +15175,61 @@
 		(lib_id "power:GND")
 		(at 76.2 190.5 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e88c3236-1eb8-4bfb-8eaf-c9970c6c1ca3")
 		(property "Reference" "#GND0102"
 			(at 76.2 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 76.2 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 76.2 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 76.2 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 76.2 190.5 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
